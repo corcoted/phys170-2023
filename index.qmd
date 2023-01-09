@@ -1,7 +1,11 @@
 ---
-title: "phys170-2023"
+title: "Phys170 notes, Spring 2023"
+subtitle: "Ted Corcovilos, Duquesne Univerity"
+
 ---
 
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Blah.

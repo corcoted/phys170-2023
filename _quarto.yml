@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: "PHYS170 notes, Spring 2023"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
+  title: "PHYS170 notes"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
       - about.qmd
-
+      - auto: "lectures/lecture-*.qmd"
 format:
   html:
     theme: cosmo
