@@ -1,0 +1,6 @@
+---
+title: "Lecture 2 - Sound"
+format: revealjs
+---
+
+Placeholder
