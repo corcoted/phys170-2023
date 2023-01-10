@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Lecture notes for PHYS170 (Acoustics), Spring 2023 by Ted Corcovilos, Duquesne University Dept. of Physics.\nThis website is just a placeholder to store the individual class notes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Phys170 notes, Spring 2023",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBlah."
+  }
+]
