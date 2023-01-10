@@ -1,13 +1,13 @@
 ---
 title: "Lecture 2: Sound"
 subtitle: "Chapters 2 and 3"
-date: "January 10, 2023"
+date: "1/10/2023"
 format: revealjs
 ---
 
 ## Announcements
 
-* Homework 1 will be posted soon.
+* Homework 1 will be posted soon.  It will be due Friday, Jan. 20, uploaded to Canvas.
 
 ## Daily quiz
 
@@ -15,7 +15,19 @@ format: revealjs
 
 ## Outline
 
+* Sound and music
 * Vibrations
 * Simple harmonic motion
   * Frequency
   * Period
+
+# Sound and Music
+
+## Sound
+We're going to define sound from a scientific perspective as "mechanical vibrations transmitted through an elastic medium."
+
+- "mechanical" meaning that *objects* are moving (gas molecules or wood molecules or etc.)
+- "vibrations" we'll define later
+- "transmitted" meaning that something is travelling from one place to another
+- the "medium" is the substance the sound travels through
+- "elastic" means that the changes to the medium are temporary
