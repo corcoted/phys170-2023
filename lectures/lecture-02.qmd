@@ -1,6 +1,21 @@
 ---
-title: "Lecture 2 - Sound"
+title: "Sound"
+subtitle: "Lecture 2: Chapters 2 and 3"
+date: "January 10, 2023"
 format: revealjs
 ---
 
-Placeholder
+## Announcements
+
+* Homework 1 will be posted soon.
+
+## Daily quiz
+
+* TBD
+
+## Outline
+
+* Vibrations
+* Simple harmonic motion
+  * Frequency
+  * Period
