@@ -26,8 +26,121 @@ format: revealjs
 ## Sound
 We're going to define sound from a scientific perspective as "mechanical vibrations transmitted through an elastic medium."
 
+::: {.incremental}
 - "mechanical" meaning that *objects* are moving (gas molecules or wood molecules or etc.)
 - "vibrations" we'll define later
 - "transmitted" meaning that something is travelling from one place to another
 - the "medium" is the substance the sound travels through
 - "elastic" means that the changes to the medium are temporary
+:::
+
+## Propagation of Sound
+
+:::: {.columns}
+
+::: {.column width="60%"}
+For music, sound mostly propagates through the air.
+
+::: {.fragment}
+There are regions of compressed air that travel from the source to the listener.
+:::
+
+::: {.fragment}
+Looking more closely, we see something like
+
+![Animated sound wave](figs/lecture-02/Lwave-Red-2.gif)
+:::
+
+:::
+
+::: {.column width="40%"}
+![Sound through air](figs/lecture-02/cutnell_11e_fig_16_13.jpg)
+:::
+
+::::
+
+## Sound wave demo
+
+::: {.aside}
+<https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html>
+:::
+
+<iframe src="https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html"
+        allowfullscreen>
+</iframe>
+
+----------------------------
+
+### On your own...
+
+- Play with the demo and vary the frequency and amplitude.
+- Notice how the wavelength and period change
+  - You can measure these by dragging around the meter tool or the using the stopwatch
+
+# Vibrating Systems
+Chapter 3
+
+## Periodic motion
+
+::: {.fragment}
+"Periodic" means repeating exactly over time.
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.fragment}
+The motion can be simple...
+
+![Simple periodic motion](figs/lecture-02/SimpleWave.png)
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment}
+
+... or complex
+
+![Complex periodic motion](figs/lecture-02/ComplexWave.png)
+:::
+:::
+
+::::
+
+::: {.fragment}
+as long as it repeats.
+:::
+
+::: {.fragment}
+The time between repetitions is the **period**, usually represented by _T_ and measured in seconds.
+:::
+
+------------------
+
+### Unit prefixes
+We'll see the following prefixes when discussing measured values:
+
+- "micro-" means one-millionth, abbreviated by "&mu;" (Greek letter mu)
+  - For example, the periods of sound waves are often hundreds of microseconds (&mu;s)
+- "milli-" means one-thousandth, abbreviated by "m"
+- "kilo-" means one thousand, abbreviated by "k"
+  - The frequency of sound waves is often a few kilohertz (kHz)
+
+::: {.fragment}
+See Appendx A.1.1 of the textbook for more examples.
+:::
+
+## Springs demo
+
+::: {.aside}
+https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html
+:::
+
+<iframe src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"
+        allowfullscreen>
+</iframe>
+
+### On your own...
+
+- Play with the demo and vary the mass or spring constant
+- What effect do changing these have on the motion?
