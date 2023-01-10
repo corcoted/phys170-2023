@@ -18,20 +18,83 @@
     "href": "lectures/lecture-02.html#announcements",
     "title": "Lecture 2: Sound",
     "section": "Announcements",
-    "text": "Announcements\n\nHomework 1 will be posted soon."
+    "text": "Announcements\n\nHomework 1 will be posted soon. It will be due Friday, Jan. 20, uploaded to Canvas."
   },
   {
     "objectID": "lectures/lecture-02.html#daily-quiz",
     "href": "lectures/lecture-02.html#daily-quiz",
     "title": "Lecture 2: Sound",
     "section": "Daily quiz",
-    "text": "Daily quiz\n\nTBD"
+    "text": "Daily quiz\n\nIn your own words, write a brief definition of “sound”."
   },
   {
     "objectID": "lectures/lecture-02.html#outline",
     "href": "lectures/lecture-02.html#outline",
     "title": "Lecture 2: Sound",
     "section": "Outline",
-    "text": "Outline\n\nVibrations\nSimple harmonic motion\n\nFrequency\nPeriod"
+    "text": "Outline\n\nSound and music\nVibrations\nSimple harmonic motion\n\nFrequency\nPeriod"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#sound",
+    "href": "lectures/lecture-02.html#sound",
+    "title": "Lecture 2: Sound",
+    "section": "Sound",
+    "text": "Sound\nWe’re going to define sound from a scientific perspective as “mechanical vibrations transmitted through an elastic medium.”\n\n\n“mechanical” meaning that objects are moving (gas molecules or wood molecules or etc.)\n“vibrations” we’ll define later\n“transmitted” meaning that something is travelling from one place to another\nthe “medium” is the substance the sound travels through\n“elastic” means that the changes to the medium are temporary"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#propagation-of-sound",
+    "href": "lectures/lecture-02.html#propagation-of-sound",
+    "title": "Lecture 2: Sound",
+    "section": "Propagation of Sound",
+    "text": "Propagation of Sound\n\n\nFor music, sound mostly propagates through the air.\n\nThere are regions of compressed air that travel from the source to the listener.\n\n\nLooking more closely, we see something like\n\n\n\nAnimated sound wave\n\n\n\n\n\n\n\nSound through air"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#periodic-motion",
+    "href": "lectures/lecture-02.html#periodic-motion",
+    "title": "Lecture 2: Sound",
+    "section": "Periodic motion",
+    "text": "Periodic motion\n\n“Periodic” means repeating exactly over time.\n\n\n\n\nThe motion can be simple…\n\n\n\nSimple periodic motion\n\n\n\n\n\n… or complex\n\n\n\nComplex periodic motion\n\n\n\n\n\n\nas long as it repeats. Musical sound is mostly periodic.\n\n\nThe time between repetitions is the period, usually represented by T and measured in seconds."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#springs-demo",
+    "href": "lectures/lecture-02.html#springs-demo",
+    "title": "Lecture 2: Sound",
+    "section": "Springs demo",
+    "text": "Springs demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#simple-harmonic-motion",
+    "href": "lectures/lecture-02.html#simple-harmonic-motion",
+    "title": "Lecture 2: Sound",
+    "section": "Simple harmonic motion",
+    "text": "Simple harmonic motion\nThe simplest type of periodic motion is called “simple harmonic motion”.\nPhysics has a lot of examples, some shown here:\n\n\n\nPendulum, Spring, Reed, Tuning Fork\n\n\n\nTo a good approximation, these all obey the same math."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#definitions",
+    "href": "lectures/lecture-02.html#definitions",
+    "title": "Lecture 2: Sound",
+    "section": "Definitions",
+    "text": "Definitions\n\n\nPeriod is the time between repetitions (T), measured in seconds (s)\nWavelength is the distance between repetitions (λ, Greek letter lambda), measured in meters (m)\nFrequency is the number of waves per second (f), measured in “cycles per second” or Hertz (Hz)\nPhase is how far along the repeating cycle is at one instant of time. We’ll come back to this later."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#sound-wave-demo",
+    "href": "lectures/lecture-02.html#sound-wave-demo",
+    "title": "Lecture 2: Sound",
+    "section": "Sound wave demo",
+    "text": "Sound wave demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#frequency-and-period",
+    "href": "lectures/lecture-02.html#frequency-and-period",
+    "title": "Lecture 2: Sound",
+    "section": "Frequency and period",
+    "text": "Frequency and period\nFrequency (f) and period (T) have a simple relationship:\n\\[ f = \\frac{1}{T} \\qquad\\mathrm{or}\\qquad T = \\frac{1}{f}. \\]\nUsually in music and acoustics we’re more interested in the frequency."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#example-problem",
+    "href": "lectures/lecture-02.html#example-problem",
+    "title": "Lecture 2: Sound",
+    "section": "Example problem",
+    "text": "Example problem\nThe concert A used as the tuning note for most modern orchestras has a frequency of f = 440 Hz. What is the period of this sound?\n\nThe equation we need is\n\\[ T = \\frac{1}{f} = \\frac{1}{440\\,\\mathrm{Hz}} = 0.0023\\,\\mathrm{s} = 2.3\\,\\mathrm{ms}. \\]\n\n\nThe period of a concert A is 2.3 milliseconds."
   }
 ]
