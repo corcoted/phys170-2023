@@ -1,6 +1,6 @@
 ---
-title: "Sound"
-subtitle: "Lecture 2: Chapters 2 and 3"
+title: "Lecture 2: Sound"
+subtitle: "Chapters 2 and 3"
 date: "January 10, 2023"
 format: revealjs
 ---
