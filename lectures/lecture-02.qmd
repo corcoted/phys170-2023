@@ -11,15 +11,15 @@ format: revealjs
 
 ## Daily quiz
 
-* TBD
+- In your own words, write a brief definition of "sound".
 
 ## Outline
 
-* Sound and music
-* Vibrations
-* Simple harmonic motion
-  * Frequency
-  * Period
+- Sound and music
+- Vibrations
+- Simple harmonic motion
+  - Frequency
+  - Period
 
 # Sound and Music
 
@@ -59,23 +59,6 @@ Looking more closely, we see something like
 
 ::::
 
-## Sound wave demo
-
-::: {.aside}
-<https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html>
-:::
-
-<iframe src="https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html"
-        allowfullscreen>
-</iframe>
-
-----------------------------
-
-### On your own...
-
-- Play with the demo and vary the frequency and amplitude.
-- Notice how the wavelength and period change
-  - You can measure these by dragging around the meter tool or the using the stopwatch
 
 # Vibrating Systems
 Chapter 3
@@ -108,16 +91,16 @@ The motion can be simple...
 ::::
 
 ::: {.fragment}
-as long as it repeats.
+as long as it repeats.  Musical sound is mostly periodic.
 :::
 
 ::: {.fragment}
-The time between repetitions is the **period**, usually represented by _T_ and measured in seconds.
+The time between repetitions is the **period**, usually represented by *T* and measured in seconds.
 :::
 
 ------------------
 
-### Unit prefixes
+### Aside: unit prefixes
 We'll see the following prefixes when discussing measured values:
 
 - "micro-" means one-millionth, abbreviated by "&mu;" (Greek letter mu)
@@ -126,9 +109,9 @@ We'll see the following prefixes when discussing measured values:
 - "kilo-" means one thousand, abbreviated by "k"
   - The frequency of sound waves is often a few kilohertz (kHz)
 
-::: {.fragment}
+
 See Appendx A.1.1 of the textbook for more examples.
-:::
+
 
 ## Springs demo
 
@@ -137,10 +120,88 @@ https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs
 :::
 
 <iframe src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"
+        width="800px"
+        height= "400px"
         allowfullscreen>
 </iframe>
+
+-------------------------
 
 ### On your own...
 
 - Play with the demo and vary the mass or spring constant
 - What effect do changing these have on the motion?
+
+## Simple harmonic motion
+
+The simplest type of periodic motion is called "simple harmonic motion".
+
+Physics has a lot of examples, some shown here:
+
+::: {.fragment}
+
+<center>
+![](figs/lecture-02/img_8.jpg){width=600px}
+
+Pendulum, Spring, Reed, Tuning Fork
+</center>
+
+:::
+
+::: {.fragment}
+To a good approximation, these all obey the same math.
+:::
+
+## Definitions
+
+::: {.incremental}
+- **Period** is the time between repetitions (*T*), measured in seconds (s)
+- **Wavelength** is the distance between repetitions (*&lambda;*, Greek letter lambda), measured in meters (m)
+- **Frequency** is the number of waves per second (*f*), measured in "cycles per second" or Hertz (Hz)
+- **Phase** is how far along the repeating cycle is at one instant of time.  We'll come back to this later.
+:::
+
+## Sound wave demo
+
+::: {.aside}
+<https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html>
+:::
+
+<iframe src="https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html"
+        width="800px"
+        height= "400px"
+        allowfullscreen>
+</iframe>
+
+----------------------------
+
+### On your own...
+
+- Play with the demo and vary the frequency and amplitude.
+- Notice how the wavelength and period change
+  - You can measure these by dragging around the meter tool or the using the stopwatch
+
+## Frequency and period
+
+Frequency (*f*) and period (*T*) have a simple relationship:
+
+$$ f = \frac{1}{T} \qquad\mathrm{or}\qquad T = \frac{1}{f}. $$
+
+Usually in music and acoustics we're more interested in the frequency.
+
+## Example problem
+
+The concert A used as the tuning note for most modern orchestras has a frequency of *f* = 440 Hz.  What is the period of this sound?
+
+::: {.fragment}
+The equation we need is
+
+$$ T = \frac{1}{f} = \frac{1}{440\,\mathrm{Hz}} = 0.0023\,\mathrm{s} = 2.3\,\mathrm{ms}. $$
+:::
+
+::: {.fragment}
+The period of a concert A is 2.3 milliseconds.
+:::
+
+# Next time
+Chapters 3 and 4 on types of waves.
