@@ -1,6 +1,6 @@
 ---
 title: "Lecture 2: Sound"
-subtitle: "Chapters 2 and 3"
+subtitle: "Chapters 1 and 2"
 date: "1/10/2023"
 format: revealjs
 ---
@@ -26,12 +26,14 @@ format: revealjs
 ## Sound
 We're going to define sound from a scientific perspective as "mechanical vibrations transmitted through an elastic medium."
 
+::: {.smaller}
 ::: {.incremental}
 - "mechanical" meaning that *objects* are moving (gas molecules or wood molecules or etc.)
 - "vibrations" we'll define later
 - "transmitted" meaning that something is travelling from one place to another
 - the "medium" is the substance the sound travels through
 - "elastic" means that the changes to the medium are temporary
+:::
 :::
 
 ## Propagation of Sound
@@ -100,7 +102,7 @@ The time between repetitions is the **period**, usually represented by *T* and m
 
 ------------------
 
-### Aside: unit prefixes
+### Aside: unit prefixes {.smaller}
 We'll see the following prefixes when discussing measured values:
 
 - "micro-" means one-millionth, abbreviated by "&mu;" (Greek letter mu)
@@ -116,7 +118,7 @@ See Appendx A.1.1 of the textbook for more examples.
 ## Springs demo
 
 ::: {.aside}
-https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html
+<https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html>
 :::
 
 <iframe src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"
@@ -193,7 +195,7 @@ Usually in music and acoustics we're more interested in the frequency.
 
 The concert A used as the tuning note for most modern orchestras has a frequency of *f* = 440 Hz.  What is the period of this sound?
 
-::: {.fragment}
+::: {.fragment text-color="red"}
 The equation we need is
 
 $$ T = \frac{1}{f} = \frac{1}{440\,\mathrm{Hz}} = 0.0023\,\mathrm{s} = 2.3\,\mathrm{ms}. $$
@@ -205,3 +207,21 @@ The period of a concert A is 2.3 milliseconds.
 
 # Next time
 Chapters 3 and 4 on types of waves.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Transverse Wave](figs/lecture-02/Twave.gif)
+:::
+
+::: {.column width="50%"}
+![Longitudinal Wave](figs/lecture-02/Lwave-Red-2.gif)
+:::
+
+::::
+
+::: {.aside}
+::: {.smaller}
+Figure sources: [Daniel A. Russell](https://www.acs.psu.edu/drussell/demos/waves/wavemotion.html)
+:::
+:::

@@ -1,5 +1,9 @@
 project:
   type: website
+  preview: 
+    watch-inputs: true
+    navigate: true
+    timeout: 300
 
 website:
   title: "PHYS170 notes"

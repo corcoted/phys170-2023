@@ -1,2 +1,8 @@
 author: "Ted Corcovilos"
 institute: "PHYS170 - Duquesne University"
+format:
+  revealjs:
+    theme: [default, mytheme.scss]
+    slide-number: true
+    chalkboard:
+      theme: whiteboard
