@@ -33,6 +33,8 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -325,7 +327,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Lecture 2: Sound</h1>
-  <p class="subtitle">Chapters 2 and 3</p>
+  <p class="subtitle">Chapters 1 and 2</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -372,6 +374,7 @@ Ted Corcovilos
 <section id="sound" class="slide level2">
 <h2>Sound</h2>
 <p>We’re going to define sound from a scientific perspective as “mechanical vibrations transmitted through an elastic medium.”</p>
+<div class="smaller">
 <div>
 <ul>
 <li class="fragment">“mechanical” meaning that <em>objects</em> are moving (gas molecules or wood molecules or etc.)</li>
@@ -380,6 +383,7 @@ Ted Corcovilos
 <li class="fragment">the “medium” is the substance the sound travels through</li>
 <li class="fragment">“elastic” means that the changes to the medium are temporary</li>
 </ul>
+</div>
 </div>
 </section>
 <section id="propagation-of-sound" class="slide level2">
@@ -451,7 +455,7 @@ Ted Corcovilos
 </section>
 <section class="slide level2">
 
-<h3 id="aside-unit-prefixes">Aside: unit prefixes</h3>
+<h3 class="smaller" id="aside-unit-prefixes">Aside: unit prefixes</h3>
 <p>We’ll see the following prefixes when discussing measured values:</p>
 <ul>
 <li>“micro-” means one-millionth, abbreviated by “μ” (Greek letter mu)
@@ -472,7 +476,7 @@ Ted Corcovilos
 <iframe src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html" width="800px" height="400px" allowfullscreen="">
 </iframe>
 <aside><div>
-<p>https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html</p>
+<p><a href="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html" class="uri">https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html</a></p>
 </div></aside></section>
 <section class="slide level2">
 
@@ -535,7 +539,7 @@ Pendulum, Spring, Reed, Tuning Fork
 <section id="example-problem" class="slide level2">
 <h2>Example problem</h2>
 <p>The concert A used as the tuning note for most modern orchestras has a frequency of <em>f</em> = 440 Hz. What is the period of this sound?</p>
-<div class="fragment">
+<div class="fragment" data-text-color="red">
 <p>The equation we need is</p>
 <p><span class="math display">\[ T = \frac{1}{f} = \frac{1}{440\,\mathrm{Hz}} = 0.0023\,\mathrm{s} = 2.3\,\mathrm{ms}. \]</span></p>
 </div>
@@ -546,11 +550,33 @@ Pendulum, Spring, Reed, Tuning Fork
 <section id="next-time" class="title-slide slide level1 center">
 <h1>Next time</h1>
 <p>Chapters 3 and 4 on types of waves.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/lecture-02/Twave.gif"></p>
+<p></p><figcaption>Transverse Wave</figcaption><p></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figs/lecture-02/Lwave-Red-2.gif"></p>
+<p></p><figcaption>Longitudinal Wave</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+
 
 <div class="footer footer-default">
 
 </div>
-</section>
+<aside><div>
+<div class="smaller">
+<p>Figure sources: <a href="https://www.acs.psu.edu/drussell/demos/waves/wavemotion.html">Daniel A. Russell</a></p>
+</div>
+</div></aside></section>
     </div>
   </div>
 
@@ -561,6 +587,7 @@ Pendulum, Spring, Reed, Tuning Fork
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -582,7 +609,8 @@ Pendulum, Spring, Reed, Tuning Fork
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true,"theme":"whiteboard"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -603,7 +631,7 @@ Pendulum, Spring, Reed, Tuning Fork
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -753,7 +781,7 @@ Pendulum, Spring, Reed, Tuning Fork
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
