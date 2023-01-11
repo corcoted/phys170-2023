@@ -1,6 +1,6 @@
 ---
 title: "Phys170 notes, Spring 2023"
-subtitle: "Ted Corcovilos, Duquesne Univerity"
+subtitle: "Ted Corcovilos, Duquesne University"
 
 ---
 
