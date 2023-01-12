@@ -1,6 +1,6 @@
 ---
-title: "Lecture 3: Transverse and Longitudinal Waves"
-subtitle: "Chapters 3 and 4"
+title: "Lecture 3: Transverse Waves"
+subtitle: "Chapters 3"
 date: "1/12/2023"
 format: revealjs
 ---
@@ -8,8 +8,10 @@ format: revealjs
 ## Announcements
 - Sorry, the first homework isn't up yet.  I'll do it today.  Watch Canvas for an update.
 
+<!--
 ## Daily quiz
 - Draw two pictures:  One of a transverse wave and one of a longitudinal wave.
+-->
 
 # Transverse Waves
 Chapter 3
@@ -97,16 +99,33 @@ If we vibrate a string with certain special frequencies, the impulses travelling
 - Each pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: &lambda;/2.
 :::
 
-## Resonance
+## Resonant wavelengths
 The condition to have a standing wave depends on the details at the end of the wave.  For the case of a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (*L*) must be a whole number of half-wavelengths.
 
 $$ L = n \frac{\lambda}{2}, $$
-where *n* is a whole number.
+where *n* is a whole number.  Solving for wavelength we have
+$$ \lambda_n = \frac{2L}{n}. $$
 
-- When *n* = 1, we call this the **fundamental** wavelength of string.
+- When *n* = 1, we call this the **fundamental** wavelength of the string.
 - Higher *n* values give the **harmonics** or **partials** of the string.
 
-Together these are called the **resonances** of the string.
+Together these are called the **resonant wavelengths** (&lambda;~n~) of the string.
+
+## Resonant frequencies
+If we combine the relationships between wavelength and frequency of a wave with the resonant wavelengths (&lambda;~n~), we get
+
+$$
+f_n = \frac{v}{\lambda_n} = n \frac{v}{2L}.
+$$
+
+These are the **resonant frequencies** of the string.  (Remember, _n_ is a whole number: 1, 2, 3, etc.)
+
+- When *n* = 1, we call this the **fundamental** frequency of the string.
+- Higher *n* values give the **harmonics** or **partials** of the string.
+
+For example, if the fundamental frequency of a string is _f_~1~ = 440 Hz, then the first few harmonics are
+
+- _f_~2~ = 2 _f_~1~ = 880 Hz,&nbsp;&nbsp;&nbsp;_f_~3~ = 3 _f_~1~ = 1320 Hz,&nbsp;&nbsp;&nbsp;_f_~4~ = 4 _f_~1~ = 1760 Hz, etc.
 
 ## Modes of a vibrating string
 <iframe src="https://www.youtube.com/embed/cnH2ltfW48U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -145,6 +164,9 @@ We're going to build a simple "Shive wave machine" like shown in the book using 
 
 ## Weekly reflection
 - What are your learning goals for the course?
+
+## For next time...
+Chapter 4 (Longitudinal Waves) and Chapter 5 (Sound Transmission)
 
 # Bonus slides
 
