@@ -1,0 +1,156 @@
+---
+title: "Lecture 3: Transverse and Longitudinal Waves"
+subtitle: "Chapters 3 and 4"
+date: "1/12/2023"
+format: revealjs
+---
+
+## Announcements
+- Sorry, the first homework isn't up yet.  I'll do it today.  Watch Canvas for an update.
+
+## Daily quiz
+- Draw two pictures:  One of a transverse wave and one of a longitudinal wave.
+
+# Transverse Waves
+Chapter 3
+
+## Definition of Transverse Wave
+A **transverse wave** has the motion of the medium moving perpendicular to the direction that the wave itself is traveling.
+
+<center>
+![Simple wave](figs/lecture-03/cutnell_11e_fig_16_05a.jpg){width="60%"}
+![Transverse wave](figs/lecture-02/Twave.gif){width="60%"}
+</center>
+
+::: {.fragment}
+The archetypal transverse wave is a vibrating string.
+:::
+
+## Bowed violin string
+<center>
+<iframe src="https://www.youtube.com/embed/6JeyiM0YNo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=0; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen width="560" height="315"></iframe>
+</center>
+This is a high-speed video of a violin string.  How would you describe the motion?
+
+::: aside
+<https://youtu.be/6JeyiM0YNo4>
+:::
+
+## Transverse wave demo
+<iframe src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+
+::: aside
+<https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html>
+:::
+
+## Things to try on your own...
+- Put the demo in "Oscillate" mode.  Choose a frequency.  Turn on the rulers.  Pause the animation and measure the wavelength.
+- What happens to the wavelength if you increase the frequency?
+- Use this number and the frequency to estimate the wave speed of the string.
+- What happens when you change the tension?
+- What happens when you change the far end of the string (box in top right)?
+
+## Parts of a transverse wave
+
+<center>
+![Transverse wave](figs/lecture-03/img_32.jpg){ width="80%"}
+</center>
+- **Wavelength** (&lambda;) is the distance (measured in meters) between repetitions of the wave.
+- **Amplitude** (*a*) is the distance from the top of the wave ("crest") to the middle. (Not crest to trough.)
+
+## Wavelength, speed, and frequency
+
+If we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (*v*), frequency (*f*), and wavelength (&lambda;):
+
+$$ v = f\lambda $$
+
+This equation is true for all types of waves (sound, light, water, etc.)
+
+::: {.fragment}
+*Example:*  A vibrating guitar string has a speed of *v* = 500 m/s and a wavelength of &lambda; = 1.2 m.
+
+What is the vibration frequency (*f*) of the string?
+:::
+
+::: {.fragment}
+
+$$ v = f\lambda \quad\rightarrow\quad f = \frac{v}{\lambda} = \frac{500\,\mathrm{m/s}}{1.2\,\mathrm{m}} = 417\,\mathrm{Hz} $$
+
+:::
+
+# Standing waves and resonance
+
+## Standing wave
+If we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a **standing wave**.
+
+<center>
+![](figs/lecture-03/img_40.jpg){ width="60%"}
+</center>
+
+::: {.incremental}
+- There will be points on the wave that *do not move at all*.  These are called **nodes** (labeled by N on the drawing.)
+- There are also points where the amplitude is maximal.  These are the **anti-nodes** (labeled A).
+- Each pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: &lambda;/2.
+:::
+
+## Resonance
+The condition to have a standing wave depends on the details at the end of the wave.  For the case of a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (*L*) must be a whole number of half-wavelengths.
+
+$$ L = n \frac{\lambda}{2}, $$
+where *n* is a whole number.
+
+- When *n* = 1, we call this the **fundamental** wavelength of string.
+- Higher *n* values give the **harmonics** or **partials** of the string.
+
+Together these are called the **resonances** of the string.
+
+## Modes of a vibrating string
+<iframe src="https://www.youtube.com/embed/cnH2ltfW48U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+::: aside
+<https://youtu.be/cnH2ltfW48U>
+:::
+
+## Standing wave demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XpNbyfxxkWE" title="YouTube video player" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+::: aside
+<https://youtu.be/XpNbyfxxkWE>
+:::
+
+## Activity: Wave machine
+
+:::: {.columns}
+::: {.column width="80%"}
+We're going to build a simple "Shive wave machine" like shown in the book using some popsicle sticks and tape.
+
+- Put 3 or 4 desks together to make a table
+- Pull off a long piece of tape that stretches across the desks, sticky side up
+- Put popsicle sticks evenly placed crosswise along the length of the tape, about a finger-width apart
+- Once it's made, pick it up and suspend it between a pair of desks
+- Push down on one of the sticks at the end.  What happens to the other sticks?
+- Estimate the speed of the waves?
+- Can you vibrate one end and create standing waves?
+:::
+
+::: {.column width="20%"}
+![Wave Machine](figs/lecture-03/img_31.jpg)
+:::
+::::
+
+## Weekly reflection
+- What are your learning goals for the course?
+
+# Bonus slides
+
+## Rubens tube
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sIopZnMLeQo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+::: aside
+<https://youtu.be/sIopZnMLeQo>
+:::
