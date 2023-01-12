@@ -96,5 +96,110 @@
     "title": "Lecture 2: Sound",
     "section": "Example problem",
     "text": "Example problem\nThe concert A used as the tuning note for most modern orchestras has a frequency of f = 440 Hz. What is the period of this sound?\n\nThe equation we need is\n\\[ T = \\frac{1}{f} = \\frac{1}{440\\,\\mathrm{Hz}} = 0.0023\\,\\mathrm{s} = 2.3\\,\\mathrm{ms}. \\]\n\n\nThe period of a concert A is 2.3 milliseconds."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#announcements",
+    "href": "lectures/lecture-03.html#announcements",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Announcements",
+    "text": "Announcements\n\nSorry, the first homework isn’t up yet. I’ll do it today. Watch Canvas for an update."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#daily-quiz",
+    "href": "lectures/lecture-03.html#daily-quiz",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Daily quiz",
+    "text": "Daily quiz\n\nDraw two pictures: One of a transverse wave and one of a longitudinal wave."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#definition-of-transverse-wave",
+    "href": "lectures/lecture-03.html#definition-of-transverse-wave",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Definition of Transverse Wave",
+    "text": "Definition of Transverse Wave\nA transverse wave has the motion of the medium moving perpendicular to the direction that the wave itself is traveling.\n\n \n\n\nThe archetypal transverse wave is a vibrating string."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#bowed-violin-string",
+    "href": "lectures/lecture-03.html#bowed-violin-string",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Bowed violin string",
+    "text": "Bowed violin string\n\n\n\n\nThis is a high-speed video of a violin string. How would you describe the motion?\n\n\nhttps://youtu.be/6JeyiM0YNo4"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#transverse-wave-demo",
+    "href": "lectures/lecture-03.html#transverse-wave-demo",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Transverse wave demo",
+    "text": "Transverse wave demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#things-to-try-on-your-own",
+    "href": "lectures/lecture-03.html#things-to-try-on-your-own",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Things to try on your own…",
+    "text": "Things to try on your own…\n\nPut the demo in “Oscillate” mode. Choose a frequency. Turn on the rulers. Pause the animation and measure the wavelength.\nWhat happens to the wavelength if you increase the frequency?\nUse this number and the frequency to estimate the wave speed of the string.\nWhat happens when you change the tension?\nWhat happens when you change the far end of the string (box in top right)?"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#parts-of-a-transverse-wave",
+    "href": "lectures/lecture-03.html#parts-of-a-transverse-wave",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Parts of a transverse wave",
+    "text": "Parts of a transverse wave\n\n\n\n\nTransverse wave\n\n\n\n\nWavelength (λ) is the distance (measured in meters) between repetitions of the wave.\nAmplitude (a) is the distance from the top of the wave (“crest”) to the middle. (Not crest to trough.)"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#wavelength-speed-and-frequency",
+    "href": "lectures/lecture-03.html#wavelength-speed-and-frequency",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Wavelength, speed, and frequency",
+    "text": "Wavelength, speed, and frequency\nIf we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (v), frequency (f), and wavelength (λ):\n\\[ v = f\\lambda \\]\nThis equation is true for all types of waves (sound, light, water, etc.)\n\nExample: A vibrating guitar string has a speed of v = 500 m/s and a wavelength of λ = 1.2 m.\nWhat is the vibration frequency (f) of the string?\n\n\n\\[ v = f\\lambda \\quad\\rightarrow\\quad f = \\frac{v}{\\lambda} = \\frac{500\\,\\mathrm{m/s}}{1.2\\,\\mathrm{m}} = 417\\,\\mathrm{Hz} \\]"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#standing-wave",
+    "href": "lectures/lecture-03.html#standing-wave",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Standing wave",
+    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#resonance",
+    "href": "lectures/lecture-03.html#resonance",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Resonance",
+    "text": "Resonance\nThe condition to have a standing wave depends on the details at the end of the wave. For the case of a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (L) must be a whole number of half-wavelengths.\n\\[ L = n \\frac{\\lambda}{2}, \\] where n is a whole number.\n\nWhen n = 1, we call this the fundamental wavelength of string.\nHigher n values give the harmonics or partials of the string.\n\nTogether these are called the resonances of the string."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#modes-of-a-vibrating-string",
+    "href": "lectures/lecture-03.html#modes-of-a-vibrating-string",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Modes of a vibrating string",
+    "text": "Modes of a vibrating string\n\n\n\n\nhttps://youtu.be/cnH2ltfW48U"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#standing-wave-demo",
+    "href": "lectures/lecture-03.html#standing-wave-demo",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Standing wave demo",
+    "text": "Standing wave demo\n\n\n\n\nhttps://youtu.be/XpNbyfxxkWE"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#activity-wave-machine",
+    "href": "lectures/lecture-03.html#activity-wave-machine",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Activity: Wave machine",
+    "text": "Activity: Wave machine\n\n\nWe’re going to build a simple “Shive wave machine” like shown in the book using some popsicle sticks and tape.\n\nPut 3 or 4 desks together to make a table\nPull off a long piece of tape that stretches across the desks, sticky side up\nPut popsicle sticks evenly placed crosswise along the length of the tape, about a finger-width apart\nOnce it’s made, pick it up and suspend it between a pair of desks\nPush down on one of the sticks at the end. What happens to the other sticks?\nEstimate the speed of the waves?\nCan you vibrate one end and create standing waves?\n\n\n\n\n\nWave Machine"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#weekly-reflection",
+    "href": "lectures/lecture-03.html#weekly-reflection",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Weekly reflection",
+    "text": "Weekly reflection\n\nWhat are your learning goals for the course?"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#rubens-tube",
+    "href": "lectures/lecture-03.html#rubens-tube",
+    "title": "Lecture 3: Transverse and Longitudinal Waves",
+    "section": "Rubens tube",
+    "text": "Rubens tube\n\n\n\n\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
   }
 ]
