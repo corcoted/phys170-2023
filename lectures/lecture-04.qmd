@@ -1,0 +1,63 @@
+---
+title: "Lecture 4: Longitudinal Waves and Sound Transmission"
+subtitle: "Chapters 4 and 5"
+date: "1/17/2023"
+format: revealjs
+---
+
+## Announcements
+- The first homework is due next Tuesday.  
+
+## Daily quiz
+- Draw two pictures:  One of a transverse wave and one of a longitudinal wave.
+
+# Longitudinal Waves
+
+![Making sound](figs/lecture-04/img_46.jpg){ .img width="40%" style="vertical-align: top" }
+![Longitudinal Wave](figs/lecture-02/Lwave-Red-2.gif){ .img width="50%" style="vertical-align: top"  }
+
+## Structure of longitudinal waves
+In **longitudinal waves** the particles move in the same direction as the wave itself.
+
+:::: { .columns }
+
+::: { .column width="50%"}
+![](figs/lecture-04/img_47.jpg){ width="100%"}
+
+Here the loops of the spring are compressed together.
+:::
+
+::: { .column width="50%"}
+![](figs/lecture-04/img_49.jpg){ width="100%"}
+
+Here the beads are pushed together.
+:::
+
+::::
+
+## Comparison of transverse and longitudinal waves
+Most of our ideas from last time carry over to longitudinal waves
+
+- **wavelength**, **period**, **frequency**, and **speed** are all defined the same way
+- **standing waves**, **resonances**, and **harmonics** also happen (although the math depends on the details at the ends)
+
+![](figs/lecture-04/img_48.jpg){ width=40% } 
+
+## Rubens tube
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sIopZnMLeQo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+::: aside
+<https://youtu.be/sIopZnMLeQo>
+:::
+
+# Sound transmission
+
+## Waves carry information
+We think of the speed of sound as telling us how quickly energy moves through a medium, but it also tells us how fast *information* travels.
+
+## Slinky drop experiment
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eCMmmEEyOO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+::: aside
+<https://www.youtube.com/watch?v=eCMmmEEyOO0>
+:::
