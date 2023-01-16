@@ -9,7 +9,7 @@ format: revealjs
 - The first homework is due next Tuesday.  
 
 ## Daily quiz
-- Draw two pictures:  One of a transverse wave and one of a longitudinal wave.
+<!-- TODO quiz -->
 
 # Longitudinal Waves
 
@@ -52,8 +52,90 @@ Most of our ideas from last time carry over to longitudinal waves
 
 # Sound transmission
 
+## {background-color="black" background-image="figs/lecture-04/alien.jpg" background-size="contain" background-repeat="no-repeat" background-position="right"}
+
+
+::: { style="color: #7dc158"}
+*In space no one can hear you scream.*
+:::
+
+::: {.fragment}
+Is this a true statement?  Why?
+:::
+
+::: {.fragment}
+Yes, because sound needs matter to travel throught.
+
+Space has no air, so sound can't travel.
+:::
+
+## Medium of transmission
+Sound waves must travel through some kind of matter, which we call the *medium* of transmission.
+
+For music, the medium is usually air, but sound also travels through
+
+- the solid body of musical instruments
+- the floors and walls
+- the structures of the human body (e.g. the parts of the ear)
+
+## Speed of sound
+:::: {.columns}
+
+::: {.column width="70%"}
+The speed of sound in an object depends on many factors
+
+::: {.incremental}
+- the material
+- the environment (temperature, ambient pressure, humidity)
+- the shape of the object
+- the frequency of the sound ("dispersion")
+:::
+
+::: {.fragment}
+The table on the right assumes a bulk material (much bigger than the wavelength of the sound) and a sound frequency of 1000 Hz.
+:::
+
+::: aside
+Refs: W&W, [Engineering toolbox](https://www.engineeringtoolbox.com/sound-speed-solids-d_713.html)
+:::
+
+:::
+
+::: {.column width="30%"}
+
+::: {style="font-size:60%"}
+
+<table>
+<tbody><tr><td colspan="2"><center><font size="+2">Gases</font></center></td></tr>
+<tr><td><center>Material</center></td><td>v (m/s)</td></tr>
+<tr><td>Helium (0°C)</td><td><center>972</center></td></tr>
+<tr><td>Air (20°C)</td><td><center>343</center></td></tr>
+<tr><td>Air (0°C)</td><td><center>331</center></td></tr>
+<tr><td colspan="2"><center><font size="+2">Liquids at 25°C</font></center></td></tr>
+<tr><td><center>Material</center></td><td>v (m/s)</td></tr>
+<tr><td>Glycerol </td><td><center>1904</center></td></tr>
+<tr><td>Sea water </td><td><center>1533</center></td></tr>
+<tr><td>Water </td><td><center>1493</center></td></tr>
+<tr><td>Mercury </td><td><center>1450</center></td></tr>
+<tr><td colspan="2"><center><font size="+2">Solids</font></center></td></tr>
+<tr><td><center>Material</center></td><td>v (m/s)</td></tr>
+<tr><td>Glass </td><td><center>5640</center></td></tr>
+<tr><td>Aluminum </td><td><center>5100</center></td></tr>
+<tr><td>Brass </td><td><center>4700</center></td></tr>
+<tr><td>Steel </td><td><center>5130</center></td></tr>
+<tr><td>Wood </td><td><center>3000-4000</center></td></tr>
+<tr><td>Concrete </td><td><center>3000</center></td></tr>
+</tbody>
+</table>
+
+:::
+
+:::
+
+::::
+
 ## Waves carry information
-We think of the speed of sound as telling us how quickly energy moves through a medium, but it also tells us how fast *information* travels.
+We think of the speed of sound as telling us how quickly *energy* moves through a medium, but it also tells us how fast *information* travels.
 
 ## Slinky drop experiment
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eCMmmEEyOO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
