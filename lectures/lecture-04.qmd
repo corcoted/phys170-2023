@@ -6,7 +6,8 @@ format: revealjs
 ---
 
 ## Announcements
-- The first homework is due next Tuesday.  
+- The first homework has been posted on Canvas on the "Assignments" page.  It is due next Tuesday.
+- Today's lecture has a lot of data thrown at you.  Focus on the concepts.  The details are here to show you where to find stuff if you need it.
 
 ## Daily quiz
 <!-- TODO quiz -->
@@ -45,7 +46,20 @@ Most of our ideas from last time carry over to longitudinal waves
 ![](figs/lecture-04/img_48.jpg){ width=40% } 
 
 ## Most longitudinal waves are pressure waves
-<!-- TODO pressure -->
+:::: {.columns}
+::: {.column width="65%"}
+Sound waves in air are fluctuations in pressure.
+
+These pressure fluctuations are tiny (a billionth to a thousandth of atmospheric pressure)!
+
+We typically don't measure the pressure directly, although speakers and microphones work on this principle.
+:::
+::: {.column width="35%"}
+![](figs/lecture-04/cutnell_11e_fig_16_17.jpg){width="100%"}
+
+![](figs/lecture-04/cutnell_11e_fig_16_13.jpg){width="100%"}
+:::
+::::
 
 ## Rubens tube
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sIopZnMLeQo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -165,20 +179,90 @@ For bulk media (as opposed to a specific object), the impedance is related to th
 
 $$ z = \rho v, $$
 
-- *z* is the impedance (units of Pa s/m)
+- *z* is the impedance (units of Pa s/m, also called "Rayls")
 - &rho; is the mass density of the medium (units of kg/m^3^)
 - *v* is the speed of sound in the medium (units of m/s)
 
 ## Example: impedance of air
 
-:::: {.columns}
-::: {.column width="60%"}
+For example, air at room temperature (20°C) has a speed of *v*&nbsp;=&nbsp;343&nbsp;m/s and a density of &rho;&nbsp;=&nbsp;1.20&nbsp;kg/m^3^.  Therefore, the impedance of air at room temperature is *z*&nbsp;=&nbsp;&rho;*v*&nbsp;=&nbsp;413&nbsp;Pa&nbsp;m/s.
 
-For example, air at room temperature (20C) has a speed of *v*&nbsp;=&nbsp;343&nbsp;m/s and a density of &rho;&nbsp;=&nbsp;1.20&nbsp;kg/m^3^.  Therefore, the impedance of air at room temperature is *z*&nbsp;=&nbsp;&rho;*v*&nbsp;=&nbsp;413&nbsp;Pa&nbsp;m/s.
+::: {.fragment style="font-size:-4"}
+
+--------------------------------------------------------------------------------------
+ Temperature<br />    Speed of sound<br />   Density of air<br />    Impedance<br />
+ *T* (°C)                   *v* (m/s)        *&rho;* (kg/m^3^)         *z* (Pa·s/m)
+-------------------  --------------------- -----------------------  ------------------
+   30                       349.02               1.1644                   406.5
+
+   20                       343.21               1.2041                   413.3
+
+   10                       337.31               1.2466                   420.5
+
+   0                        331.30               1.2922                   428.0
+
+   −10                      325.18               1.3413                   436.1
+
+   −20                      318.94               1.3943                   444.6
+
+--------------------------------------------------------------------------------------
+
+Table: Effect of temperature on properties of air ([Wikipedia](https://en.wikipedia.org/wiki/Acoustic_impedance#Effect_of_temperature))
+:::
+
+## Table of common building materials
+![](figs/lecture-04/95-Table14-1.png)
+
+::: aside
+Ref. Sun, Ruting (2017): "Characterization of the acoustic properties of cementitious materials." Loughborough University. Ph.D. Dissertation. <https://hdl.handle.net/2134/27308> 
+:::
+ 
+## Impedance matching
+
+:::: {.columns}
+::: {.column width="65%"}
+For sound to go efficiently from one object/medium to another, their impedances must be equal.
+
+- The bones of the human inner ear match the impedance of air to the impedance of the fluid inside the cochlea.
+- A car muffler works by intentionally *mismatching* the impedance of the exhaust pipe and the outside air.
+- In general, if sound is moving from impedance *z*~1~ to impedance *z*~2~, the fraction of transmitted sound energy will be
+$$ T = 1-\left(\frac{z_1-z_2}{z_1+z_2} \right)^2 $$
 
 :::
 
-::: {.column width="40%"}
-<!-- TODO Impedance table -->
+::: {.column width="35%"}
+
+![Human Ear](figs/lecture-04/cutnell-17-25.jpg){ width="100%" }
+
+![Muffler](figs/lecture-04/muffler.jpg){ width="100%"}
 :::
 ::::
+
+## Impedance matching video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AzZ7DjS4ti4?start=173" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+::: aside
+<https://youtu.be/AzZ7DjS4ti4>.  Part 2 (Human ear): <https://youtu.be/geSDcollRos>
+:::
+
+## Musical instruments
+
+:::: { .columns}
+::: {.column width="65%"}
+One of the main functions of a musical instrument is to match the impedance of the sound source (e.g. violin string, oboe reed, human vocal folds) to the outside air.
+
+Consider the difference between an acoustic guitar and an electric guitar.  Which one is impedance matched to the air?
+
+A trumpet mute also works by changing the impedance of the trumpet, not by absorbing the sound.
+:::
+
+:::{.column width="35%"}
+
+![](figs/lecture-04/guitars.jpg){width="100%"}
+
+![](figs/lecture-04/miles-davis-300x222.jpg){width="100%"}
+:::
+::::
+
+## Next time
+Chapter 6 (Resonance)
