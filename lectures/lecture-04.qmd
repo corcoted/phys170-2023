@@ -193,7 +193,7 @@ $$ z = \rho v, $$
 
 For example, air at room temperature (20°C) has a speed of *v*&nbsp;=&nbsp;343&nbsp;m/s and a density of &rho;&nbsp;=&nbsp;1.20&nbsp;kg/m^3^.  Therefore, the impedance of air at room temperature is *z*&nbsp;=&nbsp;&rho;*v*&nbsp;=&nbsp;413&nbsp;Pa&nbsp;m/s.
 
-::: {.fragment style="font-size:-4"}
+::: {.fragment}
 
 --------------------------------------------------------------------------------------
  Temperature<br />    Speed of sound<br />   Density of air<br />    Impedance<br />
@@ -214,6 +214,7 @@ For example, air at room temperature (20°C) has a speed of *v*&nbsp;=&nbsp;343&
 --------------------------------------------------------------------------------------
 
 Table: Effect of temperature on properties of air ([Wikipedia](https://en.wikipedia.org/wiki/Acoustic_impedance#Effect_of_temperature))
+
 :::
 
 ## Table of common building materials
