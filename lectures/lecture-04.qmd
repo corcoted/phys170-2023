@@ -173,7 +173,7 @@ We can demonstrate this will a high-speed camera...
 ## Impedance {.incremental}
 A second property of the medium or object that sound travels through is *impedance*.
 
-**Impedance** (symbol: *z*) is a measure of how difficult it is for sound to move through a medium or object.
+**Impedance** (symbol: *z*, units: Pa m/s = Rayls) is a measure of how difficult it is for sound to move through a medium or object.
 
 For bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:
 
@@ -216,7 +216,24 @@ Table: Effect of temperature on properties of air ([Wikipedia](https://en.wikipe
 ::: aside
 Ref. Sun, Ruting (2017): "Characterization of the acoustic properties of cementitious materials." Loughborough University. Ph.D. Dissertation. <https://hdl.handle.net/2134/27308> 
 :::
- 
+
+## Sound at boundaries
+:::: { .columns }
+::: {.column width="60%"}
+When a sound wave strikes a boundary between different materials, the energy divides three ways:
+
+- some is transmitted through the boundary
+- some is reflected by the boundary
+- some may be absorbed, depending on the material
+
+Impedance is the property that tells us about transmission and reflection.
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-04/img_75.jpg){ width="100%"}
+:::
+::::
+
 ## Impedance matching
 
 :::: {.columns}
