@@ -6,8 +6,14 @@ format: revealjs
 ---
 
 ## Announcements
-- The first homework has been posted on Canvas on the "Assignments" page.  It is due next Tuesday.
+
+::: {.incremental}
+- The first homework has been posted on [Canvas on the "Assignments" page](https://duq.instructure.com/courses/23911/assignments/307721).  It is due next Tuesday.
+    - Mostly these are problems from the textbook.
+    - 6 questions for 2 points each.
+    - Submit your work as a PDF file to the Canvas page with the assignment. (Ask if you need help.)
 - Today's lecture has a lot of data thrown at you.  Focus on the concepts.  The details are here to show you where to find stuff if you need it.
+:::
 
 ## Daily quiz
 <!-- TODO quiz -->
