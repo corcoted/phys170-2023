@@ -15,9 +15,6 @@ format: revealjs
 - Today's lecture has a lot of data thrown at you.  Focus on the concepts.  The details are here to show you where to find stuff if you need it.
 :::
 
-## Daily quiz
-- Is sound travelling through air a *transverse wave* or a *longitudinal wave*?
-- Is sound travelling through the **body** of a violin a *transverse wave* or a *longitudinal wave*?
 
 # Longitudinal Waves
 Chapter 4
