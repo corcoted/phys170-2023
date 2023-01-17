@@ -208,5 +208,131 @@
     "title": "Lecture 3: Transverse Waves",
     "section": "Rubens tube",
     "text": "Rubens tube\n\n\n\n\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#announcements",
+    "href": "lectures/lecture-04.html#announcements",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Announcements",
+    "text": "Announcements\n\nThe first homework has been posted on Canvas on the “Assignments” page. It is due next Tuesday.\nToday’s lecture has a lot of data thrown at you. Focus on the concepts. The details are here to show you where to find stuff if you need it."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#daily-quiz",
+    "href": "lectures/lecture-04.html#daily-quiz",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Daily quiz",
+    "text": "Daily quiz"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#structure-of-longitudinal-waves",
+    "href": "lectures/lecture-04.html#structure-of-longitudinal-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Structure of longitudinal waves",
+    "text": "Structure of longitudinal waves\nIn longitudinal waves the particles move in the same direction as the wave itself.\n\n\n\nHere the loops of the spring are compressed together.\n\n\nHere the beads are pushed together."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
+    "href": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Comparison of transverse and longitudinal waves",
+    "text": "Comparison of transverse and longitudinal waves\nMost of our ideas from last time carry over to longitudinal waves\n\nwavelength, period, frequency, and speed are all defined the same way\nstanding waves, resonances, and harmonics also happen (although the math depends on the details at the ends)"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
+    "href": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Most longitudinal waves are pressure waves",
+    "text": "Most longitudinal waves are pressure waves\n\n\nSound waves in air are fluctuations in pressure.\nThese pressure fluctuations are tiny (a billionth to a thousandth of atmospheric pressure)!\nWe typically don’t measure the pressure directly, although speakers and microphones work on this principle."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#rubens-tube",
+    "href": "lectures/lecture-04.html#rubens-tube",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Rubens tube",
+    "text": "Rubens tube\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#section",
+    "href": "lectures/lecture-04.html#section",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "",
+    "text": "In space no one can hear you scream.\n\n\nIs this a true statement? Why?\n\n\nYes, because sound needs matter to travel throught.\nSpace has no air, so sound can’t travel."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#medium-of-transmission",
+    "href": "lectures/lecture-04.html#medium-of-transmission",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Medium of transmission",
+    "text": "Medium of transmission\nSound waves must travel through some kind of matter, which we call the medium of transmission.\nFor music, the medium is usually air, but sound also travels through\n\nthe solid body of musical instruments\nthe floors and walls\nthe structures of the human body (e.g. the parts of the ear)\n\nToday we want to define a couple of terms describing how sound moves through matter: speed and impedance."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#speed-of-sound",
+    "href": "lectures/lecture-04.html#speed-of-sound",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Speed of sound",
+    "text": "Speed of sound\n\n\nThe speed of sound in an object depends on many factors\n\n\nthe material\nthe environment (temperature, ambient pressure, humidity)\nthe shape of the object\nthe frequency of the sound (“dispersion”)\n\n\n\nThe table on the right assumes a bulk material (much bigger than the wavelength of the sound) and a sound frequency of 1000 Hz.\n\n\n\n\n\n\n\n\n\n\n\nGases\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nHelium (0°C)\n\n\n\n972\n\n\n\n\n\nAir (20°C)\n\n\n\n343\n\n\n\n\n\nAir (0°C)\n\n\n\n331\n\n\n\n\n\n\nLiquids at 25°C\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlycerol\n\n\n\n1904\n\n\n\n\n\nSea water\n\n\n\n1533\n\n\n\n\n\nWater\n\n\n\n1493\n\n\n\n\n\nMercury\n\n\n\n1450\n\n\n\n\n\n\nSolids\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlass\n\n\n\n5640\n\n\n\n\n\nAluminum\n\n\n\n5100\n\n\n\n\n\nBrass\n\n\n\n4700\n\n\n\n\n\nSteel\n\n\n\n5130\n\n\n\n\n\nWood\n\n\n\n3000-4000\n\n\n\n\n\nConcrete\n\n\n\n3000\n\n\n\n\n\n\n\n\n\n\n\nNote that the book often uses the approximation of 350 m/s for the speed of sound in air.\nRefs: W&W, Engineering toolbox"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#waves-carry-information",
+    "href": "lectures/lecture-04.html#waves-carry-information",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Waves carry information",
+    "text": "Waves carry information\nWe think of the speed of sound as telling us how quickly energy moves through a medium, but it also tells us how fast information travels.\nWe can demonstrate this will a high-speed camera…"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#slinky-drop-experiment",
+    "href": "lectures/lecture-04.html#slinky-drop-experiment",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Slinky drop experiment",
+    "text": "Slinky drop experiment\n\n\n\n\nhttps://www.youtube.com/watch?v=eCMmmEEyOO0"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance",
+    "href": "lectures/lecture-04.html#impedance",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance",
+    "text": "Impedance\nA second property of the medium or object that sound travels through is impedance.\nImpedance (symbol: z) is a measure of how difficult it is for sound to move through a medium or object.\nFor bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:\n\\[ z = \\rho v, \\]\n\nz is the impedance (units of Pa s/m, also called “Rayls”)\nρ is the mass density of the medium (units of kg/m3)\nv is the speed of sound in the medium (units of m/s)"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#example-impedance-of-air",
+    "href": "lectures/lecture-04.html#example-impedance-of-air",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Example: impedance of air",
+    "text": "Example: impedance of air\nFor example, air at room temperature (20°C) has a speed of v = 343 m/s and a density of ρ = 1.20 kg/m3. Therefore, the impedance of air at room temperature is z = ρv = 413 Pa m/s.\n\n\nEffect of temperature on properties of air (Wikipedia)\n\n\nTemperature T (°C)\nSpeed of sound v (m/s)\nDensity of air ρ (kg/m3)\nImpedance z (Pa·s/m)\n\n\n\n\n30\n349.02\n1.1644\n406.5\n\n\n20\n343.21\n1.2041\n413.3\n\n\n10\n337.31\n1.2466\n420.5\n\n\n0\n331.30\n1.2922\n428.0\n\n\n−10\n325.18\n1.3413\n436.1\n\n\n−20\n318.94\n1.3943\n444.6"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#table-of-common-building-materials",
+    "href": "lectures/lecture-04.html#table-of-common-building-materials",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Table of common building materials",
+    "text": "Table of common building materials\n\n\n\nRef. Sun, Ruting (2017): “Characterization of the acoustic properties of cementitious materials.” Loughborough University. Ph.D. Dissertation. https://hdl.handle.net/2134/27308"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance-matching",
+    "href": "lectures/lecture-04.html#impedance-matching",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance matching",
+    "text": "Impedance matching\n\n\nFor sound to go efficiently from one object/medium to another, their impedances must be equal.\n\nThe bones of the human inner ear match the impedance of air to the impedance of the fluid inside the cochlea.\nA car muffler works by intentionally mismatching the impedance of the exhaust pipe and the outside air.\nIn general, if sound is moving from impedance z1 to impedance z2, the fraction of transmitted sound energy will be \\[ T = 1-\\left(\\frac{z_1-z_2}{z_1+z_2} \\right)^2 \\]\n\n\n\n\n\nHuman Ear\n\n\n\n\n\nMuffler"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance-matching-video",
+    "href": "lectures/lecture-04.html#impedance-matching-video",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance matching video",
+    "text": "Impedance matching video\n\n\n\n\nhttps://youtu.be/AzZ7DjS4ti4. Part 2 (Human ear): https://youtu.be/geSDcollRos"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#musical-instruments",
+    "href": "lectures/lecture-04.html#musical-instruments",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Musical instruments",
+    "text": "Musical instruments\n\n\nOne of the main functions of a musical instrument is to match the impedance of the sound source (e.g. violin string, oboe reed, human vocal folds) to the outside air.\nConsider the difference between an acoustic guitar and an electric guitar. Which one is impedance matched to the air?\nA trumpet mute also works by changing the impedance of the trumpet, not by absorbing the sound."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#next-time",
+    "href": "lectures/lecture-04.html#next-time",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Next time",
+    "text": "Next time\nChapter 6 (Resonance)"
   }
 ]
