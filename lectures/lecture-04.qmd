@@ -12,6 +12,7 @@ format: revealjs
 <!-- TODO quiz -->
 
 # Longitudinal Waves
+Chapter 4
 
 ![Making sound](figs/lecture-04/img_46.jpg){ .img width="40%" style="vertical-align: top" }
 ![Longitudinal Wave](figs/lecture-02/Lwave-Red-2.gif){ .img width="50%" style="vertical-align: top"  }
@@ -43,6 +44,9 @@ Most of our ideas from last time carry over to longitudinal waves
 
 ![](figs/lecture-04/img_48.jpg){ width=40% } 
 
+## Most longitudinal waves are pressure waves
+<!-- TODO pressure -->
+
 ## Rubens tube
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sIopZnMLeQo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -51,6 +55,7 @@ Most of our ideas from last time carry over to longitudinal waves
 :::
 
 # Sound transmission
+Chapter 5
 
 ## {background-color="black" background-image="figs/lecture-04/alien.jpg" background-size="contain" background-repeat="no-repeat" background-position="right"}
 
@@ -78,6 +83,8 @@ For music, the medium is usually air, but sound also travels through
 - the floors and walls
 - the structures of the human body (e.g. the parts of the ear)
 
+Today we want to define a couple of terms describing how sound moves through matter: *speed* and *impedance*.
+
 ## Speed of sound
 :::: {.columns}
 
@@ -96,6 +103,8 @@ The table on the right assumes a bulk material (much bigger than the wavelength 
 :::
 
 ::: aside
+Note that the book often uses the approximation of 350 m/s for the speed of sound in air.
+
 Refs: W&W, [Engineering toolbox](https://www.engineeringtoolbox.com/sound-speed-solids-d_713.html)
 :::
 
@@ -105,11 +114,12 @@ Refs: W&W, [Engineering toolbox](https://www.engineeringtoolbox.com/sound-speed-
 
 ::: {style="font-size:60%"}
 
+<center>
 <table>
 <tbody><tr><td colspan="2"><center><font size="+2">Gases</font></center></td></tr>
 <tr><td><center>Material</center></td><td>v (m/s)</td></tr>
 <tr><td>Helium (0°C)</td><td><center>972</center></td></tr>
-<tr><td>Air (20°C)</td><td><center>343</center></td></tr>
+<tr style="background:yellow"><td>Air (20°C)</td><td><center>343</center></td></tr>
 <tr><td>Air (0°C)</td><td><center>331</center></td></tr>
 <tr><td colspan="2"><center><font size="+2">Liquids at 25°C</font></center></td></tr>
 <tr><td><center>Material</center></td><td>v (m/s)</td></tr>
@@ -127,7 +137,7 @@ Refs: W&W, [Engineering toolbox](https://www.engineeringtoolbox.com/sound-speed-
 <tr><td>Concrete </td><td><center>3000</center></td></tr>
 </tbody>
 </table>
-
+</center>
 :::
 
 :::
@@ -137,9 +147,38 @@ Refs: W&W, [Engineering toolbox](https://www.engineeringtoolbox.com/sound-speed-
 ## Waves carry information
 We think of the speed of sound as telling us how quickly *energy* moves through a medium, but it also tells us how fast *information* travels.
 
+We can demonstrate this will a high-speed camera...
+
 ## Slinky drop experiment
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eCMmmEEyOO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ::: aside
 <https://www.youtube.com/watch?v=eCMmmEEyOO0>
 :::
+
+## Impedance {.incremental}
+A second property of the medium or object that sound travels through is *impedance*.
+
+**Impedance** (symbol: *z*) is a measure of how difficult it is for sound to move through a medium or object.
+
+For bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:
+
+$$ z = \rho v, $$
+
+- *z* is the impedance (units of Pa s/m)
+- &rho; is the mass density of the medium (units of kg/m^3^)
+- *v* is the speed of sound in the medium (units of m/s)
+
+## Example: impedance of air
+
+:::: {.columns}
+::: {.column width="60%"}
+
+For example, air at room temperature (20C) has a speed of *v*&nbsp;=&nbsp;343&nbsp;m/s and a density of &rho;&nbsp;=&nbsp;1.20&nbsp;kg/m^3^.  Therefore, the impedance of air at room temperature is *z*&nbsp;=&nbsp;&rho;*v*&nbsp;=&nbsp;413&nbsp;Pa&nbsp;m/s.
+
+:::
+
+::: {.column width="40%"}
+<!-- TODO Impedance table -->
+:::
+::::
