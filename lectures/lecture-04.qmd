@@ -16,7 +16,8 @@ format: revealjs
 :::
 
 ## Daily quiz
-<!-- TODO quiz -->
+- Is sound travelling through air a *transverse wave* or a *longitudinal wave*?
+- Is sound travelling through the **body** of a violin a *transverse wave* or a *longitudinal wave*?
 
 # Longitudinal Waves
 Chapter 4
