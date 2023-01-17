@@ -291,7 +291,7 @@
     "href": "lectures/lecture-04.html#impedance",
     "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
     "section": "Impedance",
-    "text": "Impedance\nA second property of the medium or object that sound travels through is impedance.\nImpedance (symbol: z) is a measure of how difficult it is for sound to move through a medium or object.\nFor bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:\n\\[ z = \\rho v, \\]\n\nz is the impedance (units of Pa s/m, also called “Rayls”)\nρ is the mass density of the medium (units of kg/m3)\nv is the speed of sound in the medium (units of m/s)"
+    "text": "Impedance\nA second property of the medium or object that sound travels through is impedance.\nImpedance (symbol: z, units: Pa m/s = Rayls) is a measure of how difficult it is for sound to move through a medium or object.\nFor bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:\n\\[ z = \\rho v, \\]\n\nz is the impedance (units of Pa s/m, also called “Rayls”)\nρ is the mass density of the medium (units of kg/m3)\nv is the speed of sound in the medium (units of m/s)"
   },
   {
     "objectID": "lectures/lecture-04.html#example-impedance-of-air",
@@ -306,6 +306,13 @@
     "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
     "section": "Table of common building materials",
     "text": "Table of common building materials\n\n\n\nRef. Sun, Ruting (2017): “Characterization of the acoustic properties of cementitious materials.” Loughborough University. Ph.D. Dissertation. https://hdl.handle.net/2134/27308"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#sound-at-boundaries",
+    "href": "lectures/lecture-04.html#sound-at-boundaries",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Sound at boundaries",
+    "text": "Sound at boundaries\n\n\nWhen a sound wave strikes a boundary between different materials, the energy divides three ways:\n\nsome is transmitted through the boundary\nsome is reflected by the boundary\nsome may be absorbed, depending on the material\n\nImpedance is the property that tells us about transmission and reflection."
   },
   {
     "objectID": "lectures/lecture-04.html#impedance-matching",
