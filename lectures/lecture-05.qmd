@@ -1,0 +1,29 @@
+---
+title: "Lecture 5: Resonance, Beats, and Doppler"
+subtitle: "Chapter 6"
+date: "1/19/2023"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- Homework 1 is due Tuesday at 10pm.  See Canvas for details and the upload page.
+:::
+
+## Daily Quiz
+question
+
+# Resonance
+
+Mould video: https://youtu.be/dihQuwrf9yQ
+
+# Beat notes
+
+# Doppler effect
+
+## Weekly reflection
+stuff
+
+## Next time
+Chapter 7: Diffraction and Interference
