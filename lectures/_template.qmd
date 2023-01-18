@@ -1,0 +1,26 @@
+---
+title: "TITLE"
+subtitle: "subtitle"
+date: "date"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- one
+- two 
+- three
+:::
+
+## Daily Quiz
+question
+
+# New section
+description
+
+## Weekly reflection
+stuff
+
+## Next time
+Chapter X
