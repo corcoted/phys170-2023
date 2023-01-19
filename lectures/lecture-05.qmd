@@ -18,30 +18,131 @@ Define, in your own words, "resonance".
 
 ## Prelude: Conservation of Energy
 
+Energy can not be created or destroyed.  It can only change forms.
+
+For sound the two most relevant types of energy are
+
+- Energy of motion (e.g. vibrations, striking a bell, bowing a string)
+- Heat
+
+An instrument can not put out more sound energy than the energy put into it.
+
+The energy we use to sound an instrument (e.g. by plucking a string or buzzing a mouthpiece) goes *somewhere*.
+
+- Some goes into making the instrument vibrate.
+- Some goes into making the air vibrate.
+- And some is lost to heat.
+
+*How* that energy is distributed depends on the resonances of the instrument.
+
 ## Definition of resonance
 I like a slightly different definition of resonance than the textbook.  The key is energy.
 
-> **Resonance frequency** is a frequency at which an object likes to intake, store, and emit *energy*. 
+**Resonance frequency** is a frequency at which an object likes to intake, store, and emit *energy*. 
 
-## Demo video
+![](figs/lecture-05/resonance.svg)
+
+The *couplings* describe how easy it is to add or subtract energy from the system.  These depend on things like impedance matching.
+
+## Demo videos
 - Mould resonance video: <https://youtu.be/dihQuwrf9yQ>
 - Mould Chladni video: <https://youtu.be/CR_XL192wXw>
+- Nigel Stanford Chladni: <https://www.youtube.com/watch?v=tFAcYruShow>
+- Sante Fe Symphony Chladni: <https://www.youtube.com/watch?v=9uEeADQN8Jo>
 
-## Spectrum
+## Waveform
+A graph of sound pressure over time is called a *waveform*.  Here is a waveform of a bell being struck:
 
-## Resonance width and decay
+![](figs/lecture-05/dft_math_bell_full_sample-1024x190.png){ width="60%"}
+
+The horizontal scale is time and the vertical scale is pressure.
+
+If we zoom in we can see the individual oscillations
+
+![](figs/lecture-05/dft_math_bell_partial_sample-1024x186.png){ width="60%"}
+
+::: aside
+Ref: <http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/>
+:::
+
+## Frequency spectrum
+
+:::: {.columns}
+
+::: {.column width="60%"}
+We can take the numerical data of the waveform and turn it into a *frequency spectrum* using a math technique called a *Fourier transform*.  
+
+The horizontal scale is frequency (plotted with logarithmic spacing) and the vertical scale is the sound intensity in decibels.
+
+You can see two peaks.  These are the resonant frequencies of this bell: 600 Hz and 1500 Hz.
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-05/dft_math_fig5-1024x768.png){ width="100%"}
+:::
+
+::::
+
+
+The **heights** of these peaks tell us how much *energy* is being emitted at each frequency.
+
+The **widths** of the peaks are inverse to the *decay time* of each resonance, which we can use to measure the coupling strengths and how much energy is lost to heat.
+
+::: aside
+Ref: <http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/>
+:::
+
+## Timbre
+The combinations of resonant frequencies for an instrument determine its timbre.
+
+![](figs/lecture-05/FMP_C1_F23_FourInstruments.png)
+<https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html#Partials>
+
+## Energy in and out
+Because resonance affect both energy in and energy out, we can also use resonance to capture sound.
+
+[*Bass traps*](https://en.wikipedia.org/wiki/Bass_trap) used in recording studios take advantage of this to ruin unwanted resonances of the room.
+The trap absorbs energy at the resonance frequency, turning it into heat.
+
+*Parasitic resonances* are unwanted resonances that absorb sound you want and turn it into heat or into "bad" sound.  (E.g. a rattling speaker cone in a cheap stereo.)
+
+Microphones and speakers are designed to avoid resonances or to have very broad, flat resonance peaks, to avoid parasitic resonances.
 
 # Beat notes
 
 ## Waves add
+When we have multiple sound sources, their waveforms add:
 
-## Beat demo
+![](figs/lecture-05/img_89.jpg)
+
+The fast oscillations are at the average frequency of the top two signals.  The slow ripples are the "beat notes".  They occur at the difference of the two frequencies.  This is an easy way to tell if two instruments are in tune with each other.
+
+We'll talk more about adding together waves in the next chapter.
+
+## Beat demos
 <https://academo.org/demos/wave-interference-beat-frequency>
+<https://www.audiolabs-erlangen.de/resources/MIR/FMP/C2/C2S3_InterferenceBeating.html#Chirp-Experiment>
+
 
 # Doppler effect
 
+## Doppler effect
+Motion of a sound source or of the observer changes the observed frequency of sound.  This is called the *Doppler Effect*.
+
+![](figs/lecture-05/doppler-sourcetowards.gif){width="45%"}&nbsp;&nbsp;&nbsp;
+![](figs/lecture-05/doppler-sourceaway.gif){width="45%"}
+
+If the source and observer are moving *towards* each other, the frequency that the observer hears goes up.
+
+If the source and observer are moving *away from* each other, the frequency that the observer hears goes down.
+
+::: aside
+Ref: <https://www.flippingphysics.com/doppler-effect.html>
+:::
+
 ## Weekly reflection
-stuff
+Describe an instance from this week (outside of class) in which you have observed waves.
 
 ## Next time
 Chapter 7: Diffraction and Interference
