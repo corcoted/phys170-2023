@@ -12,13 +12,31 @@ format: revealjs
 :::
 
 ## Daily Quiz
-question
+Define, in your own words, "resonance".
 
 # Resonance
 
-Mould video: https://youtu.be/dihQuwrf9yQ
+## Prelude: Conservation of Energy
+
+## Definition of resonance
+I like a slightly different definition of resonance than the textbook.  The key is energy.
+
+> **Resonance frequency** is a frequency at which an object likes to intake, store, and emit *energy*. 
+
+## Demo video
+- Mould resonance video: <https://youtu.be/dihQuwrf9yQ>
+- Mould Chladni video: <https://youtu.be/CR_XL192wXw>
+
+## Spectrum
+
+## Resonance width and decay
 
 # Beat notes
+
+## Waves add
+
+## Beat demo
+<https://academo.org/demos/wave-interference-beat-frequency>
 
 # Doppler effect
 
