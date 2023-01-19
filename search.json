@@ -224,6 +224,104 @@
     "text": "Example problem\nThe concert A used as the tuning note for most modern orchestras has a frequency of f = 440 Hz. What is the period of this sound?\n\nThe equation we need is\n\\[ T = \\frac{1}{f} = \\frac{1}{440\\,\\mathrm{Hz}} = 0.0023\\,\\mathrm{s} = 2.3\\,\\mathrm{ms}. \\]\n\n\nThe period of a concert A is 2.3 milliseconds."
   },
   {
+    "objectID": "lectures/lecture-05.html#announcements",
+    "href": "lectures/lecture-05.html#announcements",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due Tuesday at 10pm. See Canvas for details and the upload page."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#daily-quiz",
+    "href": "lectures/lecture-05.html#daily-quiz",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\nDefine, in your own words, “resonance”."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#prelude-conservation-of-energy",
+    "href": "lectures/lecture-05.html#prelude-conservation-of-energy",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Prelude: Conservation of Energy",
+    "text": "Prelude: Conservation of Energy\nEnergy can not be created or destroyed. It can only change forms.\nFor sound the two most relevant types of energy are\n\nEnergy of motion (e.g. vibrations, striking a bell, bowing a string)\nHeat\n\nAn instrument can not put out more sound energy than the energy put into it.\nThe energy we use to sound an instrument (e.g. by plucking a string or buzzing a mouthpiece) goes somewhere.\n\nSome goes into making the instrument vibrate.\nSome goes into making the air vibrate.\nAnd some is lost to heat.\n\nHow that energy is distributed depends on the resonances of the instrument."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#definition-of-resonance",
+    "href": "lectures/lecture-05.html#definition-of-resonance",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Definition of resonance",
+    "text": "Definition of resonance\nI like a slightly different definition of resonance than the textbook. The key is energy.\nResonance frequency is a frequency at which an object likes to intake, store, and emit energy.\n\nThe couplings describe how easy it is to add or subtract energy from the system. These depend on things like impedance matching."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#demo-videos",
+    "href": "lectures/lecture-05.html#demo-videos",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Demo videos",
+    "text": "Demo videos\n\nMould resonance video: https://youtu.be/dihQuwrf9yQ\nMould Chladni video: https://youtu.be/CR_XL192wXw\nNigel Stanford Chladni: https://www.youtube.com/watch?v=tFAcYruShow\nSante Fe Symphony Chladni: https://www.youtube.com/watch?v=9uEeADQN8Jo"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#waveform",
+    "href": "lectures/lecture-05.html#waveform",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Waveform",
+    "text": "Waveform\nA graph of sound pressure over time is called a waveform. Here is a waveform of a bell being struck:\n\nThe horizontal scale is time and the vertical scale is pressure.\nIf we zoom in we can see the individual oscillations\n\n\n\nRef: http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#frequency-spectrum",
+    "href": "lectures/lecture-05.html#frequency-spectrum",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Frequency spectrum",
+    "text": "Frequency spectrum\n\n\nWe can take the numerical data of the waveform and turn it into a frequency spectrum using a math technique called a Fourier transform.\nThe horizontal scale is frequency (plotted with logarithmic spacing) and the vertical scale is the sound intensity in decibels.\nYou can see two peaks. These are the resonant frequencies of this bell: 600 Hz and 1500 Hz.\n\n\n\n\nThe heights of these peaks tell us how much energy is being emitted at each frequency.\nThe widths of the peaks are inverse to the decay time of each resonance, which we can use to measure the coupling strengths and how much energy is lost to heat.\n\n\nRef: http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#timbre",
+    "href": "lectures/lecture-05.html#timbre",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Timbre",
+    "text": "Timbre\nThe combinations of resonant frequencies for an instrument determine its timbre.\n https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html#Partials"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#energy-in-and-out",
+    "href": "lectures/lecture-05.html#energy-in-and-out",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Energy in and out",
+    "text": "Energy in and out\nBecause resonance affect both energy in and energy out, we can also use resonance to capture sound.\nBass traps used in recording studios take advantage of this to ruin unwanted resonances of the room. The trap absorbs energy at the resonance frequency, turning it into heat.\nParasitic resonances are unwanted resonances that absorb sound you want and turn it into heat or into “bad” sound. (E.g. a rattling speaker cone in a cheap stereo.)\nMicrophones and speakers are designed to avoid resonances or to have very broad, flat resonance peaks, to avoid parasitic resonances."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#waves-add",
+    "href": "lectures/lecture-05.html#waves-add",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Waves add",
+    "text": "Waves add\nWhen we have multiple sound sources, their waveforms add:\n\nThe fast oscillations are at the average frequency of the top two signals. The slow ripples are the “beat notes”. They occur at the difference of the two frequencies. This is an easy way to tell if two instruments are in tune with each other.\nWe’ll talk more about adding together waves in the next chapter."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#beat-demos",
+    "href": "lectures/lecture-05.html#beat-demos",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Beat demos",
+    "text": "Beat demos\nhttps://academo.org/demos/wave-interference-beat-frequency https://www.audiolabs-erlangen.de/resources/MIR/FMP/C2/C2S3_InterferenceBeating.html#Chirp-Experiment"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#doppler-effect-1",
+    "href": "lectures/lecture-05.html#doppler-effect-1",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Doppler effect",
+    "text": "Doppler effect\nMotion of a sound source or of the observer changes the observed frequency of sound. This is called the Doppler Effect.\n    \nIf the source and observer are moving towards each other, the frequency that the observer hears goes up.\nIf the source and observer are moving away from each other, the frequency that the observer hears goes down.\n\n\nRef: https://www.flippingphysics.com/doppler-effect.html"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#weekly-reflection",
+    "href": "lectures/lecture-05.html#weekly-reflection",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Weekly reflection",
+    "text": "Weekly reflection\nDescribe an instance from this week (outside of class) in which you have observed waves."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#next-time",
+    "href": "lectures/lecture-05.html#next-time",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Next time",
+    "text": "Next time\nChapter 7: Diffraction and Interference"
+  },
+  {
     "objectID": "lectures/lecture-03.html#announcements",
     "href": "lectures/lecture-03.html#announcements",
     "title": "Lecture 3: Transverse Waves",
