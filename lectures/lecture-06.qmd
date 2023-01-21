@@ -1,0 +1,27 @@
+---
+title: "Lecture 6: Diffraction and Interference"
+subtitle: "Chapter 7"
+date: "1/24/2023"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- Homework 1 is due tonight at 10pm.  See Canvas for details and the upload page.
+- Homework 2 will be posted later today.  It will be due next Tuesday.
+- Midterm Exam 1 is next Tuesday!
+  - Covers Chapters 1-5
+  - Multiple choice and short answer questions
+:::
+
+## Daily Quiz
+How are the *causes* of diffraction and interference different?
+
+# Diffraction
+
+# Interference
+
+
+## Next time
+Chapter 8: Diffraction and Interference
