@@ -18,10 +18,33 @@ format: revealjs
 ## Daily Quiz
 How are the *causes* of diffraction and interference different?
 
-# Diffraction
-
 # Interference
 
+## Definition of Interference
+Unlike the book, I'm going to discuss interference first because we can then use these ideas to talk about diffraction.
+
+*Interference* is the adding of waves with the same frequency/wavelength.
+
+## Constructive and Destructive Interference
+
+## PhET demo
+
+# Diffraction
+
+## Definition of Diffraction
+I'm going to give a different definition of diffraciton than the book, but one that I think makes more sense.
+
+*Diffraction* is the interference of a wave *with itself.*
+
+All of the math we used for interference applies here, too, if we look at the wave in the right way.
+
+## Hugyen's Principle
+
+*Huygens's Principle* is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let's use determine the shape of the wave as it propagates.
+
+## Diffracion from a slit
+
+## Diffraction from a circular hole
 
 ## Next time
 Chapter 8: Diffraction and Interference
