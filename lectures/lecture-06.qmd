@@ -19,6 +19,14 @@ format: revealjs
 How are the *causes* of diffraction and interference different?
 
 # Interference
+![](figs/lecture-06/mothwater.jpg)
+
+## Principle of Superposition
+When two or more waves overlap at the same place, we add their amplitudes at that point.
+
+- *Flipping Physics* demo: <https://youtu.be/JUCLoczzwPo>
+- *CCC* demo: <https://youtu.be/hnZ1FKVWN4k>
+_ Slinky demo: <https://youtu.be/X2pt9WCu8mk> <!-- TODO link with mute -->
 
 ## Definition of Interference
 Unlike the book, I'm going to discuss interference first because we can then use these ideas to talk about diffraction.
@@ -27,7 +35,10 @@ Unlike the book, I'm going to discuss interference first because we can then use
 
 ## Constructive and Destructive Interference
 
+## Phase difference
+
 ## PhET demo
+<https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html>
 
 # Diffraction
 
@@ -47,4 +58,4 @@ All of the math we used for interference applies here, too, if we look at the wa
 ## Diffraction from a circular hole
 
 ## Next time
-Chapter 8: Diffraction and Interference
+Chapter 9: Harmonics
