@@ -16,7 +16,8 @@ format: revealjs
 :::
 
 ## Daily Quiz
-what are the *causes* of diffraction and interference?
+- What *causes* diffraction?
+- What *causes* interference?
 
 # Interference
 ![](figs/lecture-06/mothwater.jpg)
@@ -39,7 +40,7 @@ When two or more waves overlap at the same place, we add their *amplitudes* at t
 ![](figs/lecture-06/cutnell_11e_fig_ani_17_02.jpg){ width="40%"}
 
 ## Phase difference
-*Phase* is a measure of time difference bewteen two waves.
+*Phase* is a measure of time difference between two waves.
 We measure it in "waves" or as an angle, with 1 wave = 360&#176;.
 
 :::: {.columns}
@@ -55,13 +56,43 @@ We measure it in "waves" or as an angle, with 1 wave = 360&#176;.
 :::
 ::::
 
+## Calculating phase difference
+
+:::: {.columns}
+
+::: {.column width="50%"}
+To calculate the phase difference between two sources we do:
+
+- Measure the distance from each source to the listener (call these _d_~1~ and _d_~2~).
+- Divide the difference in distances by the wavelength (&lambda;), then multiply by 360&#176;:<br /> $\phi = \frac{d_1 - d_2}{\lambda}\times 360^\circ$
+- In these drawings, the wavelength is &lambda;&nbsp;=&nbsp;1&nbsp;m.
+:::
+
+::: {.column width="50%"}
+
+
+![Constructive](figs/lecture-06/cutnell_11e_fig_ani_17_03.jpg)
+
+![Destructive](figs/lecture-06/cutnell_11e_fig_ani_17_04.jpg)
+
+:::
+
+::::
+
 ## PhET demo
+Demo on wave interference and diffraction:
 <https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html>
+
+## Interference in other waves
+![](figs/lecture-06/mothwater.jpg)
+
+## Noise cancellation
+![](figs/lecture-06/cutnell_11e_fig_17_05.jpg)
 
 # Diffraction
 
 ## Definition of Diffraction
-I'm going to give a different definition of diffraciton than the book, but one that I think makes more sense.
+I'm going to give a different definition of diffraction than the book, but one that I think makes more sense.
 
 *Diffraction* is the interference of a wave *with itself.*
 
@@ -69,14 +100,92 @@ All of the math we used for interference applies here, too, if we look at the wa
 
 ## Hugyen's Principle
 
+:::: {.columns}
+::: {.column width="50%"}
 *Huygens's Principle* is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let's use determine the shape of the wave as it propagates.
+:::
 
-## Diffracion from a slit
+::: {.column width="50%"}
+![](figs/lecture-06/huygens.png)
+:::
+::::
 
+## Diffraction compared to wavelength
+Diffraction happens when waves pass through a hole that is similar in size to the wavelength.
+
+![](figs/lecture-06/img_104.jpg)
+
+## Diffraction from a slit
+
+:::: { .columns}
+::: {.column width="50%"}
+For a slit or rectangular hole, the sound is concentrated in a cone with angular width &theta; given by
+
+$$\sin\theta = \frac{\lambda}{D}$$
+
+where &lambda; is the wavelength and _D_ is the size of the hole.  Solving for the angle we have
+
+$$\theta = \sin^{-1}\left( \frac{\lambda}{D}\right)$$
+:::
+
+::: {.column width="50%"}
+![](figs/lecture-06/cutnell_11e_fig_17_10.jpg)
+:::
+
+::::
 ## PhET demo
+Demo on wave interference and diffraction:
 <https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html>
 
 ## Diffraction from a circular hole
+
+:::: { .columns}
+::: {.column width="50%"}
+For a circular hole, the result is similar but the formula has an extra factor of 1.22:
+
+$$\sin\theta = 1.22 \frac{\lambda}{D}$$
+
+where &lambda; is the wavelength and _D_ is the diameter of the hole.  Solving for the angle we have
+
+$$\theta = \sin^{-1}\left(1.22 \frac{\lambda}{D}\right)$$
+:::
+
+::: {.column width="35%"}
+![](figs/lecture-06/img_106.jpg)
+
+![](figs/lecture-06/cutnell_11e_fig_17_11.jpg)
+:::
+
+::::
+
+## Phased array
+
+:::: { .columns }
+::: { .column width="60%"}
+We can find the diffraction patterns of other shapes by going back to [Huygen's Principle](#hugyens-principle) of treating each point as a new source.  With proper engineering we can control both the amplitude and phase of each point of the new wave.
+
+For example, if we set up a line of speakers and control the phase of each, we have a [*phased array*](https://en.wikipedia.org/wiki/Phased_array).  This can be used to control the direction of sound emitted by the speakers ("beam steering").
+
+Near the source, the wave is mixed up, but after a few wavelengths, the shape becomes apparent.
+:::
+
+::: { .column width="40%"}
+![](figs/lecture-06/Phased_array_animation_with_arrow_10frames_371x400px_100ms.gif){ height="300px"}
+
+![](figs/lecture-06/Phasearray.gif)
+:::
+
+:::: 
+
+## Diffusors
+
+For example, some *acoustic diffusors* are actually diffraction devices.
+
+![](figs/lecture-06/GIK-Acoustics-Alpha-Series-Plate-Scattering-Options.jpg)
+
+The complex patterns here cause the sound to scatter in quasi-random directions because of diffraction.  Each hard surface acts like an individual source of sound.  The complex pattern mixes up the sound so that it doesn't reflect directly.
+
+Video: <https://youtu.be/1MtJOGXVZ1w>
 
 ## Next time
 Chapter 9: Harmonics

@@ -6,5 +6,5 @@ format:
     slide-number: true
     chalkboard:
       theme: whiteboard
-    preview-links: auto
+    preview-links: true
     controls: true
