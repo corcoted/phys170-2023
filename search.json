@@ -14,6 +14,139 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBlah."
   },
   {
+    "objectID": "lectures/lecture-06.html#announcements",
+    "href": "lectures/lecture-06.html#announcements",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nHomework 2 will be posted later today. It will be due next Tuesday.\nMidterm Exam 1 is next Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#daily-quiz",
+    "href": "lectures/lecture-06.html#daily-quiz",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\n\nWhat causes diffraction?\nWhat causes interference?"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#definition-of-interference",
+    "href": "lectures/lecture-06.html#definition-of-interference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Definition of Interference",
+    "text": "Definition of Interference\nUnlike the book, I’m going to discuss interference first because we can then use these ideas to talk about diffraction.\nInterference is the adding of waves with the same frequency/wavelength."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#principle-of-superposition",
+    "href": "lectures/lecture-06.html#principle-of-superposition",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Principle of Superposition",
+    "text": "Principle of Superposition\nWhen two or more waves overlap at the same place, we add their amplitudes at that point.\n\nFlipping Physics demo: https://youtu.be/JUCLoczzwPo\nSlinky demo: https://youtu.be/X2pt9WCu8mk \nCCC demo: https://youtu.be/hnZ1FKVWN4k"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#constructive-and-destructive-interference",
+    "href": "lectures/lecture-06.html#constructive-and-destructive-interference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Constructive and Destructive Interference",
+    "text": "Constructive and Destructive Interference"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phase-difference",
+    "href": "lectures/lecture-06.html#phase-difference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Phase difference",
+    "text": "Phase difference\nPhase is a measure of time difference between two waves. We measure it in “waves” or as an angle, with 1 wave = 360°.\n\n\n\nCompletely constructive interference happens at a phase difference of 0 waves or 0°.\nCompletely destructive interference happens at a phase difference of 1/2 wave or 180°.\nIn between we have partial interference.\nThe pattern repeats after each whole wave or each 360°."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#calculating-phase-difference",
+    "href": "lectures/lecture-06.html#calculating-phase-difference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Calculating phase difference",
+    "text": "Calculating phase difference\n\n\nTo calculate the phase difference between two sources we do:\n\nMeasure the distance from each source to the listener (call these d1 and d2).\nDivide the difference in distances by the wavelength (λ), then multiply by 360°: \\(\\phi = \\frac{d_1 - d_2}{\\lambda}\\times 360^\\circ\\)\nIn these drawings, the wavelength is λ = 1 m.\n\n\n\n\n\nConstructive\n\n\n\n\n\nDestructive"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phet-demo",
+    "href": "lectures/lecture-06.html#phet-demo",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "PhET demo",
+    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#interference-in-other-waves",
+    "href": "lectures/lecture-06.html#interference-in-other-waves",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Interference in other waves",
+    "text": "Interference in other waves"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#noise-cancellation",
+    "href": "lectures/lecture-06.html#noise-cancellation",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Noise cancellation",
+    "text": "Noise cancellation"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#definition-of-diffraction",
+    "href": "lectures/lecture-06.html#definition-of-diffraction",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Definition of Diffraction",
+    "text": "Definition of Diffraction\nI’m going to give a different definition of diffraction than the book, but one that I think makes more sense.\nDiffraction is the interference of a wave with itself.\nAll of the math we used for interference applies here, too, if we look at the wave in the right way."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#hugyens-principle",
+    "href": "lectures/lecture-06.html#hugyens-principle",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Hugyen’s Principle",
+    "text": "Hugyen’s Principle\n\n\nHuygens’s Principle is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let’s use determine the shape of the wave as it propagates."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
+    "href": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction compared to wavelength",
+    "text": "Diffraction compared to wavelength\nDiffraction happens when waves pass through a hole that is similar in size to the wavelength."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-from-a-slit",
+    "href": "lectures/lecture-06.html#diffraction-from-a-slit",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction from a slit",
+    "text": "Diffraction from a slit\n\n\nFor a slit or rectangular hole, the sound is concentrated in a cone with angular width θ given by\n\\[\\sin\\theta = \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the size of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left( \\frac{\\lambda}{D}\\right)\\]"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phet-demo-1",
+    "href": "lectures/lecture-06.html#phet-demo-1",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "PhET demo",
+    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
+    "href": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction from a circular hole",
+    "text": "Diffraction from a circular hole\n\n\nFor a circular hole, the result is similar but the formula has an extra factor of 1.22:\n\\[\\sin\\theta = 1.22 \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the diameter of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left(1.22 \\frac{\\lambda}{D}\\right)\\]"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phased-array",
+    "href": "lectures/lecture-06.html#phased-array",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Phased array",
+    "text": "Phased array\n\n\nWe can find the diffraction patterns of other shapes by going back to Huygen’s Principle of treating each point as a new source. With proper engineering we can control both the amplitude and phase of each point of the new wave.\nFor example, if we set up a line of speakers and control the phase of each, we have a phased array. This can be used to control the direction of sound emitted by the speakers (“beam steering”).\nNear the source, the wave is mixed up, but after a few wavelengths, the shape becomes apparent."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffusors",
+    "href": "lectures/lecture-06.html#diffusors",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffusors",
+    "text": "Diffusors\nFor example, some acoustic diffusors are actually diffraction devices.\n\nThe complex patterns here cause the sound to scatter in quasi-random directions because of diffraction. Each hard surface acts like an individual source of sound. The complex pattern mixes up the sound so that it doesn’t reflect directly.\nVideo: https://youtu.be/1MtJOGXVZ1w"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#next-time",
+    "href": "lectures/lecture-06.html#next-time",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Next time",
+    "text": "Next time\nChapter 9: Harmonics"
+  },
+  {
     "objectID": "lectures/lecture-04.html#announcements",
     "href": "lectures/lecture-04.html#announcements",
     "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
