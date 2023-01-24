@@ -16,26 +16,44 @@ format: revealjs
 :::
 
 ## Daily Quiz
-How are the *causes* of diffraction and interference different?
+what are the *causes* of diffraction and interference?
 
 # Interference
 ![](figs/lecture-06/mothwater.jpg)
 
-## Principle of Superposition
-When two or more waves overlap at the same place, we add their amplitudes at that point.
-
-- *Flipping Physics* demo: <https://youtu.be/JUCLoczzwPo>
-- *CCC* demo: <https://youtu.be/hnZ1FKVWN4k>
-_ Slinky demo: <https://youtu.be/X2pt9WCu8mk> <!-- TODO link with mute -->
-
 ## Definition of Interference
 Unlike the book, I'm going to discuss interference first because we can then use these ideas to talk about diffraction.
 
-*Interference* is the adding of waves with the same frequency/wavelength.
+**Interference** is the adding of waves with the same frequency/wavelength.
+
+## Principle of Superposition
+When two or more waves overlap at the same place, we add their *amplitudes* at that point.
+
+- *Flipping Physics* demo: <https://youtu.be/JUCLoczzwPo>
+- Slinky demo: <https://youtu.be/X2pt9WCu8mk> <!-- TODO link with mute -->
+- *CCC* demo: <https://youtu.be/hnZ1FKVWN4k>
 
 ## Constructive and Destructive Interference
 
+![](figs/lecture-06/cutnell_11e_fig_ani_17_01.jpg){ width="40%"}&nbsp;&nbsp;
+![](figs/lecture-06/cutnell_11e_fig_ani_17_02.jpg){ width="40%"}
+
 ## Phase difference
+*Phase* is a measure of time difference bewteen two waves.
+We measure it in "waves" or as an angle, with 1 wave = 360&#176;.
+
+:::: {.columns}
+::: {.column width="50%"}
+- Completely *constructive interference* happens at a phase difference of 0 waves or 0&#176;.
+- Completely *destructive interference* happens at a phase difference of 1/2 wave or 180&#176;.
+- In between we have *partial interference*.
+- The pattern repeats after each whole wave or each 360&#176;.
+:::
+
+::: {.column width="50%"}
+![](figs/lecture-06/img_120_alt.jpg)
+:::
+::::
 
 ## PhET demo
 <https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html>
@@ -54,6 +72,9 @@ All of the math we used for interference applies here, too, if we look at the wa
 *Huygens's Principle* is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let's use determine the shape of the wave as it propagates.
 
 ## Diffracion from a slit
+
+## PhET demo
+<https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html>
 
 ## Diffraction from a circular hole
 
