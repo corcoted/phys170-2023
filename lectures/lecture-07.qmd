@@ -22,21 +22,56 @@ Define "harmonic" (noun) as it is used in this chapter.
 *Harmonics* are the various tones emitted by a musical instrument when you play a single "note".
 
 ## Harmonic frequencies
+
+:::: {.columns}
+::: {.column width="45%"}
 We saw earlier that a vibrating string can resonate at the following set of frequencies:
 
 $$f_1 = \frac{v}{2L},  f_n = n f_1 = n \frac{v}{2L},$$
 
 where _f~n~_ is the frequency of the _n_^th^ harmonic (whole numbers: 1, 2, 3...), _v_ is the speed of waves on the string, and _L_ is the length of the string.
+:::
 
+::: {.column width="55%"}
 ![](figs/lecture-07/cutnell_11e_fig_int_17_15.jpg)
+:::
+::::
+
+## Frequency spectrum
+
+:::: {.columns}
+::: {.column width="50%"}
+In general, when you play an instrument, more than one harmonic is generated at a time.  We can see this by measuring the **frequency spectrum** of the sound.
+
+We do this by measuring the waveform using a microphone, then applying a math tool called the _Fourier Transform_ which extracts frequency, amplitude, and phase information.
+:::
+
+::: {.column width="50%"}
+<center>
+Clarinet<br />
+![](figs/lecture-07/clarinet-spectrum.png)
+</center>
+:::
+::::
+
+::: aside
+Figure from [UCSD School of Music](http://musicweb.ucsd.edu/~trsmyth/spectrum175/Clarinet_Analysis.html)
+:::
+
+## Timbre
+Each instrument has a characteristic spectrum, or set of frequencies and amplitudes.  Our brains interpret this as the _timbre_ or tone quality of the instrument.
+
+![](figs/lecture-05/FMP_C1_F23_FourInstruments.png){width="100%"}
 
 # Activity
+We going to investigate the relationship between harmonics, the shape of waves, and their sound.
 
-Split into groups of 2 or 3.  Each group needs a computer or tablet.
-
-Work through Part 1 of the worksheet in your groups.  Write your answers to all of the questions on paper.  We'll submit these at the end of class, and they will be graded as "Homework 2".  (One submission per group is sufficient.) 
-
-Wait to proceed to Part 2 until the whole class is ready.
+:::  {.incremental}
+- Split into groups of 2 or 3.  Each group needs a computer or tablet.
+- I'll hand out copies of the worksheet.  You may also download it from Canvas if you prefer a digital copy.
+- Work through Part 1 of the worksheet in your groups.  Write your answers to all of the questions on paper.  We'll submit these at the end of class, and they will be graded as "Homework 2".  (One submission per group is sufficient.) 
+- Wait to proceed to Part 2 until the whole class is ready.
+:::
 
 ## Weekly Reflection
 
