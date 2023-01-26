@@ -147,6 +147,55 @@
     "text": "Next time\nChapter 9: Harmonics"
   },
   {
+    "objectID": "lectures/lecture-07.html#announcements",
+    "href": "lectures/lecture-07.html#announcements",
+    "title": "Lecture 7: Harmonics",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nChange of plans: We will do “Homework 2” in class today.\nMidterm Exam 1 is Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#daily-quiz",
+    "href": "lectures/lecture-07.html#daily-quiz",
+    "title": "Lecture 7: Harmonics",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\nDefine “harmonic” (noun) as it is used in this chapter."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#harmonic-frequencies",
+    "href": "lectures/lecture-07.html#harmonic-frequencies",
+    "title": "Lecture 7: Harmonics",
+    "section": "Harmonic frequencies",
+    "text": "Harmonic frequencies\n\n\nWe saw earlier that a vibrating string can resonate at the following set of frequencies:\n\\[f_1 = \\frac{v}{2L},  f_n = n f_1 = n \\frac{v}{2L},\\]\nwhere fn is the frequency of the nth harmonic (whole numbers: 1, 2, 3…), v is the speed of waves on the string, and L is the length of the string."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#frequency-spectrum",
+    "href": "lectures/lecture-07.html#frequency-spectrum",
+    "title": "Lecture 7: Harmonics",
+    "section": "Frequency spectrum",
+    "text": "Frequency spectrum\n\n\nIn general, when you play an instrument, more than one harmonic is generated at a time. We can see this by measuring the frequency spectrum of the sound.\nWe do this by measuring the waveform using a microphone, then applying a math tool called the Fourier Transform which extracts frequency, amplitude, and phase information.\n\n\nClarinet \n\n\n\n\n\nFigure from UCSD School of Music"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#timbre",
+    "href": "lectures/lecture-07.html#timbre",
+    "title": "Lecture 7: Harmonics",
+    "section": "Timbre",
+    "text": "Timbre\nEach instrument has a characteristic spectrum, or set of frequencies and amplitudes. Our brains interpret this as the timbre or tone quality of the instrument."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#weekly-reflection",
+    "href": "lectures/lecture-07.html#weekly-reflection",
+    "title": "Lecture 7: Harmonics",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nWhat will you do to study for the exam?"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#next-time",
+    "href": "lectures/lecture-07.html#next-time",
+    "title": "Lecture 7: Harmonics",
+    "section": "Next time",
+    "text": "Next time\nExam 1!"
+  },
+  {
     "objectID": "lectures/lecture-04.html#announcements",
     "href": "lectures/lecture-04.html#announcements",
     "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
