@@ -1,0 +1,32 @@
+---
+title: "Lecture 7: Harmonics"
+subtitle: "Chapter 8"
+date: "1/26/2023"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- Homework 1 is due tonight at 10pm.  See Canvas for details and the upload page.
+- Change of plans: We will do "Homework 2" in class today.
+- Midterm Exam 1 is Tuesday!
+  - Covers Chapters 1-5
+  - Multiple choice and short answer questions
+:::
+
+## Daily Quiz
+Define "harmonic" (noun) as it is used in this chapter.
+
+# Activity
+
+Split into groups of 2 or 3.  Each group needs a computer or tablet.
+
+Work through Part 1 of the worksheet in your groups.  Write your answers to the questions on paper.  We'll submit these at the end of class and they'll be graded as "Homework 2".  (One submission per group is sufficient.)  Wait to proceed to Part 2 until the whole class is ready.
+
+## Weekly Reflection
+
+What will you do to study for the exam?
+
+## Next time
+Exam 1!
