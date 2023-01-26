@@ -18,11 +18,25 @@ format: revealjs
 ## Daily Quiz
 Define "harmonic" (noun) as it is used in this chapter.
 
+# Harmonics
+*Harmonics* are the various tones emitted by a musical instrument when you play a single "note".
+
+## Harmonic frequencies
+We saw earlier that a vibrating string can resonate at the following set of frequencies:
+
+$$f_1 = \frac{v}{2L},  f_n = n f_1 = n \frac{v}{2L},$$
+
+where _f~n~_ is the frequency of the _n_^th^ harmonic (whole numbers: 1, 2, 3...), _v_ is the speed of waves on the string, and _L_ is the length of the string.
+
+![](figs/lecture-07/cutnell_11e_fig_int_17_15.jpg)
+
 # Activity
 
 Split into groups of 2 or 3.  Each group needs a computer or tablet.
 
-Work through Part 1 of the worksheet in your groups.  Write your answers to the questions on paper.  We'll submit these at the end of class and they'll be graded as "Homework 2".  (One submission per group is sufficient.)  Wait to proceed to Part 2 until the whole class is ready.
+Work through Part 1 of the worksheet in your groups.  Write your answers to all of the questions on paper.  We'll submit these at the end of class, and they will be graded as "Homework 2".  (One submission per group is sufficient.) 
+
+Wait to proceed to Part 2 until the whole class is ready.
 
 ## Weekly Reflection
 
