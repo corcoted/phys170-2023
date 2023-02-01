@@ -1,0 +1,28 @@
+---
+title: "Lecture XXX: Title"
+subtitle: "Chapter X"
+date: "XX/XX/2023"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- blah 
+- blah
+:::
+
+## Daily Quiz
+blah
+
+# Topic 1
+blah
+
+# Topic 2
+
+## Weekly Reflection
+
+blah
+
+## Next time
+blah
