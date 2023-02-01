@@ -1,0 +1,46 @@
+---
+title: "Lecture 8: Sound Intensity and Hearing"
+subtitle: "Chapter 9"
+date: "2/2/2023"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- Exam grades have been posted.
+- blah
+:::
+
+## Daily Quiz
+What is the difference between "intensity" and "loudness"?
+
+# Exam discussion
+
+# Hearing
+
+## NIH video
+
+<https://en.wikipedia.org/wiki/File:Journey_of_Sound_to_the_Brain.ogv>
+
+## Human ear
+
+![](figs/lecture-08/nidcd-ear-illustration.jpg)
+
+## Inner ear
+
+![](figs/lecture-08/basilar-membrane-britannica.jpg)
+
+# Sound Intensity
+
+## Definitions of Intensity and Loudness
+**Intensity** is a measure of how much sound energy passes through a surface in a certain amount of time (power per area).  This is an *objective* description of sound that we can measure with a machine (e.g. with a sound meter).
+
+**Loudness** (or "volume") is the *human perception* of sound intensity.  It is a *subjective* description of sound as heard by each listener.  Dynamics markings in a musical score (forte, piano, etc.) indicate loudness.  Because each listener may hear something different (e.g. because of age or medical condition), loudness is harder to describe precisely.  We'll come back to loudness in the next chapter to talk about how an *average* adult human perceives intensity and the different factors that affect loudness.
+
+## Weekly Reflection
+
+blah
+
+## Next time
+blah
