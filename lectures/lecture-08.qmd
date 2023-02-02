@@ -91,6 +91,84 @@ $$P = IA$$
 :::
 :::
 
+## We sense ratios, not differences
+
+The sound intensities that humans can here vary from about 10^-12^ W/m^2^ to 1 W/m^2^, a factor of a trillion apart.
+The way our brain deals with great spreads like this is to measure ratios (fractions) rather than differences.
+
+For example, we can sense when intensity doubles, but we can't hear a whisper added to a jet engine.
+
+Our brain divides and multiplies; it does not add or subtract.
+
+Many of our senses use this type of compression:
+
+- Sound intensity, sound frequency (musical pitch)
+- Light intensity (but *not* color)
+- Touch (pressure)
+- Heat flow
+
+## Dynamic Range
+
+An important concept related to this that doesn't show up in the textbook until the chapters on recording is dynamic range.
+**Dynamic Range** is the ratio between the largest possible measurement and the smallest possible measurement.
+
+So, the dynamic range of *intensity* for human hearing is about 10^12^.  By comparison, a 16-bit ADC on a digital recording deck has a dynamic range of 2^16^ &approx; 65,000.
+
+The dynamic range of *frequency* for human hearing is about 20,000 Hz/20 Hz = 1,000.
+
+## Decibels
+To avoid writing very small and very large numbers (lots of zeros or decimals points) to represent quantities with a lot of dynamics range, engineers often use a logarithmic scale called *decibels* (dB) to express ratios.
+
+The mathematical definition of decibels is
+
+$$\text{decibels} = 10 \log\left(\frac{\text{measurement value}}{\text{reference value}}\right),$$
+
+where "log" is the common (base-10) logarithm function found on a calculator.
+
+The reference value is usually something agreed upon by the community.
+For example, when measuring sound intensity, the reference value is taken as the threshold of hearing for a typical adult human: *I*~0~ = 10^-12^ W/m^2^, giving us the following definition for Sound Intensity Level (*S*~IL~), measured in decibels:
+
+$$S_{IL} = 10 \log(I/I_0)$$
+
+
+## Sound intensity levels (SIL)
+
+::: {style="font-size:70%"}
++---------------------------------+------------------+----------------------+-------------------+------------+
+| Dynamic                         | Sound intensity\ | Relative intensity\  | Intensity level\  | Example    |
+|                                 | *I* (W/m^2^)     | *I/I~0~*             | *S*~IL~ (dB)      |            |
++=================================+==================+======================+===================+============+
+| Pain                            | 1                |  10^12^              | 120               | Pain       |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *fffff*                         | 0.1              | 10^11^               | 110               | Jet engine |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *ffff*                          | 0.01             | 10^10^               | 100               |            |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *fff*                           | 0.001            | 10^9^                | 90                | Motorcyle  |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *ff*                            | 10^-4^           | 10^8^                | 80                |            |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *f*                             | 10^-5^           | 10^7^                | 70                | Talking    |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *mf*                            | 10^-6^           | 10^6^                | 60                |            |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *p*                             | 10^-7^           | 10^5^                | 50                | Office     |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *pp*                            | 10^-8^           | 10^4^                | 40                |            |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *ppp*                           | 10^-9^           | 1000                 | 30                | Library    |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *pppp*                          | 10^-10^          | 100                  | 20                | Whisper    |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| *ppppp*                         | 10^-11^          | 10                   | 10                |            |
++---------------------------------+------------------+----------------------+-------------------+------------+
+| Threshold of hearing (*I*~0~)   | 10^-12^          | 1                    | 0                 |            |
++---------------------------------+------------------+----------------------+-------------------+------------+
+:::
+::: {style="color:gray; font-size:60%"}
+Source: White & White Tables 9-1, 9-2, and Figure 9-7
+:::
+
 ## Intensity and distance
 
 ::: columns
@@ -107,48 +185,11 @@ $$P = IA = I (4\pi r^2)\quad\rightarrow\quad I = \frac{P}{4\pi r^2}$$
 :::
 :::
 
-## Sound intensity levels (SIL)
-
-::: {style="font-size:60%"}
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| Dynamic                         | Sound intensity\ | Relative intensity\  | Intensity level\  | Example             |
-|                                 | *I* (W/m^2^)     | *I/I~0~*             | *S*~IL~ (dB)      |                     |
-+=================================+==================+======================+===================+=====================+
-| Pain                            | 1                |  10^12^              | 120               | Pain                |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *fffff*                         | 0.1              | 10^11^               | 110               | Jet engine          |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *ffff*                          | 0.01             | 10^10^               | 100               |                     |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *fff*                           | 0.001            | 10^9^                | 90                | Motorcyle           |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *ff*                            | 10^-4^           | 10^8^                | 80                |                     |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *f*                             | 10^-5^           | 10^7^                | 70                | Normal conversation |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *mf*                            | 10^-6^           | 10^6^                | 60                |                     |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *p*                             | 10^-7^           | 10^5^                | 50                | Office              |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *pp*                            | 10^-8^           | 10^4^                | 40                |                     |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *ppp*                           | 10^-9^           | 1000                 | 30                | Library             |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *pppp*                          | 10^-10^          | 100                  | 20                | Whisper             |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| *ppppp*                         | 10^-11^          | 10                   | 10                |                     |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-| Threshold of hearing (*I*~0~)   | 10^-12^          | 1                    | 0                 |                     |
-+---------------------------------+------------------+----------------------+-------------------+---------------------+
-:::
-::: {style="color:gray; font-size:60%"}
-Source: White & White Tables 9-1, 9-2, and Figure 9-7
-:::
-
 ## Weekly Reflection
 
-blah
+Think about your exam score and your daily quiz grades so far in the course.
+Are you happy with how you're doing?  What's working for you?  What could be improved?
 
 ## Next time
 
-blah
+Loudness (Chapter 10)
