@@ -14,314 +14,6 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBlah."
   },
   {
-    "objectID": "lectures/lecture-06.html#announcements",
-    "href": "lectures/lecture-06.html#announcements",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nHomework 2 will be posted later today. It will be due next Tuesday.\nMidterm Exam 1 is next Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#daily-quiz",
-    "href": "lectures/lecture-06.html#daily-quiz",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz\n\nWhat causes diffraction?\nWhat causes interference?"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#definition-of-interference",
-    "href": "lectures/lecture-06.html#definition-of-interference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Definition of Interference",
-    "text": "Definition of Interference\nUnlike the book, I’m going to discuss interference first because we can then use these ideas to talk about diffraction.\nInterference is the adding of waves with the same frequency/wavelength."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#principle-of-superposition",
-    "href": "lectures/lecture-06.html#principle-of-superposition",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Principle of Superposition",
-    "text": "Principle of Superposition\nWhen two or more waves overlap at the same place, we add their amplitudes at that point.\n\nFlipping Physics demo: https://youtu.be/JUCLoczzwPo\nSlinky demo: https://youtu.be/X2pt9WCu8mk \nCCC demo: https://youtu.be/hnZ1FKVWN4k"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#constructive-and-destructive-interference",
-    "href": "lectures/lecture-06.html#constructive-and-destructive-interference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Constructive and Destructive Interference",
-    "text": "Constructive and Destructive Interference"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phase-difference",
-    "href": "lectures/lecture-06.html#phase-difference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Phase difference",
-    "text": "Phase difference\nPhase is a measure of time difference between two waves. We measure it in “waves” or as an angle, with 1 wave = 360°.\n\n\n\nCompletely constructive interference happens at a phase difference of 0 waves or 0°.\nCompletely destructive interference happens at a phase difference of 1/2 wave or 180°.\nIn between we have partial interference.\nThe pattern repeats after each whole wave or each 360°."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#calculating-phase-difference",
-    "href": "lectures/lecture-06.html#calculating-phase-difference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Calculating phase difference",
-    "text": "Calculating phase difference\n\n\nTo calculate the phase difference between two sources we do:\n\nMeasure the distance from each source to the listener (call these d1 and d2).\nDivide the difference in distances by the wavelength (λ), then multiply by 360°: \\(\\phi = \\frac{d_1 - d_2}{\\lambda}\\times 360^\\circ\\)\nIn these drawings, the wavelength is λ = 1 m.\n\n\n\n\n\nConstructive\n\n\n\n\n\nDestructive"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phet-demo",
-    "href": "lectures/lecture-06.html#phet-demo",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "PhET demo",
-    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#interference-in-other-waves",
-    "href": "lectures/lecture-06.html#interference-in-other-waves",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Interference in other waves",
-    "text": "Interference in other waves"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#noise-cancellation",
-    "href": "lectures/lecture-06.html#noise-cancellation",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Noise cancellation",
-    "text": "Noise cancellation"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#definition-of-diffraction",
-    "href": "lectures/lecture-06.html#definition-of-diffraction",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Definition of Diffraction",
-    "text": "Definition of Diffraction\nI’m going to give a different definition of diffraction than the book, but one that I think makes more sense.\nDiffraction is the interference of a wave with itself.\nAll of the math we used for interference applies here, too, if we look at the wave in the right way."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#hugyens-principle",
-    "href": "lectures/lecture-06.html#hugyens-principle",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Hugyen’s Principle",
-    "text": "Hugyen’s Principle\n\n\nHuygens’s Principle is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let’s use determine the shape of the wave as it propagates."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
-    "href": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffraction compared to wavelength",
-    "text": "Diffraction compared to wavelength\nDiffraction happens when waves pass through a hole that is similar in size to the wavelength."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffraction-from-a-slit",
-    "href": "lectures/lecture-06.html#diffraction-from-a-slit",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffraction from a slit",
-    "text": "Diffraction from a slit\n\n\nFor a slit or rectangular hole, the sound is concentrated in a cone with angular width θ given by\n\\[\\sin\\theta = \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the size of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left( \\frac{\\lambda}{D}\\right)\\]"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phet-demo-1",
-    "href": "lectures/lecture-06.html#phet-demo-1",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "PhET demo",
-    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
-    "href": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffraction from a circular hole",
-    "text": "Diffraction from a circular hole\n\n\nFor a circular hole, the result is similar but the formula has an extra factor of 1.22:\n\\[\\sin\\theta = 1.22 \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the diameter of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left(1.22 \\frac{\\lambda}{D}\\right)\\]"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phased-array",
-    "href": "lectures/lecture-06.html#phased-array",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Phased array",
-    "text": "Phased array\n\n\nWe can find the diffraction patterns of other shapes by going back to Huygen’s Principle of treating each point as a new source. With proper engineering we can control both the amplitude and phase of each point of the new wave.\nFor example, if we set up a line of speakers and control the phase of each, we have a phased array. This can be used to control the direction of sound emitted by the speakers (“beam steering”).\nNear the source, the wave is mixed up, but after a few wavelengths, the shape becomes apparent."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffusors",
-    "href": "lectures/lecture-06.html#diffusors",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffusors",
-    "text": "Diffusors\nFor example, some acoustic diffusors are actually diffraction devices.\n\nThe complex patterns here cause the sound to scatter in quasi-random directions because of diffraction. Each hard surface acts like an individual source of sound. The complex pattern mixes up the sound so that it doesn’t reflect directly.\nVideo: https://youtu.be/1MtJOGXVZ1w"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#next-time",
-    "href": "lectures/lecture-06.html#next-time",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Next time",
-    "text": "Next time\nChapter 9: Harmonics"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#announcements",
-    "href": "lectures/lecture-07.html#announcements",
-    "title": "Lecture 7: Harmonics",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nChange of plans: We will do “Homework 2” in class today.\nMidterm Exam 1 is Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#daily-quiz",
-    "href": "lectures/lecture-07.html#daily-quiz",
-    "title": "Lecture 7: Harmonics",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz\nDefine “harmonic” (noun) as it is used in this chapter."
-  },
-  {
-    "objectID": "lectures/lecture-07.html#harmonic-frequencies",
-    "href": "lectures/lecture-07.html#harmonic-frequencies",
-    "title": "Lecture 7: Harmonics",
-    "section": "Harmonic frequencies",
-    "text": "Harmonic frequencies\n\n\nWe saw earlier that a vibrating string can resonate at the following set of frequencies:\n\\[f_1 = \\frac{v}{2L},  f_n = n f_1 = n \\frac{v}{2L},\\]\nwhere fn is the frequency of the nth harmonic (whole numbers: 1, 2, 3…), v is the speed of waves on the string, and L is the length of the string."
-  },
-  {
-    "objectID": "lectures/lecture-07.html#frequency-spectrum",
-    "href": "lectures/lecture-07.html#frequency-spectrum",
-    "title": "Lecture 7: Harmonics",
-    "section": "Frequency spectrum",
-    "text": "Frequency spectrum\n\n\nIn general, when you play an instrument, more than one harmonic is generated at a time. We can see this by measuring the frequency spectrum of the sound.\nWe do this by measuring the waveform using a microphone, then applying a math tool called the Fourier Transform which extracts frequency, amplitude, and phase information.\n\n\nClarinet \n\n\n\n\n\nFigure from UCSD School of Music"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#timbre",
-    "href": "lectures/lecture-07.html#timbre",
-    "title": "Lecture 7: Harmonics",
-    "section": "Timbre",
-    "text": "Timbre\nEach instrument has a characteristic spectrum, or set of frequencies and amplitudes. Our brains interpret this as the timbre or tone quality of the instrument."
-  },
-  {
-    "objectID": "lectures/lecture-07.html#weekly-reflection",
-    "href": "lectures/lecture-07.html#weekly-reflection",
-    "title": "Lecture 7: Harmonics",
-    "section": "Weekly Reflection",
-    "text": "Weekly Reflection\nWhat will you do to study for the exam?"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#next-time",
-    "href": "lectures/lecture-07.html#next-time",
-    "title": "Lecture 7: Harmonics",
-    "section": "Next time",
-    "text": "Next time\nExam 1!"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#announcements",
-    "href": "lectures/lecture-04.html#announcements",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nThe first homework has been posted on Canvas on the “Assignments” page. It is due next Tuesday.\n\nMostly these are problems from the textbook.\n6 questions for 2 points each.\nSubmit your work as a PDF file to the Canvas page with the assignment. (Ask if you need help.)\n\nToday’s lecture has a lot of data thrown at you. Focus on the concepts. The details are here to show you where to find stuff if you need it."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#structure-of-longitudinal-waves",
-    "href": "lectures/lecture-04.html#structure-of-longitudinal-waves",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Structure of longitudinal waves",
-    "text": "Structure of longitudinal waves\nIn longitudinal waves the particles move in the same direction as the wave itself.\n\n\n\nHere the loops of the spring are compressed together.\n\n\nHere the beads are pushed together."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
-    "href": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Comparison of transverse and longitudinal waves",
-    "text": "Comparison of transverse and longitudinal waves\nMost of our ideas from last time carry over to longitudinal waves\n\nwavelength, period, frequency, and speed are all defined the same way\nstanding waves, resonances, and harmonics also happen (although the math depends on the details at the ends)"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
-    "href": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Most longitudinal waves are pressure waves",
-    "text": "Most longitudinal waves are pressure waves\n\n\nSound waves in air are fluctuations in pressure.\nThese pressure fluctuations are tiny (a billionth to a thousandth of atmospheric pressure)!\nWe typically don’t measure the pressure directly, although speakers and microphones work on this principle."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#rubens-tube",
-    "href": "lectures/lecture-04.html#rubens-tube",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Rubens tube",
-    "text": "Rubens tube\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#section",
-    "href": "lectures/lecture-04.html#section",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "",
-    "text": "In space no one can hear you scream.\n\n\nIs this a true statement? Why?\n\n\nYes, because sound needs matter to travel throught.\nSpace has no air, so sound can’t travel."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#medium-of-transmission",
-    "href": "lectures/lecture-04.html#medium-of-transmission",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Medium of transmission",
-    "text": "Medium of transmission\nSound waves must travel through some kind of matter, which we call the medium of transmission.\nFor music, the medium is usually air, but sound also travels through\n\nthe solid body of musical instruments\nthe floors and walls\nthe structures of the human body (e.g. the parts of the ear)\n\nToday we want to define a couple of terms describing how sound moves through matter: speed and impedance."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#speed-of-sound",
-    "href": "lectures/lecture-04.html#speed-of-sound",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Speed of sound",
-    "text": "Speed of sound\n\n\nThe speed of sound in an object depends on many factors\n\n\nthe material\nthe environment (temperature, ambient pressure, humidity)\nthe shape of the object\nthe frequency of the sound (“dispersion”)\n\n\n\nThe table on the right assumes a bulk material (much bigger than the wavelength of the sound) and a sound frequency of 1000 Hz.\n\n\n\n\n\n\n\n\n\n\n\nGases\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nHelium (0°C)\n\n\n\n972\n\n\n\n\n\nAir (20°C)\n\n\n\n343\n\n\n\n\n\nAir (0°C)\n\n\n\n331\n\n\n\n\n\n\nLiquids at 25°C\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlycerol\n\n\n\n1904\n\n\n\n\n\nSea water\n\n\n\n1533\n\n\n\n\n\nWater\n\n\n\n1493\n\n\n\n\n\nMercury\n\n\n\n1450\n\n\n\n\n\n\nSolids\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlass\n\n\n\n5640\n\n\n\n\n\nAluminum\n\n\n\n5100\n\n\n\n\n\nBrass\n\n\n\n4700\n\n\n\n\n\nSteel\n\n\n\n5130\n\n\n\n\n\nWood\n\n\n\n3000-4000\n\n\n\n\n\nConcrete\n\n\n\n3000\n\n\n\n\n\n\n\n\n\n\n\nNote that the book often uses the approximation of 350 m/s for the speed of sound in air.\nRefs: W&W, Engineering toolbox"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#waves-carry-information",
-    "href": "lectures/lecture-04.html#waves-carry-information",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Waves carry information",
-    "text": "Waves carry information\nWe think of the speed of sound as telling us how quickly energy moves through a medium, but it also tells us how fast information travels.\nWe can demonstrate this will a high-speed camera…"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#slinky-drop-experiment",
-    "href": "lectures/lecture-04.html#slinky-drop-experiment",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Slinky drop experiment",
-    "text": "Slinky drop experiment\n\n\n\n\nhttps://www.youtube.com/watch?v=eCMmmEEyOO0"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#impedance",
-    "href": "lectures/lecture-04.html#impedance",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Impedance",
-    "text": "Impedance\nA second property of the medium or object that sound travels through is impedance.\nImpedance (symbol: z, units: Pa m/s = Rayls) is a measure of how difficult it is for sound to move through a medium or object.\nFor bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:\n\\[ z = \\rho v, \\]\n\nz is the impedance (units of Pa s/m, also called “Rayls”)\nρ is the mass density of the medium (units of kg/m3)\nv is the speed of sound in the medium (units of m/s)"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#example-impedance-of-air",
-    "href": "lectures/lecture-04.html#example-impedance-of-air",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Example: impedance of air",
-    "text": "Example: impedance of air\nFor example, air at room temperature (20°C) has a speed of v = 343 m/s and a density of ρ = 1.20 kg/m3. Therefore, the impedance of air at room temperature is z = ρv = 413 Pa m/s.\n\n\nEffect of temperature on properties of air (Wikipedia)\n\n\nTemperature T (°C)\nSpeed of sound v (m/s)\nDensity of air ρ (kg/m3)\nImpedance z (Pa·s/m)\n\n\n\n\n30\n349.02\n1.1644\n406.5\n\n\n20\n343.21\n1.2041\n413.3\n\n\n10\n337.31\n1.2466\n420.5\n\n\n0\n331.30\n1.2922\n428.0\n\n\n−10\n325.18\n1.3413\n436.1\n\n\n−20\n318.94\n1.3943\n444.6"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#table-of-common-building-materials",
-    "href": "lectures/lecture-04.html#table-of-common-building-materials",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Table of common building materials",
-    "text": "Table of common building materials\n\n\n\nRef. Sun, Ruting (2017): “Characterization of the acoustic properties of cementitious materials.” Loughborough University. Ph.D. Dissertation. https://hdl.handle.net/2134/27308"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#sound-at-boundaries",
-    "href": "lectures/lecture-04.html#sound-at-boundaries",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Sound at boundaries",
-    "text": "Sound at boundaries\n\n\nWhen a sound wave strikes a boundary between different materials, the energy divides three ways:\n\nsome is transmitted through the boundary\nsome is reflected by the boundary\nsome may be absorbed, depending on the material\n\nImpedance is the property that tells us about transmission and reflection."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#impedance-matching",
-    "href": "lectures/lecture-04.html#impedance-matching",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Impedance matching",
-    "text": "Impedance matching\n\n\nFor sound to go efficiently from one object/medium to another, their impedances must be equal.\n\nThe bones of the human inner ear match the impedance of air to the impedance of the fluid inside the cochlea.\nA car muffler works by intentionally mismatching the impedance of the exhaust pipe and the outside air.\nIn general, if sound is moving from impedance z1 to impedance z2, the fraction of transmitted sound energy will be \\[ T = 1-\\left(\\frac{z_1-z_2}{z_1+z_2} \\right)^2 \\]\n\n\n\n\n\nHuman Ear\n\n\n\n\n\nMuffler"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#impedance-matching-video",
-    "href": "lectures/lecture-04.html#impedance-matching-video",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Impedance matching video",
-    "text": "Impedance matching video\n\n\n\n\nhttps://youtu.be/AzZ7DjS4ti4. Part 2 (Human ear): https://youtu.be/geSDcollRos"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#musical-instruments",
-    "href": "lectures/lecture-04.html#musical-instruments",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Musical instruments",
-    "text": "Musical instruments\n\n\nOne of the main functions of a musical instrument is to match the impedance of the sound source (e.g. violin string, oboe reed, human vocal folds) to the outside air.\nConsider the difference between an acoustic guitar and an electric guitar. Which one is impedance matched to the air?\nA trumpet mute also works by changing the impedance of the trumpet, not by absorbing the sound."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#next-time",
-    "href": "lectures/lecture-04.html#next-time",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Next time",
-    "text": "Next time\nChapter 6 (Resonance)"
-  },
-  {
     "objectID": "lectures/lecture-02.html#announcements",
     "href": "lectures/lecture-02.html#announcements",
     "title": "Lecture 2: Sound",
@@ -504,6 +196,139 @@
     "text": "Next time\nChapter 7: Diffraction and Interference"
   },
   {
+    "objectID": "lectures/lecture-06.html#announcements",
+    "href": "lectures/lecture-06.html#announcements",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nHomework 2 will be posted later today. It will be due next Tuesday.\nMidterm Exam 1 is next Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#daily-quiz",
+    "href": "lectures/lecture-06.html#daily-quiz",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\n\nWhat causes diffraction?\nWhat causes interference?"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#definition-of-interference",
+    "href": "lectures/lecture-06.html#definition-of-interference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Definition of Interference",
+    "text": "Definition of Interference\nUnlike the book, I’m going to discuss interference first because we can then use these ideas to talk about diffraction.\nInterference is the adding of waves with the same frequency/wavelength."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#principle-of-superposition",
+    "href": "lectures/lecture-06.html#principle-of-superposition",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Principle of Superposition",
+    "text": "Principle of Superposition\nWhen two or more waves overlap at the same place, we add their amplitudes at that point.\n\nFlipping Physics demo: https://youtu.be/JUCLoczzwPo\nSlinky demo: https://youtu.be/X2pt9WCu8mk \nCCC demo: https://youtu.be/hnZ1FKVWN4k"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#constructive-and-destructive-interference",
+    "href": "lectures/lecture-06.html#constructive-and-destructive-interference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Constructive and Destructive Interference",
+    "text": "Constructive and Destructive Interference"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phase-difference",
+    "href": "lectures/lecture-06.html#phase-difference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Phase difference",
+    "text": "Phase difference\nPhase is a measure of time difference between two waves. We measure it in “waves” or as an angle, with 1 wave = 360°.\n\n\n\nCompletely constructive interference happens at a phase difference of 0 waves or 0°.\nCompletely destructive interference happens at a phase difference of 1/2 wave or 180°.\nIn between we have partial interference.\nThe pattern repeats after each whole wave or each 360°."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#calculating-phase-difference",
+    "href": "lectures/lecture-06.html#calculating-phase-difference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Calculating phase difference",
+    "text": "Calculating phase difference\n\n\nTo calculate the phase difference between two sources we do:\n\nMeasure the distance from each source to the listener (call these d1 and d2).\nDivide the difference in distances by the wavelength (λ), then multiply by 360°: \\(\\phi = \\frac{d_1 - d_2}{\\lambda}\\times 360^\\circ\\)\nIn these drawings, the wavelength is λ = 1 m.\n\n\n\n\n\nConstructive\n\n\n\n\n\nDestructive"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phet-demo",
+    "href": "lectures/lecture-06.html#phet-demo",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "PhET demo",
+    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#interference-in-other-waves",
+    "href": "lectures/lecture-06.html#interference-in-other-waves",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Interference in other waves",
+    "text": "Interference in other waves"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#noise-cancellation",
+    "href": "lectures/lecture-06.html#noise-cancellation",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Noise cancellation",
+    "text": "Noise cancellation"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#definition-of-diffraction",
+    "href": "lectures/lecture-06.html#definition-of-diffraction",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Definition of Diffraction",
+    "text": "Definition of Diffraction\nI’m going to give a different definition of diffraction than the book, but one that I think makes more sense.\nDiffraction is the interference of a wave with itself.\nAll of the math we used for interference applies here, too, if we look at the wave in the right way."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#hugyens-principle",
+    "href": "lectures/lecture-06.html#hugyens-principle",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Hugyen’s Principle",
+    "text": "Hugyen’s Principle\n\n\nHuygens’s Principle is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let’s use determine the shape of the wave as it propagates."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
+    "href": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction compared to wavelength",
+    "text": "Diffraction compared to wavelength\nDiffraction happens when waves pass through a hole that is similar in size to the wavelength."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-from-a-slit",
+    "href": "lectures/lecture-06.html#diffraction-from-a-slit",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction from a slit",
+    "text": "Diffraction from a slit\n\n\nFor a slit or rectangular hole, the sound is concentrated in a cone with angular width θ given by\n\\[\\sin\\theta = \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the size of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left( \\frac{\\lambda}{D}\\right)\\]"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phet-demo-1",
+    "href": "lectures/lecture-06.html#phet-demo-1",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "PhET demo",
+    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
+    "href": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction from a circular hole",
+    "text": "Diffraction from a circular hole\n\n\nFor a circular hole, the result is similar but the formula has an extra factor of 1.22:\n\\[\\sin\\theta = 1.22 \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the diameter of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left(1.22 \\frac{\\lambda}{D}\\right)\\]"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phased-array",
+    "href": "lectures/lecture-06.html#phased-array",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Phased array",
+    "text": "Phased array\n\n\nWe can find the diffraction patterns of other shapes by going back to Huygen’s Principle of treating each point as a new source. With proper engineering we can control both the amplitude and phase of each point of the new wave.\nFor example, if we set up a line of speakers and control the phase of each, we have a phased array. This can be used to control the direction of sound emitted by the speakers (“beam steering”).\nNear the source, the wave is mixed up, but after a few wavelengths, the shape becomes apparent."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffusors",
+    "href": "lectures/lecture-06.html#diffusors",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffusors",
+    "text": "Diffusors\nFor example, some acoustic diffusors are actually diffraction devices.\n\nThe complex patterns here cause the sound to scatter in quasi-random directions because of diffraction. Each hard surface acts like an individual source of sound. The complex pattern mixes up the sound so that it doesn’t reflect directly.\nVideo: https://youtu.be/1MtJOGXVZ1w"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#next-time",
+    "href": "lectures/lecture-06.html#next-time",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Next time",
+    "text": "Next time\nChapter 9: Harmonics"
+  },
+  {
     "objectID": "lectures/lecture-03.html#announcements",
     "href": "lectures/lecture-03.html#announcements",
     "title": "Lecture 3: Transverse Waves",
@@ -614,5 +439,327 @@
     "title": "Lecture 3: Transverse Waves",
     "section": "Rubens tube",
     "text": "Rubens tube\n\n\n\n\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#announcements",
+    "href": "lectures/lecture-04.html#announcements",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nThe first homework has been posted on Canvas on the “Assignments” page. It is due next Tuesday.\n\nMostly these are problems from the textbook.\n6 questions for 2 points each.\nSubmit your work as a PDF file to the Canvas page with the assignment. (Ask if you need help.)\n\nToday’s lecture has a lot of data thrown at you. Focus on the concepts. The details are here to show you where to find stuff if you need it."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#structure-of-longitudinal-waves",
+    "href": "lectures/lecture-04.html#structure-of-longitudinal-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Structure of longitudinal waves",
+    "text": "Structure of longitudinal waves\nIn longitudinal waves the particles move in the same direction as the wave itself.\n\n\n\nHere the loops of the spring are compressed together.\n\n\nHere the beads are pushed together."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
+    "href": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Comparison of transverse and longitudinal waves",
+    "text": "Comparison of transverse and longitudinal waves\nMost of our ideas from last time carry over to longitudinal waves\n\nwavelength, period, frequency, and speed are all defined the same way\nstanding waves, resonances, and harmonics also happen (although the math depends on the details at the ends)"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
+    "href": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Most longitudinal waves are pressure waves",
+    "text": "Most longitudinal waves are pressure waves\n\n\nSound waves in air are fluctuations in pressure.\nThese pressure fluctuations are tiny (a billionth to a thousandth of atmospheric pressure)!\nWe typically don’t measure the pressure directly, although speakers and microphones work on this principle."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#rubens-tube",
+    "href": "lectures/lecture-04.html#rubens-tube",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Rubens tube",
+    "text": "Rubens tube\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#section",
+    "href": "lectures/lecture-04.html#section",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "",
+    "text": "In space no one can hear you scream.\n\n\nIs this a true statement? Why?\n\n\nYes, because sound needs matter to travel throught.\nSpace has no air, so sound can’t travel."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#medium-of-transmission",
+    "href": "lectures/lecture-04.html#medium-of-transmission",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Medium of transmission",
+    "text": "Medium of transmission\nSound waves must travel through some kind of matter, which we call the medium of transmission.\nFor music, the medium is usually air, but sound also travels through\n\nthe solid body of musical instruments\nthe floors and walls\nthe structures of the human body (e.g. the parts of the ear)\n\nToday we want to define a couple of terms describing how sound moves through matter: speed and impedance."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#speed-of-sound",
+    "href": "lectures/lecture-04.html#speed-of-sound",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Speed of sound",
+    "text": "Speed of sound\n\n\nThe speed of sound in an object depends on many factors\n\n\nthe material\nthe environment (temperature, ambient pressure, humidity)\nthe shape of the object\nthe frequency of the sound (“dispersion”)\n\n\n\nThe table on the right assumes a bulk material (much bigger than the wavelength of the sound) and a sound frequency of 1000 Hz.\n\n\n\n\n\n\n\n\n\n\n\nGases\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nHelium (0°C)\n\n\n\n972\n\n\n\n\n\nAir (20°C)\n\n\n\n343\n\n\n\n\n\nAir (0°C)\n\n\n\n331\n\n\n\n\n\n\nLiquids at 25°C\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlycerol\n\n\n\n1904\n\n\n\n\n\nSea water\n\n\n\n1533\n\n\n\n\n\nWater\n\n\n\n1493\n\n\n\n\n\nMercury\n\n\n\n1450\n\n\n\n\n\n\nSolids\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlass\n\n\n\n5640\n\n\n\n\n\nAluminum\n\n\n\n5100\n\n\n\n\n\nBrass\n\n\n\n4700\n\n\n\n\n\nSteel\n\n\n\n5130\n\n\n\n\n\nWood\n\n\n\n3000-4000\n\n\n\n\n\nConcrete\n\n\n\n3000\n\n\n\n\n\n\n\n\n\n\n\nNote that the book often uses the approximation of 350 m/s for the speed of sound in air.\nRefs: W&W, Engineering toolbox"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#waves-carry-information",
+    "href": "lectures/lecture-04.html#waves-carry-information",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Waves carry information",
+    "text": "Waves carry information\nWe think of the speed of sound as telling us how quickly energy moves through a medium, but it also tells us how fast information travels.\nWe can demonstrate this will a high-speed camera…"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#slinky-drop-experiment",
+    "href": "lectures/lecture-04.html#slinky-drop-experiment",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Slinky drop experiment",
+    "text": "Slinky drop experiment\n\n\n\n\nhttps://www.youtube.com/watch?v=eCMmmEEyOO0"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance",
+    "href": "lectures/lecture-04.html#impedance",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance",
+    "text": "Impedance\nA second property of the medium or object that sound travels through is impedance.\nImpedance (symbol: z, units: Pa m/s = Rayls) is a measure of how difficult it is for sound to move through a medium or object.\nFor bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:\n\\[ z = \\rho v, \\]\n\nz is the impedance (units of Pa s/m, also called “Rayls”)\nρ is the mass density of the medium (units of kg/m3)\nv is the speed of sound in the medium (units of m/s)"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#example-impedance-of-air",
+    "href": "lectures/lecture-04.html#example-impedance-of-air",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Example: impedance of air",
+    "text": "Example: impedance of air\nFor example, air at room temperature (20°C) has a speed of v = 343 m/s and a density of ρ = 1.20 kg/m3. Therefore, the impedance of air at room temperature is z = ρv = 413 Pa m/s.\n\n\nEffect of temperature on properties of air (Wikipedia)\n\n\nTemperature T (°C)\nSpeed of sound v (m/s)\nDensity of air ρ (kg/m3)\nImpedance z (Pa·s/m)\n\n\n\n\n30\n349.02\n1.1644\n406.5\n\n\n20\n343.21\n1.2041\n413.3\n\n\n10\n337.31\n1.2466\n420.5\n\n\n0\n331.30\n1.2922\n428.0\n\n\n−10\n325.18\n1.3413\n436.1\n\n\n−20\n318.94\n1.3943\n444.6"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#table-of-common-building-materials",
+    "href": "lectures/lecture-04.html#table-of-common-building-materials",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Table of common building materials",
+    "text": "Table of common building materials\n\n\n\nRef. Sun, Ruting (2017): “Characterization of the acoustic properties of cementitious materials.” Loughborough University. Ph.D. Dissertation. https://hdl.handle.net/2134/27308"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#sound-at-boundaries",
+    "href": "lectures/lecture-04.html#sound-at-boundaries",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Sound at boundaries",
+    "text": "Sound at boundaries\n\n\nWhen a sound wave strikes a boundary between different materials, the energy divides three ways:\n\nsome is transmitted through the boundary\nsome is reflected by the boundary\nsome may be absorbed, depending on the material\n\nImpedance is the property that tells us about transmission and reflection."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance-matching",
+    "href": "lectures/lecture-04.html#impedance-matching",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance matching",
+    "text": "Impedance matching\n\n\nFor sound to go efficiently from one object/medium to another, their impedances must be equal.\n\nThe bones of the human inner ear match the impedance of air to the impedance of the fluid inside the cochlea.\nA car muffler works by intentionally mismatching the impedance of the exhaust pipe and the outside air.\nIn general, if sound is moving from impedance z1 to impedance z2, the fraction of transmitted sound energy will be \\[ T = 1-\\left(\\frac{z_1-z_2}{z_1+z_2} \\right)^2 \\]\n\n\n\n\n\nHuman Ear\n\n\n\n\n\nMuffler"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance-matching-video",
+    "href": "lectures/lecture-04.html#impedance-matching-video",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance matching video",
+    "text": "Impedance matching video\n\n\n\n\nhttps://youtu.be/AzZ7DjS4ti4. Part 2 (Human ear): https://youtu.be/geSDcollRos"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#musical-instruments",
+    "href": "lectures/lecture-04.html#musical-instruments",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Musical instruments",
+    "text": "Musical instruments\n\n\nOne of the main functions of a musical instrument is to match the impedance of the sound source (e.g. violin string, oboe reed, human vocal folds) to the outside air.\nConsider the difference between an acoustic guitar and an electric guitar. Which one is impedance matched to the air?\nA trumpet mute also works by changing the impedance of the trumpet, not by absorbing the sound."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#next-time",
+    "href": "lectures/lecture-04.html#next-time",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Next time",
+    "text": "Next time\nChapter 6 (Resonance)"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#announcements",
+    "href": "lectures/lecture-08.html#announcements",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nExam grades have been posted.\nHomework 3 has been posted to Canvas.\n\nDue next Thursday evening\nPlease submit only one PDF file for your whole assignment."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#daily-quiz",
+    "href": "lectures/lecture-08.html#daily-quiz",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#human-ear",
+    "href": "lectures/lecture-08.html#human-ear",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Human ear",
+    "text": "Human ear\n\n\n\nOuter ear - collects the sound as a propagates through the air\n\nPinna - the part of the ear on the outside (sound bucket) the funnels sound into the ear canal\nEar canal - impedance matches between the outside air and the ear drum\n\nMiddle ear - a set of 3 small bones act as levers to match the impedance between the ear drum and the oval window on the cochlea.\nInner ear - converts sound waves into nerve impulses (see next page)\n\n\n\n\nSource: NIH"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#inner-ear",
+    "href": "lectures/lecture-08.html#inner-ear",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Inner ear",
+    "text": "Inner ear\n\n\nThe cochlea is the sound processing organ in the ear.\n\nshaped like a long spiral containing a pair of fluid-filled tubes\nbetween the tubes is the basilar membrane that sorts the sound waves by frequency\non the basilar membrane is the Organ of Corti that contains hair cells\nthe hair cells vibrate as the sound waves pass, stimulating the nerve cells to send signals to the brain\n\n\n\n\nLong wavelength (low frequency) sound waves penetrate deeper into the cochlea than short wavelength (high frequency) waves. This is how the ear distiguishes pitch."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#nih-video",
+    "href": "lectures/lecture-08.html#nih-video",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "NIH video",
+    "text": "NIH video\nhttps://en.wikipedia.org/wiki/File:Journey_of_Sound_to_the_Brain.ogv"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#definitions-of-intensity-and-loudness",
+    "href": "lectures/lecture-08.html#definitions-of-intensity-and-loudness",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Definitions of Intensity and Loudness",
+    "text": "Definitions of Intensity and Loudness\n\nIntensity is a measure of how much sound energy passes through a surface in a certain amount of time (power per area).\n\nThis is an objective description of sound that we can measure with a machine (e.g. with a sound meter).\n\nLoudness (or “volume”) is the human perception of sound intensity.\n\nIt is a subjective description of sound as heard by each listener.\nDynamics markings in a musical score (forte, piano, etc.) indicate loudness.\nBecause each listener may hear something different (e.g. because of age or medical condition), loudness is harder to describe precisely.\nWe’ll come back to loudness in the next chapter to talk about how an average adult human perceives intensity and the different factors that affect loudness."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#energy-power-and-intensity",
+    "href": "lectures/lecture-08.html#energy-power-and-intensity",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Energy, Power, and Intensity",
+    "text": "Energy, Power, and Intensity\n\n\n\nEnergy (E) is the capacity to do work. It is measured as joules (J), which the book also calls newton-meters (N m).\nPower (P) is the rate at which energy is emitted or absorbed. Power is measured in watts (W), which is also joules per seconds.\nIntensity (I) is the amount of power divided by the area it passes through, measured in watts per square-meter (W/m2).\n\n\\[P = IA\\]\n\n\n\nThe power is represented by total number of arrows through each green area.\nThe intensity is the power divided by the area in each case."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#example-problem-on-intensity",
+    "href": "lectures/lecture-08.html#example-problem-on-intensity",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Example problem on intensity",
+    "text": "Example problem on intensity\n\n\nA studio monitor outputs 2 W of sound power. The diameter of the speaker is 20 cm (about 8 inches). What is the sound intensity just next to the front of the speaker?\n(Reminder: area of a circle is \\(A=\\pi d^2/4\\).)"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#we-sense-ratios-not-differences",
+    "href": "lectures/lecture-08.html#we-sense-ratios-not-differences",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "We sense ratios, not differences",
+    "text": "We sense ratios, not differences\nThe sound intensities that humans can here vary from about 10-12 W/m2 to 1 W/m2, a factor of a trillion apart. The way our brain deals with great spreads like this is to measure ratios (fractions) rather than differences. (Also, this happens because of the way nerves activate.)\nFor example, we can sense when intensity doubles, but we can’t hear a whisper added to a jet engine.\nOur brain divides and multiplies; it does not add or subtract.\nMany of our senses use this type of compression:\n\nSound intensity, sound frequency (musical pitch)\nLight intensity (but not color)\nTouch (pressure)\nHeat flow"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#decibels",
+    "href": "lectures/lecture-08.html#decibels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Decibels",
+    "text": "Decibels\nTo avoid writing very small and very large numbers (lots of zeros or decimals points) to represent quantities with a lot of dynamics range, engineers often use a logarithmic scale called decibels (dB) to express ratios.\nThe mathematical definition of decibels is\n\\[\\text{decibels} = 10 \\log\\left(\\frac{\\text{measurement value}}{\\text{reference value}}\\right),\\]\nwhere “log” is the common (base-10) logarithm function found on a calculator.\nIf we’re given the decibel level and we need the measurement value, we solve the equation above to get\n\\[\\text{measurement} = \\text{reference value} \\times 10^{\\text{decibels}/10} \\]"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#sound-intensity-levels-sil",
+    "href": "lectures/lecture-08.html#sound-intensity-levels-sil",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Sound intensity levels (SIL)",
+    "text": "Sound intensity levels (SIL)\nThe reference value for a decibel conversion is usually something agreed upon by the community. For example, when measuring sound intensity, the reference value is taken as the threshold of hearing for a typical adult human: I0 = 10-12 W/m2, giving us the following definition for Sound Intensity Level (SIL), measured in decibels:\n\\[S_{IL} = 10 \\log(I/I_0)\\]\nor, flipping this around to solve for intensity:\n\\[I = I_0 \\times 10^{S_{IL}/10},\\]\nwhere for sound, I0 = 10-12 W/m2 by definition."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#sound-intensity-table",
+    "href": "lectures/lecture-08.html#sound-intensity-table",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Sound intensity table",
+    "text": "Sound intensity table\n\n\n\n\n\n\n\n\n\n\n\nDynamic\nSound intensity\nI (W/m2)\nRelative intensity\nI/I0\nIntensity level\nSIL (dB)\nExample\n\n\n\n\nPain\n1\n1012\n120\nPain\n\n\nfffff\n0.1\n1011\n110\nJet engine\n\n\nffff\n0.01\n1010\n100\n\n\n\nfff\n0.001\n109\n90\nMotorcyle\n\n\nff\n10-4\n108\n80\n\n\n\nf\n10-5\n107\n70\nTalking\n\n\nmf\n10-6\n106\n60\n\n\n\np\n10-7\n105\n50\nOffice\n\n\npp\n10-8\n104\n40\n\n\n\nppp\n10-9\n1000\n30\nLibrary\n\n\npppp\n10-10\n100\n20\nWhisper\n\n\nppppp\n10-11\n10\n10\n\n\n\nThreshold of hearing (I0)\n10-12\n1\n0\n\n\n\n\n\n\nSource: White & White Tables 9-1, 9-2, and Figure 9-7"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#rules-of-thumb-for-decibels",
+    "href": "lectures/lecture-08.html#rules-of-thumb-for-decibels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Rules of thumb for decibels",
+    "text": "Rules of thumb for decibels\nIf you don’t have a calculator handy…\n\n0 dB means the same\n+3 dB is about twice as big\n+5 dB is about three times as big\n+10 dB means ten times bigger\n+20 dB means 100 times bigger\nThe pattern +#0 dB is 1 with # zeros times bigger.\nnegative dBs means that factor smaller: -10 dB = ten times smaller.\nadding two dB values is the same as multiplying their intensities.\n\nExample: +13 dB = 10 dB + 3 dB = 10 × 2 = 20 times bigger.\n\nsubtracting two dB values is the same as dividing their intensities."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#example-problems-decibels",
+    "href": "lectures/lecture-08.html#example-problems-decibels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Example problems: decibels",
+    "text": "Example problems: decibels\n\nA typical speaking voice at a comfortable distance has an intensity level of 70 dB.\n\nWhat is the intensity value (in W/,2)?\nIf two people talk at the same time, what is the combined intensity? combined SIL?"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#limits-of-human-hearing",
+    "href": "lectures/lecture-08.html#limits-of-human-hearing",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Limits of human hearing",
+    "text": "Limits of human hearing\n\n\nWe’ll discuss the idea of loudness in detail next time, but one simple difference is that our experience of loudness depends on the frequency of the sound. Human ears work best around 1000 Hz. Our ears are less sensitive at higher and lower frequencies.\nThe red curve shows the minimum sound intensity that we can detect as a function of frequency. The blue curves are loudness values relative to the threshold.\n\n\n\n\nPerceived intensity vs. frequency"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#dynamic-range",
+    "href": "lectures/lecture-08.html#dynamic-range",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Dynamic Range",
+    "text": "Dynamic Range\nAn important concept related to this that doesn’t show up in the textbook until the chapters on recording is dynamic range.\nDynamic Range is the ratio between the largest possible measurement and the smallest possible measurement.\nSo, the dynamic range of intensity for human hearing is about 1012 or 120 dB. By comparison, a 16-bit ADC on a digital recording deck has a dynamic range of 216 ≈ 65,000 or 48 dB.\nThe dynamic range of frequency for human hearing is about 20,000 Hz/20 Hz = 1,000 or 30 dB."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#line-levels",
+    "href": "lectures/lecture-08.html#line-levels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Line levels",
+    "text": "Line levels\n\n\nAudio recording equipment usually specifies intensity relative to the line level. Line level is the maximum signal that can pass through an electronic audio system without saturating (analog) or clipping (digital) the signal.\nIn this case the reference level is always higher than the sound level. When we convert this to decibels, we get a negative number. Roughly, the numbers come out to\n\n0 dB = Maximum signal without distortion\n-10 dB = an typical signal value\n-45 dB = the lowest signal detectable\n\nWe’ll come back to the details later in the semester.\n\n\n\n\nAmplifier gains and attenuation are usually specified in decibels."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#intensity-and-distance",
+    "href": "lectures/lecture-08.html#intensity-and-distance",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Intensity and distance",
+    "text": "Intensity and distance\n\n\nIntensity decreases as you move away from a source. If you were in completely empty space (no walls, floors, or ceiling), sound waves would come out in the shape of spheres.\nImagine blowing up a baloon with a sound source in the center of the baloon. The same amount of sound power (P) passes through the surface of the baloon regardless of how big it is, but the intensity will go down as the radius (r) of the baloon gets bigger.\n\n\n\n\nThe relationship between sound intensity and distance is called the inverse square law. Many laws of physics have this pattern: gravity, electricity, and light intensity, for example.\n\n\n\n\n\\[P = IA = I (4\\pi r^2)\\quad\\rightarrow\\quad I = \\frac{P}{4\\pi r^2}\\]"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#example-intensity",
+    "href": "lectures/lecture-08.html#example-intensity",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Example: Intensity",
+    "text": "Example: Intensity\n\n\nThe Sumbergh Head foghorn in Shetland, UK, emits a tone of 120 Hz that can be heard 30 kilometers away. If the threshold of hearing at this frequency is SIL = 30 dB, what is the power of the foghorn? (Assume the sound waves come out as perfect spheres.)\n\n\n\n\nSumbergh Head foghorn"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#weekly-reflection",
+    "href": "lectures/lecture-08.html#weekly-reflection",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nThink about your exam score and your daily quiz grades so far in the course. Are you happy with how you’re doing? What’s working for you? What could be improved?"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#next-time",
+    "href": "lectures/lecture-08.html#next-time",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Next time",
+    "text": "Next time\nLoudness (Chapter 10)"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#announcements",
+    "href": "lectures/lecture-07.html#announcements",
+    "title": "Lecture 7: Harmonics",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nChange of plans: We will do “Homework 2” in class today.\nMidterm Exam 1 is Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#daily-quiz",
+    "href": "lectures/lecture-07.html#daily-quiz",
+    "title": "Lecture 7: Harmonics",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\nDefine “harmonic” (noun) as it is used in this chapter."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#harmonic-frequencies",
+    "href": "lectures/lecture-07.html#harmonic-frequencies",
+    "title": "Lecture 7: Harmonics",
+    "section": "Harmonic frequencies",
+    "text": "Harmonic frequencies\n\n\nWe saw earlier that a vibrating string can resonate at the following set of frequencies:\n\\[f_1 = \\frac{v}{2L},  f_n = n f_1 = n \\frac{v}{2L},\\]\nwhere fn is the frequency of the nth harmonic (whole numbers: 1, 2, 3…), v is the speed of waves on the string, and L is the length of the string."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#frequency-spectrum",
+    "href": "lectures/lecture-07.html#frequency-spectrum",
+    "title": "Lecture 7: Harmonics",
+    "section": "Frequency spectrum",
+    "text": "Frequency spectrum\n\n\nIn general, when you play an instrument, more than one harmonic is generated at a time. We can see this by measuring the frequency spectrum of the sound.\nWe do this by measuring the waveform using a microphone, then applying a math tool called the Fourier Transform which extracts frequency, amplitude, and phase information.\n\n\nClarinet \n\n\n\n\n\nFigure from UCSD School of Music"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#timbre",
+    "href": "lectures/lecture-07.html#timbre",
+    "title": "Lecture 7: Harmonics",
+    "section": "Timbre",
+    "text": "Timbre\nEach instrument has a characteristic spectrum, or set of frequencies and amplitudes. Our brains interpret this as the timbre or tone quality of the instrument."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#weekly-reflection",
+    "href": "lectures/lecture-07.html#weekly-reflection",
+    "title": "Lecture 7: Harmonics",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nWhat will you do to study for the exam?"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#next-time",
+    "href": "lectures/lecture-07.html#next-time",
+    "title": "Lecture 7: Harmonics",
+    "section": "Next time",
+    "text": "Next time\nExam 1!"
   }
 ]

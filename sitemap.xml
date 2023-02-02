@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://corcoted.github.io/phys170-2023/about.html</loc>
-    <lastmod>2023-01-26T15:46:12.508Z</lastmod>
+    <lastmod>2023-02-02T14:53:20.721Z</lastmod>
   </url>
   <url>
     <loc>https://corcoted.github.io/phys170-2023/index.html</loc>
-    <lastmod>2023-01-26T15:46:12.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-06.html</loc>
-    <lastmod>2023-01-26T15:46:18.628Z</lastmod>
-  </url>
-  <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-07.html</loc>
-    <lastmod>2023-01-26T15:46:18.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-04.html</loc>
-    <lastmod>2023-01-26T15:46:19.498Z</lastmod>
+    <lastmod>2023-02-02T14:53:21.329Z</lastmod>
   </url>
   <url>
     <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-02.html</loc>
-    <lastmod>2023-01-26T15:46:19.938Z</lastmod>
+    <lastmod>2023-02-02T14:53:22.229Z</lastmod>
   </url>
   <url>
     <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-05.html</loc>
-    <lastmod>2023-01-26T15:46:20.428Z</lastmod>
+    <lastmod>2023-02-02T14:53:23.153Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-06.html</loc>
+    <lastmod>2023-02-02T14:53:24.029Z</lastmod>
   </url>
   <url>
     <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-03.html</loc>
-    <lastmod>2023-01-26T15:46:20.868Z</lastmod>
+    <lastmod>2023-02-02T14:53:24.977Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-04.html</loc>
+    <lastmod>2023-02-02T14:53:26.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-08.html</loc>
+    <lastmod>2023-02-02T14:53:27.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-07.html</loc>
+    <lastmod>2023-02-02T14:53:27.997Z</lastmod>
   </url>
 </urlset>
