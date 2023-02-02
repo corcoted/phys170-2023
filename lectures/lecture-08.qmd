@@ -7,12 +7,13 @@ format: revealjs
 
 ## Announcements
 
-::: {.incremental}
-- Exam grades have been posted.
-- blah
+::: incremental
+-   Exam grades have been posted.
+-   blah
 :::
 
 ## Daily Quiz
+
 What is the difference between "intensity" and "loudness"?
 
 # Exam discussion
@@ -25,22 +26,99 @@ What is the difference between "intensity" and "loudness"?
 
 ## Human ear
 
+::: columns
+::: {.column width="50%"}
+-   *Outer ear* - collects the sound as a propagates through the air
+    -   *Pinna* - the part of the ear on the outside (sound bucket) the funnels sound into the ear canal
+    -   *Ear canal* - impedance matches between the outside air and the ear drum
+-   *Middle ear* - a set of 3 small bones act as levers to match the impedance between the ear drum and the oval window on the cochlea.
+-   *Inner ear* - converts sound waves into nerve impulses (see next page)
+:::
+
+::: {.column width="50%"}
 ![](figs/lecture-08/nidcd-ear-illustration.jpg)
+
+::: {style="font-size: 80%"}
+Source: NIH
+:::
+:::
+:::
 
 ## Inner ear
 
+::: columns
+::: {.column width="50%"}
+The *cochlea* is the sound processing organ in the ear.
+
+-   shaped like a long spiral containing a pair of fluid-filled tubes
+-   between the tubes is the *basilar membrane* that sorts the sound waves by frequency
+-   on the basilar membrane is the *Organ of Corti* that contains hair cells
+-   the *hair cells* vibrate as the sound waves pass, stimulating the nerve cells to send signals to the brain
+:::
+
+::: {.column width="50%"}
 ![](figs/lecture-08/basilar-membrane-britannica.jpg)
+
+::: {style="color: gray; font-size: 80%"}
+Long wavelength (low frequency) sound waves penetrate deeper into the cochlea than short wavelength (high frequency) waves. This is how the ear distiguishes pitch.
+:::
+:::
+:::
 
 # Sound Intensity
 
 ## Definitions of Intensity and Loudness
-**Intensity** is a measure of how much sound energy passes through a surface in a certain amount of time (power per area).  This is an *objective* description of sound that we can measure with a machine (e.g. with a sound meter).
 
-**Loudness** (or "volume") is the *human perception* of sound intensity.  It is a *subjective* description of sound as heard by each listener.  Dynamics markings in a musical score (forte, piano, etc.) indicate loudness.  Because each listener may hear something different (e.g. because of age or medical condition), loudness is harder to describe precisely.  We'll come back to loudness in the next chapter to talk about how an *average* adult human perceives intensity and the different factors that affect loudness.
+**Intensity** is a measure of how much sound energy passes through a surface in a certain amount of time (power per area). This is an *objective* description of sound that we can measure with a machine (e.g. with a sound meter).
+
+**Loudness** (or "volume") is the *human perception* of sound intensity. It is a *subjective* description of sound as heard by each listener. Dynamics markings in a musical score (forte, piano, etc.) indicate loudness. Because each listener may hear something different (e.g. because of age or medical condition), loudness is harder to describe precisely. We'll come back to loudness in the next chapter to talk about how an *average* adult human perceives intensity and the different factors that affect loudness.
+
+## Energy, Power, and Intensity
+
+::: {.columns}
+
+::: {.column width=50%}
+**Energy (*E*)** is the capacity to do work.  It is measured as *joules* (J), which the book also calls newton-meters (N m).
+
+**Power (*P*)** is the rate at which energy is emitted or absorbed.  Power is measured in *watts* (W), which is also joules per seconds.
+
+**Intensity (*I*)** is the amount of power divided by the area it passes through, measured in *watts per square-meter* (W/m^2^).
+
+$$P = IA$$
+
+:::
+
+::: {.width=50%}
+<!--TODO some figure-->
+:::
+
+:::
+
+## Intensity and distance
+
+:::: {.columns}
+::: {.column width=50%}
+Intensity decreases as you move away from a source.
+If you were in completely empty space (no walls, floors, or ceiling), sound waves would come out in the shape of spheres.  
+
+Imagine blowing up a baloon with a sound source in the center of the baloon.
+The same amount of sound power (*P*) passes through the surface of the baloon regardless of how big it is, but the intensity will go down as the radius (*r*) of the baloon gets bigger.
+
+$$P = IA = I (4\pi r^2)\quad\rightarrow\quad I = \frac{P}{4\pi r^2}$$
+:::
+
+::: {.column width=50%}
+![The relationship between sound intensity and distance is called the *inverse square law*. Many laws of physics have this pattern: gravity, electricity, and light intensity, for example.](figs/lecture-08/Inverse_square_law.svg)
+:::
+::::
+
+## Sound intensity levels (SIL)
+
 
 ## Weekly Reflection
 
 blah
 
 ## Next time
+
 blah
