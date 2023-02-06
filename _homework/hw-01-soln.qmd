@@ -1,0 +1,78 @@
+---
+title: "Homework 1 solutions"
+subtitle: "PHYS170"
+date: "1/24/2023"
+format:
+  pdf:
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
+---
+
+12 points total, 2 points each
+
+## Problem 1
+(White & White, Chapter 2, Problem 2) The E string of a violin has a period of 0.001515 s. Find the frequency with which it vibrates.
+
+### Solution
+We are given the period *T*=0.001515s.  This is related to the frequency by
+$$f=\frac{1}{T}=\frac{1}{0.001515\,\mathrm{s}} = 660\,\mathrm{Hz}.$$
+
+## Problem 2
+(White & White, Chapter 3, Question 2) Make a diagram of standing transverse waves, three wavelengths long. Label the nodes, antinodes, loops, and one wavelength. How does the wavelength compare with the length of one loop?
+
+### Solution
+The standing wave should begin and end at a node.  Each wavelength is 2 "loops" long, so there should be 6 total "loops".  Your drawing should look something like this:
+
+![](figs/hw-01/hw-01-2.jpg)
+
+## Problem 3
+(White & White, Chapter 3, Problem 1) A harp string has a length of 30.5 cm and vibrates with a node at each end and an antinode in the center. If its frequency is 440 Hz, find (a) the wavelength and (b) the speed of the waves on the string.
+
+### Solution
+(a) The harp string is vibrating with "a node at each end and an antinode in the center".  Assuming there are no other nodes and antinodes, this is describing one "loop", which is half of a wavelength:
+
+$$L=\lambda/2 \rightarrow \lambda = 2L = 2(30.5\,\mathrm{cm}) = 61\,\mathrm{cm}$$
+
+Note that for calculations (e.g. part b) we always need lengths in terms of meters. So, $\lambda=(61\,\mathrm{cm})/(100\,\mathrm{cm/m}) = 0.61\,\mathrm{m}$.
+
+(b) We know the frequency and the wavelength, so the speed of waves on the string is
+
+$$v=\lambda f=(0.61\,\mathrm{m})(440\,\mathrm{Hz}) = 268\,\mathrm{m/s}.$$
+
+## Problem 4
+(White & White, Chapter 4, Problem 2) A glass tube containing air and some cork dust is shown in Figure 4–9. A metal rod 55.4 cm long is used to produce standing longitudinal waves, (a) If the speed of sound in the metal is 3500 m/s, find the frequency of vibration. (b) If six cork dust piles are measured and found to be 33.6 cm long, what is the speed of sound in air?
+
+### Solution
+The figure we need is this one:
+
+![](figs/hw-01/img_54.jpg){width=80%}
+
+(a) According to the drawing, half of the length of the rod is a quarter of the wavelength.  So, the wavelength of sound waves in the rod can be found by
+
+$$\frac{L}{2} = \frac{\lambda}{4} \quad\rightarrow\quad \lambda = 2L = 110.8\,\mathrm{cm} = 1.108\,\mathrm{m}.$$
+
+We are also given the speed of sound in the rod as $v=3500\,\mathrm{m/s}$.  Combining the speed and wavelength we have
+
+$$v=\lambda f\quad\rightarrow\quad f = \frac{v}{\lambda}=\frac{3500\,\mathrm{m/s}}{1.108\,\mathrm{m}}=3160\,\mathrm{Hz}.$$
+
+(Note that you need the wavelength in meters for the equations to work.)
+
+*There was some ambiguity about how to interpret the drawing and the meaning of the rod's length in the problem description.  I accepted solutions using $\lambda/2=55.4\,\mathrm{cm}$ or $\lambda/4=55.4\,\mathrm{cm}$ for the waves in the metal rod.*
+
+(b) The frequency of sound in the tube is the same as the frequency of sound in the metal rod: _f_=3160 Hz.  To get the wavelength we notice that 2 "piles" = 1 wavelength.  Here we have 6 piles = 3 wavelengths = 33.6 cm.  Solving for wavelength: $3\lambda = 33.6\,\mathrm{cm}$, so $\lambda = 11.2\,\mathrm{cm}=0.112\,\mathrm{m}$.  Using the formula for speed in terms of frequency and wavelength we have
+
+$$v=\lambda f = (0.112\,\mathrm{m})(3160\,\mathrm{Hz}) = 354\,\mathrm{m/s}.$$
+
+## Problem 5
+(White & White, Chapter 5, Question 7) Prior to the invention of hearing aids, people with hearing deficiencies often used an “ear trumpet,” a small horn with the narrow end placed into the ear canal. Explain how this device increases the sound transmission into the ear.
+
+### Solution
+We'll see a complete answer to this when we discuss wind instruments in Chapters 18 and 19, but discussions about (1) impedance matching, (2) increasing the area collecting sound, or (3) reflecting sound down into the ear canal are all correct.  The whole story is a combination of these things.
+
+## Problem 6
+What is one topic from Chapters 1-5 that you would like to learn more about?
+
+### Solution
+I accepted any thoughtful response.
