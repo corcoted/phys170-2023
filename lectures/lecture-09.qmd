@@ -4,16 +4,17 @@ subtitle: "Chapter 10"
 date: "2/7/2023"
 format:
   revealjs:
-    incremental: true
+    incremental: false
 ---
 
 ## Announcements
 
-::: incremental
--   Homework 3 is up on Canvas.
-    -   Due Thursday evening
-    -   Please submit only *one* PDF file for your whole assignment.
-:::
+- Homework 3 is up on Canvas.
+  - Due Thursday evening
+  - Please submit only *one* PDF file for your whole assignment.
+
+- On Thursday I'll announce the group project that will be your "final exam" for the course
+  - Groups must have 3 or 4 people.  Start thinking about who you want to work with.
 
 ## Daily Quiz
 
@@ -59,6 +60,8 @@ $$\text{measurement} = \text{reference value} \times 10^{\text{decibels}/10} $$
 
 ## Sound intensity levels (S~IL~)
 
+::: columns
+::: {.column width="50%" style="font-size:80%"}
 The reference value for a decibel conversion is usually something agreed upon by the community. For example, when measuring sound intensity, the reference value is taken as the threshold of hearing for a typical adult human: *I*~0~ = 10^-12^ W/m^2^, giving us the following definition for Sound Intensity Level (*S*~IL~), measured in decibels:
 
 $$S_{IL} = 10 \log(I/I_0)$$
@@ -68,12 +71,12 @@ or, flipping this around to solve for intensity:
 $$I = I_0 \times 10^{S_{IL}/10},$$
 
 where for sound, *I*~0~ = 10^-12^ W/m^2^ by definition.
+:::
 
 ::: {.column width="50%"}
 ![Perceived intensity vs. frequency](figs/lecture-08/w1041.jpg){width="100%"}
 :::
-
-::::
+:::
 
 # Intensity, pressure, and impedance
 
@@ -81,7 +84,7 @@ Lions and Tigers and Bears! Oh my!
 
 ## Pressure
 
-One detail the book leaves out in Chapter 9 is the link between changes in air pressure and the sound intensity. We need this information to link to the various measures of loudness in this chapter.
+We need the link between changes in air pressure and the sound intensity to define the various measures of loudness in this chapter.
 
 **Pressure** is the force per unit area applied to a surface. It has units of newtons per square-meter, also called "pascals" (Pa). Standard atmospheric air pressure is 101325 Pa. Sound waves in air are a very small change in this number.
 
@@ -116,7 +119,7 @@ By comparison, the impedance of water at room temperature is about *z*~water~=1.
 
 ## Example: Thresholds of hearing
 
-Recall from last time that the minimum sound intensity a typical adult human can hear is *I*~0~=10^-1^ W/m^2^. This should be about what we get from the minimum pressure (*p*~0~=2×10^-5^ Pa) and the impedance of air (*z*~0~=413 Pa s/m).
+Recall from last time that the minimum sound intensity a typical adult human can hear is *I*~0~=10^-12^ W/m^2^ at 1 kHz. This compare this to what we get from the minimum pressure (*p*~0~=2×10^-5^ Pa) and the impedance of air (*z*~0~=413 Pa s/m).
 
 $$\frac{p_0^2}{z_0} = \frac{(2\times10^{-5}\,\mathrm{Pa})^2}{413\,\mathrm{Pa\,s/m}} = 9.7\times10^{-13}\,\mathrm{W/m^2}.$$
 
@@ -155,12 +158,10 @@ Last time I showed this graph relating sound intensity to the limits of human he
 The [red]{style="color:red"} curve was the lowest sound that can be heard at that frequency.
 
 *Phon* is the sound level relative to that red line, measured in decibels. So, 0 phons is the loudness of points exactly on the red line. 20 phons is an intensity at the bottom blue line, and so on up the chart.
-
-A similar graph is in the textbook as Figure 10-1.
 :::
 
 ::: {.column width="50%"}
-![Perceived intensity vs. frequency](figs/lecture-08/w1041.jpg){width="100%"}
+![Perceived intensity vs. frequency (see also, textbook Figure 10-1)](figs/lecture-08/w1041.jpg){width="100%"}
 :::
 :::
 
@@ -174,28 +175,92 @@ So, if given the levels in decibels (either *S*~IL~ or *S*~PL~), convert to inte
 
 If you have *N* identical sources, then their combined sound level will be the level of one source (in dB) *plus* (10 log *N*).
 
-## Sones
+## Sound subjective loudness (Sones)
 
 ::: columns
 ::: {.column width="50%"}
-Another measure of subjective loudness is the sone (rhymes with "bone"). The sone tries to capture the idea of what it means for one sound to be "twice as loud" as another sound. The basic relationship is that multiplying the sound intensity by 10 (equivalently, adding 10 dB to the sound level or adding 10 phons) creates a sound that seems 2 times as loud to an average adult human.
+Subjective loudness (*S*~SL~) is measured in sones (rhymes with "bones"). The sone tries to capture the idea of what it means for one sound to be "twice as loud" as another sound.
+
+The basic relationship is that multiplying the sound intensity by 10 (equivalently, adding 10 dB to the sound level or adding 10 phons) creates a sound that seems 2 times as loud to an average adult human. The baseline is 1 sone = 40 phons.
+:::
+
+::: {.column width="40%" style="font-size:70%"}
+| Musical dynamic Level | Sound subjective loudness | Sound loudness | Sound intensity level | Sound intensity |
+|--------------|--------------|--------------|--------------|----------------|
+|                       | (sones)                   | (phons)        | (dB)                  | (W/m^2^)        |
+| fff                   | 64                        | 100            | 100                   | 10^-2^          |
+| ff                    | 32                        | 90             | 90                    | 10^-3^          |
+| f                     | 16                        | 80             | 80                    | 10^-4^          |
+| mf                    | 8                         | 70             | 70                    | 10^-5^          |
+| p                     | 4                         | 60             | 60                    | 10^-6^          |
+| pp                    | 2                         | 50             | 50                    | 10^-7^          |
+| ppp                   | 1                         | 40             | 40                    | 10^-8^          |
+
+Levels measured for a 1 kHz tone
 
 Phons and sones were both invented by psychologist Stanley Smith Stevens in the 1930s as different ways of describing loudness. Phon was the more "scientific" description and sone the more "musical" description: doubling the sone value is roughly the same as increasing by one musical dynamic marking.
 :::
+:::
+
+## Example problem
+
+A piccolo plays the pitch C~6~ (about 1046 Hz) at a forte dynamic.
+
+What are the values of
+
+-   the sound subjective loudness (*S*~SL~) in sones?
+-   the sound loudness level (*S*~LL~) in phons?
+-   the sound intensity level (*S*~IL~) in decibels?
+-   the sound pressure level (*S*~PL~) in decibels?
+-   the sound intensity (*I*) in W/m^2^?
+-   the sound pressure change (*p*) in Pa?
+
+# The ear and brain change the sound we perceive
+
+## Review: Beat notes
+
+A few lectures ago we showed what happens when you have two tones with slightly different frequencies.
+
+If two similar frequencies of similar intensity are heard at the same time:
+
+-   the listener will hear the average frequency,
+-   which will modulate in loudness with a beat frequency equal to the difference in the two original frequencies.
+
+But we know from experience that if the two frequencies are far enough apart, instead of beats we will hear harmony. Where is that dividing line?
+
+## Critical band
+
+::: columns
+::: {.column width="50%"}
+Because of the way the cochlea in the ear works, frequencies very close to each other will excite the same nerve cells in the ear. The frequency range than any particular nerve in the ear can detect is called the *critical band* around that frequency.
+
+-   If two tones are within the same critical band, then we will perceive beat notes.
+-   If two tones are separated by more than the critical band, then we perceive two distinct tones.
+
+If the two tones are played in different ears *you don't hear beats!*
+:::
+
+::: {.column width="50%" style="font-size:70%"}
+![W&W Fig. 10-3: Critical bands](figs/lecture-09/img_192.jpg){width="100%"}
+
+The top solid curve is the difference in frequency needed to distinguish two tones clearly.
+:::
+:::
+
+## Masking
+
+::: columns
+::: {.column width="50%"}
+The concept of *masking* is similar to the critical bands. Loud tones can hide quiet tones that are close in frequency.
+
+If we increase the loudness of the quiet tone, eventually it will break through. This point is called the "threshold increase".
+:::
 
 ::: {.column width="50%"}
-| Dynamic Level | Sones | Phons | Sound level (dB) @ 1kHz | Sound intensity (W/m2) @ 1 kHz |
-|---------------|-------|-------|-------------------------|--------------------------------|
-| fff           | 64    | 100   | 100                     | 10^-2^                         |
-| ff            | 32    | 90    | 90                      | 10^-3^                         |
-| f             | 16    | 80    | 80                      | 10^-4^                         |
-| mf            | 8     | 70    | 70                      | 10^-5^                         |
-| p             | 4     | 60    | 60                      | 10^-6^                         |
-| pp            | 2     | 50    | 50                      | 10^-7^                         |
-| ppp           | 1     | 40    | 40                      | 10^-8^                         |
+![W&W Fig. 10-6: Masking curves for an 800-Hz tone](figs/lecture-09/img_196.jpg)
 :::
 :::
 
 ## Next time
 
-Loudness (Chapter 10)
+Chapter 11: Harmonic structure of strings
