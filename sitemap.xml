@@ -2,38 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://corcoted.github.io/phys170-2023/about.html</loc>
-    <lastmod>2023-02-02T14:53:20.721Z</lastmod>
+    <lastmod>2023-02-07T15:00:46.740Z</lastmod>
   </url>
   <url>
     <loc>https://corcoted.github.io/phys170-2023/index.html</loc>
-    <lastmod>2023-02-02T14:53:21.329Z</lastmod>
+    <lastmod>2023-02-07T15:00:47.060Z</lastmod>
   </url>
   <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-02.html</loc>
-    <lastmod>2023-02-02T14:53:22.229Z</lastmod>
-  </url>
-  <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-05.html</loc>
-    <lastmod>2023-02-02T14:53:23.153Z</lastmod>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-09.html</loc>
+    <lastmod>2023-02-07T15:00:54.180Z</lastmod>
   </url>
   <url>
     <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-06.html</loc>
-    <lastmod>2023-02-02T14:53:24.029Z</lastmod>
-  </url>
-  <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-03.html</loc>
-    <lastmod>2023-02-02T14:53:24.977Z</lastmod>
-  </url>
-  <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-04.html</loc>
-    <lastmod>2023-02-02T14:53:26.165Z</lastmod>
-  </url>
-  <url>
-    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-08.html</loc>
-    <lastmod>2023-02-02T14:53:27.301Z</lastmod>
+    <lastmod>2023-02-07T15:00:54.650Z</lastmod>
   </url>
   <url>
     <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-07.html</loc>
-    <lastmod>2023-02-02T14:53:27.997Z</lastmod>
+    <lastmod>2023-02-07T15:00:55.010Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-08.html</loc>
+    <lastmod>2023-02-07T15:00:55.590Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-04.html</loc>
+    <lastmod>2023-02-07T15:00:56.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-02.html</loc>
+    <lastmod>2023-02-07T15:00:56.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-05.html</loc>
+    <lastmod>2023-02-07T15:00:57.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://corcoted.github.io/phys170-2023/lectures/lecture-03.html</loc>
+    <lastmod>2023-02-07T15:00:57.580Z</lastmod>
   </url>
 </urlset>
