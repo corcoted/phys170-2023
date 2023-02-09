@@ -103,6 +103,8 @@ Notice that the fundamental frequency $f_1=v/(2L)$ depends on two things:
 - the length of the string *L*
 - the speed on the string *v*.
 
+We'll come back to this.
+
 :::
 ::: {.column width="40%"}
 ![W&W Figure 11-2](figs/lecture-10/img_202.jpg)
@@ -111,6 +113,80 @@ Notice that the fundamental frequency $f_1=v/(2L)$ depends on two things:
 
 ## Normal modes demo
 ![<https://phet.colorado.edu/en/simulations/normal-modes>](figs/lecture-10/phet-normal-modes.png){width=80%}
+
+# String motion
+
+## Perfectly plucked string
+Which modes are excited when you bow, pluck, or hammer a string depend on where and how you move the string.
+
+Each mode *f~n~* will have its own amplitude, just like in the simulation.
+
+In the approximation that you pluck a string a small amount at a precise position *x* on the string (measured in meters), the amplitude of the *n*^th^ mode, *a~n~* is given by
+
+$$
+a_n = \sin\left(\frac{n\pi x}{L} \right),
+$$
+where the sine function is evaluated in radians mode.
+
+## Example calculation
+
+![](figs/lecture-10/PluckedStringExcel.png)
+
+[Download the Excel file](figs/lecture-10/PluckedString.xlsx)
+
+## Choosing the harmonics
+
+::: {.columns}
+::: {.column width="60%"}
+Because of the earlier equation, if you pluck a string at the antinodes and stop it at the nodes of a particular mode, you can select which harmonics get activated.
+
+The mode drawing gives you a map about where to do this.
+
+For example, if you stop a string exactly in the center and pluck it 1/4 of the way from the end, then gently release the stop, you'll excite the 2nd harmonic (which is the octave).
+
+Try this with a real instrument and see if you can do it.
+
+(Bonus: on a fretted instrument, which frets line up with the nodes of certain modes?)
+
+:::
+::: {.column width="40%"}
+![W&W Figure 11-2](figs/lecture-10/img_202.jpg)
+:::
+:::
+
+# Wave speed on a string
+
+## Changing the speed
+The two ways we can adjust the fundamental mode of a string are by changing the length of the string or the speed of waves on the string.
+
+The speed depends on two factors:
+
+- How much tension force *F* is on the string
+- How "heavy" the string is, where "heavy" is the mass density of the string *m* (e.g. kilograms per meter)
+
+$$
+v = \sqrt{\frac{F}{m}}
+$$
+
+## Mersenne's Rules
+Combining the speed equation with the mode equation gives Mersenne's Rules
+
+The fundamental frequency of a string is
+
+1. Inverse to its length (*L*)
+2. Proportional to the square root of the tension (*F*)
+3. Inverse to its diameter (thickness)
+4. Inverse to the square-root of its density
+
+These are summarized by the equation
+
+$$
+f_1 = \frac{v}{2L} = \frac{1}{2L}\,\sqrt{\frac{F}{m}},
+$$
+where rule 3 and 4 are combined as the mass per length *m*.
+
+## Example
+A guitar string has length *L*=62.8 cm.  One string has a mass per length of *m*=5.3 g/m and a tension of *F*=230 N.  What is its frequency?
 
 ## Weekly Reflection
 
