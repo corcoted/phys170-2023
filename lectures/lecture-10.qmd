@@ -1,0 +1,37 @@
+---
+title: "Lecture 10: Strings"
+subtitle: "Chapter 11"
+date: "2/9/2023"
+format:
+  revealjs:
+    incremental: false
+---
+
+## Announcements
+
+- Homework 3 is due tonight.
+  - Please submit only *one* PDF file for your whole assignment.
+
+## Daily Quiz
+
+List two or more ways of changing the speed of waves on a string.
+
+## Group project
+
+<!-- TODO points, etc. -->
+- Groups of 3 or 4.
+  - Send me an email today with a list of people you want to work with.
+  - I will assign the groups, using your suggestions as best as I can.
+- **Goal:** Your group will build a musical instrument
+  - Must be able to control pitch and intensity, and play a simple melody
+  - Must explain how it produces sound and how you control it
+
+# Review
+
+## Weekly Reflection
+
+What is your favorite sound? Why?
+
+## Next time
+
+Chapter 12: Tubes!
