@@ -287,6 +287,132 @@
     "text": "Next time\nChapter 9: Harmonics"
   },
   {
+    "objectID": "lectures/lecture-10.html#announcements",
+    "href": "lectures/lecture-10.html#announcements",
+    "title": "Lecture 10: Strings",
+    "section": "Announcements",
+    "text": "Announcements\n\nHomework 3 is due tonight.\n\nPlease submit only one PDF file for your whole assignment."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#daily-quiz",
+    "href": "lectures/lecture-10.html#daily-quiz",
+    "title": "Lecture 10: Strings",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\nList two or more ways of changing the speed of waves on a string."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#group-project",
+    "href": "lectures/lecture-10.html#group-project",
+    "title": "Lecture 10: Strings",
+    "section": "Group project",
+    "text": "Group project\n\n\nGroups of 3 or 4.\n\nSend me an email today with a list of people you want to work with.\nI will assign the groups, using your suggestions as best as I can.\n\nGoal: Your group will build a musical instrument\n\nMust be able to play a simple melody\nMust explain how it produces sound and how you control it\nCharacterization of the sound will be part of the final report\nWritten and oral presentations due at the end of the semester"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#project-steps",
+    "href": "lectures/lecture-10.html#project-steps",
+    "title": "Lecture 10: Strings",
+    "section": "Project steps",
+    "text": "Project steps\nDetails will follow in the coming weeks, but here is the tentative plan with tentative deadlines.\n\nPresent a plan (2/21)\nBuild a prototype\nCharacterize the prototype and write a progress report (3/21)\nRefine the prototype\nWrite a final report (4/20)\nPresent your instrument and results to the class (4/28, Final Exam Day)"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#parts-of-a-transverse-wave",
+    "href": "lectures/lecture-10.html#parts-of-a-transverse-wave",
+    "title": "Lecture 10: Strings",
+    "section": "Parts of a transverse wave",
+    "text": "Parts of a transverse wave\n\n\n\n\nTransverse wave\n\n\n\n\nWavelength (λ) is the distance (measured in meters) between repetitions of the wave.\nAmplitude (a) is the distance from the top of the wave (“crest”) to the middle. (Not crest to trough.)"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#wavelength-speed-and-frequency",
+    "href": "lectures/lecture-10.html#wavelength-speed-and-frequency",
+    "title": "Lecture 10: Strings",
+    "section": "Wavelength, speed, and frequency",
+    "text": "Wavelength, speed, and frequency\nIf we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (v), frequency (f), and wavelength (λ):\n\\[ v = f\\lambda \\]\nThis equation is true for all types of waves (sound, light, water, etc.)"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#standing-wave",
+    "href": "lectures/lecture-10.html#standing-wave",
+    "title": "Lecture 10: Strings",
+    "section": "Standing wave",
+    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#resonant-wavelengths",
+    "href": "lectures/lecture-10.html#resonant-wavelengths",
+    "title": "Lecture 10: Strings",
+    "section": "Resonant wavelengths",
+    "text": "Resonant wavelengths\n\n\nFor a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (L) must be a whole number of half-wavelengths (“loops”).\n\\[ L = n \\frac{\\lambda}{2}, \\] where n is a whole number. Solving for wavelength we have \\[ \\lambda_n = \\frac{2L}{n}. \\]\nTogether these are called the resonant wavelengths (λn) of the string.\n\n\n\n\nW&W Figure 11-2"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#resonant-frequencies",
+    "href": "lectures/lecture-10.html#resonant-frequencies",
+    "title": "Lecture 10: Strings",
+    "section": "Resonant frequencies",
+    "text": "Resonant frequencies\n\n\nIf we combine the relationships between wavelength and frequency of a wave with the resonant wavelengths (λn), we get\n\\[\nf_n = \\frac{v}{\\lambda_n} = n \\frac{v}{2L} = nf_1.\n\\]\nThese are the resonant frequencies of the string. (Remember, n is a whole number: 1, 2, 3, etc.)\nNotice that the fundamental frequency \\(f_1=v/(2L)\\) depends on two things:\n\nthe length of the string L\nthe speed on the string v.\n\nWe’ll come back to this.\n\n\n\n\nW&W Figure 11-2"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#normal-modes-demo",
+    "href": "lectures/lecture-10.html#normal-modes-demo",
+    "title": "Lecture 10: Strings",
+    "section": "Normal modes demo",
+    "text": "Normal modes demo\n\nhttps://phet.colorado.edu/en/simulations/normal-modes"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#perfectly-plucked-string",
+    "href": "lectures/lecture-10.html#perfectly-plucked-string",
+    "title": "Lecture 10: Strings",
+    "section": "Perfectly plucked string",
+    "text": "Perfectly plucked string\nWhich modes are excited when you bow, pluck, or hammer a string depend on where and how you move the string.\nEach mode fn will have its own amplitude, just like in the simulation.\nIn the approximation that you pluck a string a small amount at a precise position x on the string (measured in meters), the amplitude of the nth mode, an is given by\n\\[\na_n = \\sin\\left(\\frac{n\\pi x}{L} \\right),\n\\] where the sine function is evaluated in radians mode."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#example-calculation",
+    "href": "lectures/lecture-10.html#example-calculation",
+    "title": "Lecture 10: Strings",
+    "section": "Example calculation",
+    "text": "Example calculation\n\nDownload the Excel file"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#choosing-the-harmonics",
+    "href": "lectures/lecture-10.html#choosing-the-harmonics",
+    "title": "Lecture 10: Strings",
+    "section": "Choosing the harmonics",
+    "text": "Choosing the harmonics\n\n\nBecause of the earlier equation, if you pluck a string at the antinodes and stop it at the nodes of a particular mode, you can select which harmonics get activated.\nThe mode drawing gives you a map about where to do this.\nFor example, if you stop a string exactly in the center and pluck it 1/4 of the way from the end, then gently release the stop, you’ll excite the 2nd harmonic (which is the octave).\nTry this with a real instrument and see if you can do it.\n(Bonus: on a fretted instrument, which frets line up with the nodes of certain modes?)\n\n\n\n\nW&W Figure 11-2"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#changing-the-speed",
+    "href": "lectures/lecture-10.html#changing-the-speed",
+    "title": "Lecture 10: Strings",
+    "section": "Changing the speed",
+    "text": "Changing the speed\nThe two ways we can adjust the fundamental mode of a string are by changing the length of the string or the speed of waves on the string.\nThe speed depends on two factors:\n\nHow much tension force F is on the string\nHow “heavy” the string is, where “heavy” is the mass density of the string m (e.g. kilograms per meter)\n\n\\[\nv = \\sqrt{\\frac{F}{m}}\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#mersennes-rules",
+    "href": "lectures/lecture-10.html#mersennes-rules",
+    "title": "Lecture 10: Strings",
+    "section": "Mersenne’s Rules",
+    "text": "Mersenne’s Rules\nCombining the speed equation with the mode equation gives Mersenne’s Rules\nThe fundamental frequency of a string is\n\nInverse to its length (L)\nProportional to the square root of the tension (F)\nInverse to its diameter (thickness)\nInverse to the square-root of its density\n\nThese are summarized by the equation\n\\[\nf_1 = \\frac{v}{2L} = \\frac{1}{2L}\\,\\sqrt{\\frac{F}{m}},\n\\] where rule 3 and 4 are combined as the mass per length m."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#example",
+    "href": "lectures/lecture-10.html#example",
+    "title": "Lecture 10: Strings",
+    "section": "Example",
+    "text": "Example\nA guitar string has length L=62.8 cm. One string has a mass per length of m=5.3 g/m and a tension of F=230 N. What is its frequency?"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#weekly-reflection",
+    "href": "lectures/lecture-10.html#weekly-reflection",
+    "title": "Lecture 10: Strings",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nWhat is your favorite sound? Why?"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#next-time",
+    "href": "lectures/lecture-10.html#next-time",
+    "title": "Lecture 10: Strings",
+    "section": "Next time",
+    "text": "Next time\nChapter 12: Tubes!"
+  },
+  {
     "objectID": "lectures/lecture-07.html#announcements",
     "href": "lectures/lecture-07.html#announcements",
     "title": "Lecture 7: Harmonics",
