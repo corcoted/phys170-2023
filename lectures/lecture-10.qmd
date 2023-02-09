@@ -22,11 +22,95 @@ List two or more ways of changing the speed of waves on a string.
 - Groups of 3 or 4.
   - Send me an email today with a list of people you want to work with.
   - I will assign the groups, using your suggestions as best as I can.
-- **Goal:** Your group will build a musical instrument
-  - Must be able to control pitch and intensity, and play a simple melody
-  - Must explain how it produces sound and how you control it
 
-# Review
+- **Goal:** Your group will *build a musical instrument*
+  - Must be able to play a simple melody
+  - Must explain how it produces sound and how you control it
+  - Characterization of the sound will be part of the final report
+  - Written and oral presentations due at the end of the semester
+
+## Project steps
+
+Details will follow in the coming weeks, but here is the tentative plan with tentative deadlines.
+
+1. Present a plan (2/21)
+2. Build a prototype 
+3. Characterize the prototype and write a progress report (3/21)
+4. Refine the prototype
+5. Write a final report (4/20)
+6. Present your instrument and results to the class (4/28, Final Exam Day)
+
+# Review: Transverse Waves
+Topics from [Lecture 3](lecture-03.html).
+
+## Parts of a transverse wave
+
+<center>
+![Transverse wave](figs/lecture-03/img_32.jpg){ width="80%"}
+</center>
+- **Wavelength** (&lambda;) is the distance (measured in meters) between repetitions of the wave.
+- **Amplitude** (*a*) is the distance from the top of the wave ("crest") to the middle. (Not crest to trough.)
+
+## Wavelength, speed, and frequency
+
+If we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (*v*), frequency (*f*), and wavelength (&lambda;):
+
+$$ v = f\lambda $$
+
+This equation is true for all types of waves (sound, light, water, etc.)
+
+## Standing wave
+If we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a **standing wave**.
+
+<center>
+![](figs/lecture-03/img_40.jpg){ width="60%"}
+</center>
+
+::: {.incremental}
+- There will be points on the wave that *do not move at all*.  These are called **nodes** (labeled by N on the drawing.)
+- There are also points where the amplitude is maximal.  These are the **anti-nodes** (labeled A).
+- Each pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: &lambda;/2.
+:::
+
+## Resonant wavelengths
+::: {.columns}
+::: {.column width="60%"}
+For a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (*L*) must be a whole number of half-wavelengths ("loops").
+
+$$ L = n \frac{\lambda}{2}, $$
+where *n* is a whole number.  Solving for wavelength we have
+$$ \lambda_n = \frac{2L}{n}. $$
+
+Together these are called the **resonant wavelengths** (&lambda;~n~) of the string.
+:::
+::: {.column width="40%"}
+![W&W Figure 11-2](figs/lecture-10/img_202.jpg)
+:::
+:::
+## Resonant frequencies
+::: {.columns}
+::: {.column width="60%"}
+If we combine the relationships between wavelength and frequency of a wave with the resonant wavelengths (&lambda;~n~), we get
+
+$$
+f_n = \frac{v}{\lambda_n} = n \frac{v}{2L} = nf_1.
+$$
+
+These are the **resonant frequencies** of the string.  (Remember, _n_ is a whole number: 1, 2, 3, etc.)
+
+Notice that the fundamental frequency $f_1=v/(2L)$ depends on two things:
+
+- the length of the string *L*
+- the speed on the string *v*.
+
+:::
+::: {.column width="40%"}
+![W&W Figure 11-2](figs/lecture-10/img_202.jpg)
+:::
+:::
+
+## Normal modes demo
+![<https://phet.colorado.edu/en/simulations/normal-modes>](figs/lecture-10/phet-normal-modes.png){width=80%}
 
 ## Weekly Reflection
 
