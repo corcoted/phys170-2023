@@ -1,0 +1,123 @@
+---
+title: "Homework 3 solutions"
+subtitle: "PHYS170"
+date: "2/9/2023"
+format:
+  pdf:
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
+    fig-align: center
+---
+
+12 points total, 2 points each
+
+## Problem 1
+(White, Problem 6.2) Three strings A~3~ = 220 Hz, E~4~ = 330 Hz, and E~5~ = 660 Hz, are sounded simultaneously, (a) What are the frequencies of all the beat notes [for all combinations of the notes above]? (b) Give the ratios of all the frequencies heard by the ear.
+
+### Solution
+#### Part a
+The beat notes occur at the difference frequencies (the resulting pitches are also here for reference but are not part of the answer):
+
+- |E~4~ - A~3~| = 330 Hz - 220 Hz = 110 Hz (A~2~)
+- |E~5~ - A~3~| = 660 Hz - 220 Hz = 440 Hz (A~4~)
+- |E~5~ - E~4~| = 660 Hz - 330 Hz = 330 Hz (E~4~)
+
+The bars |&#8231;| are the mathematical absolute value, which just means we ignore any minus sign in the final answer.
+
+*Note that following the discussion in Chapter 10, these beat frequencies are well outside the critical band of human hearing, so we would hear them as distinct tones.*
+
+#### Part b
+The math term "ratio" means fraction, so we want to express the fractions made by the various combinations of frequencies, in reduced form.  In parentheses is the musical interval corresponding to each ratio, which we'll see in a later chapter.
+
+- E~5~/A~3~ = 660 Hz/ 220 Hz = 3/1 (octave + perfect fifth or 12th)
+- E~4~/A~3~ = 330 Hz / 220 Hz = 3/2 (perfect fifth)
+- E~5~/E~4~ = 660 Hz / 330 Hz = 2/1 (octave)
+
+The authors also intended you to include the frequencies from Part a (but the instructions we're clear, so I didn't grade this part).  Putting the frequencies above in increasing order and dividing by a common factor of 110 Hz, we get the sequence
+
+- A~2~:A~3~:A~4~:E~4~:E~5~ = 1:2:3:4:6
+
+## Problem 2
+(White,  Problem 7.3) A radio loudspeaker is round and has an aperture of 30 cm. If it sounds a note with a frequency that produces a lobe pattern having a total angle of 2θ~1~ = 20°, find (b) the wavelength of the sound waves in centimeters, and (c) the frequency of the sound. Assume the speed of sound to be 349 m/s. [You may omit part (a).]
+
+### Solution
+#### Part b
+This is a diffraction problem for a circular hole (the speaker).  A drawing of the problem looks like
+
+![](figs/hw-02/speaker.pdf){width="30%" fig-align="center"}
+
+The angle we need for the formula is $\theta=10\deg$ which is measured from the center line to the edge of the diffraction cone.  The diffraction equation for a circular hole is
+
+$$
+\sin\theta = 1.22 \frac{\lambda}{d},
+$$
+
+where $\theta=10^\circ$, *d* is the diameter of the speaker, which is $d=30\,\mathrm{cm} = 0.3\,\mathrm{m}$, and $\lambda$ is the unknown wavelength.  Solving the equation for $\lambda$:
+
+$$
+\lambda = \frac{d \sin\theta}{1.22} = \frac{(0.3\,\mathrm{m}) \sin(10^\circ)}{1.22} = 0.043\,\mathrm{m}\quad\textrm{or}\quad 4.3\,\mathrm{cm}.
+$$
+(Be sure your calculator is in "degrees" mode.)
+
+#### Part c
+With the wavelength and the speed of sound we can get the frequency:
+
+$$
+v = \lambda f \quad\rightarrow\quad f = \frac{v}{\lambda} = \frac{349\,\mathrm{m/s}}{0.043\,\mathrm{m}} = 8120\,\mathrm{Hz}.
+$$
+(Note that the wavelength must be in meters for the formula to work.)
+
+## Problem 3
+(White, Question 8.1) Define or briefly explain in your own words each of the following: (a) harmonics,(b) overtones, (c) partials, (d) unison, and (e) inharmonics.
+
+### Solution
+Here I'm looking for the definitions of these terms *as given by the textbook* in Sections 8.1 and 8.2. One of our overall goals in the class is to use terminology precisely, so I graded this pretty strictly.  Your answer doesn't have to be verbatim, but it does have to contain the proper sense of meaning.
+
+a. *Harmonics* are partials that are exact multiples of the fundamental frequency
+b. *Overtones* are partials at higher frequencies than the fundamental (which may be either harmonic or inharmonic)
+c. *Partial* are the various frequencies contained in a musical tone
+d. *Unison* means two or more pure tones at the same fundamental frequency
+e. *Inharmonics* are partials that are *not* exact multiples of the fundamental frequency
+
+## Problem 4
+(White, Questions 9.6 and 9.7) (a) If a string is plucked in the very center, which harmonics do you think might be absent? Why? (b) If a string is plucked at one-sixth the length of the string from either end, which partials are probably absent? Explain.
+
+### Solution
+The key idea here is that if you pluck a string at the location where a certain harmonic has a node, then that harmonic will be absent.  So, if you pluck at the center, all of the even harmonics have a node there, so the even harmonics will be absent.  If you pluck at 1/6th of the length, then the 6th harmonic and all multiples of 6 will be absent.
+
+More subtle things happen to the other harmonics if you aren't plucking exactly at one of their anti-nodes.  I showed this with the spreadsheet in the lecture.
+
+## Problem 5
+In the drawing below, two in-phase loudspeakers, A and B, are separated by 3.20 m. A listener is stationed at point C, which is 2.40 m in front of speaker B. The triangle ABC is a right triangle. Both speakers are playing identical 214-Hz tones, and the speed of sound is 343 m/s. Does the listener hear a loud sound or no sound? Explain your answer with a calculation.
+
+![](figs/hw-02/w1069-soln.jpg){width="30%" fig-align="center"}
+
+### Solution
+This question is asking whether the listener is located at a position of *constructive* or *destructive interference*.  The key information we need is the distance *from the listener to each speaker* which I labeled in red as *d~A~* and *d~B~* in the drawing.  We can read $d_B=2.40\,\mathrm{m}$ but you have to calculate *d~A~* using the Pythagorean Theorem:
+
+$$
+d_A = \sqrt{(3.20\,\mathrm{m})^2 + (2.40\,\mathrm{m})^2} = 4.00\,\mathrm{m}.
+$$
+
+The other piece of information we need is the wavelength.  We are given the frequency $f=214\,\mathrm{Hz}$ and the speed of sound in air $v=343\,\mathrm{m/s}$.  Using the usual formula:
+
+$$
+v = \lambda f \quad\rightarrow\quad \lambda = \frac{v}{f} = \frac{343\,\mathrm{m/s}}{214\,\mathrm{Hz}} = 1.60\,\mathrm{m}.
+$$
+
+Now we can do the interference calculation.  The key number we need is
+
+$$
+\frac{|d_A-d_B|}{\lambda} = \frac{4.00\,\mathrm{m}-2.40\,\mathrm{m}}{1.60\,\mathrm{m}} = 1.00.
+$$
+The answer is $1.00$, which is a whole number, so we have *constructive interference* and the sound is loud.
+
+Conversely, if the equation above had yielded a whole number plus a half ($0.5, 1.5, 2.5,\ldots$) then we would have had destructive interference.  Any other numbers that are not a whole number or a whole number plus a half result in partial interference.
+
+## Problem 6
+Almost all of the properties of sound that we've studied so far come about because sound is made of waves.  How do you think sound would behave if instead it was made of rays (like laser beams)?
+
+### Solution
+Any reasonable answer is acceptable, but specifically effects like diffraction and interference would not occur.  The point of the question was to highlight what it means for sound to be made of waves.
