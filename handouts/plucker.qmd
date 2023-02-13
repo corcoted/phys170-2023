@@ -1,0 +1,39 @@
+---
+title: Plucked string demo
+format: html
+filters:
+  - shinylive
+---
+
+This is a simplified calculation showing which harmonics are excited when a string is plucked at various locations along its length.  Use the slider to choose where along the string it is plucked, then the calculation will show the first few harmonics and their superposition.  (TODO: play a sound.)
+
+```{shinylive-python}
+#| standalone: true
+
+from shiny import *
+import numpy as np
+import matplotlib.pyplot as plt
+
+num_modes = 10 # number of modes to include in the calculation
+# TODO make num_modes a user variable
+
+app_ui = ui.page_fluid(
+    ui.input_slider("x", "Position", 0, 100, 50),
+    #ui.output_text_verbatim("txt"),
+    ui.output_plot("plot"),
+)
+
+def server(input, output, session):
+    @output
+    #@render.text
+    #def txt():
+    #    return f"The value of n*2 is {input.n() * 2}"
+    @render.plot
+    def plot():
+        '''Calculate and plot the modes'''
+        amplitudes = 0
+
+
+app = App(app_ui, server)
+
+```
