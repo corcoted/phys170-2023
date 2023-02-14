@@ -1,0 +1,191 @@
+---
+title: "Lecture 11: Tubes"
+subtitle: "Chapter 12"
+date: "2/14/2023"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- Homework 4 is up on Canvas
+  - Due next Tuesday (2/21)
+- Groups for the final project
+  - Email me by the end of the day today
+:::
+
+## Daily Quiz
+blah
+
+# Resonances in pipes
+
+## Review: Resonances in strings
+::: {.columns}
+::: {.column width="60%"}
+A string of length *L* that is clamped on both ends will resonate at the wavelengths
+
+$$
+\lambda_n = \frac{2L}{n}
+$$
+with frequencies
+$$
+f_n = \frac{v}{\lambda_n}=n\frac{v}{2L}= n\,\frac{1}{2L}\sqrt{\frac{F}{m}},
+$$
+where *v* is the wave speed on the string,<br />*F* is the tension force on the string,<br />and *m* is the mass per length of the string.
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-10/img_202.jpg)
+:::
+:::
+
+## Open pipes
+::: {.columns}
+::: {.column width="60%"}
+A pipe that is open on both ends has the same resonance structure as a clamped string:
+$$
+\lambda_n = \frac{2L}{n}
+$$
+with frequencies
+$$
+f_n = \frac{v}{\lambda_n}=n\frac{v}{2L},
+$$
+where *v* is now the speed of sound in air (about 350 m/s).
+
+Note that the width of the pipe has very little effect on the frequency.
+
+:::
+::: {.column width="40%"}
+![Pipe open on both ends](figs/lecture-11/img_232a.jpg)
+
+::: {style="font-size:70%"}
+These curves show the air speed.  Nodes are where the air does not move, and antinodes are where the air vibrates the most.
+:::
+:::
+:::
+
+## Half-closed pipes
+::: {.columns}
+::: {.column width="60%"}
+A pipe that is closed on one end will have a node at the closed end. For the fundamental mode, only a quarter of a wave fits inside the tube.
+$$
+\lambda_1 = 4L \quad \rightarrow \quad f_1 = \frac{v}{4L}
+$$
+
+This means the fundamental frequency of a tube is halved when you close one end. Or in musical terms, *a closed tube is one octave lower than an open tube of the same length.*
+
+Also, only odd harmonics give us the right combinations of nodes and antinodes:
+$$
+f_n = n\,\frac{v}{4L}\quad\text{($n$ is odd)}
+$$
+
+:::
+::: {.column width="40%"}
+![Pipe open on both ends](figs/lecture-11/img_232b.jpg)
+
+::: {style="font-size:70%"}
+These curves show the air speed.  Nodes are where the air does not move, and antinodes are where the air vibrates the most.
+:::
+:::
+:::
+
+## Selecting pitch
+::: {.columns}
+::: {.column width="60%"}
+Because open ends of a tube give the location of anti-nodes in the vibration, wind instruments can change their pitch by opening holes in the side of the tube wherever antinodes are desired.  This is also why the fingering for woodwinds can seem random: it's not just changing the length, but adding interior antinodes as well.
+:::
+::: {.column width="40%"}
+![Finger holes on a flute](figs/lecture-11/img_238.jpg)
+:::
+:::
+
+# Speed of sound in gases
+
+## Speed of sound: factors
+We've been casually passing around numbers for the speed of sound in air between 340 and 350 m/s.
+
+The actual value of speed of sound in a gas depends on many factors:
+
+- the mass of the gas molecules
+- the molecular structure
+- the pressure of the gas
+- the temperature
+- if the gas is a mixture or not
+
+## Speed of sound: important trends
+The table in the book is basically useless because you need much more information to calculate the speed, but the basic trends are that *speed increases* when
+
+- ambient pressure increases
+- the temperature increases
+- the average molecular mass decreases
+  - e.g. humidity of air increases (water weighs less than nitrogen or oxygen)
+
+For dry air, the most relevant thing is the temperature dependence.  A [good approximation](https://en.wikipedia.org/wiki/Speed_of_sound#Speed_of_sound_in_ideal_gases_and_air) is
+
+$$
+v_\text{dry air} \approx (331.3 + 0.606\,T)\,\mathrm{\tfrac{m}{s}}
+$$
+where the temperature *T* is in Celsius (e.g. *T*=20&deg;C is room temperature).
+
+## Speed of Sound in other gases: Details
+::: {.columns}
+::: {.column width="50%" style="font-size:80%"}
+*This page is bonus material.*
+
+A more detailed formula for the speed of sound in gas is given by
+
+$$
+v = \sqrt{\frac{K p}{d}} \approx \sqrt{\frac{KRT}{M}}
+$$
+
+- *K* is adiabatic compressibility (about 1.4 for air)
+- *p* is gas pressure (101325 Pa)
+- *d* is gas density (in kg/m^3^)
+- *T* is temperature (in Kelvin, 293 K for room temp.)
+- *R* is molar gas constant (8.314 J/mol K)
+- *M* is molecular mass of the gas (in kg/mol)
+
+:::
+::: {.column width="50%"}
+![Gas properties for common gases](figs/lecture-11/img_241.jpg)
+:::
+:::
+
+# Producing sound in pipes
+
+## Turbulence creates vibrations
+In flutes, recorders, whistles, and [organ flue pipes](https://en.wikipedia.org/wiki/Flue_pipe), the air inside the tube starts vibrating because of turbulence, which is chaotic motion of the air.  The frequencies in the turbulence that fail to match the resonances of the tube get suppressed.
+
+::: {.columns}
+
+::: {.column width="50%"}
+![Flue pipe (W&W Fig. 12-8)](figs/lecture-11/img_247.jpg)
+:::
+
+::: {.column width="50%"}
+![Flute](figs/lecture-11/flute-turb.jpg)
+
+::: {style="font-size:70%"}
+Image Source: <https://www.yorkshirecorpsofdrums.com/playflute3.html>
+:::
+:::
+:::
+
+## Reeded and brass instruments 
+::: {.columns}
+::: {.column width="60%"}
+The vibrations of the reeds in woodwinds and organ reed pipes adjust to match the partials of the pipes because of *positive feedback*.
+As the air in the pipe starts vibrating, the pulses come back to the mouthpiece at just the right time to push back on the reed, forcing it to only vibrate at the resonant frequencies.
+
+The vibrations of a brass player's lips work the same way: positive feedback from the air impulses forces the lips to vibrate resonantly with one of the partials of the instrument.
+:::
+::: {.column width="40%"}
+![Clarinet mouthpiece](figs/lecture-11/ClarinetMouthpiece.png){width="80%"}
+
+![Feedback in a trumpet](figs/lecture-11/trumpet_flow.jpeg)
+:::
+:::
+
+
+## Next time
+Musical Scales
