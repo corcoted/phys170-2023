@@ -88,7 +88,7 @@
     "href": "lectures/lecture-09.html#more-decibels",
     "title": "Lecture 9: Loudness",
     "section": "More decibels",
-    "text": "More decibels\nFrom last time our conversion from intensity I to sound intensity level in decibels (SIL) was\n\\[ S_{IL} = (10\\,\\mathrm{dB})\\times \\log\\left(\\frac{I}{I_0}\\right).\\]\nThere is also a decibel measure for pressure, called sound pressure level (SPL) with a slightly different formula:\n\\[ S_{PL} = (20\\,\\mathrm{dB})\\log\\left(\\frac{p}{p_0}\\right).\\]\n(Notice the twenty here instead of ten in the top equation.)"
+    "text": "More decibels\nFrom last time our conversion from intensity I to sound intensity level in decibels (SIL) was\n\\[ S_{IL} = (10\\,\\mathrm{dB}) \\log\\left(\\frac{I}{I_0}\\right).\\]\nThere is also a decibel measure for pressure, called sound pressure level (SPL) with a slightly different formula:\n\\[ S_{PL} = (20\\,\\mathrm{dB})\\log\\left(\\frac{p}{p_0}\\right).\\]\n(Notice the twenty here instead of ten in the top equation.)"
   },
   {
     "objectID": "lectures/lecture-09.html#spl-or-sil",
@@ -102,7 +102,7 @@
     "href": "lectures/lecture-09.html#phons",
     "title": "Lecture 9: Loudness",
     "section": "Phons",
-    "text": "Phons\n\n\nA phon (rhymes with “Don”) is a unit of perceived intensity, as determined by experiments.\nLast time I showed this graph relating sound intensity to the limits of human hearing for different frequencies.\nThe red curve was the lowest sound that can be heard at that frequency.\nPhon is the sound level relative to that red line, measured in decibels. So, 0 phons is the loudness of points exactly on the red line. 20 phons is an intensity at the bottom blue line, and so on up the chart.\n\n\n\n\nPerceived intensity vs. frequency (see also, textbook Figure 10-1)"
+    "text": "Phons\n\n\nA phon (rhymes with “Don”) is a unit of perceived intensity, as determined by experiments.\nLast time I showed this graph relating sound intensity to the limits of human hearing for different frequencies.\nThe red curve was the lowest sound that can be heard at that frequency.\nPhon is the sound level relative to that red line, measured in decibels. So, 0 phons is the loudness of points exactly on the red line. 20 phons is an intensity at the bottom blue line, and so on up the chart.\n\n\n\n\nFletcher–Munson loudness curves of perceived intensity vs. frequency(see also, textbook Figure 10-1)"
   },
   {
     "objectID": "lectures/lecture-09.html#adding-several-sources-same-frequency",
@@ -515,14 +515,14 @@
     "href": "lectures/lecture-08.html#example-problem-on-intensity",
     "title": "Lecture 8: Sound Intensity and Hearing",
     "section": "Example problem on intensity",
-    "text": "Example problem on intensity\n\n\nA studio monitor outputs 2 W of sound power. The diameter of the speaker is 20 cm (about 8 inches). What is the sound intensity just next to the front of the speaker?\n(Reminder: area of a circle is \\(A=\\pi d^2/4\\).)"
+    "text": "Example problem on intensity\n\n\nA studio monitor outputs 2 W of sound power. The diameter of the speaker is 20 cm (about 8 inches). What is the sound intensity just next to the front of the speaker?\n(Reminder: area of a circle is \\(A=\\pi d^2/4\\) .)"
   },
   {
     "objectID": "lectures/lecture-08.html#we-sense-ratios-not-differences",
     "href": "lectures/lecture-08.html#we-sense-ratios-not-differences",
     "title": "Lecture 8: Sound Intensity and Hearing",
     "section": "We sense ratios, not differences",
-    "text": "We sense ratios, not differences\nThe sound intensities that humans can here vary from about 10-12 W/m2 to 1 W/m2, a factor of a trillion apart. The way our brain deals with great spreads like this is to measure ratios (fractions) rather than differences. (Also, this happens because of the way nerves activate.)\nFor example, we can sense when intensity doubles, but we can’t hear a whisper added to a jet engine.\nOur brain divides and multiplies; it does not add or subtract.\nMany of our senses use this type of compression:\n\nSound intensity, sound frequency (musical pitch)\nLight intensity (but not color)\nTouch (pressure)\nHeat flow"
+    "text": "We sense ratios, not differences\nThe sound intensities that humans can here vary from about 10-12 W/m2 to 1 W/m2, a factor of a trillion apart. The way our brain deals with great spreads like this is to measure ratios (fractions) rather than differences. (Also, this happens because of the way nerves activate.)\nFor example, we can sense when intensity doubles, but we can’t hear a whisper added to a jet engine.\nOur brain divides and multiplies; it does not add or subtract.\nMany of our senses use this type of compression:\n\nSound intensity, sound frequency (musical pitch)\nLight intensity (but not color)\nTouch (pressure)\nHeat flow"
   },
   {
     "objectID": "lectures/lecture-08.html#decibels",
@@ -557,14 +557,14 @@
     "href": "lectures/lecture-08.html#example-problems-decibels",
     "title": "Lecture 8: Sound Intensity and Hearing",
     "section": "Example problems: decibels",
-    "text": "Example problems: decibels\n\nA typical speaking voice at a comfortable distance has an intensity level of 70 dB.\n\nWhat is the intensity value (in W/,2)?\nIf two people talk at the same time, what is the combined intensity? combined SIL?"
+    "text": "Example problems: decibels\n\nA typical speaking voice at a comfortable distance has an intensity level of 70 dB.\n\nWhat is the intensity value (in W/m2)?\nIf two people talk at the same time, what is the combined intensity? combined SIL?"
   },
   {
     "objectID": "lectures/lecture-08.html#limits-of-human-hearing",
     "href": "lectures/lecture-08.html#limits-of-human-hearing",
     "title": "Lecture 8: Sound Intensity and Hearing",
     "section": "Limits of human hearing",
-    "text": "Limits of human hearing\n\n\nWe’ll discuss the idea of loudness in detail next time, but one simple difference is that our experience of loudness depends on the frequency of the sound. Human ears work best around 1000 Hz. Our ears are less sensitive at higher and lower frequencies.\nThe red curve shows the minimum sound intensity that we can detect as a function of frequency. The blue curves are loudness values relative to the threshold.\n\n\n\n\nPerceived intensity vs. frequency"
+    "text": "Limits of human hearing\n\n\nWe’ll discuss the idea of loudness in detail next time, but one simple difference is that our experience of loudness depends on the frequency of the sound. Human ears work best around 1000 Hz. Our ears are less sensitive at higher and lower frequencies.\nThe red curve shows the minimum sound intensity that we can detect as a function of frequency. The blue curves are loudness values relative to the threshold.\n\n\n\n\nPerceived intensity vs. frequency (Fletcher–Munson loudness curves)"
   },
   {
     "objectID": "lectures/lecture-08.html#dynamic-range",
