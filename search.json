@@ -819,6 +819,90 @@
     "text": "Example problem\nThe concert A used as the tuning note for most modern orchestras has a frequency of f = 440 Hz. What is the period of this sound?\n\nThe equation we need is\n\\[ T = \\frac{1}{f} = \\frac{1}{440\\,\\mathrm{Hz}} = 0.0023\\,\\mathrm{s} = 2.3\\,\\mathrm{ms}. \\]\n\n\nThe period of a concert A is 2.3 milliseconds."
   },
   {
+    "objectID": "lectures/lecture-11.html#announcements",
+    "href": "lectures/lecture-11.html#announcements",
+    "title": "Lecture 11: Tubes",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 4 is up on Canvas\n\nDue next Tuesday (2/21)\n\nGroups for the final project\n\nEmail me by the end of the day today"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#daily-quiz",
+    "href": "lectures/lecture-11.html#daily-quiz",
+    "title": "Lecture 11: Tubes",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\nblah"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#review-resonances-in-strings",
+    "href": "lectures/lecture-11.html#review-resonances-in-strings",
+    "title": "Lecture 11: Tubes",
+    "section": "Review: Resonances in strings",
+    "text": "Review: Resonances in strings\n\n\nA string of length L that is clamped on both ends will resonate at the wavelengths\n\\[\n\\lambda_n = \\frac{2L}{n}\n\\] with frequencies \\[\nf_n = \\frac{v}{\\lambda_n}=n\\frac{v}{2L}= n\\,\\frac{1}{2L}\\sqrt{\\frac{F}{m}},\n\\] where v is the wave speed on the string,F is the tension force on the string,and m is the mass per length of the string."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#open-pipes",
+    "href": "lectures/lecture-11.html#open-pipes",
+    "title": "Lecture 11: Tubes",
+    "section": "Open pipes",
+    "text": "Open pipes\n\n\nA pipe that is open on both ends has the same resonance structure as a clamped string: \\[\n\\lambda_n = \\frac{2L}{n}\n\\] with frequencies \\[\nf_n = \\frac{v}{\\lambda_n}=n\\frac{v}{2L},\n\\] where v is now the speed of sound in air (about 350 m/s).\nNote that the width of the pipe has very little effect on the frequency.\n\n\n\n\nPipe open on both ends\n\n\n\nThese curves show the air speed. Nodes are where the air does not move, and antinodes are where the air vibrates the most."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#half-closed-pipes",
+    "href": "lectures/lecture-11.html#half-closed-pipes",
+    "title": "Lecture 11: Tubes",
+    "section": "Half-closed pipes",
+    "text": "Half-closed pipes\n\n\nA pipe that is closed on one end will have a node at the closed end. For the fundamental mode, only a quarter of a wave fits inside the tube. \\[\n\\lambda_1 = 4L \\quad \\rightarrow \\quad f_1 = \\frac{v}{4L}\n\\]\nThis means the fundamental frequency of a tube is halved when you close one end. Or in musical terms, a closed tube is one octave lower than an open tube of the same length.\nAlso, only odd harmonics give us the right combinations of nodes and antinodes: \\[\nf_n = n\\,\\frac{v}{4L}\\quad\\text{($n$ is odd)}\n\\]\n\n\n\n\nPipe open on both ends\n\n\n\nThese curves show the air speed. Nodes are where the air does not move, and antinodes are where the air vibrates the most."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#selecting-pitch",
+    "href": "lectures/lecture-11.html#selecting-pitch",
+    "title": "Lecture 11: Tubes",
+    "section": "Selecting pitch",
+    "text": "Selecting pitch\n\n\nBecause open ends of a tube give the location of anti-nodes in the vibration, wind instruments can change their pitch by opening holes in the side of the tube wherever antinodes are desired. This is also why the fingering for woodwinds can seem random: it’s not just changing the length, but adding interior antinodes as well.\n\n\n\n\nFinger holes on a flute"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#speed-of-sound-factors",
+    "href": "lectures/lecture-11.html#speed-of-sound-factors",
+    "title": "Lecture 11: Tubes",
+    "section": "Speed of sound: factors",
+    "text": "Speed of sound: factors\nWe’ve been casually passing around numbers for the speed of sound in air between 340 and 350 m/s.\nThe actual value of speed of sound in a gas depends on many factors:\n\nthe mass of the gas molecules\nthe molecular structure\nthe pressure of the gas\nthe temperature\nif the gas is a mixture or not"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#speed-of-sound-important-trends",
+    "href": "lectures/lecture-11.html#speed-of-sound-important-trends",
+    "title": "Lecture 11: Tubes",
+    "section": "Speed of sound: important trends",
+    "text": "Speed of sound: important trends\nThe table in the book is basically useless because you need much more information to calculate the speed, but the basic trends are that speed increases when\n\nambient pressure increases\nthe temperature increases\nthe average molecular mass decreases\n\ne.g. humidity of air increases (water weighs less than nitrogen or oxygen)\n\n\nFor dry air, the most relevant thing is the temperature dependence. A good approximation is\n\\[\nv_\\text{dry air} \\approx (331.3 + 0.606\\,T)\\,\\mathrm{\\tfrac{m}{s}}\n\\] where the temperature T is in Celsius (e.g. T=20°C is room temperature)."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#speed-of-sound-in-other-gases-details",
+    "href": "lectures/lecture-11.html#speed-of-sound-in-other-gases-details",
+    "title": "Lecture 11: Tubes",
+    "section": "Speed of Sound in other gases: Details",
+    "text": "Speed of Sound in other gases: Details\n\n\nThis page is bonus material.\nA more detailed formula for the speed of sound in gas is given by\n\\[\nv = \\sqrt{\\frac{K p}{d}} \\approx \\sqrt{\\frac{KRT}{M}}\n\\]\n\nK is adiabatic compressibility (about 1.4 for air)\np is gas pressure (101325 Pa)\nd is gas density (in kg/m3)\nT is temperature (in Kelvin, 293 K for room temp.)\nR is molar gas constant (8.314 J/mol K)\nM is molecular mass of the gas (in kg/mol)\n\n\n\n\n\nGas properties for common gases"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#turbulence-creates-vibrations",
+    "href": "lectures/lecture-11.html#turbulence-creates-vibrations",
+    "title": "Lecture 11: Tubes",
+    "section": "Turbulence creates vibrations",
+    "text": "Turbulence creates vibrations\nIn flutes, recorders, whistles, and organ flue pipes, the air inside the tube starts vibrating because of turbulence, which is chaotic motion of the air. The frequencies in the turbulence that fail to match the resonances of the tube get suppressed.\n\n\n\n\n\nFlue pipe (W&W Fig. 12-8)\n\n\n\n\n\n\nFlute\n\n\n\nImage Source: https://www.yorkshirecorpsofdrums.com/playflute3.html"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#reeded-and-brass-instruments",
+    "href": "lectures/lecture-11.html#reeded-and-brass-instruments",
+    "title": "Lecture 11: Tubes",
+    "section": "Reeded and brass instruments",
+    "text": "Reeded and brass instruments\n\n\nThe vibrations of the reeds in woodwinds and organ reed pipes adjust to match the partials of the pipes because of positive feedback. As the air in the pipe starts vibrating, the pulses come back to the mouthpiece at just the right time to push back on the reed, forcing it to only vibrate at the resonant frequencies.\nThe vibrations of a brass player’s lips work the same way: positive feedback from the air impulses forces the lips to vibrate resonantly with one of the partials of the instrument.\n\n\n\n\nClarinet mouthpiece\n\n\n\n\n\nFeedback in a trumpet"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#next-time",
+    "href": "lectures/lecture-11.html#next-time",
+    "title": "Lecture 11: Tubes",
+    "section": "Next time",
+    "text": "Next time\nMusical Scales"
+  },
+  {
     "objectID": "lectures/lecture-05.html#announcements",
     "href": "lectures/lecture-05.html#announcements",
     "title": "Lecture 5: Resonance, Beats, and Doppler",
