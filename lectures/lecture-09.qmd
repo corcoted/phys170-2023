@@ -129,7 +129,7 @@ Rounding this up we get 1×10^-12^ W/m^2^, which is the value we called *I*~0~.
 
 From last time our conversion from intensity *I* to *sound intensity level* in decibels (*S*~IL~) was
 
-$$ S_{IL} = (10\,\mathrm{dB})\times \log\left(\frac{I}{I_0}\right).$$
+$$ S_{IL} = (10\,\mathrm{dB}) \log\left(\frac{I}{I_0}\right).$$
 
 There is also a decibel measure for pressure, called *sound pressure level* (*S*~PL~) with a slightly different formula:
 
@@ -161,7 +161,7 @@ The [red]{style="color:red"} curve was the lowest sound that can be heard at tha
 :::
 
 ::: {.column width="50%"}
-![Perceived intensity vs. frequency (see also, textbook Figure 10-1)](figs/lecture-08/w1041.jpg){width="100%"}
+![Fletcher–Munson loudness curves of perceived intensity vs. frequency(see also, textbook Figure 10-1)](figs/lecture-08/w1041.jpg){width="100%"}
 :::
 :::
 
