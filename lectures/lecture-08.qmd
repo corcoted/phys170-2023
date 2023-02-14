@@ -4,7 +4,7 @@ subtitle: "Chapter 9"
 date: "2/2/2023"
 format:
   revealjs:
-    incremental: true
+    incremental: false
 ---
 
 ## Announcements
@@ -110,7 +110,7 @@ A studio monitor outputs 2 W of sound power.
 The diameter of the speaker is 20 cm (about 8 inches).
 What is the sound intensity just next to the front of the speaker?
 
-(Reminder: area of a circle is $A=\pi d^2/4$.)
+(Reminder: area of a circle is $A=\pi d^2/4$ .)
 :::
 ::: {.column width="40%"}
 ![](figs/lecture-08/monitor.jpg){width=100%}
@@ -119,7 +119,7 @@ What is the sound intensity just next to the front of the speaker?
 
 ## We sense ratios, not differences
 
-The sound intensities that humans can here vary from about 10^-12^ W/m^2^ to 1 W/m^2^, a factor of a trillion apart.
+The sound intensities that humans can here vary from about 10^-12^&nbsp;W/m^2^ to 1&nbsp;W/m^2^, a factor of a trillion apart.
 The way our brain deals with great spreads like this is to measure ratios (fractions) rather than differences.
 (Also, this happens because of the way nerves activate.)
 
@@ -214,8 +214,8 @@ If you don't have a calculator handy...
 
 
 ## Example problems: decibels
--  A typical speaking voice at a comfortable distance has an intensity level of 70 dB.
-   -  What is the intensity value (in W/,^2^)?
+-  A typical speaking voice at a comfortable distance has an intensity level of 70&nbsp;dB.
+   -  What is the intensity value (in W/m^2^)?
    -  If two people talk at the same time, what is the combined intensity? combined *S*~IL~?
 
 ## Limits of human hearing
@@ -230,7 +230,7 @@ The blue curves are loudness values relative to the threshold.
 :::
 
 ::: {.column width=50%}
-![Perceived intensity vs. frequency](figs/lecture-08/w1041.jpg){width=100%}
+![Perceived intensity vs. frequency (Fletcher–Munson loudness curves)](figs/lecture-08/w1041.jpg){width=100%}
 :::
 ::::
 
