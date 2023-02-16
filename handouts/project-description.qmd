@@ -14,8 +14,8 @@ The document contains the basic outlines of the Group Project.  Details will be 
 
 ## Group Assignments
 - **Group 1:** Melissa, Katy, Ava, Andrew
-- **Group 2:** Nick, Ty, Maxwell, Ronin
-- **Group 3:** Toops, Charlie, Thomas, Mark
+- **Group 2:** Nick, Ty, Ronin, Thomas
+- **Group 3:** Toops, Charlie, Max, Mark
 
 ## Project grading scheme
 150 points total (25% of course grade).

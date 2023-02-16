@@ -12,20 +12,13 @@ format: revealjs
 - Group projects (more later)
 :::
 
-## Daily Quiz
-Name one musical instrument that uses the each of following to produce sound:
-
-a.  vibrating reed
-b.  vibrating bar
-c.  vibrating membrane
-d.  vibrating plate
-
 # Group Project
+
 
 ## Group Assignments
 - **Group 1:** Melissa, Katy, Ava, Andrew
-- **Group 2:** Nick, Ty, Maxwell, Ronin
-- **Group 3:** Toops, Charlie, Thomas, Mark
+- **Group 2:** Nick, Ty, Thomas, Ronin
+- **Group 3:** Toops, Charlie, Max, Mark
 
 ## Project grading scheme
 150 points total (25% of course grade).
@@ -100,11 +93,129 @@ More details will follow
   - Play a simple melody of your choosing
 
 # Vibrating solid bodies
+TLDR: The vibration modes depend on the details of the structure, but a few general patterns exist.
 
 ## Types of vibrating solid bodies
 
+::: {.columns}
+::: {.column width="60%"}
+- Reeds
+- Bars, tubes (struck), rods
+- Plates
+- Membranes
+:::
+::: {.column width="40%"}
+![Vibrational modes of a violin body](figs/lecture-12/Gough-Fig-1S-crop.jpg){width="50%"}
+
+::: {style="font-size:60%"}
+Ref. [Gough, C.E., 2016. "Violin Acoustics". *Acoustics Today* **12**, 22–30.](https://acousticstoday.org/violin-acoustics-colin-e-gough/)
+:::
+
+:::
+:::
+
+## Vibration modes of a solid body
+
+::: {.columns}
+::: {.column width="50%"}
+- Transverse: like a string
+- Longitudinal: stretch and compress
+- Torsional: twisting
+
+For most solid bodies the transverse modes are the dominant ones.
+:::
+::: {.column width="50%"}
+![Types of vibrational modes in solids:<br /> (a) transverse (b) longitudinal (c) torsional](figs/lecture-12/img_254.jpg)
+:::
+:::
+
+## Bars, rods, tubes
+::: {.columns}
+::: {.column width="60%"}
+These are generally percussion instruments that are struck with a mallet: glockenspiel, xylophone, chimes.
+
+The fundamental mode is a transverse vibration.  If the width of the bar is *w* and its length is *&ell;*, then the fundamental frequency goes like
+$$
+f_1 = k \frac{w}{\ell^2},
+$$
+where *k* is a number that depends on the material properties and the specifics of the geometry (round, square, etc.).
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-12/img_259.jpg){width="75%"}
+![](figs/lecture-12/wind_chime.jpg){width="20%"}
+
+![](figs/lecture-12/baseball_bat.jpg)
+:::
+:::
+
+## Modes of bars
+
+::: {.columns}
+::: {.column width="60%"}
+The vibrational modes of long bars look similar to the modes of strings, but the loops are not of equal length.
+
+This makes the partials *inharmonic*.  If the fundamental mode has frequency *f*~1~, then the next few modes are
+2.76*f*~1~, 5.40*f*~1~, 8.93*f*~1~, 13.34*f*~1~.
+
+The bars in glockenspiel, marimbas, etc., are mounted at the nodes of the fundamental, a little outside of 1/4 of the way from the ends, in order to suppress the higher partials.
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-12/img_258.jpg)
+
+![](figs/lecture-12/img_259.jpg)
+:::
+:::
+## Reeds
+
+::: {.columns}
+::: {.column width="60%" style="font-size:80%"}
+Here we're talking about reeds that vibrate at their natural frequency, like in an accordion or harmonica, not a reed in a woodwind instrument.
+
+The difference between a "reed" and a "bar" is that one end of a reed is clamped or held in place as it vibrates.
+
+The fundamental mode is a transverse vibration, just like bars, and the equation is the same.  If the thickness of the reed is *t* and its length is *&ell;*, then the fundamental frequency goes like
+$$
+f_1 = k \frac{t}{\ell^2},
+$$
+where *k* is a number that depends on the material properties.
+:::
+::: {.column width="40%"}
+![Lowest 3 modes of a vibrating reed](figs/lecture-12/img_255.jpg)
+
+::: {style="font-size:70%"}
+The next two modes are at
+$f_2 = 6.25 f_1$ and $f_3 = 17.5 f_1$
+:::
+
+:::
+:::
+
+## Plates and membranes
+::: {.columns}
+::: {.column width="60%"}
+These are both thin flat objects.  The details of the vibrational structures depend on the details of the shape how the object is mounted.
+
+The bodies of string instruments are plates in this sense, as well as things like cymbals and gongs.
+
+There aren't any general equations for the frequencies, so you have to look on a case-by-case basis.
+:::
+::: {.column width="40%"}
+![Chladni plates mounded at the center](figs/lecture-12/img_264.jpg)
+
+![Drumhead modes](figs/lecture-12/img_270.jpg){width="60%"}
+:::
+:::
+
+## Plates solution example
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/msggEczYTdw?start=511" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Demo of square drumhead modes
+<iframe width="800" height="600" src="https://phet.colorado.edu/sims/html/normal-modes/latest/normal-modes_en.html"></iframe>
 
 ## Project discussion time
+Let's take a few minutes for you to organize your groups.
 
 ## Weekly Reflection
 
