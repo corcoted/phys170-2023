@@ -14,6 +14,146 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBlah."
   },
   {
+    "objectID": "lectures/lecture-12.html#announcements",
+    "href": "lectures/lecture-12.html#announcements",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 4 due Tuesday\nGroup projects (more later)"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#daily-quiz",
+    "href": "lectures/lecture-12.html#daily-quiz",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\nName one musical instrument that uses the each of following to produce sound:\n\nvibrating reed\nvibrating bar\nvibrating membrane\nvibrating plate"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#group-assignments",
+    "href": "lectures/lecture-12.html#group-assignments",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Group Assignments",
+    "text": "Group Assignments\n\nGroup 1: Melissa, Katy, Ava, Andrew\nGroup 2: Nick, Ty, Thomas, Ronin\nGroup 3: Toops, Charlie, Max, Mark"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#project-grading-scheme",
+    "href": "lectures/lecture-12.html#project-grading-scheme",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Project grading scheme",
+    "text": "Project grading scheme\n150 points total (25% of course grade).\n\n\n(50 pts) Planning steps\n\n(25 pts) Initial plan (Feb. 24)\n(25 pts) Midway progress report (March 17)\n\n(50 pts) Final written report\n\n(15 pts) Rough draft (March 24)\n(25 pts) Final report (April 14)\n(10 pts) Individual reflection (April 14)\n\n(50 pts) Final oral presentation (April 28)\n\n(10 pts) Demonstration of the instrument\n(20 pts) Presentation content\n(20 pts) Presentation delivery"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#initial-plan",
+    "href": "lectures/lecture-12.html#initial-plan",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Initial plan",
+    "text": "Initial plan\nDue before Spring Break (Feb. 24, 10pm) on Canvas\n\nWhat is the instrument?\nWhat is each person’s role? (See next slide)\nHow are you going to communicate with each other?\nWhen are you going to meet to work on this?\nHow are you dividing the work among the group members?\nHow are you going to store and share your work with each other?"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#group-roles",
+    "href": "lectures/lecture-12.html#group-roles",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Group Roles",
+    "text": "Group Roles\nAs part of the initial plan, each role below must be assigned to one group member.\n\n\nManager/Facilitator: Manages the group by helping to ensure that the group stays on task, is focused, and that everyone participates. Organizes meetings and sends communications to the group. Responsible for submitting reports using Canvas.\nRecorder/Archivist: Keeps notes about the group’s work and shares them with the group. Takes primary role in the written reports; may delegate writing work to others.\nSpokesperson/Presenter: Will MC the final presentation (but everyone must help present). The Spokesperson should rely on the recorder’s notes to guide their report. Also responsible for communicating with Dr. C as issues arise.\nQuestioner/Strategy Analyst/Technical Analyst: Focusses on the big picture. Ensures everyone’s ideas being incorporated. Plays “Devil’s Advocate” in discussions. Takes the lead in technical discussions.\n\n\n\n\nAdapted from https://www.pogil.org"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#requirements-for-the-instrument",
+    "href": "lectures/lecture-12.html#requirements-for-the-instrument",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Requirements for the instrument",
+    "text": "Requirements for the instrument\n\nMust be a tonal instrument (produces well-defined pitches)\nMust play multiple pitches in a controlled way\n\nAt least an octave of a pentatonic scale (e.g. C D E G A C)\n\nYou must build it yourselves\nYou must be able to explain how it works\nPurely electronic instruments are not acceptable (e.g. a synth would be out, but an electric guitar is okay)"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#final-report-contents",
+    "href": "lectures/lecture-12.html#final-report-contents",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Final report contents",
+    "text": "Final report contents\nMore details will follow\n\nDescription of the instrument and how you built it\nDescription of how the instrument produces sound (e.g. what is vibrating?)\nWhat determines the fundamental frequency\nDescription of how one plays the instrument\n\nHow do you change the pitch? The intensity? Can you sustain notes?\n\nFrequency analysis (spectrum)\n\nThe midway report (3/17) will contain initial results on all of these topics.\nRough draft of the complete final report is due 3/24."
+  },
+  {
+    "objectID": "lectures/lecture-12.html#final-presentation",
+    "href": "lectures/lecture-12.html#final-presentation",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Final presentation",
+    "text": "Final presentation\nMore details will follow\n\nSummary of the items in the written report\nDemonstration of the instrument and how it is played\n\nShow how to change pitch/intensity/sustain (if applicable)\nPlay a simple melody of your choosing"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#types-of-vibrating-solid-bodies",
+    "href": "lectures/lecture-12.html#types-of-vibrating-solid-bodies",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Types of vibrating solid bodies",
+    "text": "Types of vibrating solid bodies\n\n\n\nReeds\nBars, tubes (struck), rods\nPlates\nMembranes\n\n\nTODO Figure"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#vibration-modes-of-a-solid-body",
+    "href": "lectures/lecture-12.html#vibration-modes-of-a-solid-body",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Vibration modes of a solid body",
+    "text": "Vibration modes of a solid body\n\n\n\nTransverse: like a string\nLongitudinal: stretch and compress\nTorsional: twisting\n\nFor most solid bodies the transverse modes are the dominant ones.\n\n\n\n\nTypes of vibrational modes in solids: (a) transverse (b) longitudinal (c) torsional"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#bars-rods-tubes",
+    "href": "lectures/lecture-12.html#bars-rods-tubes",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Bars, rods, tubes",
+    "text": "Bars, rods, tubes\n\n\nThese are generally percussion instruments that are struck with a mallet: glockenspiel, xylophone, chimes.\nThe fundamental mode is a transverse vibration. If the width of the bar is w and its length is ℓ, then the fundamental frequency goes like \\[\nf_1 = k \\frac{w}{\\ell^2},\n\\] where k is a number that depends on the material properties and the specifics of the geometry (round, square, etc.)."
+  },
+  {
+    "objectID": "lectures/lecture-12.html#modes-of-bars",
+    "href": "lectures/lecture-12.html#modes-of-bars",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Modes of bars",
+    "text": "Modes of bars\n\n\nThe vibrational modes of long bars look similar to the modes of strings, but the loops are not of equal length.\nThis makes the partials inharmonic. If the fundamental mode has frequency f1, then the next few modes are 2.76f1, 5.40f1, 8.93f1, 13.34f1.\nThe bars in glockenspiel, marimbas, etc., are mounted at the nodes of the fundamental, a little outside of 1/4 of the way from the ends, in order to suppress the higher partials."
+  },
+  {
+    "objectID": "lectures/lecture-12.html#reeds",
+    "href": "lectures/lecture-12.html#reeds",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Reeds",
+    "text": "Reeds\n\n\nHere we’re talking about reeds that vibrate at their natural frequency, like in an accordion or harmonica, not a reed in a woodwind instrument.\nThe difference between a “reed” and a “bar” is that one end of a reed is clamped or held in place as it vibrates.\nThe fundamental mode is a transverse vibration, just like bars, and the equation is the same. If the thickness of the reed is t and its length is ℓ, then the fundamental frequency goes like \\[\nf_1 = k \\frac{t}{\\ell^2},\n\\] where k is a number that depends on the material properties.\n\n\n\n\nLowest 3 modes of a vibrating reed\n\n\n\nThe next two modes are at \\(f_2 = 6.25 f_1\\) and \\(f_3 = 17.5 f_1\\)"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#plates-and-membranes",
+    "href": "lectures/lecture-12.html#plates-and-membranes",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Plates and membranes",
+    "text": "Plates and membranes\n\n\nThese are both thin flat objects. The details of the vibrational structures depend on the details of the shape how the object is mounted.\nThe bodies of string instruments are plates in this sense, as well as things like cymbals and gongs.\nThere aren’t any general equations for the frequencies, so you have to look on a case-by-case basis.\n\n\n\n\nChladni plates mounded at the center\n\n\n\n\n\nDrumhead modes"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#plates-solution-example",
+    "href": "lectures/lecture-12.html#plates-solution-example",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Plates solution example",
+    "text": "Plates solution example"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#demo-of-square-drumhead-modes",
+    "href": "lectures/lecture-12.html#demo-of-square-drumhead-modes",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Demo of square drumhead modes",
+    "text": "Demo of square drumhead modes"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#project-discussion-time",
+    "href": "lectures/lecture-12.html#project-discussion-time",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Project discussion time",
+    "text": "Project discussion time\nLet’s take a few minutes for you to organize your groups."
+  },
+  {
+    "objectID": "lectures/lecture-12.html#weekly-reflection",
+    "href": "lectures/lecture-12.html#weekly-reflection",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nWhat is your favorite part of the course so far?"
+  },
+  {
+    "objectID": "lectures/lecture-12.html#next-time",
+    "href": "lectures/lecture-12.html#next-time",
+    "title": "Lecture 12: Solid Bodies",
+    "section": "Next time",
+    "text": "Next time\nScales (Chapter 14)"
+  },
+  {
     "objectID": "lectures/lecture-09.html#announcements",
     "href": "lectures/lecture-09.html#announcements",
     "title": "Lecture 9: Loudness",
