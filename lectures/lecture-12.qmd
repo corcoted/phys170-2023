@@ -1,0 +1,74 @@
+---
+title: "Lecture 12: Solid Bodies"
+subtitle: "Chapter 13"
+date: "2/16/2023"
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- Homework 4 due Tuesday
+- Group projects (more later)
+:::
+
+## Daily Quiz
+blah
+
+# Group Project
+
+## Group Assignments
+- **Group 1:** Melissa, Katy, Ava, Andrew
+- **Group 2:** Nick, Ty, Max, Ronin
+- **Group 3:** Toops, Charlie, Thomas, Mark
+
+## Project grading scheme
+150 points total
+
+- (50) Planning steps
+  - (25) Initial plan
+  - (25) Midterm progress report
+- (50) Final written report
+  - (15) Rough draft
+  - (25) Final report
+  - (10) Individual reflection
+- (50) Final oral presentation
+  - (10) Demonstration of the instrument
+  - (20) Presentation content
+  - (20) Presentation delivery
+
+## Initial plan
+Due before Spring Break (2/24, 10pm) on Canvas
+
+- What is the instrument?
+- What is each person's role? (See next slide)
+- When are you going to meet to work on this?
+- How are you going to communicate with each other?
+- How are you dividing the work among the group members?
+- How are you going to store and share your work with each other?
+
+## Group Roles
+As part of the initial plan, each role below must be assigned to one group member.
+
+- **Manager/Facilitator:** Manages the group by helping to ensure that the group stays on task, is focused, and that everyone participates.  Organizes meetings and sends communications to the group.
+- **Recorder/Archivist:** Keeps notes about the group's work and shares them with the group.  Takes primary role in the written reports, getting help from others as needed.
+- **Spokesperson/Presenter**: Will MC the final presentation. The Spokesperson should rely on the recorder’s notes to guide their report.  Also responsible for communicating with Dr. C as issues arise.
+- **Questioner/Strategy Analyst**: Focusses on the big picture.  Ensures everyone's ideas being incorporated. Plays "Devil's Advocate" in discussions.
+
+::: aside
+Adapted from <https://www.pogil.org>
+:::
+
+## Final report
+
+## Final presentation
+20 minutes
+
+# Topic 2
+
+## Weekly Reflection
+
+blah
+
+## Next time
+blah
