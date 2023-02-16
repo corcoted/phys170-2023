@@ -1,26 +1,16 @@
 ---
-title: "Lecture 12: Solid Bodies"
-subtitle: "Chapter 13"
+title: "Group Project Description"
+subtitle: "PHYS170"
 date: "2/16/2023"
-format: revealjs
+format:
+  pdf:
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
 ---
 
-## Announcements
-
-::: {.incremental}
-- Homework 4 due Tuesday
-- Group projects (more later)
-:::
-
-## Daily Quiz
-Name one musical instrument that uses the each of following to produce sound:
-
-a.  vibrating reed
-b.  vibrating bar
-c.  vibrating membrane
-d.  vibrating plate
-
-# Group Project
+The document contains the basic outlines of the Group Project.  Details will be added as the semester progresses.
 
 ## Group Assignments
 - **Group 1:** Melissa, Katy, Ava, Andrew
@@ -64,10 +54,6 @@ As part of the initial plan, each role below must be assigned to one group membe
 - **Questioner/Strategy Analyst/Technical Analyst**: Focusses on the big picture.  Ensures everyone's ideas being incorporated. Plays "Devil's Advocate" in discussions.  Takes the lead in technical discussions.
 :::
 
-::: aside
-Adapted from <https://www.pogil.org>
-:::
-
 ## Requirements for the instrument
 
 - Must be a tonal instrument (produces well-defined pitches)
@@ -98,17 +84,3 @@ More details will follow
 - Demonstration of the instrument and how it is played
   - Show how to change pitch/intensity/sustain (if applicable)
   - Play a simple melody of your choosing
-
-# Vibrating solid bodies
-
-## Types of vibrating solid bodies
-
-
-## Project discussion time
-
-## Weekly Reflection
-
-What is your favorite part of the course so far?
-
-## Next time
-Scales (Chapter 14)
