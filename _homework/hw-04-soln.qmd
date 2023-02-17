@@ -67,13 +67,29 @@ Define the following measurement units and describe what they measure: (a) decib
 
 ### Solution
 
+*Decibels* are used to measure objective measures of sound such as intensity level and pressure level.
+
+*Phons* measure loudness level, which is intensity adjusted for the typical frequency response of human hearing.
+
+*Sones* measure subjective loudness, which trying to describe equal perceptions of changes in intensity.
+
 ## Problem 5
 A trombone plays a tone at 100\ Hz with a sound pressure level (S~PL~) of 68\ dB. (a) What is the sound loudness level (S~LL~) in phons? (b) What is the sound subjective loudness (S~SL~) in sones?  (c) What musical dynamic marking does this correspond to? (Use the Fletcher–Munson loudness curves from the textbook, Fig. 10-1.  The Lecture 9 class notes will also be helpful.)
 
 ### Solution
+To convert from S~PL~ to S~LL~ we have to use the Fletcher-Munson curves.  In this case we have $f=100\,\mathrm{Hz}$ (horizontal axis of the graph) and $S_\mathrm{PL} = 68\,\mathrm{dB}$ (vertical axis of the graph).  This point on the graph lies closest to the 60-phon curve, so our loudness level is $S_\mathrm{LL}=60\,\textrm{phons}$.
+
+To convert from loudness level to subjective loudness you can use Figure 10-4 from the textbook or the table in the Lecture 9, slide 19.  A loudness level of 60 phones corresponds to 4 sones, which is approximately a *piano* musical dynamic.
+
 
 ## Problem 6
 A guitar string has the following properties: length $L = 0.65\,\mathrm{m}$, mass per length $m = 0.0021\,\mathrm{kg/m}$, and is held with a tension force $F = 133\,\mathrm{N}$.  What is the frequency of the fundamental of this string?  Bonus: What is the nearest musical pitch? To put this string in tune, do we need to tighten it or loosen it?
 
 ### Solution
 
+Our formula for the fundamental frequency of a string is
+$$
+f=\frac{1}{2L}\,\sqrt{\frac{F}{m}} = \frac{1}{2(0.65\,\mathrm{m})}\,\sqrt{\frac{133\,\mathrm{N}}{0.0021\,\mathrm{kg/m}}}=193.6\,\mathrm{Hz}.
+$$
+
+*Bonus:* the closest pitch on an equal-tempered scale is G~3~ at 196.0\ Hz (e.g. from Table 14-6 in White & White).  Our string is a little flat at 193.6\ Hz, so we need to tighten the tuning peg.
