@@ -1,0 +1,14 @@
+---
+title: "Homework 4 solutions"
+subtitle: "PHYS170"
+date: "2/21/2023"
+format:
+  pdf:
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
+    fig-align: center
+---
+
+12 points total, 2 points each
