@@ -17,21 +17,63 @@ format:
 (W&W Chapter 9, Q6) What are the approximate values for the threshold of hearing and the threshold
 of pain (a) in watts/meter^2^, (b) in picowatts/meter^2^, (c) in decibels?
 
+### Solution
+The answers can be read directly from Figure 9-7 of White & White, but I'll show how to get the answers without the figure.
+
+According to White and White, the threshold of hearing (quietest sound that can be heard) in terms of intensity is
+$I_0 = 10^{-12}\,\mathrm{W/m^2}$. One watt (W) equals one trillion (10^12^) picowatts (pW), so we can also express the threshold of hearing as $I_0 = 1\,\mathrm{pW/m^2}$.  By the definition of sound level, the threshold of hearing has a sound intensity level of 0 dB.
+
+According to White and White, the threshold of pain in terms of intensity is
+$I_\textrm{pain} = 1\,\mathrm{W/m^2}$. One watt (W) equals one trillion (10^12^) picowatts (pW), so we can also express the threshold of hearing as $I_\textrm{pain} = 10^{12}\,\mathrm{pW/m^2}$.  Using our intensity to decibel conversion formula we get
+$$
+\text{decibels} = (10\,\mathrm{dB})\,\log\left(\frac{I_\text{pain}}{I_0}\right)
+= (10\,\mathrm{dB})\log\left(\frac{1\,\mathrm{W/m^2}}{10^{-12}\,\mathrm{W/m^2}}\right)
+= (10\,\mathrm{db})(12) = 120\,\mathrm{dB}.
+$$
+
+
 ## Problem 2
 (W&W Chapter 9, P2) The intensity level of a trumpet at a distance of 10\ m is measured with a sound
 level meter and found to be 78 dB. Find (a) its sound intensity in picowatts/meter^2^
 and (b) the power of the source in watts.
+
+### Solution
+For part (a) we need to convert from sound level in dB to intensity.  The formula is
+$$
+I = I_0\times10^{\text{decibels}/10} = (1\,\mathrm{pW/m^2})\times10^{78/10} = 6.3\times10^7\,\mathrm{pW/m^2}.
+$$
+
+For part (b) we use the relationship between intensity and distance for a point source and solve for power:
+$$
+I = \frac{P}{4\pi r^2}
+\quad\rightarrow\quad
+P = 4\pi r^2 I = 4\pi (10\,\mathrm{m})^2 (6.3\times10^7\,\mathrm{pW/m^2}) = 7.9\times10^{10}\,\mathrm{pW} = 0.079\,\mathrm{W}.
+$$
 
 ## Problem 3
 (W&W Chapter 9, P6)  If five violins sound the same note of 1000\ Hz, each at the same sound pressure
 level of 60\ dB, what is their total intensity in decibels, compared with one violin
 alone?
 
+### Solution
+The long solution is to convert the intensity of 1 violin into W/m^2^, multiply by 5, then convert back to decibels.
+But in Lecture 9 (slide 18) I give you a shortcut for identical sources.  We just need to add $10\times\log(N)$ to the decibels if we have $N$ sources:
+$$
+S_{\mathrm{IL}} = 60\,\mathrm{dB} + (10\,\mathrm{dB})\times\log(5) = (60+7.0)\,\mathrm{dB} = 67.0\,\mathrm{dB}.
+$$
+
 ## Problem 4
 Define the following measurement units and describe what they measure: (a) decibels, (b) phons, (c) sones.
+
+### Solution
 
 ## Problem 5
 A trombone plays a tone at 100\ Hz with a sound pressure level (S~PL~) of 68\ dB. (a) What is the sound loudness level (S~LL~) in phons? (b) What is the sound subjective loudness (S~SL~) in sones?  (c) What musical dynamic marking does this correspond to? (Use the Fletcher–Munson loudness curves from the textbook, Fig. 10-1.  The Lecture 9 class notes will also be helpful.)
 
+### Solution
+
 ## Problem 6
 A guitar string has the following properties: length $L = 0.65\,\mathrm{m}$, mass per length $m = 0.0021\,\mathrm{kg/m}$, and is held with a tension force $F = 133\,\mathrm{N}$.  What is the frequency of the fundamental of this string?  Bonus: What is the nearest musical pitch? To put this string in tune, do we need to tighten it or loosen it?
+
+### Solution
+
