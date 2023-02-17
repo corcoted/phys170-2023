@@ -12,3 +12,26 @@ format:
 ---
 
 12 points total, 2 points each
+
+## Problem 1
+(W&W Chapter 9, Q6) What are the approximate values for the threshold of hearing and the threshold
+of pain (a) in watts/meter^2^, (b) in picowatts/meter^2^, (c) in decibels?
+
+## Problem 2
+(W&W Chapter 9, P2) The intensity level of a trumpet at a distance of 10\ m is measured with a sound
+level meter and found to be 78 dB. Find (a) its sound intensity in picowatts/meter^2^
+and (b) the power of the source in watts.
+
+## Problem 3
+(W&W Chapter 9, P6)  If five violins sound the same note of 1000\ Hz, each at the same sound pressure
+level of 60\ dB, what is their total intensity in decibels, compared with one violin
+alone?
+
+## Problem 4
+Define the following measurement units and describe what they measure: (a) decibels, (b) phons, (c) sones.
+
+## Problem 5
+A trombone plays a tone at 100\ Hz with a sound pressure level (S~PL~) of 68\ dB. (a) What is the sound loudness level (S~LL~) in phons? (b) What is the sound subjective loudness (S~SL~) in sones?  (c) What musical dynamic marking does this correspond to? (Use the Fletcher–Munson loudness curves from the textbook, Fig. 10-1.  The Lecture 9 class notes will also be helpful.)
+
+## Problem 6
+A guitar string has the following properties: length $L = 0.65\,\mathrm{m}$, mass per length $m = 0.0021\,\mathrm{kg/m}$, and is held with a tension force $F = 133\,\mathrm{N}$.  What is the frequency of the fundamental of this string?  Bonus: What is the nearest musical pitch? To put this string in tune, do we need to tighten it or loosen it?
