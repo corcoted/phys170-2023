@@ -185,7 +185,7 @@ The basic relationship is that multiplying the sound intensity by 10 (equivalent
 :::
 
 ::: {.column width="40%" style="font-size:70%"}
-| Musical dynamic Level | Sound subjective loudness | Sound loudness | Sound intensity level | Sound intensity |
+| Musical dynamic Level | Sound subjective loudness | Sound loudness level | Sound intensity level | Sound intensity |
 |--------------|--------------|--------------|--------------|----------------|
 |                       | (sones)                   | (phons)        | (dB)                  | (W/m^2^)        |
 | fff                   | 64                        | 100            | 100                   | 10^-2^          |
