@@ -12,7 +12,10 @@ website:
     search: true
     contents:
       - about.qmd
-      - auto: "lectures/lecture-*.qmd"
+      - auto: "lectures/lecture-0?.qmd"
+      - auto: "lectures/lecture-1?.qmd"
+      - auto: "lectures/lecture-2?.qmd"
+      - auto: "lectures/lecture-3?.qmd"
 format:
   html:
     theme: cosmo
