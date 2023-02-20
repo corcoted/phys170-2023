@@ -16,10 +16,20 @@ format: revealjs
 ## Daily Quiz
 In your own words, what is the difference between an "equal tempered" and a "just tempered" scale?
 
-# Topic 1
-blah
+# Frequency and Pitch
 
-# Topic 2
+## Absolute pitch
+Concert A
+
+# Intervals and scales
+
+## Just intervals
+
+## Pythagorean scale
+
+## Equal tempered scale
+
+## Comparison
 
 ## Next time
 blah
