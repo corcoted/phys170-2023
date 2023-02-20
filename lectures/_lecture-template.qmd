@@ -2,6 +2,7 @@
 title: "Lecture XXX: Title"
 subtitle: "Chapter X"
 date: "XX/XX/2023"
+order: 99
 format: revealjs
 ---
 

@@ -2,6 +2,7 @@
 title: "Lecture 2: Sound"
 subtitle: "Chapters 1 and 2"
 date: "1/10/2023"
+order: 2
 format: revealjs
 ---
 

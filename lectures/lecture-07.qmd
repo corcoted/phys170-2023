@@ -2,6 +2,7 @@
 title: "Lecture 7: Harmonics"
 subtitle: "Chapter 8"
 date: "1/26/2023"
+order: 7
 format: revealjs
 ---
 

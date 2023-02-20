@@ -2,6 +2,7 @@
 title: "Lecture 5: Resonance, Beats, and Doppler"
 subtitle: "Chapter 6"
 date: "1/19/2023"
+order: 5
 format: revealjs
 ---
 

@@ -2,6 +2,7 @@
 title: "Lecture 10: Strings"
 subtitle: "Chapter 11"
 date: "2/9/2023"
+order: 10
 format:
   revealjs:
     incremental: false

@@ -2,6 +2,7 @@
 title: "Lecture 9: Loudness"
 subtitle: "Chapter 10"
 date: "2/7/2023"
+order: 9
 format:
   revealjs:
     incremental: false

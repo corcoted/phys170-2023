@@ -2,6 +2,7 @@
 title: "Lecture 11: Tubes"
 subtitle: "Chapter 12"
 date: "2/14/2023"
+order: 11
 format: revealjs
 ---
 
