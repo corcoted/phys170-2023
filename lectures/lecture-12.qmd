@@ -2,6 +2,7 @@
 title: "Lecture 12: Solid Bodies"
 subtitle: "Chapter 13"
 date: "2/16/2023"
+order: 12
 format: revealjs
 ---
 

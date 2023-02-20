@@ -2,6 +2,7 @@
 title: "Lecture 6: Diffraction and Interference"
 subtitle: "Chapter 7"
 date: "1/24/2023"
+order: 6
 format: revealjs
 ---
 
