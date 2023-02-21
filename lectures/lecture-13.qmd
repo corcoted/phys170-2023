@@ -8,28 +8,161 @@ format: revealjs
 
 ## Announcements
 
-:::
 - *Homework 4* is due tonight at 10pm 
 - Your *Initial Project Plans* are due Friday night at 10pm (one per group)
-:::
+
 
 ## Daily Quiz
 In your own words, what is the difference between an "equal tempered" and a "just tempered" scale?
 
 # Frequency and Pitch
 
+## Pitch
+*Pitch* is the musical term for the identity of a musical tone in terms of its fundamental partial.
+The identification of pitch is a rich topic itself with lots of ties to history and culture.
+
+We're going to keep a very basic definition of pitch and define it as the way we distiguish keys on a piano.
+
+One octave of a piano keyboard looks like the picture here. The white keys are given names in a repeating pattern using letters A through G, and the black keys are named equally as the neighboring white key to the left plus "sharp" (&sharp;) or the white key to the right plus "flat" (&flat;).  The fact that, for example, B^&flat;^ and A^&sharp;^ are the same key is called *enharmonicity,* but as we'll see later, this is because of our choice of the way the piano is tuned.
+
+## Octaves on the piano keys
+
+The pattern of 7 white keys and 5 black keys repeats in sets called "octaves."  Each octave has 12 keys.  We'll label the octaves with a number.  By tradition, the C closest to the middle of the piano keyboard is called "middle C" and we'll give it the name C~4~.  The next C to the left on the keyboard ("lower") we call C~3~, and the C to the right of middle C ("higher") is called C~5~.
+
+Each new octave number begins at C.  The key to the left of C~4~ is called B~3~.
+
 ## Absolute pitch
-Concert A
+By [international treaty](https://www.iso.org/standard/3601.html)(!!) the key A~4~ on the piano (above middle C) is tuned such that its fundamental partial has a frequency of 440\ Hz.  This is called the "standard concert pitch".  There is a rich history of the various disputes around this value (mostly political soap operas between various nations, orchestras, and composers, see [Wikipedia](https://en.wikipedia.org/wiki/History_of_pitch_standards_in_Western_music)), even making an appearance in the Treaty of Versailles that ended World War I.
+
+The modern value is attributed to German physicist Johann Scheibler who presented the first reliable measurements of musical frequencies at a conference in Stuttgart in 1834, with the value A~4~\ =\ 440\ Hz first being recognized as an international standard in 1939 and then reaffirmed in 1975.
 
 # Intervals and scales
+
+## Octaves
+Going back to our discussion of vibrating strings, we saw that the fundamental frequency of the string was given by
+$$
+f_1 = \frac{1}{2L}\,\sqrt{\frac{F}{m}},
+$$
+and that the first overtone is at exactly 2 times this frequency: $f_2 = 2f_1$.
+
+We say that two frequencies with this relationship are an *octave* apart.  Or, in terms of their ratios:
+$$
+\text{octave} = 2:1
+$$
+
+In Western music, notes separated by an octave are given the same pitch name (letter).  When played together, human hearing will interpret these as the same pitch.
+
+## Octaves of A's
+
+::: {.columns}
+::: {.column width="60%"}
+If we take as a starting point A~4~\ =\ 440\ Hz, we can use our definition of octave to calculate the frequencies of all of the other A's on the piano keyboard by successively multiplying or dividing by two.
+
+This is called a *geometric sequence* in math.  Rather than adding or subtracting to go from one pitch to the next, we multiply or divide.
+
+To find the frequencies of the other pitches, we need a mathematical rule.  Historically, many different rules, called *temperments* or *tunings* were used.  We'll start with the most common modern rule: *equal temperment*.
+
+:::
+::: {.column width="40%"}
+
+| Pitch | Frequency (Hz) |
+|------|------|
+| A~0~ | 27.5  |
+| A~1~ | 55  |
+| A~2~ | 110 | 
+| A~3~ | 220 |
+| A~4~ | 440  |
+| A~5~ | 880  |
+| A~6~ | 1760 | 
+| A~7~ | 3520 |
+
+:::
+:::
+
+## Equal temperment
+The rule for the 12-tone equal tempered scale (12-TET) simply says that *the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.*
+
+Let's do a little algebra.  If the ratio between adjacent keys is called *x*, then after 12 keys we should have an octave, or two times the starting frequency:
+$$
+f_1 \times x^{12} = 2f_1
+$$
+Solving for *x* gives the ratio between adjacent keys:
+$$
+x = \sqrt[12]{2} \approx 1.059463\ldots
+$$
+In words, the ratio is the twelfth root of 2.  We can also write this as $2^{1/12}$, 2 to the 1/12th power, which is easier to do algebra with.
+
+This interval is called a *semitone* of the equal-tempered scale.
+
+## Examples
+
+A^&sharp;^~4~ is
+$$
+A^\sharp_4 = A_4\times 2^{1/12} = 440\,\mathrm{Hz}\times 2^{1/12} = 466.2\,\mathrm{Hz}.
+$$
+
+To get A^&flat;^~4~ we divide by $\sqrt[12]{2}$:
+$$
+A^\flat_4 = \frac{A_4}{2^{1/12}} = 415.3\,\mathrm{Hz}
+$$
+
+To get C~5~, we step up by 3 keys on the keyboard:
+$$
+C_5 = A_4 \times (2^{1/12})^3  = A_4\times 2^{1/4} = 440\,\mathrm{Hz}\times1.189=523\,\mathrm{Hz}
+$$
+
+## Full equal tempered chromatic scale
+
+TODO picture from W&W
+
+## Cents
+Because multiplying and dividing frequencies is inconvenient, we often characterize pitch in terms of a measure called *cents* that we can add or subtract.  Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency.
+Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.
+
+If we have two frequencies, their difference in cents is given by
+$$
+\mathrm{cents} = 1200 \log_2 (f_1/f_2).
+$$
+Where "log~2~" means the base-2 logarithm.  Most calculators can't do this directly, so using some math rules for logs we get the equation
+$$
+\mathrm{cents} = \frac{1200}{\log 2} \log (f_1/f_2)
+\approx 3986 \log(f_1/f_2).
+$$
+
+(This should remind you of decibels.  The math is very similar.)
+
+## Cents to frequency
+
+Going the other way, if we know *f*~1~ want to change by a number of cents, the new frequency *f*~2~ is
+$$
+f_2 = f_1 \times 2^{\mathrm{cents}/1200},
+$$
+where "cents" is positive to go higher in pitch or negative to go lower in pitch.
+
+For example, if we're trying to play A~4~ and our electronic tuner says we're flat by 30 cents, our actual frequency is
+$$
+f = (440\,\mathrm{Hz})\times 2^{-30/1200} = (440\,\mathrm{Hz})\times(0.983) = 432\,\mathrm{Hz}
+$$
+
+## MIDI pitch values
+[*MIDI*](https://en.wikipedia.org/wiki/MIDI) is a computer language for describing music.  Pitch values for MIDI start with A~4~\ =\ 69, and go up or down by one step for each key on the piano.  In other words, 1 MIDI pitch unit = 100 cents.
+
+To go from MIDI pitch *p* to frequency *f* do
+$$
+f = (440\,\mathrm{Hz})\times 2^{(p-69)/12} = (8.175\,\mathrm{Hz})\times 2^{p/12}
+$$
+
+To go from frequency to MIDI pitch
+$$
+p = \frac{12}{\log 2}\log\left(\frac{f}{8.175\,\mathrm{Hz}}\right)
+= 39.86 \log\left(\frac{f}{8.175\,\mathrm{Hz}}\right)
+$$
 
 ## Just intervals
 
 ## Pythagorean scale
 
-## Equal tempered scale
-
 ## Comparison
 
 ## Next time
-blah
+Consonance and dissonance
