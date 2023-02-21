@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Lecture notes for PHYS170 (Acoustics), Spring 2023 by Ted Corcovilos, Duquesne University Dept. of Physics.\nThis website is just a placeholder to store the individual class notes."
+    "text": "Lecture notes for PHYS170 (Acoustics), Spring 2023 by Ted Corcovilos, Duquesne University Dept. of Physics.\nThis website is a placeholder to store the individual class notes."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Phys170 notes, Spring 2023",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nBlah."
+    "text": "Lecture notes for PHYS170 (Acoustics), Spring 2023 by Ted Corcovilos, Duquesne University Dept. of Physics.\nThis website is a placeholder to store the individual class notes."
   },
   {
     "objectID": "lectures/lecture-12.html#announcements",
@@ -418,6 +418,132 @@
     "title": "Lecture 6: Diffraction and Interference",
     "section": "Next time",
     "text": "Next time\nChapter 9: Harmonics"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#announcements",
+    "href": "lectures/lecture-13.html#announcements",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Announcements",
+    "text": "Announcements\n\nHomework 4 is due tonight at 10pm\nYour Initial Project Plans are due Friday night at 10pm (one per group)"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#daily-quiz",
+    "href": "lectures/lecture-13.html#daily-quiz",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz\nIn your own words, what is the difference between an “equal tempered” and a “just tempered” scale?"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#pitch",
+    "href": "lectures/lecture-13.html#pitch",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Pitch",
+    "text": "Pitch\nPitch is the musical term for the identity of a musical tone in terms of its fundamental partial. The identification of pitch is a rich topic itself with lots of ties to history and culture.\nWe’re going to keep a very basic definition of pitch and define it as the way we distinguish keys on a piano.\n\nOne octave of a piano keyboard looks like the picture here. The white keys are given names in a repeating pattern using letters A through G, and the black keys are named equally as the neighboring white key to the left plus “sharp” (♯) or the white key to the right plus “flat” (♭). The fact that, for example, B♭ and A♯ are the same key is called enharmonicity, but as we’ll see later, this is because of our choice of the way the piano is tuned."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#octaves-on-the-piano-keys",
+    "href": "lectures/lecture-13.html#octaves-on-the-piano-keys",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Octaves on the piano keys",
+    "text": "Octaves on the piano keys\nThe pattern of 7 white keys and 5 black keys repeats in sets called “octaves.” Each octave has 12 keys. We’ll label the octaves with a number. By tradition, the C closest to the middle of the piano keyboard is called “middle C” and we’ll give it the name C4. The next C to the left on the keyboard (“lower”) we call C3, and the C to the right of middle C (“higher”) is called C5.\nEach new octave number begins at C. The key to the left of C4 is called B3."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#absolute-pitch",
+    "href": "lectures/lecture-13.html#absolute-pitch",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Absolute pitch",
+    "text": "Absolute pitch\n\n\nBy international treaty(!!) the key A4 on the piano (above middle C) is tuned such that its fundamental partial has a frequency of 440 Hz. This is called the “standard concert pitch”. There is a rich history of the various disputes around this value (mostly political soap operas between various nations, orchestras, and composers, see Wikipedia), even making an appearance in the Treaty of Versailles that ended World War I.\nThe modern value is attributed to German physicist Johann Scheibler who presented the first reliable measurements of musical frequencies at a conference in Stuttgart in 1834, with the value A4 = 440 Hz first being recognized as an international standard in 1939 and then reaffirmed in 1975."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#octaves",
+    "href": "lectures/lecture-13.html#octaves",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Octaves",
+    "text": "Octaves\n\n\nGoing back to our discussion of vibrating strings, we saw that the fundamental frequency of the string was given by \\[\nf_1 = \\frac{1}{2L}\\,\\sqrt{\\frac{F}{m}},\n\\] and that the first overtone is at exactly 2 times this frequency: \\(f_2 = 2f_1\\).\nWe say that two frequencies with this relationship are an octave apart. Or, in terms of their ratios: \\[\n\\text{octave} = 2:1\n\\]\nWhen played together, human hearing will interpret these as the same pitch."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#octaves-of-as",
+    "href": "lectures/lecture-13.html#octaves-of-as",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Octaves of A’s",
+    "text": "Octaves of A’s\n\n\nIf we take as a starting point A4 = 440 Hz, we can use our definition of octave to calculate the frequencies of all of the other A’s on the piano keyboard by successively multiplying or dividing by two.\nThis is called a geometric sequence in math. Rather than adding or subtracting to go from one pitch to the next, we multiply or divide.\nTo find the frequencies of the other pitches, we need a mathematical rule. Historically, many different rules, called temperments or tunings were used. We’ll start with the most common modern rule: equal temperment.\n\n\n\n\nPitch\nFrequency (Hz)\n\n\n\n\nA0\n27.5\n\n\nA1\n55\n\n\nA2\n110\n\n\nA3\n220\n\n\nA4\n440\n\n\nA5\n880\n\n\nA6\n1760\n\n\nA7\n3520"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#equal-temperment",
+    "href": "lectures/lecture-13.html#equal-temperment",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Equal temperment",
+    "text": "Equal temperment\nThe rule for the 12-tone equal tempered scale (12-TET) simply says that the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.\nLet’s do a little algebra. If the ratio between adjacent keys is called x, then after 12 keys we should have an octave, or two times the starting frequency: \\[\nf_1 \\times x^{12} = 2f_1\n\\] Solving for x gives the ratio between adjacent keys: \\[\nx = \\sqrt[12]{2} \\approx 1.059463\\ldots\n\\] In words, the ratio is the twelfth root of 2. We can also write this as \\(2^{1/12}\\), 2 to the 1/12th power, which is easier to do algebra with.\nThis interval is called a semitone of the equal-tempered scale."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#examples",
+    "href": "lectures/lecture-13.html#examples",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Examples",
+    "text": "Examples\n\n\nThe frequency of A♯4 is \\[\nA^\\sharp_4 = A_4\\times 2^{1/12} = 440\\,\\mathrm{Hz}\\times 2^{1/12} = 466.2\\,\\mathrm{Hz}.\n\\]\n\n\nTo get A♭4 we divide by \\(\\sqrt[12]{2}\\): \\[\nA^\\flat_4 = \\frac{A_4}{2^{1/12}} = 415.3\\,\\mathrm{Hz}\n\\]\n\n\nTo get C5, we step up by 3 keys on the keyboard: \\[\nC_5 = A_4 \\times (2^{1/12})^3  = A_4\\times 2^{1/4} = 440\\,\\mathrm{Hz}\\times1.189=523\\,\\mathrm{Hz}\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#full-equal-tempered-chromatic-scale",
+    "href": "lectures/lecture-13.html#full-equal-tempered-chromatic-scale",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Full equal tempered chromatic scale",
+    "text": "Full equal tempered chromatic scale\n\nStepping one note at a time across the keyboard (including the black keys), we get the full 12-tone chromatic scale.\nAgain, the defining characteristic of the equal tempered scale is that the frequency ratios of adjacent notes is the same: \\(2^{1/2} \\approx 1.059463\\)."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#cents",
+    "href": "lectures/lecture-13.html#cents",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Cents",
+    "text": "Cents\nBecause multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called cents that we can add or subtract. Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency. Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.\nIf we have two frequencies, their difference in cents is given by \\[\n\\mathrm{cents} = 1200 \\log_2 (f_1/f_2).\n\\] Where “log2” means the base-2 logarithm. Most calculators can’t do this directly, so using some math rules for logs we get the equation \\[\n\\mathrm{cents} = \\frac{1200}{\\log 2} \\log (f_1/f_2)\n\\approx 3986 \\log(f_1/f_2).\n\\]\n(This should remind you of decibels. The math is very similar.)"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#cents-to-frequency",
+    "href": "lectures/lecture-13.html#cents-to-frequency",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Cents to frequency",
+    "text": "Cents to frequency\nGoing the other way, if we know f1 want to change by a number of cents, the new frequency f2 is \\[\nf_2 = f_1 \\times 2^{\\mathrm{cents}/1200},\n\\] where “cents” is positive to go higher in pitch or negative to go lower in pitch.\nFor example, if we’re trying to play A4 and our electronic tuner says we’re flat by 30 cents, our actual frequency is \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{-30/1200} = (440\\,\\mathrm{Hz})\\times(0.983) = 432\\,\\mathrm{Hz}\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#midi-pitch-values",
+    "href": "lectures/lecture-13.html#midi-pitch-values",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "MIDI pitch values",
+    "text": "MIDI pitch values\nMIDI is a computer language for describing music. Pitch values for MIDI start with A4 = 69, and go up or down by one step for each key on the piano. In other words, 1 MIDI pitch unit = 100 cents.\nTo go from MIDI pitch p to frequency f do \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{(p-69)/12} = (8.175\\,\\mathrm{Hz})\\times 2^{p/12}\n\\]\nTo go from frequency to MIDI pitch \\[\np = \\frac{12}{\\log 2}\\log\\left(\\frac{f}{8.175\\,\\mathrm{Hz}}\\right)\n= 39.86 \\log\\left(\\frac{f}{8.175\\,\\mathrm{Hz}}\\right)\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#just-intervals",
+    "href": "lectures/lecture-13.html#just-intervals",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Just intervals",
+    "text": "Just intervals\n\n\nThe equal tempered scale is used for modern instruments because of its versatility, but it sacrifices perfect harmony. From our discussion of harmonic and inharmonic partials, we know that the best-sounding frequency combinations come as simple fractions.\nThese are called just intervals. Notice in the table that (1) these are not powers of \\(2^{1/12}\\) in frequency or (2) an even number of 100 cents.\nThis means that the equal-tempered scale of the piano is off by a tiny bit. This is the cost paid for being able to play music written in any key equally well.\n\n\n\n\n\nInterval\nf2/f1\ncents\n\n\n\n\noctave\n2/1\n1200\n\n\nperfect fifth\n3/2\n702\n\n\nperfect fourth\n4/3\n498\n\n\nmajor third\n5/4\n386\n\n\nminor third\n6/5\n316"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#comparison-of-just-intervals-and-equal-tempered-intervals",
+    "href": "lectures/lecture-13.html#comparison-of-just-intervals-and-equal-tempered-intervals",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Comparison of just intervals and equal-tempered intervals",
+    "text": "Comparison of just intervals and equal-tempered intervals"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#pythagorean-scales",
+    "href": "lectures/lecture-13.html#pythagorean-scales",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Pythagorean scales",
+    "text": "Pythagorean scales\n\n\nIf we try to build scales using just intonation, we have to make comprising about which intervals to preserve.\nOne of the earliest methods was the Pythagorean scale. This is made by chosing a starting pitch (e.g. A4 = 440 Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A4 major scale. This automatically includes the perfect fourths as well.\nExtending this idea to all 12 tones is called “five-limit tuning”.\n\n\n\n\nThe root cause is that no number of perfect fifths add up to a whole number of octaves. Algebraically, there is no solution to the equation \\[\n(3/2)^x = 2^y,\n\\] where both x and y are whole numbers."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#just-diatonic-scale",
+    "href": "lectures/lecture-13.html#just-diatonic-scale",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Just diatonic scale",
+    "text": "Just diatonic scale\nIf we use the same method as the Pythagorean scale but allow major and minor thirds, we get the just diatonic scale, which is the most harmonious 12-tone scale, in the sense of being closest to just for each note.\n \nThis works great for instruments with adjustable pitch (especially human voice or strings in most keys), but doesn’t work for things like pianos because it depends on picking one specific key in which the music is played (e.g. A-major starting from A4)."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#next-time",
+    "href": "lectures/lecture-13.html#next-time",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Next time",
+    "text": "Next time\nConsonance and dissonance"
   },
   {
     "objectID": "lectures/lecture-10.html#announcements",
