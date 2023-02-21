@@ -8,3 +8,4 @@ format:
       theme: whiteboard
     preview-links: true
     controls: true
+    fig-align: "center"

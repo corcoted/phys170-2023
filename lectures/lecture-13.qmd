@@ -21,7 +21,9 @@ In your own words, what is the difference between an "equal tempered" and a "jus
 *Pitch* is the musical term for the identity of a musical tone in terms of its fundamental partial.
 The identification of pitch is a rich topic itself with lots of ties to history and culture.
 
-We're going to keep a very basic definition of pitch and define it as the way we distiguish keys on a piano.
+We're going to keep a very basic definition of pitch and define it as the way we distinguish keys on a piano.
+
+![](figs/lecture-13/piano.webp){fig-align="center"}
 
 One octave of a piano keyboard looks like the picture here. The white keys are given names in a repeating pattern using letters A through G, and the black keys are named equally as the neighboring white key to the left plus "sharp" (&sharp;) or the white key to the right plus "flat" (&flat;).  The fact that, for example, B^&flat;^ and A^&sharp;^ are the same key is called *enharmonicity,* but as we'll see later, this is because of our choice of the way the piano is tuned.
 
@@ -31,14 +33,26 @@ The pattern of 7 white keys and 5 black keys repeats in sets called "octaves."  
 
 Each new octave number begins at C.  The key to the left of C~4~ is called B~3~.
 
+![](figs/lecture-13/piano-ext.jpg)
+
 ## Absolute pitch
+::: {.columns}
+::: {.column width="70%"}
 By [international treaty](https://www.iso.org/standard/3601.html)(!!) the key A~4~ on the piano (above middle C) is tuned such that its fundamental partial has a frequency of 440\ Hz.  This is called the "standard concert pitch".  There is a rich history of the various disputes around this value (mostly political soap operas between various nations, orchestras, and composers, see [Wikipedia](https://en.wikipedia.org/wiki/History_of_pitch_standards_in_Western_music)), even making an appearance in the Treaty of Versailles that ended World War I.
 
 The modern value is attributed to German physicist Johann Scheibler who presented the first reliable measurements of musical frequencies at a conference in Stuttgart in 1834, with the value A~4~\ =\ 440\ Hz first being recognized as an international standard in 1939 and then reaffirmed in 1975.
+:::
+::: {.column width="30%"}
+![](figs/lecture-13/tuning-fork-440-hz.jpg){rotate=90}
+:::
+:::
 
 # Intervals and scales
 
 ## Octaves
+
+::: {.columns}
+::: {.column width="70%"}
 Going back to our discussion of vibrating strings, we saw that the fundamental frequency of the string was given by
 $$
 f_1 = \frac{1}{2L}\,\sqrt{\frac{F}{m}},
@@ -50,7 +64,12 @@ $$
 \text{octave} = 2:1
 $$
 
-In Western music, notes separated by an octave are given the same pitch name (letter).  When played together, human hearing will interpret these as the same pitch.
+When played together, human hearing will interpret these as the same pitch.
+:::
+::: {.column width="30%"}
+![](figs/lecture-13/2modes-vert.jpg){width="70%"}
+:::
+:::
 
 ## Octaves of A's
 
@@ -96,27 +115,39 @@ This interval is called a *semitone* of the equal-tempered scale.
 
 ## Examples
 
-A^&sharp;^~4~ is
+![](figs/lecture-13/piano.webp){ fig-align="center" width="25%"}
+
+::: fragment
+The frequency of A^&sharp;^~4~ is
 $$
 A^\sharp_4 = A_4\times 2^{1/12} = 440\,\mathrm{Hz}\times 2^{1/12} = 466.2\,\mathrm{Hz}.
 $$
+:::
 
+::: fragment
 To get A^&flat;^~4~ we divide by $\sqrt[12]{2}$:
 $$
 A^\flat_4 = \frac{A_4}{2^{1/12}} = 415.3\,\mathrm{Hz}
 $$
+:::
 
+::: fragment
 To get C~5~, we step up by 3 keys on the keyboard:
 $$
 C_5 = A_4 \times (2^{1/12})^3  = A_4\times 2^{1/4} = 440\,\mathrm{Hz}\times1.189=523\,\mathrm{Hz}
 $$
+:::
 
 ## Full equal tempered chromatic scale
 
-TODO picture from W&W
+![](figs/lecture-13/img_301.jpg){ width="60%" fig-align="center"}
+
+Stepping one note at a time across the keyboard (including the black keys), we get the full 12-tone chromatic scale.
+
+Again, the defining characteristic of the equal tempered scale is that the frequency ratios of adjacent notes is the same: $2^{1/2} \approx 1.059463$.
 
 ## Cents
-Because multiplying and dividing frequencies is inconvenient, we often characterize pitch in terms of a measure called *cents* that we can add or subtract.  Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency.
+Because multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called *cents* that we can add or subtract.  Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency.
 Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.
 
 If we have two frequencies, their difference in cents is given by
@@ -159,10 +190,68 @@ p = \frac{12}{\log 2}\log\left(\frac{f}{8.175\,\mathrm{Hz}}\right)
 $$
 
 ## Just intervals
+::: {.columns}
+::: {.column width="60%"}
+The equal tempered scale is used for modern instruments because of its versatility, but it sacrifices perfect harmony.  From our discussion of harmonic and inharmonic partials, we know that the best-sounding frequency combinations come as simple fractions.
 
-## Pythagorean scale
+These are called *just intervals*.  Notice in the table that (1) these are not powers of $2^{1/12}$ in frequency or (2) an even number of 100 cents.
 
-## Comparison
+This means that the equal-tempered scale of the piano is off by a tiny bit.  This is the cost paid for being able to play music written in any key equally well.
+:::
+
+::: {.column width="40%"}
+
+::: {style="font-size:80%"}
+| Interval | *f*~2~/*f*~1~ | cents |
+| -------- | ------------- | ----- |
+| octave   | 2/1  | 1200 |
+| perfect fifth | 3/2 | 702 |
+| perfect fourth | 4/3 | 498 |
+| major third | 5/4 | 386 |
+| minor third | 6/5 | 316 |
+:::
+
+:::
+
+:::
+
+## Comparison of just intervals and equal-tempered intervals
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LLZZG-_PDDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Pythagorean scales
+::: {.columns}
+::: {.column width="60%"}
+If we try to build scales using just intonation, we have to make comprising about which intervals to preserve.  
+
+One of the earliest methods was the *Pythagorean* scale.  This is made by chosing a starting pitch (e.g. A~4~\ =\ 440\ Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A~4~ major scale.  This automatically includes the perfect fourths as well.
+
+Extending this idea to all 12 tones is called "five-limit tuning".
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-13/img_290.jpg)
+
+![](figs/lecture-13/img_292.jpg)
+
+::: {style="font-size:80%"}
+The root cause is that no number of perfect fifths add up to a whole number of octaves.  Algebraically, there is no solution to the equation
+$$
+(3/2)^x = 2^y,
+$$
+where both *x* and *y* are whole numbers.
+:::
+
+:::
+:::
+
+## Just diatonic scale
+If we use the same method as the Pythagorean scale but allow major and minor thirds, we get the *just diatonic scale*, which is the most harmonious 12-tone scale, in the sense of being closest to just for each note.
+
+![](figs/lecture-13/img_295.jpg) ![](figs/lecture-13/img_296.jpg)
+
+This works great for instruments with adjustable pitch (especially human voice or strings in most keys), but doesn't work for things like pianos because it depends on picking one specific key in which the music is played (e.g. A-major starting from A~4~).
 
 ## Next time
 Consonance and dissonance
