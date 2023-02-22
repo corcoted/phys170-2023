@@ -98,7 +98,7 @@ To find the frequencies of the other pitches, we need a mathematical rule.  Hist
 :::
 :::
 
-## Equal temperment
+## Equal temperament
 The rule for the 12-tone equal tempered scale (12-TET) simply says that *the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.*
 
 Let's do a little algebra.  If the ratio between adjacent keys is called *x*, then after 12 keys we should have an octave, or two times the starting frequency:
@@ -109,7 +109,7 @@ Solving for *x* gives the ratio between adjacent keys:
 $$
 x = \sqrt[12]{2} \approx 1.059463\ldots
 $$
-In words, the ratio is the twelfth root of 2.  We can also write this as $2^{1/12}$, 2 to the 1/12th power, which is easier to do algebra with.
+In words, the ratio is the twelfth root of 2.  We can also write this as $2^{1/12}$,<br />2 to the 1/12th power, which is easier to do algebra with.
 
 This interval is called a *semitone* of the equal-tempered scale.
 
@@ -150,13 +150,13 @@ Again, the defining characteristic of the equal tempered scale is that the frequ
 Because multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called *cents* that we can add or subtract.  Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency.
 Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.
 
-If we have two frequencies, their difference in cents is given by
+If we have two frequencies, their difference in cents from *f*~1~ to *f*~2~ is given by
 $$
-\mathrm{cents} = 1200 \log_2 (f_1/f_2).
+\mathrm{cents} = 1200 \log_2 (f_2/f_1).
 $$
 Where "log~2~" means the base-2 logarithm.  Most calculators can't do this directly, so using some math rules for logs we get the equation
 $$
-\mathrm{cents} = \frac{1200}{\log 2} \log (f_1/f_2)
+\mathrm{cents} = \frac{1200}{\log 2} \log (f_2/f_1)
 \approx 3986 \log(f_1/f_2).
 $$
 
@@ -164,7 +164,7 @@ $$
 
 ## Cents to frequency
 
-Going the other way, if we know *f*~1~ want to change by a number of cents, the new frequency *f*~2~ is
+Going the other way, if we know *f*~1~ and want to change by a number of cents, the new frequency *f*~2~ is
 $$
 f_2 = f_1 \times 2^{\mathrm{cents}/1200},
 $$
@@ -173,6 +173,11 @@ where "cents" is positive to go higher in pitch or negative to go lower in pitch
 For example, if we're trying to play A~4~ and our electronic tuner says we're flat by 30 cents, our actual frequency is
 $$
 f = (440\,\mathrm{Hz})\times 2^{-30/1200} = (440\,\mathrm{Hz})\times(0.983) = 432\,\mathrm{Hz}
+$$
+
+Another example, say we're trying to play C~4~ (262\ Hz) and our measured frequency is 256\ Hz.  How far off are we in cents?
+$$
+ \frac{1200}{\log 2}\,\log\left(\frac{256\,\mathrm{Hz}}{262\,\mathrm{Hz}}\right) = -30\,\mathrm{cents}\text{ (flat)}
 $$
 
 ## MIDI pitch values
@@ -225,7 +230,7 @@ This means that the equal-tempered scale of the piano is off by a tiny bit.  Thi
 ::: {.column width="60%"}
 If we try to build scales using just intonation, we have to make comprising about which intervals to preserve.  
 
-One of the earliest methods was the *Pythagorean* scale.  This is made by chosing a starting pitch (e.g. A~4~\ =\ 440\ Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A~4~ major scale.  This automatically includes the perfect fourths as well.
+One of the earliest methods was the *Pythagorean* scale.  This is made by choosing a starting pitch (e.g. A~4~\ =\ 440\ Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A~4~ major scale.  This automatically includes the perfect fourths as well.
 
 Extending this idea to all 12 tones is called "five-limit tuning".
 
