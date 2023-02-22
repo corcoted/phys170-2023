@@ -469,11 +469,11 @@
     "text": "Octaves of A’s\n\n\nIf we take as a starting point A4 = 440 Hz, we can use our definition of octave to calculate the frequencies of all of the other A’s on the piano keyboard by successively multiplying or dividing by two.\nThis is called a geometric sequence in math. Rather than adding or subtracting to go from one pitch to the next, we multiply or divide.\nTo find the frequencies of the other pitches, we need a mathematical rule. Historically, many different rules, called temperments or tunings were used. We’ll start with the most common modern rule: equal temperment.\n\n\n\n\nPitch\nFrequency (Hz)\n\n\n\n\nA0\n27.5\n\n\nA1\n55\n\n\nA2\n110\n\n\nA3\n220\n\n\nA4\n440\n\n\nA5\n880\n\n\nA6\n1760\n\n\nA7\n3520"
   },
   {
-    "objectID": "lectures/lecture-13.html#equal-temperment",
-    "href": "lectures/lecture-13.html#equal-temperment",
+    "objectID": "lectures/lecture-13.html#equal-temperament",
+    "href": "lectures/lecture-13.html#equal-temperament",
     "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Equal temperment",
-    "text": "Equal temperment\nThe rule for the 12-tone equal tempered scale (12-TET) simply says that the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.\nLet’s do a little algebra. If the ratio between adjacent keys is called x, then after 12 keys we should have an octave, or two times the starting frequency: \\[\nf_1 \\times x^{12} = 2f_1\n\\] Solving for x gives the ratio between adjacent keys: \\[\nx = \\sqrt[12]{2} \\approx 1.059463\\ldots\n\\] In words, the ratio is the twelfth root of 2. We can also write this as \\(2^{1/12}\\), 2 to the 1/12th power, which is easier to do algebra with.\nThis interval is called a semitone of the equal-tempered scale."
+    "section": "Equal temperament",
+    "text": "Equal temperament\nThe rule for the 12-tone equal tempered scale (12-TET) simply says that the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.\nLet’s do a little algebra. If the ratio between adjacent keys is called x, then after 12 keys we should have an octave, or two times the starting frequency: \\[\nf_1 \\times x^{12} = 2f_1\n\\] Solving for x gives the ratio between adjacent keys: \\[\nx = \\sqrt[12]{2} \\approx 1.059463\\ldots\n\\] In words, the ratio is the twelfth root of 2. We can also write this as \\(2^{1/12}\\),2 to the 1/12th power, which is easier to do algebra with.\nThis interval is called a semitone of the equal-tempered scale."
   },
   {
     "objectID": "lectures/lecture-13.html#examples",
@@ -494,14 +494,14 @@
     "href": "lectures/lecture-13.html#cents",
     "title": "Lecture 13: Musical Intervals and Scales",
     "section": "Cents",
-    "text": "Cents\nBecause multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called cents that we can add or subtract. Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency. Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.\nIf we have two frequencies, their difference in cents is given by \\[\n\\mathrm{cents} = 1200 \\log_2 (f_1/f_2).\n\\] Where “log2” means the base-2 logarithm. Most calculators can’t do this directly, so using some math rules for logs we get the equation \\[\n\\mathrm{cents} = \\frac{1200}{\\log 2} \\log (f_1/f_2)\n\\approx 3986 \\log(f_1/f_2).\n\\]\n(This should remind you of decibels. The math is very similar.)"
+    "text": "Cents\nBecause multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called cents that we can add or subtract. Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency. Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.\nIf we have two frequencies, their difference in cents from f1 to f2 is given by \\[\n\\mathrm{cents} = 1200 \\log_2 (f_2/f_1).\n\\] Where “log2” means the base-2 logarithm. Most calculators can’t do this directly, so using some math rules for logs we get the equation \\[\n\\mathrm{cents} = \\frac{1200}{\\log 2} \\log (f_2/f_1)\n\\approx 3986 \\log(f_1/f_2).\n\\]\n(This should remind you of decibels. The math is very similar.)"
   },
   {
     "objectID": "lectures/lecture-13.html#cents-to-frequency",
     "href": "lectures/lecture-13.html#cents-to-frequency",
     "title": "Lecture 13: Musical Intervals and Scales",
     "section": "Cents to frequency",
-    "text": "Cents to frequency\nGoing the other way, if we know f1 want to change by a number of cents, the new frequency f2 is \\[\nf_2 = f_1 \\times 2^{\\mathrm{cents}/1200},\n\\] where “cents” is positive to go higher in pitch or negative to go lower in pitch.\nFor example, if we’re trying to play A4 and our electronic tuner says we’re flat by 30 cents, our actual frequency is \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{-30/1200} = (440\\,\\mathrm{Hz})\\times(0.983) = 432\\,\\mathrm{Hz}\n\\]"
+    "text": "Cents to frequency\nGoing the other way, if we know f1 and want to change by a number of cents, the new frequency f2 is \\[\nf_2 = f_1 \\times 2^{\\mathrm{cents}/1200},\n\\] where “cents” is positive to go higher in pitch or negative to go lower in pitch.\nFor example, if we’re trying to play A4 and our electronic tuner says we’re flat by 30 cents, our actual frequency is \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{-30/1200} = (440\\,\\mathrm{Hz})\\times(0.983) = 432\\,\\mathrm{Hz}\n\\]\nAnother example, say we’re trying to play C4 (262 Hz) and our measured frequency is 256 Hz. How far off are we in cents? \\[\n\\frac{1200}{\\log 2}\\,\\log\\left(\\frac{256\\,\\mathrm{Hz}}{262\\,\\mathrm{Hz}}\\right) = -30\\,\\mathrm{cents}\\text{ (flat)}\n\\]"
   },
   {
     "objectID": "lectures/lecture-13.html#midi-pitch-values",
@@ -529,7 +529,7 @@
     "href": "lectures/lecture-13.html#pythagorean-scales",
     "title": "Lecture 13: Musical Intervals and Scales",
     "section": "Pythagorean scales",
-    "text": "Pythagorean scales\n\n\nIf we try to build scales using just intonation, we have to make comprising about which intervals to preserve.\nOne of the earliest methods was the Pythagorean scale. This is made by chosing a starting pitch (e.g. A4 = 440 Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A4 major scale. This automatically includes the perfect fourths as well.\nExtending this idea to all 12 tones is called “five-limit tuning”.\n\n\n\n\nThe root cause is that no number of perfect fifths add up to a whole number of octaves. Algebraically, there is no solution to the equation \\[\n(3/2)^x = 2^y,\n\\] where both x and y are whole numbers."
+    "text": "Pythagorean scales\n\n\nIf we try to build scales using just intonation, we have to make comprising about which intervals to preserve.\nOne of the earliest methods was the Pythagorean scale. This is made by choosing a starting pitch (e.g. A4 = 440 Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A4 major scale. This automatically includes the perfect fourths as well.\nExtending this idea to all 12 tones is called “five-limit tuning”.\n\n\n\n\nThe root cause is that no number of perfect fifths add up to a whole number of octaves. Algebraically, there is no solution to the equation \\[\n(3/2)^x = 2^y,\n\\] where both x and y are whole numbers."
   },
   {
     "objectID": "lectures/lecture-13.html#just-diatonic-scale",

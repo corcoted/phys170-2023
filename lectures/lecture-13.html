@@ -456,14 +456,14 @@ f_1 = \frac{1}{2L}\,\sqrt{\frac{F}{m}},
 </div>
 </div>
 </section>
-<section id="equal-temperment" class="slide level2">
-<h2>Equal temperment</h2>
+<section id="equal-temperament" class="slide level2">
+<h2>Equal temperament</h2>
 <p>The rule for the 12-tone equal tempered scale (12-TET) simply says that <em>the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.</em></p>
 <p>Let’s do a little algebra. If the ratio between adjacent keys is called <em>x</em>, then after 12 keys we should have an octave, or two times the starting frequency: <span class="math display">\[
 f_1 \times x^{12} = 2f_1
 \]</span> Solving for <em>x</em> gives the ratio between adjacent keys: <span class="math display">\[
 x = \sqrt[12]{2} \approx 1.059463\ldots
-\]</span> In words, the ratio is the twelfth root of 2. We can also write this as <span class="math inline">\(2^{1/12}\)</span>, 2 to the 1/12th power, which is easier to do algebra with.</p>
+\]</span> In words, the ratio is the twelfth root of 2. We can also write this as <span class="math inline">\(2^{1/12}\)</span>,<br>2 to the 1/12th power, which is easier to do algebra with.</p>
 <p>This interval is called a <em>semitone</em> of the equal-tempered scale.</p>
 </section>
 <section id="examples" class="slide level2">
@@ -494,21 +494,24 @@ C_5 = A_4 \times (2^{1/12})^3  = A_4\times 2^{1/4} = 440\,\mathrm{Hz}\times1.189
 <section id="cents" class="slide level2">
 <h2>Cents</h2>
 <p>Because multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called <em>cents</em> that we can add or subtract. Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency. Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.</p>
-<p>If we have two frequencies, their difference in cents is given by <span class="math display">\[
-\mathrm{cents} = 1200 \log_2 (f_1/f_2).
+<p>If we have two frequencies, their difference in cents from <em>f</em><sub>1</sub> to <em>f</em><sub>2</sub> is given by <span class="math display">\[
+\mathrm{cents} = 1200 \log_2 (f_2/f_1).
 \]</span> Where “log<sub>2</sub>” means the base-2 logarithm. Most calculators can’t do this directly, so using some math rules for logs we get the equation <span class="math display">\[
-\mathrm{cents} = \frac{1200}{\log 2} \log (f_1/f_2)
+\mathrm{cents} = \frac{1200}{\log 2} \log (f_2/f_1)
 \approx 3986 \log(f_1/f_2).
 \]</span></p>
 <p>(This should remind you of decibels. The math is very similar.)</p>
 </section>
 <section id="cents-to-frequency" class="slide level2">
 <h2>Cents to frequency</h2>
-<p>Going the other way, if we know <em>f</em><sub>1</sub> want to change by a number of cents, the new frequency <em>f</em><sub>2</sub> is <span class="math display">\[
+<p>Going the other way, if we know <em>f</em><sub>1</sub> and want to change by a number of cents, the new frequency <em>f</em><sub>2</sub> is <span class="math display">\[
 f_2 = f_1 \times 2^{\mathrm{cents}/1200},
 \]</span> where “cents” is positive to go higher in pitch or negative to go lower in pitch.</p>
 <p>For example, if we’re trying to play A<sub>4</sub> and our electronic tuner says we’re flat by 30 cents, our actual frequency is <span class="math display">\[
 f = (440\,\mathrm{Hz})\times 2^{-30/1200} = (440\,\mathrm{Hz})\times(0.983) = 432\,\mathrm{Hz}
+\]</span></p>
+<p>Another example, say we’re trying to play C<sub>4</sub> (262&nbsp;Hz) and our measured frequency is 256&nbsp;Hz. How far off are we in cents? <span class="math display">\[
+\frac{1200}{\log 2}\,\log\left(\frac{256\,\mathrm{Hz}}{262\,\mathrm{Hz}}\right) = -30\,\mathrm{cents}\text{ (flat)}
 \]</span></p>
 </section>
 <section id="midi-pitch-values" class="slide level2">
@@ -581,7 +584,7 @@ p = \frac{12}{\log 2}\log\left(\frac{f}{8.175\,\mathrm{Hz}}\right)
 <div class="columns">
 <div class="column" style="width:60%;">
 <p>If we try to build scales using just intonation, we have to make comprising about which intervals to preserve.</p>
-<p>One of the earliest methods was the <em>Pythagorean</em> scale. This is made by chosing a starting pitch (e.g.&nbsp;A<sub>4</sub>&nbsp;=&nbsp;440&nbsp;Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A<sub>4</sub> major scale. This automatically includes the perfect fourths as well.</p>
+<p>One of the earliest methods was the <em>Pythagorean</em> scale. This is made by choosing a starting pitch (e.g.&nbsp;A<sub>4</sub>&nbsp;=&nbsp;440&nbsp;Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A<sub>4</sub> major scale. This automatically includes the perfect fourths as well.</p>
 <p>Extending this idea to all 12 tones is called “five-limit tuning”.</p>
 </div><div class="column" style="width:40%;">
 <p><img data-src="figs/lecture-13/img_290.jpg"></p>
