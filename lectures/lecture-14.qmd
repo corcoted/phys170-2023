@@ -15,10 +15,12 @@ format: revealjs
 - The lecture on Tuesday, March 7 will not be in this room
   - 1st floor recital hall in Pappert
   - David Barr will be our guest lecturer, talking about pianos
+- This week's Weekly Reflection is on Canvas, due tomorrow 10pm.
 :::
 
 ## Daily Quiz
-blah
+
+<!-- In your own words, define "combination tone". -->
 
 # <span style="color: red;">Psychoacoustics</span> {background-image="figs/lecture-14/psycho-shower.webp"}
 
@@ -65,6 +67,8 @@ The CI uses a microphone to detect sound and then processes the sound and turns 
 :::
 :::
 
+# Perceived tones
+
 ## Effects with clear physics explanations
 
 Some of the effects in this chapter than we can possibly attribute to physics are the *combination tones* and *periodicity tones*.
@@ -73,6 +77,81 @@ Some of the effects in this chapter than we can possibly attribute to physics ar
 - *Periodicity tones* are perceived tones that are simple ratios of frequencies.
 
 There are plausible mechanisms for combining two or more pure tones 
+
+## Beat notes are combination tones
+
+Combination tones occur at sums or differences of two pure tones.
+
+[*Beat notes*](/lectures/lecture-05.html#/beat-notes) are an example of this.  If I have two pure tones *f*~1~ and *f*~2~ of almost the same frequency, we hear a beat note at their difference:
+
+$$
+f_\text{beat} = |f_1 - f_2|
+$$
+
+If we increase the frequency separation, eventually this becomes an additionally perceived pure tone.
+
+We heard this in the [chirp demo](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C2/C2S3_InterferenceBeating.html#Chirp-Experiment) from Lecture 5.
+
+## Nonlinear effects
+
+Combination tones can be generated from pure tones if there are *nonlinear effects* in the ear.
+
+A *linear system* is allowed to do only two things to a waveform:
+
+- Multiply the waveform amplitude by a number (amplification, gain)
+- Add or subtract two waveforms (superposition)
+
+If we only do these things, the frequencies that come out will be the same as the ones we put in: nothing is added or taken away.
+
+Any thing else we do to a waveform is nonlinear: squaring, exponentiation, log, clipping, multiplying waveforms together, etc.
+In these cases the frequencies will change, which we call *harmonic distortion*.
+
+## Example: squaring a waveform {.smaller}
+
+Take two waveforms with different frequencies *f*~1~ and *f*~2~:
+
+$$
+y_1 (t) = A_1 \sin (2\pi f_1 t);\qquad
+y_2 (t) = A_2 \sin (2\pi f_2 t).
+$$
+
+Add them together (a linear operation), then square the waveform.  After some algebra we get:
+
+$$
+\begin{aligned}
+\left(y_1(t)+y_2(t)\right)^2 &= \left(A_1 \sin (2\pi f_1 t) + A_2 \sin (2\pi f_2 t) \right)^2\\
+&= A_1^2 \sin^2(2\pi f_1 t) + A_2^2 \sin^2(2\pi f_2 t) + 2 A_1 A_2 \sin(2\pi f_1 t)\sin(2\pi f_2 t)\\
+&= \frac12 A_1^2 -\frac12 A_1^2 \cos(4\pi f_1 t)+\frac12 A_2^2 -\frac12 A_2^2 \cos(4\pi f_2 t)\\
+&\quad + \frac12 A_1A_2 \cos\left(2\pi (f_1-f_2)t\right)-\frac12 A_1A_2 \cos\left(2\pi (f_1+f_2)t\right)
+\end{aligned}
+$$
+
+The math details aren't important.  The important thing is that the list of frequencies has changed:
+
+$$
+f_1,\, f_2 \quad \rightarrow 2f_1,\, 2f_2,\, (f_1-f_2),\, (f_1+f_2).
+$$
+
+The point is **any nonlinearity will cause new frequencies to appear**.
+In electronic recording gear, we call this effect *distortion*.  In the human ear, this is the cause of *combination tones*. 
+
+## Combination tones
+::: {.columns}
+::: {.column width="50%"}
+Regardless of the physiological reason, humans perceive combination tones when two or more pure tones are played together, particularly if those tones are loud.
+
+The new frequencies follow a pattern:
+$$
+f_\text{combo} = nf_1 + mf_2,
+$$
+where *n* and *m* are integers (positive or negative).
+
+The bigger *n* and *m* are, the weaker the perceived tone is.
+:::
+::: {.column width="50%"}
+![](figs/lecture-14/img_326.jpg)
+:::
+:::
 
 ## Periodicity tones
 
@@ -91,9 +170,8 @@ In the [Beat-notes demo](https://academo.org/demos/wave-interference-beat-freque
 
 Do you hear the 100\ Hz fundamental in each case?
 :::
-::: {.fragment}
-*But wait! These also have difference tones at 100\ Hz!  Which is it?  Can we do an experiment?*
-:::
+
+
 
 ## The missing fundamental and pipe organs
 
@@ -140,10 +218,34 @@ This is analogous to the waveform for a perfect fifth (frequency ratio 3:2)
 :::
 :::
 
-# Topic 2
+# Difference tone or periodicity tone?
+
+::: {.columns}
+::: {.column width="60%"}
+
+In an earlier slide, I played these examples of periodicity tones 
+using the [Beat-notes demo](https://academo.org/demos/wave-interference-beat-frequency/).
+
+- Perfect 5th: 200\ Hz and 300\ Hz
+- Perfect 4th: 300\ Hz and 400\ Hz
+- Major 3rd: 400\ Hz and 500\ Hz
+
+::: {.fragment}
+We heard the 100\ Hz fundamental in each case, which we attributed to the periodicity tone.
+:::
+
+::: {.fragment}
+But wait a minute... *These also have difference tones at 100\ Hz!*  Which is it?  Can we do an experiment?
+:::
+
+:::
+::: {.column width="40%"}
+![This graph shows that its unclear if the perceived tones are difference tones or periodicity tones.](figs/lecture-14/img_326.jpg)
+:::
+:::
 
 ## Weekly Reflection
-This week's reflection is a mid-term survey about how the course is going.  Please fill this out on Canvas.
+This week's reflection is a mid-term survey about how the course is going.  *This is worth double points (12)*. Please fill this out on Canvas.
 
 - Your responses are anonymous
 - Full credit given to all who participate
@@ -151,4 +253,4 @@ This week's reflection is a mid-term survey about how the course is going.  Plea
   - Late work will be half credit, no more than 3 days past the deadline.
 
 ## Next time
-blah
+Guest lecture by David Barr in Pappert, 1st floor recital hall.
