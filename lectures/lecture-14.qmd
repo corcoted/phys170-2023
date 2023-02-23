@@ -65,6 +65,80 @@ The CI uses a microphone to detect sound and then processes the sound and turns 
 :::
 :::
 
+## Effects with clear physics explanations
+
+Some of the effects in this chapter than we can possibly attribute to physics are the *combination tones* and *periodicity tones*.
+
+- *Combination tones* are perceived tones at the sums and differences of two or more frequencies.
+- *Periodicity tones* are perceived tones that are simple ratios of frequencies.
+
+There are plausible mechanisms for combining two or more pure tones 
+
+## Periodicity tones
+
+*Periodicity tones* are perceived subharmonics at the common denominator for simple frequency ratios.
+
+::: {.fragment}
+For example, when playing a perfect fifth (3:2) or perfect fourth (4:3) and sometimes a major third (5:4), one can hear the *missing fundamental* of that harmonic series.  At higher intervals this effect diminishes.
+:::
+
+::: {.fragment}
+In the [Beat-notes demo](https://academo.org/demos/wave-interference-beat-frequency/) from [Lecture 5](/lectures/lecture-05.html), try these frequency combinations:
+
+- Perfect 5th: 200\ Hz and 300\ Hz
+- Perfect 4th: 300\ Hz and 400\ Hz
+- Major 3rd: 400\ Hz and 500\ Hz
+
+Do you hear the 100\ Hz fundamental in each case?
+:::
+::: {.fragment}
+*But wait! These also have difference tones at 100\ Hz!  Which is it?  Can we do an experiment?*
+:::
+
+## The missing fundamental and pipe organs
+
+::: {.columns}
+::: {.column width="60%"}
+Builders of pipe organs going back at least to the Renaissance knew about the missing fundamental effect, called *mutations* in this context.
+
+A "Bourdon" (French for bumblebee) or "Untersatz" (German, literally "sits under") organ stop on many organs actually plays 2nd and 3rd harmonics of the desired bass note to avoid the need for really tall pipes.  (It is also a half-closed pipe, dropping the pitch by an additional octave.)
+:::
+::: {.column width="40%"}
+![Saint Germain l'Auxerrois, Paris](figs/lecture-14/StGermainAuxerrois1.jpg)
+
+::: {style="font-size:70%"}
+Ref. [Wikipedia](https://commons.wikimedia.org/wiki/File:StGermainAuxerrois1.jpg)
+:::
+:::
+:::
+
+## Rhythm analogy
+
+The perception of a periodicity tone may work similarly to how we perceive the beats in complex rhythms.
+
+::: {.columns}
+::: {.column width="60%"}
+
+::: {.fragment fragment-index=1}
+Consider these two rhythms superimposed:
+
+Where is the beat?  Our brain tells us it is where the *combined* pattern of doublets and triplets repeat.
+:::
+
+::: {.fragment fragment-index=2}
+This is analogous to the waveform for a perfect fifth (frequency ratio 3:2)
+:::
+:::
+::: {.column width="40%"}
+
+::: {.fragment fragment-index=1}
+![](figs/lecture-14/doublet-triplet.jpg){ fig-align="center" }
+:::
+::: {.fragment fragment-index=2}
+![](figs/lecture-14/img_336a.jpg){ fig-align="center" }
+:::
+:::
+:::
 
 # Topic 2
 
