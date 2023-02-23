@@ -1162,6 +1162,104 @@
     "text": "Next time\nMusical Scales"
   },
   {
+    "objectID": "lectures/lecture-14.html#announcements",
+    "href": "lectures/lecture-14.html#announcements",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nExam 2 will be Thursday, March 9.\n\nChapters 6-13 (Lectures 5-12)\nSimilar format to last time\n\nThe lecture on Tuesday, March 7 will not be in this room\n\n1st floor recital hall in Pappert\nDavid Barr will be our guest lecturer, talking about pianos\n\nThis week’s Weekly Reflection is on Canvas, due tomorrow 10pm."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#daily-quiz",
+    "href": "lectures/lecture-14.html#daily-quiz",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#psychoacoustics-1",
+    "href": "lectures/lecture-14.html#psychoacoustics-1",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Psychoacoustics",
+    "text": "Psychoacoustics\n\n\n\nPsychoacoustics is the scientific study of how humans perceive sound.\nOnce sound enters our ears at least two steps happen that can affect what we hear\n\nThe sound gets transmitted from the air to the cochlea, and then converted to nerve impulses\nThose nerve impulses are interpreted by our brain\n\nThe first one we can do objective experiments to understand.\nThe second requires asking test subjects to tell us what they hear, so is necessarily a subjective experiment.\nModern technology like Functional Magnetic Resonance Imaging (fMRI) is moving the boundary between the objective and subjective by allowing us to see into the brain itself."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#application-cochlear-implants",
+    "href": "lectures/lecture-14.html#application-cochlear-implants",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Application: Cochlear Implants",
+    "text": "Application: Cochlear Implants\n\n\nPsychoacoustic experiments were key in the development of cochlear implants to aid individuals with hearing loss.\nThe CI uses a microphone to detect sound and then processes the sound and turns it into electrical impulses that are sent directly to the user’s cochlear nerve, bypassing most of the ear."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#effects-with-clear-physics-explanations",
+    "href": "lectures/lecture-14.html#effects-with-clear-physics-explanations",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Effects with clear physics explanations",
+    "text": "Effects with clear physics explanations\nSome of the effects in this chapter than we can possibly attribute to physics are the combination tones and periodicity tones.\n\nCombination tones are perceived tones at the sums and differences of two or more frequencies.\nPeriodicity tones are perceived tones that are simple ratios of frequencies.\n\nThere are plausible mechanisms for combining two or more pure tones"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#beat-notes-are-combination-tones",
+    "href": "lectures/lecture-14.html#beat-notes-are-combination-tones",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Beat notes are combination tones",
+    "text": "Beat notes are combination tones\nCombination tones occur at sums or differences of two pure tones.\nBeat notes are an example of this. If I have two pure tones f1 and f2 of almost the same frequency, we hear a beat note at their difference:\n\\[\nf_\\text{beat} = |f_1 - f_2|\n\\]\nIf we increase the frequency separation, eventually this becomes an additionally perceived pure tone.\nWe heard this in the chirp demo from Lecture 5."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#nonlinear-effects",
+    "href": "lectures/lecture-14.html#nonlinear-effects",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Nonlinear effects",
+    "text": "Nonlinear effects\nCombination tones can be generated from pure tones if there are nonlinear effects in the ear.\nA linear system is allowed to do only two things to a waveform:\n\nMultiply the waveform amplitude by a number (amplification, gain)\nAdd or subtract two waveforms (superposition)\n\nIf we only do these things, the frequencies that come out will be the same as the ones we put in: nothing is added or taken away.\nAny thing else we do to a waveform is nonlinear: squaring, exponentiation, log, clipping, multiplying waveforms together, etc. In these cases the frequencies will change, which we call harmonic distortion."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#example-squaring-a-waveform",
+    "href": "lectures/lecture-14.html#example-squaring-a-waveform",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Example: squaring a waveform",
+    "text": "Example: squaring a waveform\nTake two waveforms with different frequencies f1 and f2:\n\\[\ny_1 (t) = A_1 \\sin (2\\pi f_1 t);\\qquad\ny_2 (t) = A_2 \\sin (2\\pi f_2 t).\n\\]\nAdd them together (a linear operation), then square the waveform. After some algebra we get:\n\\[\n\\begin{aligned}\n\\left(y_1(t)+y_2(t)\\right)^2 &= \\left(A_1 \\sin (2\\pi f_1 t) + A_2 \\sin (2\\pi f_2 t) \\right)^2\\\\\n&= A_1^2 \\sin^2(2\\pi f_1 t) + A_2^2 \\sin^2(2\\pi f_2 t) + 2 A_1 A_2 \\sin(2\\pi f_1 t)\\sin(2\\pi f_2 t)\\\\\n&= \\frac12 A_1^2 -\\frac12 A_1^2 \\cos(4\\pi f_1 t)+\\frac12 A_2^2 -\\frac12 A_2^2 \\cos(4\\pi f_2 t)\\\\\n&\\quad + \\frac12 A_1A_2 \\cos\\left(2\\pi (f_1-f_2)t\\right)-\\frac12 A_1A_2 \\cos\\left(2\\pi (f_1+f_2)t\\right)\n\\end{aligned}\n\\]\nThe math details aren’t important. The important thing is that the list of frequencies has changed:\n\\[\nf_1,\\, f_2 \\quad \\rightarrow 2f_1,\\, 2f_2,\\, (f_1-f_2),\\, (f_1+f_2).\n\\]\nThe point is any nonlinearity will cause new frequencies to appear. In electronic recording gear, we call this effect distortion. In the human ear, this is the cause of combination tones."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#combination-tones",
+    "href": "lectures/lecture-14.html#combination-tones",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Combination tones",
+    "text": "Combination tones\n\n\nRegardless of the physiological reason, humans perceive combination tones when two or more pure tones are played together, particularly if those tones are loud.\nThe new frequencies follow a pattern: \\[\nf_\\text{combo} = nf_1 + mf_2,\n\\] where n and m are integers (positive or negative).\nThe bigger n and m are, the weaker the perceived tone is."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#periodicity-tones",
+    "href": "lectures/lecture-14.html#periodicity-tones",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Periodicity tones",
+    "text": "Periodicity tones\nPeriodicity tones are perceived subharmonics at the common denominator for simple frequency ratios.\n\nFor example, when playing a perfect fifth (3:2) or perfect fourth (4:3) and sometimes a major third (5:4), one can hear the missing fundamental of that harmonic series. At higher intervals this effect diminishes.\n\n\nIn the Beat-notes demo from Lecture 5, try these frequency combinations:\n\nPerfect 5th: 200 Hz and 300 Hz\nPerfect 4th: 300 Hz and 400 Hz\nMajor 3rd: 400 Hz and 500 Hz\n\nDo you hear the 100 Hz fundamental in each case?"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#the-missing-fundamental-and-pipe-organs",
+    "href": "lectures/lecture-14.html#the-missing-fundamental-and-pipe-organs",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "The missing fundamental and pipe organs",
+    "text": "The missing fundamental and pipe organs\n\n\nBuilders of pipe organs going back at least to the Renaissance knew about the missing fundamental effect, called mutations in this context.\nA “Bourdon” (French for bumblebee) or “Untersatz” (German, literally “sits under”) organ stop on many organs actually plays 2nd and 3rd harmonics of the desired bass note to avoid the need for really tall pipes. (It is also a half-closed pipe, dropping the pitch by an additional octave.)\n\n\n\n\nSaint Germain l’Auxerrois, Paris\n\n\n\nRef. Wikipedia"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#rhythm-analogy",
+    "href": "lectures/lecture-14.html#rhythm-analogy",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Rhythm analogy",
+    "text": "Rhythm analogy\nThe perception of a periodicity tone may work similarly to how we perceive the beats in complex rhythms.\n\n\n\nConsider these two rhythms superimposed:\nWhere is the beat? Our brain tells us it is where the combined pattern of doublets and triplets repeat.\n\n\nThis is analogous to the waveform for a perfect fifth (frequency ratio 3:2)"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#weekly-reflection",
+    "href": "lectures/lecture-14.html#weekly-reflection",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nThis week’s reflection is a mid-term survey about how the course is going. This is worth double points (12). Please fill this out on Canvas.\n\nYour responses are anonymous\nFull credit given to all who participate\nDeadline is 10pm tomorrow.\n\nLate work will be half credit, no more than 3 days past the deadline."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#next-time",
+    "href": "lectures/lecture-14.html#next-time",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Next time",
+    "text": "Next time\nGuest lecture by David Barr in Pappert, 1st floor recital hall."
+  },
+  {
     "objectID": "lectures/lecture-05.html#announcements",
     "href": "lectures/lecture-05.html#announcements",
     "title": "Lecture 5: Resonance, Beats, and Doppler",

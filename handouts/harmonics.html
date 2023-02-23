@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-01-26">
+
+<title>PHYS170 notes - Harmonics Worksheet</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Harmonics Worksheet</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">PHYS170 notes</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about.html" class="sidebar-item-text sidebar-link">About</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Lectures</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-02.html" class="sidebar-item-text sidebar-link">Lecture 2: Sound</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-03.html" class="sidebar-item-text sidebar-link">Lecture 3: Transverse Waves</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-04.html" class="sidebar-item-text sidebar-link">Lecture 4: Longitudinal Waves and Sound Transmission</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-05.html" class="sidebar-item-text sidebar-link">Lecture 5: Resonance, Beats, and Doppler</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-06.html" class="sidebar-item-text sidebar-link">Lecture 6: Diffraction and Interference</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-07.html" class="sidebar-item-text sidebar-link">Lecture 7: Harmonics</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-08.html" class="sidebar-item-text sidebar-link">Lecture 8: Sound Intensity and Hearing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-09.html" class="sidebar-item-text sidebar-link">Lecture 9: Loudness</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-10.html" class="sidebar-item-text sidebar-link">Lecture 10: Strings</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-11.html" class="sidebar-item-text sidebar-link">Lecture 11: Tubes</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-12.html" class="sidebar-item-text sidebar-link">Lecture 12: Solid Bodies</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-13.html" class="sidebar-item-text sidebar-link">Lecture 13: Musical Intervals and Scales</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lectures/lecture-14.html" class="sidebar-item-text sidebar-link">Lecture 14: Perceptions of frequency</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#part-1-normal-modes" id="toc-part-1-normal-modes" class="nav-link active" data-scroll-target="#part-1-normal-modes">Part 1: <em>Normal Modes</em></a>
+  <ul class="collapse">
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#experiments-and-questions" id="toc-experiments-and-questions" class="nav-link" data-scroll-target="#experiments-and-questions">Experiments and questions</a></li>
+  </ul></li>
+  <li><a href="#part-2-making-waves" id="toc-part-2-making-waves" class="nav-link" data-scroll-target="#part-2-making-waves">Part 2: <em>Making Waves</em></a>
+  <ul class="collapse">
+  <li><a href="#setup-1" id="toc-setup-1" class="nav-link" data-scroll-target="#setup-1">Setup</a></li>
+  <li><a href="#experiments" id="toc-experiments" class="nav-link" data-scroll-target="#experiments">Experiments</a></li>
+  <li><a href="#bonus-experiments-if-time-allows" id="toc-bonus-experiments-if-time-allows" class="nav-link" data-scroll-target="#bonus-experiments-if-time-allows">Bonus experiments (if time allows)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Harmonics Worksheet</h1>
+<p class="subtitle lead">PHYS170 Lecture 7</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 26, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Here we investigate the idea of Harmonics. In Part 1 we look at how harmonics are related to wave motion and in Part 2 we see how this motion is related to sound quality.</p>
+<section id="part-1-normal-modes" class="level1">
+<h1>Part 1: <em>Normal Modes</em></h1>
+<p>In this part you’ll experiment with a simulation of plucking a guitar or violin string to see how this effects the harmonics generated by the string.</p>
+<p><strong>Be sure to write down answers to all of the questions asked below with the instructions.</strong></p>
+<p>Open the “PhET Normal Modes” simulation. Use Google to find it or use this URL: <a href="https://phet.colorado.edu/en/simulations/normal-modes" class="uri">https://phet.colorado.edu/en/simulations/normal-modes</a> .</p>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>Follow these steps to load the simulation and learn its features:</p>
+<ol type="1">
+<li>Start the simulation itself by clicking on the image.</li>
+<li>Choose “One Dimension”. (The “Two Dimension” setting models a square drumhead, but we want a string for now.)</li>
+<li>You should see an orange string with 3 blue boxes on it. You can drag the boxes to make the string move. Play around with this.</li>
+<li>The “Normal Modes” box on the right shows the different harmonics of the string. “Mode” is another word for “harmonic”. The number of modes used in the simulation is set by the “Number of Masses” box above. <strong>Change the “Number of Masses” to 9.</strong> As the number of modes increases and the motion of the string will be smoother. (We’re using 9 because it is the biggest odd number. That will make some of the experiments below easier.)</li>
+<li>The “Normal Modes” box at the bottom shows how much amplitude is in each harmonic. Use the amplitude sliders to change these values. How does the motion change?</li>
+<li>Click on the pause button on the right (blue circle). Then click on the “Zero Positions” button. This resets the simulation.
+<ul>
+<li>With the simulation paused you can move the string (drag the blue squares) or the amplitude sliders to change the shape of the string. Click the “play” button to start the motion again.</li>
+<li>Notice that the two sets of settings are dependent on each other: moving the string changes the amplitude sliders and vice versa.</li>
+</ul></li>
+</ol>
+</section>
+<section id="experiments-and-questions" class="level2">
+<h2 class="anchored" data-anchor-id="experiments-and-questions">Experiments and questions</h2>
+<ol type="1">
+<li>Click “Zero Positions” and press play (if needed). Set the “Number of Masses” to 9. Investigate what happens if only one amplitude slider is turned on.
+<ul>
+<li>How would you describe the motion of the string in this case? Are these standing waves, traveling waves, or something else?</li>
+<li>Can you identify nodes and antinodes? Count the number of nodes and antinodes when the following harmonics are turned on (by themselves): 1, 2, 5.</li>
+</ul></li>
+<li>Press “Zero Positions”. Let’s pluck the string. Move the box on the end and watch the resulting wave. Is this a standing wave, a traveling wave, or something else? Let the simulation run for a few seconds, then observe the wave motion again. How has it changed? How would you describe the values of the amplitudes? In other words, what is the general pattern of the amplitudes? <strong>Write down the amplitude numbers because you will use them in Part 2 below.</strong><br>
+</li>
+<li>Press “Zero Positions”. Now “pluck” the string in the center. Describe the motion of the string. Now, look at the mode amplitudes. What pattern do you see here? <strong>Write down the amplitude numbers because you will use them in Part 2 below.</strong></li>
+<li>With the last two experiments in mind, why does a guitar or violin sound different when you pluck/bow it in the center instead of near the end?</li>
+<li>“Zero positions” again. Move the amplitude sliders to turn on several of the odd-numbered modes. Can you make a general statement about the shape of the waves when only odd modes are present? Repeat with only even-numbered modes. What does the mode shape look like for even modes?</li>
+</ol>
+</section>
+</section>
+<section id="part-2-making-waves" class="level1">
+<h1>Part 2: <em>Making Waves</em></h1>
+<p>In this part we’ll take the idea of normal modes and investigate how this changes the sound.</p>
+<p>Open the “PhET Fourier: Making Waves” simulation. Google it or use this URL: <a href="https://phet.colorado.edu/en/simulations/fourier-making-waves" class="uri">https://phet.colorado.edu/en/simulations/fourier-making-waves</a>. This simulation uses sound, so check the volume on your device and/or use headphones.</p>
+<section id="setup-1" class="level2">
+<h2 class="anchored" data-anchor-id="setup-1">Setup</h2>
+<ol type="1">
+<li>Click the image to start the simulation. Pick the “Discrete” page.</li>
+<li>At the top of the page are mode amplitude sliders like we saw in the “Normal Modes” simulation. The “Harmonics” graph shows the wave for each of the harmonic functions, each one with a different color. The “Sum” graph adds all of the “Harmonics” curves to get the resulting waveform. Try adjusting the amplitude sliders to see how these graphs change (or you can click on the numbers to type in the values). You can click on the +/- buttons beside each graph to zoom the horizontal axis.</li>
+</ol>
+</section>
+<section id="experiments" class="level2">
+<h2 class="anchored" data-anchor-id="experiments">Experiments</h2>
+<ol type="1">
+<li>First, let’s see what frequencies/pitches are represented by these sliders. If you have a tuner app on your phone, open that. (If not, we’ll share the answers as a class.) Go one-by-one through each of the amplitude sliders, turn it on, and use the tuner app to measure the frequency. What is the mathematical relationship between the frequencies here?</li>
+<li>Click on the checkbox on the right side by the music note to turn on the sound. Play with the amplitude sliders. How does the sound change as you adjust the sliders?</li>
+<li>The “Waveform” combo box in the top right has several preset wave shapes. Listen to these. How does the <em>timbre</em> or tone quality of the sound relate to the wave shape? Which of these preset shapes sounds most like a flute? an oboe?</li>
+<li>Look at the amplitude values that you wrote down in Questions 3 and 4 of Part 1. Enter these values into the this simulation and listen. What is the difference in sound between plucking the string in the center and plucking it near the end?</li>
+</ol>
+</section>
+<section id="bonus-experiments-if-time-allows" class="level2">
+<h2 class="anchored" data-anchor-id="bonus-experiments-if-time-allows">Bonus experiments (if time allows)</h2>
+<p>Although we’ve focussed on the wave shape and how it would effect the timbre of an individual instrument, we can also start to think about pitch and harmony. We’ll discuss this in detail later in the semester, but the tools here will give you a preview of where we are going.</p>
+<ol type="1">
+<li>Use the tuner app to measure the musical <em>pitches</em> of each of the harmonics. In our class we’ll typically describe pitches as a letter and number, with the number indicating the octave. The usual naming convention has C<sub>4</sub> as middle C on a piano staff, which has a frequency of about 262 Hz. (The octaves start at C for numbering purposes).</li>
+<li>How would you describe the arrangement of the pitches as you go from the first harmonic (amplitude A<sub>1</sub> on the simulation) to the higher ones?</li>
+<li>Identify the harmonic that is one octave above the first harmonic (by sound, or however you can). What is the mathematical relationship between the frequencies of these two harmonics? Which harmonics correspond to the next two higher octaves of the fundamental?</li>
+<li>Turn on the 2nd and 3rd harmonics only. What is the musical description of these two frequencies played together?</li>
+<li>Now do 4, 5, and 6 together. What is this combination, musically?</li>
+<li>Is it possible to build a minor triad using this simulation? Why or why not?</li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
