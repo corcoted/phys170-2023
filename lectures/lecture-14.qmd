@@ -1,5 +1,5 @@
 ---
-title: "Lecture 14: XXX"
+title: "Lecture 14: Perceptions of frequency"
 subtitle: "Chapter 13"
 date: "2/23/2023"
 order: 14
@@ -20,8 +20,51 @@ format: revealjs
 ## Daily Quiz
 blah
 
-# Topic 1
-blah
+# <span style="color: red;">Psychoacoustics</span> {background-image="figs/lecture-14/psycho-shower.webp"}
+
+
+## Psychoacoustics
+
+::: {.columns}
+::: {.column width="75%"}
+::: { style="font-size:85%" }
+[*Psychoacoustics*](https://en.wikipedia.org/wiki/Psychoacoustics) is the scientific study of how humans perceive sound.
+
+Once sound enters our ears at least two steps happen that can affect what we hear
+
+- The sound gets transmitted from the air to the cochlea, and then converted to nerve impulses
+- Those nerve impulses are interpreted by our brain
+
+The first one we can do objective experiments to understand.
+
+The second requires asking test subjects to tell us what they hear, so is necessarily a subjective experiment.
+
+Modern technology like [Functional Magnetic Resonance Imaging (fMRI)](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) is moving the boundary between the objective and subjective by allowing us to see into the brain itself.
+:::
+:::
+::: {.column width="25%"}
+![](figs/lecture-08/nidcd-ear-illustration.jpg)
+
+![](figs/lecture-08/basilar-membrane-britannica.jpg)
+
+![](figs/lecture-14/1206_FMRI.jpg){ width=70% }
+:::
+:::
+
+## Application: Cochlear Implants
+
+::: {.columns}
+::: {.column width="50%"}
+Psychoacoustic experiments were key in the development of [cochlear implants](https://en.wikipedia.org/wiki/Cochlear_implant) to aid individuals with hearing loss.
+
+The CI uses a microphone to detect sound and then processes the sound and turns it into electrical impulses that are sent directly to the user's cochlear nerve, bypassing most of the ear.
+
+:::
+::: {.column width="50%"}
+![](figs/lecture-14/CochlearImplant_01.png)
+:::
+:::
+
 
 # Topic 2
 
