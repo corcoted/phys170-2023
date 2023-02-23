@@ -1,0 +1,37 @@
+---
+title: "Lecture 14: XXX"
+subtitle: "Chapter 13"
+date: "2/23/2023"
+order: 14
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- Exam 2 will be *Thursday, March 9*.
+  - Chapters 6-13 (Lectures 5-12)
+  - Similar format to last time
+- The lecture on Tuesday, March 7 will not be in this room
+  - 1st floor recital hall in Pappert
+  - David Barr will be our guest lecturer, talking about pianos
+:::
+
+## Daily Quiz
+blah
+
+# Topic 1
+blah
+
+# Topic 2
+
+## Weekly Reflection
+This week's reflection is a mid-term survey about how the course is going.  Please fill this out on Canvas.
+
+- Your responses are anonymous
+- Full credit given to all who participate
+- Deadline is **10pm tomorrow**.
+  - Late work will be half credit, no more than 3 days past the deadline.
+
+## Next time
+blah
