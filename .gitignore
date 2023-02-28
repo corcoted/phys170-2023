@@ -1,3 +1,5 @@
 /.vscode/
 /.quarto/
 /_site/
+/.luarc.json
+/env/
