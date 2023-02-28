@@ -12,6 +12,8 @@ dependencies:
   - matplotlib
   - numpy
   - scipy
+  - nbformat
+  - nbclient
   - pip
   - pip:
     - shinylive

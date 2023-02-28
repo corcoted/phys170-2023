@@ -1,0 +1,125 @@
+---
+title: Plucked string demo
+format: html
+filters:
+  - shinylive
+---
+
+This is a simplified calculation showing which harmonics are excited when a string is plucked at various locations along its length.  Use the slider to choose where along the string it is plucked, then the calculation will show the first few harmonics and their superposition.  (TODO: play a sound.)
+
+*Please be patient, as this takes a while to load.*
+
+```{shinylive-python}
+#| viewerHeight: 600
+#| standalone: true
+
+from shiny import *
+import numpy as np
+import matplotlib.pyplot as plt
+#import IPython.display as ipd
+#from ipywidgets import Audio
+from shinywidgets import output_widget, register_widget, reactive_read
+
+num_modes = 10
+mode_list = 1+np.arange(num_modes)
+
+x = 0.5 #0.4 # position on the string
+# TODO make this a slider
+
+# pre-calculate a bunch of sines
+num_steps = 101
+positions = np.linspace(0.0,1.0,num_steps,endpoint=True)
+phase_array = np.outer(positions,mode_list)*np.pi
+sine_array = np.sin(phase_array)
+
+# constants for sound generation
+f1 = 440. # fundamental mode frequency in Hz
+duration = 1.0 # duration of tone in seconds
+
+# sampling constants
+sample_rate = 22050 # sample rate of sound in samples per second
+sample_length = duration * sample_rate
+time_step = 1./sample_rate
+times = np.arange(sample_length)*time_step
+
+app_ui = ui.page_fluid(
+    ui.layout_sidebar(ui.panel_sidebar(
+    ui.input_slider("pluck", "Position", 0, 100, 50),
+    ui.output_text_verbatim("txt"),
+    #output_widget("audio"),
+    ),
+    ui.panel_main(
+    ui.output_plot("plot"),
+    ui.output_plot("waveplot"),),
+    # TODO audio widget
+    #ipd.display(ipd.Audio(waveform(times), rate=sample_rate))
+)
+)
+
+def server(input, output, session):
+    # start by calculating the stuff
+    @reactive.Calc
+    def amplitudes():
+        return np.sin(mode_list*np.pi*input.pluck()/100.)
+    
+    @reactive.Calc
+    def waveform():
+        return np.sum(amplitudes()*np.sin(2*np.pi*f1*np.outer(mode_list,times)).T,axis=1)
+    
+    @output
+    @render.text
+    def txt():
+        return f"The value of x/L is {input.pluck()/100.}"
+
+    @output
+    @render.plot
+    def plot():
+        ''' calculate and do the plot '''
+        # set up figure grid
+        fig = plt.figure(figsize=(10,3))
+        gs = plt.GridSpec(1,2,width_ratios=[1,2])
+        ax = [fig.add_subplot(g) for g in gs]
+    
+        # plot the amplitudes
+        amps = amplitudes()
+
+        ax[0].bar(mode_list,amps,width=0.5)
+        ax[0].axhline(0,0,1,c='k',lw=0.5)
+        ax[0].set_xticks(mode_list)
+        ax[0].set_xlabel("Mode number")
+        ax[0].set_ylabel("Amplitude")
+        ax[0].set_title("Mode amplitudes")
+        #fig.show()
+    
+        #max_plot_modes = 10
+    
+        # calculate the curves
+        for i in range(num_modes):
+            ax[1].plot(positions,amps[i]*np.sin(phase_array[:,i]),alpha=0.7*np.abs(amps[i])**2,color='r',lw=1)
+        ax[1].plot(positions,np.sum(sine_array*amps,axis=1),'k',lw=2)
+        ax[1].set_xlim(0,1)
+        ax[1].axvline(input.pluck(),0,1,c='k',ls='dotted')
+        ax[1].axhline(0,0,1,c='k',lw=0.5)
+        ax[1].set_xlabel("Position (x/L)")
+        ax[1].set_ylabel("Amplitude")
+        ax[1].set_title("String shape")
+
+        fig.show()
+        return
+    
+    @output
+    @render.plot
+    def waveplot():
+        fig = plt.figure(figsize=(10,3))
+        plt.plot(times[:100],waveform()[:100])
+        fig.show()
+        return
+    
+    #def audio():
+    #    return ipd.display(ipd.Audio(waveform(), rate=sample_rate))
+    #register_widget("audio",audio)
+#plot()
+
+app = App(app_ui, server)
+
+```

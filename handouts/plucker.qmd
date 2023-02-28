@@ -1,39 +1,95 @@
 ---
-title: Plucked string demo
+title: "Plucked string demo"
 format: html
-filters:
-  - shinylive
+jupyter:
+  jupytext:
+    formats: 'ipynb,qmd'
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.14.4
+  kernelspec:
+    display_name: 'Python [conda env:env]'
+    language: python
+    name: conda-env-env-py
 ---
 
-This is a simplified calculation showing which harmonics are excited when a string is plucked at various locations along its length.  Use the slider to choose where along the string it is plucked, then the calculation will show the first few harmonics and their superposition.  (TODO: play a sound.)
-
-```{shinylive-python}
-#| standalone: true
-
-from shiny import *
+```{python}
 import numpy as np
 import matplotlib.pyplot as plt
 
-num_modes = 10 # number of modes to include in the calculation
-# TODO make num_modes a user variable
+num_modes = 10
+mode_list = 1+np.arange(num_modes)
 
-app_ui = ui.page_fluid(
-    ui.input_slider("x", "Position", 0, 100, 50),
-    #ui.output_text_verbatim("txt"),
-    ui.output_plot("plot"),
-)
+x = 0.5 #0.4 # position on the string
+# TODO make this a slider
 
-def server(input, output, session):
-    @output
-    #@render.text
-    #def txt():
-    #    return f"The value of n*2 is {input.n() * 2}"
-    @render.plot
-    def plot():
-        '''Calculate and plot the modes'''
-        amplitudes = 0
+amplitudes = np.sin(mode_list*np.pi*x)
 
+# pre-calculate a bunch of sines
+num_steps = 101
+positions = np.linspace(0.0,1.0,num_steps,endpoint=True)
+phase_array = np.outer(positions,mode_list)*np.pi
+sine_array = np.sin(phase_array)
 
-app = App(app_ui, server)
+sine_array[:,:10].shape
 
+def plot():
+    ''' calculate and do the plot '''
+    
+    
+    
+    # set up figure grid
+    fig = plt.figure(figsize=(10,4))
+    gs = plt.GridSpec(1,2,width_ratios=[1,2])
+    ax = [fig.add_subplot(g) for g in gs]
+
+    # plot the amplitudes
+    ax[0].bar(mode_list,amplitudes,width=0.5)
+    ax[0].axhline(0,0,1,c='k',lw=0.5)
+    ax[0].set_xticks(mode_list)
+    ax[0].set_xlabel("Mode number")
+    ax[0].set_ylabel("Amplitude")
+    ax[0].set_title("Mode amplitudes")
+    #fig.show()
+
+    #max_plot_modes = 10
+
+    # calculate the curves
+    for i in range(num_modes):
+        ax[1].plot(positions,amplitudes[i]*np.sin(phase_array[:,i]),alpha=0.7*np.abs(amplitudes[i])**2,color='r',lw=1)
+    ax[1].plot(positions,np.sum(sine_array*amplitudes,axis=1),'k',lw=2)
+    ax[1].set_xlim(0,1)
+    ax[1].axvline(x,0,1,c='k',ls='dotted')
+    ax[1].axhline(0,0,1,c='k',lw=0.5)
+    ax[1].set_xlabel("Position (x/L)")
+    ax[1].set_ylabel("Amplitude")
+    ax[1].set_title("String shape")
+    
+plot()
+
+# constants for sound generation
+f1 = 440. # fundamental mode frequency in Hz
+duration = 1.0 # duration of tone in seconds
+
+# sampling constants
+sample_rate = 22050 # sample rate of sound in samples per second
+sample_length = duration * sample_rate
+time_step = 1./sample_rate
+
+times = np.arange(sample_length)*time_step
+def waveform(t):
+    return np.sum(amplitudes*np.sin(2*np.pi*f1*np.outer(mode_list,t)).T,axis=1)
+
+waveform(times).shape
+
+plt.plot(times[:100],waveform(times[:100]))
+
+#| tags: []
+import IPython.display as ipd
+
+#| tags: []
+ipd.display(ipd.Audio(waveform(times), rate=sample_rate))
 ```
+
