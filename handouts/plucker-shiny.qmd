@@ -12,67 +12,80 @@ This is a simplified calculation showing which harmonics are excited when a stri
 ```{shinylive-python}
 #| viewerHeight: 800
 #| standalone: true
-
 from shiny import *
 import numpy as np
 import matplotlib.pyplot as plt
 import ipywidgets as ipyw
 from ipywidgets.widgets.widget import Widget
 from shinywidgets import output_widget, register_widget, reactive_read, render_widget
+import scipy.io.wavfile as wf
 
-import micropip
-micropip.install("ipython")
+import pathlib
+import os
 
-import IPython.display as ipyd
-#from IPython.display import display, Markdown, Audio
+my_path = pathlib.Path(__file__).parent
 
 num_modes = 10
-mode_list = 1+np.arange(num_modes)
+mode_list = 1 + np.arange(num_modes)
 
-x = 0.5 #0.4 # position on the string
+x = 0.5  # 0.4 # position on the string
 # TODO make this a slider
 
 # pre-calculate a bunch of sines
 num_steps = 101
-positions = np.linspace(0.0,1.0,num_steps,endpoint=True)
-phase_array = np.outer(positions,mode_list)*np.pi
+positions = np.linspace(0.0, 1.0, num_steps, endpoint=True)
+phase_array = np.outer(positions, mode_list) * np.pi
 sine_array = np.sin(phase_array)
 
 # constants for sound generation
-f1 = 440. # fundamental mode frequency in Hz
-duration = 1.0 # duration of tone in seconds
+f1 = 440.0  # fundamental mode frequency in Hz
+duration = 1.0  # duration of tone in seconds
 
 # sampling constants
-sample_rate = 22050 # sample rate of sound in samples per second
+sample_rate = 22050  # sample rate of sound in samples per second
 sample_length = duration * sample_rate
-time_step = 1./sample_rate
-times = np.arange(sample_length)*time_step
+time_step = 1.0 / sample_rate
+times = np.arange(sample_length) * time_step
+
+# other constants
+wavefile = my_path / "temp.wav"
 
 app_ui = ui.page_fluid(
-    ui.layout_sidebar(ui.panel_sidebar(
-    ui.input_slider("pluck", "Position", 0, 100, 50),
-    ui.output_text_verbatim("txt"),
-    #output_widget("audio"),
-    ),
-    ui.panel_main(
-    ui.output_plot("plot"),
-    ui.output_plot("waveplot"),
-    # TODO audio widget
-    output_widget("audio", height="100px"),
-    ),
+    ui.layout_sidebar(
+        ui.panel_sidebar(
+            ui.input_slider("pluck", "Position", 0, 100, 50),
+            ui.output_text_verbatim("txt"),
+            # ui.output_text("message"),
+            # output_widget("audio"),
+        ),
+        ui.panel_main(
+            ui.output_plot("plot"),
+            ui.output_plot("waveplot"),
+            # TODO audio widget
+            output_widget("audio_w"),
+        ),
+    )
 )
-)
+
 
 def server(input, output, session):
     # start by calculating the stuff
     @reactive.Calc
     def amplitudes():
-        return np.sin(mode_list*np.pi*input.pluck()/100.)
-    
+        return np.sin(mode_list * np.pi * input.pluck() / 100.0)
+
     @reactive.Calc
     def waveform():
-        return np.sum(amplitudes()*np.sin(2*np.pi*f1*np.outer(mode_list,times)).T,axis=1)
-    
+        return np.sum(
+            amplitudes() * np.sin(2 * np.pi * f1 * np.outer(mode_list, times)).T, axis=1
+        )
+
+    @reactive.Calc
+    def gen_wavefile():
+        with open(wavefile, "wb") as f:
+            wf.write(f, sample_rate, waveform())
+        return wavefile
+
     @output
     @render.text
     def txt():
@@ -81,69 +94,68 @@ def server(input, output, session):
     @output
     @render.plot
     def plot():
-        ''' calculate and do the plot '''
+        """calculate and do the plot"""
         # set up figure grid
-        fig = plt.figure(figsize=(10,2))
-        gs = plt.GridSpec(1,2,width_ratios=[1,2])
+        fig = plt.figure(figsize=(10, 2))
+        gs = plt.GridSpec(1, 2, width_ratios=[1, 2])
         ax = [fig.add_subplot(g) for g in gs]
-    
+
         # plot the amplitudes
         amps = amplitudes()
 
-        ax[0].bar(mode_list,amps,width=0.5)
-        ax[0].axhline(0,0,1,c='k',lw=0.5)
+        ax[0].bar(mode_list, amps, width=0.5)
+        ax[0].axhline(0, 0, 1, c="k", lw=0.5)
         ax[0].set_xticks(mode_list)
         ax[0].set_xlabel("Mode number")
         ax[0].set_ylabel("Amplitude")
         ax[0].set_title("Mode amplitudes")
-        #fig.show()
-    
-        #max_plot_modes = 10
-    
+        # fig.show()
+
+        # max_plot_modes = 10
+
         # calculate the curves
         for i in range(num_modes):
-            ax[1].plot(positions,amps[i]*np.sin(phase_array[:,i]),alpha=0.7*np.abs(amps[i])**2,color='r',lw=1)
-        ax[1].plot(positions,np.sum(sine_array*amps,axis=1),'k',lw=2)
-        ax[1].set_xlim(0,1)
-        ax[1].axvline(input.pluck(),0,1,c='k',ls='dotted')
-        ax[1].axhline(0,0,1,c='k',lw=0.5)
+            ax[1].plot(
+                positions,
+                amps[i] * np.sin(phase_array[:, i]),
+                alpha=0.7 * np.abs(amps[i]) ** 2,
+                color="r",
+                lw=1,
+            )
+        ax[1].plot(positions, np.sum(sine_array * amps, axis=1), "k", lw=2)
+        ax[1].set_xlim(0, 1)
+        ax[1].axvline(input.pluck(), 0, 1, c="k", ls="dotted")
+        ax[1].axhline(0, 0, 1, c="k", lw=0.5)
         ax[1].set_xlabel("Position (x/L)")
         ax[1].set_ylabel("Amplitude")
         ax[1].set_title("String shape")
 
         fig.show()
         return
-    
+
     @output
     @render.plot
     def waveplot():
-        fig = plt.figure(figsize=(10,2))
-        plt.plot(times[:100],waveform()[:100])
+        fig = plt.figure(figsize=(10, 2))
+        plt.plot(times[:100], waveform()[:100])
         fig.show()
         return
-    
-    #s = ipyw.IntSlider(
-    #    value=5,
-    #    min=0,
-    #    max=10,
-    #    step=1,
-    #    description="Test:",
-    #    continuous_update=True,
-    #    orientation="horizontal",
-    #    readout=False,
-    #)
-#
-    #@output
-    #@render_widget
-    #def audio():
-    #    return s
-    
+
     @output
     @render_widget
-    def audio():
-        return ipyd.Audio(data=waveform(), rate=sample_rate)#Markdown("**testing**")
-#plot()
+    def audio_w():
+        with open(gen_wavefile(),'rb') as f:
+            audio_widget = ipyw.Audio.from_file(f)
+        return audio_widget
+        #return ipyw.HTML("<p>Testing</p>")
 
-app = App(app_ui, server)
+    #@output
+    #@render.ui
+    #def audio_w():
+    #    return ui.HTML(f'<audio controls><source src="{gen_wavefile()}" type="audio/wav" ></audio>')
+
+# plot()
+
+app = App(app_ui, server, static_assets=my_path)
 
 ```
