@@ -10,15 +10,21 @@ This is a simplified calculation showing which harmonics are excited when a stri
 *Please be patient, as this takes a while to load.*
 
 ```{shinylive-python}
-#| viewerHeight: 600
+#| viewerHeight: 800
 #| standalone: true
 
 from shiny import *
 import numpy as np
 import matplotlib.pyplot as plt
-#import IPython.display as ipd
-#from ipywidgets import Audio
-from shinywidgets import output_widget, register_widget, reactive_read
+import ipywidgets as ipyw
+from ipywidgets.widgets.widget import Widget
+from shinywidgets import output_widget, register_widget, reactive_read, render_widget
+
+import micropip
+micropip.install("ipython")
+
+import IPython.display as ipyd
+#from IPython.display import display, Markdown, Audio
 
 num_modes = 10
 mode_list = 1+np.arange(num_modes)
@@ -50,9 +56,10 @@ app_ui = ui.page_fluid(
     ),
     ui.panel_main(
     ui.output_plot("plot"),
-    ui.output_plot("waveplot"),),
+    ui.output_plot("waveplot"),
     # TODO audio widget
-    #ipd.display(ipd.Audio(waveform(times), rate=sample_rate))
+    output_widget("audio", height="100px"),
+    ),
 )
 )
 
@@ -76,7 +83,7 @@ def server(input, output, session):
     def plot():
         ''' calculate and do the plot '''
         # set up figure grid
-        fig = plt.figure(figsize=(10,3))
+        fig = plt.figure(figsize=(10,2))
         gs = plt.GridSpec(1,2,width_ratios=[1,2])
         ax = [fig.add_subplot(g) for g in gs]
     
@@ -110,14 +117,31 @@ def server(input, output, session):
     @output
     @render.plot
     def waveplot():
-        fig = plt.figure(figsize=(10,3))
+        fig = plt.figure(figsize=(10,2))
         plt.plot(times[:100],waveform()[:100])
         fig.show()
         return
     
+    #s = ipyw.IntSlider(
+    #    value=5,
+    #    min=0,
+    #    max=10,
+    #    step=1,
+    #    description="Test:",
+    #    continuous_update=True,
+    #    orientation="horizontal",
+    #    readout=False,
+    #)
+#
+    #@output
+    #@render_widget
     #def audio():
-    #    return ipd.display(ipd.Audio(waveform(), rate=sample_rate))
-    #register_widget("audio",audio)
+    #    return s
+    
+    @output
+    @render_widget
+    def audio():
+        return ipyd.Audio(data=waveform(), rate=sample_rate)#Markdown("**testing**")
 #plot()
 
 app = App(app_ui, server)
