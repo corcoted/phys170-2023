@@ -19,7 +19,7 @@ format:
 
 ## Daily Quiz
 
-What is the difference between "intensity" and "loudness"?
+<!-- What is the difference between "intensity" and "loudness"? -->
 
 # Exam discussion
 
@@ -280,7 +280,7 @@ Amplifier gains and attenuation are usually specified in decibels.
 ::: {.column width="50%"}
 Intensity decreases as you move away from a source. If you were in completely empty space (no walls, floors, or ceiling), sound waves would come out in the shape of spheres.
 
-Imagine blowing up a baloon with a sound source in the center of the baloon. The same amount of sound power (*P*) passes through the surface of the baloon regardless of how big it is, but the intensity will go down as the radius (*r*) of the baloon gets bigger.
+Imagine blowing up a balloon with a sound source in the center of the balloon. The same amount of sound power (*P*) passes through the surface of the balloon regardless of how big it is, but the intensity will go down as the radius (*r*) of the balloon gets bigger.
 :::
 
 ::: {.column width="50%"}

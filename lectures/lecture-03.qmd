@@ -9,10 +9,8 @@ format: revealjs
 ## Announcements
 - Sorry, the first homework isn't up yet.  I'll do it today.  Watch Canvas for an update.
 
-<!--
 ## Daily quiz
-- Draw two pictures:  One of a transverse wave and one of a longitudinal wave.
--->
+<!-- Draw two pictures:  One of a transverse wave and one of a longitudinal wave. -->
 
 # Transverse Waves
 Chapter 3
@@ -88,7 +86,7 @@ $$ v = f\lambda \quad\rightarrow\quad f = \frac{v}{\lambda} = \frac{500\,\mathrm
 # Standing waves and resonance
 
 ## Standing wave
-If we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a **standing wave**.
+If we vibrate a string with certain special frequencies, the impulses traveling in each direction will overlap exactly and create a **standing wave**.
 
 <center>
 ![](figs/lecture-03/img_40.jpg){ width="60%"}

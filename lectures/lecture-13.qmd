@@ -13,7 +13,7 @@ format: revealjs
 
 
 ## Daily Quiz
-In your own words, what is the difference between an "equal tempered" and a "just tempered" scale?
+<!-- In your own words, what is the difference between an "equal tempered" and a "just tempered" scale? -->
 
 # Frequency and Pitch
 

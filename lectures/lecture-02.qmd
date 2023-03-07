@@ -12,7 +12,7 @@ format: revealjs
 
 ## Daily quiz
 
-- In your own words, write a brief definition of "sound".
+<!-- In your own words, write a brief definition of "sound". -->
 
 ## Outline
 
@@ -31,7 +31,7 @@ We're going to define sound from a scientific perspective as "mechanical vibrati
 ::: {.incremental}
 - "mechanical" meaning that *objects* are moving (gas molecules or wood molecules or etc.)
 - "vibrations" we'll define later
-- "transmitted" meaning that something is travelling from one place to another
+- "transmitted" meaning that something is traveling from one place to another
 - the "medium" is the substance the sound travels through
 - "elastic" means that the changes to the medium are temporary
 :::
@@ -113,7 +113,7 @@ We'll see the following prefixes when discussing measured values:
   - The frequency of sound waves is often a few kilohertz (kHz)
 
 
-See Appendx A.1.1 of the textbook for more examples.
+See Appendix A.1.1 of the textbook for more examples.
 
 
 ## Springs demo
