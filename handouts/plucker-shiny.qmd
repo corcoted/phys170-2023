@@ -12,6 +12,8 @@ This is a simplified calculation showing which harmonics are excited when a stri
 ```{shinylive-python}
 #| viewerHeight: 800
 #| standalone: true
+#| components: [editor, viewer]
+
 from shiny import *
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,9 +23,9 @@ from shinywidgets import output_widget, register_widget, reactive_read, render_w
 import scipy.io.wavfile as wf
 
 import pathlib
-import os
 
-my_path = pathlib.Path(__file__).parent
+my_path = pathlib.Path(__file__).parent / "www"
+my_path.mkdir(exist_ok=True)
 
 num_modes = 10
 mode_list = 1 + np.arange(num_modes)
@@ -48,7 +50,7 @@ time_step = 1.0 / sample_rate
 times = np.arange(sample_length) * time_step
 
 # other constants
-wavefile = my_path / "temp.wav"
+wavefile = "temp.wav"
 
 app_ui = ui.page_fluid(
     ui.layout_sidebar(
