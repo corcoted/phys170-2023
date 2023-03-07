@@ -298,7 +298,7 @@
     "href": "lectures/lecture-06.html#daily-quiz",
     "title": "Lecture 6: Diffraction and Interference",
     "section": "Daily Quiz",
-    "text": "Daily Quiz\n\nWhat causes diffraction?\nWhat causes interference?"
+    "text": "Daily Quiz"
   },
   {
     "objectID": "lectures/lecture-06.html#definition-of-interference",
@@ -431,7 +431,7 @@
     "href": "lectures/lecture-13.html#daily-quiz",
     "title": "Lecture 13: Musical Intervals and Scales",
     "section": "Daily Quiz",
-    "text": "Daily Quiz\nIn your own words, what is the difference between an “equal tempered” and a “just tempered” scale?"
+    "text": "Daily Quiz"
   },
   {
     "objectID": "lectures/lecture-13.html#pitch",
@@ -557,7 +557,7 @@
     "href": "lectures/lecture-10.html#daily-quiz",
     "title": "Lecture 10: Strings",
     "section": "Daily Quiz",
-    "text": "Daily Quiz\nList two or more ways of changing the speed of waves on a string."
+    "text": "Daily Quiz"
   },
   {
     "objectID": "lectures/lecture-10.html#group-project",
@@ -683,7 +683,7 @@
     "href": "lectures/lecture-07.html#daily-quiz",
     "title": "Lecture 7: Harmonics",
     "section": "Daily Quiz",
-    "text": "Daily Quiz\nDefine “harmonic” (noun) as it is used in this chapter."
+    "text": "Daily Quiz"
   },
   {
     "objectID": "lectures/lecture-07.html#harmonic-frequencies",
@@ -732,7 +732,7 @@
     "href": "lectures/lecture-08.html#daily-quiz",
     "title": "Lecture 8: Sound Intensity and Hearing",
     "section": "Daily Quiz",
-    "text": "Daily Quiz\nWhat is the difference between “intensity” and “loudness”?"
+    "text": "Daily Quiz"
   },
   {
     "objectID": "lectures/lecture-08.html#human-ear",
@@ -844,7 +844,7 @@
     "href": "lectures/lecture-08.html#intensity-and-distance",
     "title": "Lecture 8: Sound Intensity and Hearing",
     "section": "Intensity and distance",
-    "text": "Intensity and distance\n\n\nIntensity decreases as you move away from a source. If you were in completely empty space (no walls, floors, or ceiling), sound waves would come out in the shape of spheres.\nImagine blowing up a baloon with a sound source in the center of the baloon. The same amount of sound power (P) passes through the surface of the baloon regardless of how big it is, but the intensity will go down as the radius (r) of the baloon gets bigger.\n\n\n\n\nThe relationship between sound intensity and distance is called the inverse square law. Many laws of physics have this pattern: gravity, electricity, and light intensity, for example.\n\n\n\n\n\\[P = IA = I (4\\pi r^2)\\quad\\rightarrow\\quad I = \\frac{P}{4\\pi r^2}\\]"
+    "text": "Intensity and distance\n\n\nIntensity decreases as you move away from a source. If you were in completely empty space (no walls, floors, or ceiling), sound waves would come out in the shape of spheres.\nImagine blowing up a balloon with a sound source in the center of the balloon. The same amount of sound power (P) passes through the surface of the balloon regardless of how big it is, but the intensity will go down as the radius (r) of the balloon gets bigger.\n\n\n\n\nThe relationship between sound intensity and distance is called the inverse square law. Many laws of physics have this pattern: gravity, electricity, and light intensity, for example.\n\n\n\n\n\\[P = IA = I (4\\pi r^2)\\quad\\rightarrow\\quad I = \\frac{P}{4\\pi r^2}\\]"
   },
   {
     "objectID": "lectures/lecture-08.html#example-intensity",
@@ -907,7 +907,7 @@
     "href": "lectures/lecture-04.html#section",
     "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
     "section": "",
-    "text": "In space no one can hear you scream.\n\n\nIs this a true statement? Why?\n\n\nYes, because sound needs matter to travel throught.\nSpace has no air, so sound can’t travel."
+    "text": "In space no one can hear you scream.\n\n\nIs this a true statement? Why?\n\n\nYes, because sound needs matter to travel through.\nSpace has no air, so sound can’t travel."
   },
   {
     "objectID": "lectures/lecture-04.html#medium-of-transmission",
@@ -1005,7 +1005,7 @@
     "href": "lectures/lecture-02.html#daily-quiz",
     "title": "Lecture 2: Sound",
     "section": "Daily quiz",
-    "text": "Daily quiz\n\nIn your own words, write a brief definition of “sound”."
+    "text": "Daily quiz"
   },
   {
     "objectID": "lectures/lecture-02.html#outline",
@@ -1019,7 +1019,7 @@
     "href": "lectures/lecture-02.html#sound",
     "title": "Lecture 2: Sound",
     "section": "Sound",
-    "text": "Sound\nWe’re going to define sound from a scientific perspective as “mechanical vibrations transmitted through an elastic medium.”\n\n\n\n“mechanical” meaning that objects are moving (gas molecules or wood molecules or etc.)\n“vibrations” we’ll define later\n“transmitted” meaning that something is travelling from one place to another\nthe “medium” is the substance the sound travels through\n“elastic” means that the changes to the medium are temporary"
+    "text": "Sound\nWe’re going to define sound from a scientific perspective as “mechanical vibrations transmitted through an elastic medium.”\n\n\n\n“mechanical” meaning that objects are moving (gas molecules or wood molecules or etc.)\n“vibrations” we’ll define later\n“transmitted” meaning that something is traveling from one place to another\nthe “medium” is the substance the sound travels through\n“elastic” means that the changes to the medium are temporary"
   },
   {
     "objectID": "lectures/lecture-02.html#propagation-of-sound",
@@ -1089,7 +1089,7 @@
     "href": "lectures/lecture-11.html#daily-quiz",
     "title": "Lecture 11: Tubes",
     "section": "Daily Quiz",
-    "text": "Daily Quiz\nblah"
+    "text": "Daily Quiz"
   },
   {
     "objectID": "lectures/lecture-11.html#review-resonances-in-strings",
@@ -1271,7 +1271,7 @@
     "href": "lectures/lecture-05.html#daily-quiz",
     "title": "Lecture 5: Resonance, Beats, and Doppler",
     "section": "Daily Quiz",
-    "text": "Daily Quiz\nDefine, in your own words, “resonance”."
+    "text": "Daily Quiz"
   },
   {
     "objectID": "lectures/lecture-05.html#prelude-conservation-of-energy",
@@ -1365,6 +1365,13 @@
     "text": "Announcements\n\nSorry, the first homework isn’t up yet. I’ll do it today. Watch Canvas for an update."
   },
   {
+    "objectID": "lectures/lecture-03.html#daily-quiz",
+    "href": "lectures/lecture-03.html#daily-quiz",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Daily quiz",
+    "text": "Daily quiz"
+  },
+  {
     "objectID": "lectures/lecture-03.html#definition-of-transverse-wave",
     "href": "lectures/lecture-03.html#definition-of-transverse-wave",
     "title": "Lecture 3: Transverse Waves",
@@ -1411,7 +1418,7 @@
     "href": "lectures/lecture-03.html#standing-wave",
     "title": "Lecture 3: Transverse Waves",
     "section": "Standing wave",
-    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
+    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses traveling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
   },
   {
     "objectID": "lectures/lecture-03.html#resonant-wavelengths",
