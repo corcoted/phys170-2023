@@ -17,7 +17,8 @@ format: revealjs
 :::
 
 ## Daily Quiz
-Define "harmonic" (noun) as it is used in this chapter.
+
+<!-- Define "harmonic" (noun) as it is used in this chapter. -->
 
 # Harmonics
 *Harmonics* are the various tones emitted by a musical instrument when you play a single "note".

@@ -16,7 +16,6 @@ format: revealjs
 :::
 
 ## Daily Quiz
-blah
 
 # Resonances in pipes
 

@@ -15,7 +15,7 @@ format:
 
 ## Daily Quiz
 
-List two or more ways of changing the speed of waves on a string.
+<!-- List two or more ways of changing the speed of waves on a string. -->
 
 ## Group project
 

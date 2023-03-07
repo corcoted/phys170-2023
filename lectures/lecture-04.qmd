@@ -88,7 +88,7 @@ Is this a true statement?  Why?
 :::
 
 ::: {.fragment}
-Yes, because sound needs matter to travel throught.
+Yes, because sound needs matter to travel through.
 
 Space has no air, so sound can't travel.
 :::

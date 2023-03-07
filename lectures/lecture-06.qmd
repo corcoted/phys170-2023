@@ -17,8 +17,11 @@ format: revealjs
 :::
 
 ## Daily Quiz
+
+<!--
 - What *causes* diffraction?
 - What *causes* interference?
+-->
 
 # Interference
 ![](figs/lecture-06/mothwater.jpg)

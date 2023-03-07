@@ -13,7 +13,7 @@ format: revealjs
 :::
 
 ## Daily Quiz
-Define, in your own words, "resonance".
+<!-- Define, in your own words, "resonance". -->
 
 # Resonance
 
