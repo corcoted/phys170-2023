@@ -17,10 +17,9 @@ This is a simplified calculation showing which harmonics are excited when a stri
 from shiny import *
 import numpy as np
 import matplotlib.pyplot as plt
-import ipywidgets as ipyw
-from ipywidgets.widgets.widget import Widget
 from shinywidgets import output_widget, register_widget, reactive_read, render_widget
 import scipy.io.wavfile as wf
+import base64
 
 import pathlib
 
@@ -41,7 +40,7 @@ sine_array = np.sin(phase_array)
 
 # constants for sound generation
 f1 = 440.0  # fundamental mode frequency in Hz
-duration = 1.0  # duration of tone in seconds
+duration = 0.2  # duration of tone in seconds
 
 # sampling constants
 sample_rate = 22050  # sample rate of sound in samples per second
@@ -57,18 +56,15 @@ app_ui = ui.page_fluid(
         ui.panel_sidebar(
             ui.input_slider("pluck", "Position", 0, 100, 50),
             ui.output_text_verbatim("txt"),
-            # ui.output_text("message"),
-            # output_widget("audio"),
         ),
         ui.panel_main(
             ui.output_plot("plot"),
             ui.output_plot("waveplot"),
             # TODO audio widget
-            output_widget("audio_w"),
+            ui.output_ui("audio_w"),
         ),
     )
 )
-
 
 def server(input, output, session):
     # start by calculating the stuff
@@ -86,7 +82,9 @@ def server(input, output, session):
     def gen_wavefile():
         with open(wavefile, "wb") as f:
             wf.write(f, sample_rate, waveform())
-        return wavefile
+        with open(wavefile, "rb") as f:
+            wave64=base64.b64encode(f.read()).decode("ascii")
+        return wave64
 
     @output
     @render.text
@@ -132,7 +130,7 @@ def server(input, output, session):
         ax[1].set_ylabel("Amplitude")
         ax[1].set_title("String shape")
 
-        fig.show()
+        #fig.show()
         return
 
     @output
@@ -140,23 +138,13 @@ def server(input, output, session):
     def waveplot():
         fig = plt.figure(figsize=(10, 2))
         plt.plot(times[:100], waveform()[:100])
-        fig.show()
+        #fig.show()
         return
 
     @output
-    @render_widget
+    @render.ui
     def audio_w():
-        with open(gen_wavefile(),'rb') as f:
-            audio_widget = ipyw.Audio.from_file(f)
-        return audio_widget
-        #return ipyw.HTML("<p>Testing</p>")
-
-    #@output
-    #@render.ui
-    #def audio_w():
-    #    return ui.HTML(f'<audio controls><source src="{gen_wavefile()}" type="audio/wav" ></audio>')
-
-# plot()
+        return ui.HTML(f'<audio controls><source src="data:audio/wav;base64,{gen_wavefile()}" type="audio/wav" ></audio>')
 
 app = App(app_ui, server, static_assets=my_path)
 
