@@ -4,7 +4,7 @@ project:
     watch-inputs: true
     navigate: true
     timeout: 300
-    port: 8888
+    port: 8256
 
 website:
   title: "PHYS170 notes"
@@ -14,6 +14,9 @@ website:
     contents:
       - about.qmd
       - auto: "lectures/lecture-*.qmd"
+      - section: "Handouts"
+        contents:
+        - auto: "handouts/*.qmd"
       
 format:
   html:
