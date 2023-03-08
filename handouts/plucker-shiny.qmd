@@ -5,21 +5,19 @@ filters:
   - shinylive
 ---
 
-This is a simplified calculation showing which harmonics are excited when a string is plucked at various locations along its length.  Use the slider to choose where along the string it is plucked, then the calculation will show the first few harmonics and their superposition.  (TODO: play a sound.)
+This is a simplified calculation showing which harmonics are excited when a string is plucked at various locations along its length.  Use the slider to choose where along the string it is plucked, then the calculation will show the first few harmonics and their superposition.
 
-*Please be patient, as this takes a while to load.*
+*Please be patient, as this takes a while to load.  Also, every time you change the location you may need to wait for the calculation to finish.*
 
 ```{shinylive-python}
 #| viewerHeight: 800
 #| standalone: true
-#| components: [editor, viewer]
+#| components: viewer
 
 from shiny import *
 import numpy as np
 import matplotlib.pyplot as plt
-from shinywidgets import output_widget, register_widget, reactive_read, render_widget
 import scipy.io.wavfile as wf
-import base64
 
 import pathlib
 
@@ -28,9 +26,7 @@ my_path.mkdir(exist_ok=True)
 
 num_modes = 10
 mode_list = 1 + np.arange(num_modes)
-
-x = 0.5  # 0.4 # position on the string
-# TODO make this a slider
+oversample = 2 # factor times the nyquist sampling limit
 
 # pre-calculate a bunch of sines
 num_steps = 101
@@ -40,10 +36,10 @@ sine_array = np.sin(phase_array)
 
 # constants for sound generation
 f1 = 440.0  # fundamental mode frequency in Hz
-duration = 0.2  # duration of tone in seconds
+duration = 1  # duration of tone in seconds
 
 # sampling constants
-sample_rate = 22050  # sample rate of sound in samples per second
+sample_rate = np.int(2*f1*num_modes*oversample) #22050  # sample rate of sound in samples per second
 sample_length = duration * sample_rate
 time_step = 1.0 / sample_rate
 times = np.arange(sample_length) * time_step
@@ -55,13 +51,14 @@ app_ui = ui.page_fluid(
     ui.layout_sidebar(
         ui.panel_sidebar(
             ui.input_slider("pluck", "Position", 0, 100, 50),
-            ui.output_text_verbatim("txt"),
+            ui.input_slider("vol","Amplitude",0,1,0.5),
+            ui.HTML("<p>Listen:</p>"),
+            ui.output_ui("audio_w"),
+            #ui.output_text_verbatim("txt"),
         ),
         ui.panel_main(
             ui.output_plot("plot"),
             ui.output_plot("waveplot"),
-            # TODO audio widget
-            ui.output_ui("audio_w"),
         ),
     )
 )
@@ -74,22 +71,18 @@ def server(input, output, session):
 
     @reactive.Calc
     def waveform():
-        return np.sum(
+        unnorm= np.sum(
             amplitudes() * np.sin(2 * np.pi * f1 * np.outer(mode_list, times)).T, axis=1
         )
+        data = np.int16(input.vol()*unnorm/unnorm.max()*32767)
+        return data
 
     @reactive.Calc
     def gen_wavefile():
-        with open(wavefile, "wb") as f:
+        # first normalize to right data size
+        with open(my_path/wavefile, "wb") as f:
             wf.write(f, sample_rate, waveform())
-        with open(wavefile, "rb") as f:
-            wave64=base64.b64encode(f.read()).decode("ascii")
-        return wave64
-
-    @output
-    @render.text
-    def txt():
-        return f"The value of x/L is {input.pluck()/100.}"
+        return wavefile
 
     @output
     @render.plot
@@ -109,9 +102,6 @@ def server(input, output, session):
         ax[0].set_xlabel("Mode number")
         ax[0].set_ylabel("Amplitude")
         ax[0].set_title("Mode amplitudes")
-        # fig.show()
-
-        # max_plot_modes = 10
 
         # calculate the curves
         for i in range(num_modes):
@@ -129,8 +119,6 @@ def server(input, output, session):
         ax[1].set_xlabel("Position (x/L)")
         ax[1].set_ylabel("Amplitude")
         ax[1].set_title("String shape")
-
-        #fig.show()
         return
 
     @output
@@ -138,14 +126,13 @@ def server(input, output, session):
     def waveplot():
         fig = plt.figure(figsize=(10, 2))
         plt.plot(times[:100], waveform()[:100])
-        #fig.show()
         return
 
     @output
     @render.ui
     def audio_w():
-        return ui.HTML(f'<audio controls><source src="data:audio/wav;base64,{gen_wavefile()}" type="audio/wav" ></audio>')
-
+        return ui.HTML(f'<audio controls loop><source src="{gen_wavefile()}" type="audio/wav" ></audio>')
+        
 app = App(app_ui, server, static_assets=my_path)
 
 ```
