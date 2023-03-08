@@ -14,6 +14,1196 @@
     "text": "Lecture notes for PHYS170 (Acoustics), Spring 2023 by Ted Corcovilos, Duquesne University Dept. of Physics.\nThis website is a placeholder to store the individual class notes."
   },
   {
+    "objectID": "lectures/lecture-02.html#announcements",
+    "href": "lectures/lecture-02.html#announcements",
+    "title": "Lecture 2: Sound",
+    "section": "Announcements",
+    "text": "Announcements\n\nHomework 1 will be posted soon. It will be due Friday, Jan. 20, uploaded to Canvas."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#daily-quiz",
+    "href": "lectures/lecture-02.html#daily-quiz",
+    "title": "Lecture 2: Sound",
+    "section": "Daily quiz",
+    "text": "Daily quiz"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#outline",
+    "href": "lectures/lecture-02.html#outline",
+    "title": "Lecture 2: Sound",
+    "section": "Outline",
+    "text": "Outline\n\nSound and music\nVibrations\nSimple harmonic motion\n\nFrequency\nPeriod"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#sound",
+    "href": "lectures/lecture-02.html#sound",
+    "title": "Lecture 2: Sound",
+    "section": "Sound",
+    "text": "Sound\nWe’re going to define sound from a scientific perspective as “mechanical vibrations transmitted through an elastic medium.”\n\n\n\n“mechanical” meaning that objects are moving (gas molecules or wood molecules or etc.)\n“vibrations” we’ll define later\n“transmitted” meaning that something is traveling from one place to another\nthe “medium” is the substance the sound travels through\n“elastic” means that the changes to the medium are temporary"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#propagation-of-sound",
+    "href": "lectures/lecture-02.html#propagation-of-sound",
+    "title": "Lecture 2: Sound",
+    "section": "Propagation of Sound",
+    "text": "Propagation of Sound\n\n\nFor music, sound mostly propagates through the air.\n\nThere are regions of compressed air that travel from the source to the listener.\n\n\nLooking more closely, we see something like\n\n\n\nAnimated sound wave\n\n\n\n\n\n\n\nSound through air"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#periodic-motion",
+    "href": "lectures/lecture-02.html#periodic-motion",
+    "title": "Lecture 2: Sound",
+    "section": "Periodic motion",
+    "text": "Periodic motion\n\n“Periodic” means repeating exactly over time.\n\n\n\n\nThe motion can be simple…\n\n\n\nSimple periodic motion\n\n\n\n\n\n… or complex\n\n\n\nComplex periodic motion\n\n\n\n\n\n\nas long as it repeats. Musical sound is mostly periodic.\n\n\nThe time between repetitions is the period, usually represented by T and measured in seconds."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#springs-demo",
+    "href": "lectures/lecture-02.html#springs-demo",
+    "title": "Lecture 2: Sound",
+    "section": "Springs demo",
+    "text": "Springs demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#simple-harmonic-motion",
+    "href": "lectures/lecture-02.html#simple-harmonic-motion",
+    "title": "Lecture 2: Sound",
+    "section": "Simple harmonic motion",
+    "text": "Simple harmonic motion\nThe simplest type of periodic motion is called “simple harmonic motion”.\nPhysics has a lot of examples, some shown here:\n\n\n\nPendulum, Spring, Reed, Tuning Fork\n\n\n\nTo a good approximation, these all obey the same math."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#definitions",
+    "href": "lectures/lecture-02.html#definitions",
+    "title": "Lecture 2: Sound",
+    "section": "Definitions",
+    "text": "Definitions\n\n\nPeriod is the time between repetitions (T), measured in seconds (s)\nWavelength is the distance between repetitions (λ, Greek letter lambda), measured in meters (m)\nFrequency is the number of waves per second (f), measured in “cycles per second” or Hertz (Hz)\nPhase is how far along the repeating cycle is at one instant of time. We’ll come back to this later."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#sound-wave-demo",
+    "href": "lectures/lecture-02.html#sound-wave-demo",
+    "title": "Lecture 2: Sound",
+    "section": "Sound wave demo",
+    "text": "Sound wave demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-02.html#frequency-and-period",
+    "href": "lectures/lecture-02.html#frequency-and-period",
+    "title": "Lecture 2: Sound",
+    "section": "Frequency and period",
+    "text": "Frequency and period\nFrequency (f) and period (T) have a simple relationship:\n\\[ f = \\frac{1}{T} \\qquad\\mathrm{or}\\qquad T = \\frac{1}{f}. \\]\nUsually in music and acoustics we’re more interested in the frequency."
+  },
+  {
+    "objectID": "lectures/lecture-02.html#example-problem",
+    "href": "lectures/lecture-02.html#example-problem",
+    "title": "Lecture 2: Sound",
+    "section": "Example problem",
+    "text": "Example problem\nThe concert A used as the tuning note for most modern orchestras has a frequency of f = 440 Hz. What is the period of this sound?\n\nThe equation we need is\n\\[ T = \\frac{1}{f} = \\frac{1}{440\\,\\mathrm{Hz}} = 0.0023\\,\\mathrm{s} = 2.3\\,\\mathrm{ms}. \\]\n\n\nThe period of a concert A is 2.3 milliseconds."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#announcements",
+    "href": "lectures/lecture-11.html#announcements",
+    "title": "Lecture 11: Tubes",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 4 is up on Canvas\n\nDue next Tuesday (2/21)\n\nGroups for the final project\n\nEmail me by the end of the day today"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#daily-quiz",
+    "href": "lectures/lecture-11.html#daily-quiz",
+    "title": "Lecture 11: Tubes",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#review-resonances-in-strings",
+    "href": "lectures/lecture-11.html#review-resonances-in-strings",
+    "title": "Lecture 11: Tubes",
+    "section": "Review: Resonances in strings",
+    "text": "Review: Resonances in strings\n\n\nA string of length L that is clamped on both ends will resonate at the wavelengths\n\\[\n\\lambda_n = \\frac{2L}{n}\n\\] with frequencies \\[\nf_n = \\frac{v}{\\lambda_n}=n\\frac{v}{2L}= n\\,\\frac{1}{2L}\\sqrt{\\frac{F}{m}},\n\\] where v is the wave speed on the string,F is the tension force on the string,and m is the mass per length of the string."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#open-pipes",
+    "href": "lectures/lecture-11.html#open-pipes",
+    "title": "Lecture 11: Tubes",
+    "section": "Open pipes",
+    "text": "Open pipes\n\n\nA pipe that is open on both ends has the same resonance structure as a clamped string: \\[\n\\lambda_n = \\frac{2L}{n}\n\\] with frequencies \\[\nf_n = \\frac{v}{\\lambda_n}=n\\frac{v}{2L},\n\\] where v is now the speed of sound in air (about 350 m/s).\nNote that the width of the pipe has very little effect on the frequency.\n\n\n\n\nPipe open on both ends\n\n\n\nThese curves show the air speed. Nodes are where the air does not move, and antinodes are where the air vibrates the most."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#half-closed-pipes",
+    "href": "lectures/lecture-11.html#half-closed-pipes",
+    "title": "Lecture 11: Tubes",
+    "section": "Half-closed pipes",
+    "text": "Half-closed pipes\n\n\nA pipe that is closed on one end will have a node at the closed end. For the fundamental mode, only a quarter of a wave fits inside the tube. \\[\n\\lambda_1 = 4L \\quad \\rightarrow \\quad f_1 = \\frac{v}{4L}\n\\]\nThis means the fundamental frequency of a tube is halved when you close one end. Or in musical terms, a closed tube is one octave lower than an open tube of the same length.\nAlso, only odd harmonics give us the right combinations of nodes and antinodes: \\[\nf_n = n\\,\\frac{v}{4L}\\quad\\text{($n$ is odd)}\n\\]\n\n\n\n\nPipe open on both ends\n\n\n\nThese curves show the air speed. Nodes are where the air does not move, and antinodes are where the air vibrates the most."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#selecting-pitch",
+    "href": "lectures/lecture-11.html#selecting-pitch",
+    "title": "Lecture 11: Tubes",
+    "section": "Selecting pitch",
+    "text": "Selecting pitch\n\n\nBecause open ends of a tube give the location of anti-nodes in the vibration, wind instruments can change their pitch by opening holes in the side of the tube wherever antinodes are desired. This is also why the fingering for woodwinds can seem random: it’s not just changing the length, but adding interior antinodes as well.\n\n\n\n\nFinger holes on a flute"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#speed-of-sound-factors",
+    "href": "lectures/lecture-11.html#speed-of-sound-factors",
+    "title": "Lecture 11: Tubes",
+    "section": "Speed of sound: factors",
+    "text": "Speed of sound: factors\nWe’ve been casually passing around numbers for the speed of sound in air between 340 and 350 m/s.\nThe actual value of speed of sound in a gas depends on many factors:\n\nthe mass of the gas molecules\nthe molecular structure\nthe pressure of the gas\nthe temperature\nif the gas is a mixture or not"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#speed-of-sound-important-trends",
+    "href": "lectures/lecture-11.html#speed-of-sound-important-trends",
+    "title": "Lecture 11: Tubes",
+    "section": "Speed of sound: important trends",
+    "text": "Speed of sound: important trends\nThe table in the book is basically useless because you need much more information to calculate the speed, but the basic trends are that speed increases when\n\nambient pressure increases\nthe temperature increases\nthe average molecular mass decreases\n\ne.g. humidity of air increases (water weighs less than nitrogen or oxygen)\n\n\nFor dry air, the most relevant thing is the temperature dependence. A good approximation is\n\\[\nv_\\text{dry air} \\approx (331.3 + 0.606\\,T)\\,\\mathrm{\\tfrac{m}{s}}\n\\] where the temperature T is in Celsius (e.g. T=20°C is room temperature)."
+  },
+  {
+    "objectID": "lectures/lecture-11.html#speed-of-sound-in-other-gases-details",
+    "href": "lectures/lecture-11.html#speed-of-sound-in-other-gases-details",
+    "title": "Lecture 11: Tubes",
+    "section": "Speed of Sound in other gases: Details",
+    "text": "Speed of Sound in other gases: Details\n\n\nThis page is bonus material.\nA more detailed formula for the speed of sound in gas is given by\n\\[\nv = \\sqrt{\\frac{K p}{d}} \\approx \\sqrt{\\frac{KRT}{M}}\n\\]\n\nK is adiabatic compressibility (about 1.4 for air)\np is gas pressure (101325 Pa)\nd is gas density (in kg/m3)\nT is temperature (in Kelvin, 293 K for room temp.)\nR is molar gas constant (8.314 J/mol K)\nM is molecular mass of the gas (in kg/mol)\n\n\n\n\n\nGas properties for common gases"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#turbulence-creates-vibrations",
+    "href": "lectures/lecture-11.html#turbulence-creates-vibrations",
+    "title": "Lecture 11: Tubes",
+    "section": "Turbulence creates vibrations",
+    "text": "Turbulence creates vibrations\nIn flutes, recorders, whistles, and organ flue pipes, the air inside the tube starts vibrating because of turbulence, which is chaotic motion of the air. The frequencies in the turbulence that fail to match the resonances of the tube get suppressed.\n\n\n\n\n\nFlue pipe (W&W Fig. 12-8)\n\n\n\n\n\n\nFlute\n\n\n\nImage Source: https://www.yorkshirecorpsofdrums.com/playflute3.html"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#reeded-and-brass-instruments",
+    "href": "lectures/lecture-11.html#reeded-and-brass-instruments",
+    "title": "Lecture 11: Tubes",
+    "section": "Reeded and brass instruments",
+    "text": "Reeded and brass instruments\n\n\nThe vibrations of the reeds in woodwinds and organ reed pipes adjust to match the partials of the pipes because of positive feedback. As the air in the pipe starts vibrating, the pulses come back to the mouthpiece at just the right time to push back on the reed, forcing it to only vibrate at the resonant frequencies.\nThe vibrations of a brass player’s lips work the same way: positive feedback from the air impulses forces the lips to vibrate resonantly with one of the partials of the instrument.\n\n\n\n\nClarinet mouthpiece\n\n\n\n\n\nFeedback in a trumpet"
+  },
+  {
+    "objectID": "lectures/lecture-11.html#next-time",
+    "href": "lectures/lecture-11.html#next-time",
+    "title": "Lecture 11: Tubes",
+    "section": "Next time",
+    "text": "Next time\nMusical Scales"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#announcements",
+    "href": "lectures/lecture-05.html#announcements",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due Tuesday at 10pm. See Canvas for details and the upload page."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#daily-quiz",
+    "href": "lectures/lecture-05.html#daily-quiz",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#prelude-conservation-of-energy",
+    "href": "lectures/lecture-05.html#prelude-conservation-of-energy",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Prelude: Conservation of Energy",
+    "text": "Prelude: Conservation of Energy\nEnergy can not be created or destroyed. It can only change forms.\nFor sound the two most relevant types of energy are\n\nEnergy of motion (e.g. vibrations, striking a bell, bowing a string)\nHeat\n\nAn instrument can not put out more sound energy than the energy put into it.\nThe energy we use to sound an instrument (e.g. by plucking a string or buzzing a mouthpiece) goes somewhere.\n\nSome goes into making the instrument vibrate.\nSome goes into making the air vibrate.\nAnd some is lost to heat.\n\nHow that energy is distributed depends on the resonances of the instrument."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#definition-of-resonance",
+    "href": "lectures/lecture-05.html#definition-of-resonance",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Definition of resonance",
+    "text": "Definition of resonance\nI like a slightly different definition of resonance than the textbook. The key is energy.\nResonance frequency is a frequency at which an object likes to intake, store, and emit energy.\n\nThe couplings describe how easy it is to add or subtract energy from the system. These depend on things like impedance matching."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#demo-videos",
+    "href": "lectures/lecture-05.html#demo-videos",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Demo videos",
+    "text": "Demo videos\n\nMould resonance video: https://youtu.be/dihQuwrf9yQ\nMould Chladni video: https://youtu.be/CR_XL192wXw\nNigel Stanford Chladni: https://www.youtube.com/watch?v=tFAcYruShow\nSante Fe Symphony Chladni: https://www.youtube.com/watch?v=9uEeADQN8Jo"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#waveform",
+    "href": "lectures/lecture-05.html#waveform",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Waveform",
+    "text": "Waveform\nA graph of sound pressure over time is called a waveform. Here is a waveform of a bell being struck:\n\nThe horizontal scale is time and the vertical scale is pressure.\nIf we zoom in we can see the individual oscillations\n\n\n\nRef: http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#frequency-spectrum",
+    "href": "lectures/lecture-05.html#frequency-spectrum",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Frequency spectrum",
+    "text": "Frequency spectrum\n\n\nWe can take the numerical data of the waveform and turn it into a frequency spectrum using a math technique called a Fourier transform.\nThe horizontal scale is frequency (plotted with logarithmic spacing) and the vertical scale is the sound intensity in decibels.\nYou can see two peaks. These are the resonant frequencies of this bell: 600 Hz and 1500 Hz.\n\n\n\n\nThe heights of these peaks tell us how much energy is being emitted at each frequency.\nThe widths of the peaks are inverse to the decay time of each resonance, which we can use to measure the coupling strengths and how much energy is lost to heat.\n\n\nRef: http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#timbre",
+    "href": "lectures/lecture-05.html#timbre",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Timbre",
+    "text": "Timbre\nThe combinations of resonant frequencies for an instrument determine its timbre.\n https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html#Partials"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#energy-in-and-out",
+    "href": "lectures/lecture-05.html#energy-in-and-out",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Energy in and out",
+    "text": "Energy in and out\nBecause resonance affect both energy in and energy out, we can also use resonance to capture sound.\nBass traps used in recording studios take advantage of this to ruin unwanted resonances of the room. The trap absorbs energy at the resonance frequency, turning it into heat.\nParasitic resonances are unwanted resonances that absorb sound you want and turn it into heat or into “bad” sound. (E.g. a rattling speaker cone in a cheap stereo.)\nMicrophones and speakers are designed to avoid resonances or to have very broad, flat resonance peaks, to avoid parasitic resonances."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#waves-add",
+    "href": "lectures/lecture-05.html#waves-add",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Waves add",
+    "text": "Waves add\nWhen we have multiple sound sources, their waveforms add:\n\nThe fast oscillations are at the average frequency of the top two signals. The slow ripples are the “beat notes”. They occur at the difference of the two frequencies. This is an easy way to tell if two instruments are in tune with each other.\nWe’ll talk more about adding together waves in the next chapter."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#beat-demos",
+    "href": "lectures/lecture-05.html#beat-demos",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Beat demos",
+    "text": "Beat demos\nhttps://academo.org/demos/wave-interference-beat-frequency https://www.audiolabs-erlangen.de/resources/MIR/FMP/C2/C2S3_InterferenceBeating.html#Chirp-Experiment"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#doppler-effect-1",
+    "href": "lectures/lecture-05.html#doppler-effect-1",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Doppler effect",
+    "text": "Doppler effect\nMotion of a sound source or of the observer changes the observed frequency of sound. This is called the Doppler Effect.\n    \nIf the source and observer are moving towards each other, the frequency that the observer hears goes up.\nIf the source and observer are moving away from each other, the frequency that the observer hears goes down.\n\n\nRef: https://www.flippingphysics.com/doppler-effect.html"
+  },
+  {
+    "objectID": "lectures/lecture-05.html#weekly-reflection",
+    "href": "lectures/lecture-05.html#weekly-reflection",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Weekly reflection",
+    "text": "Weekly reflection\nDescribe an instance from this week (outside of class) in which you have observed waves."
+  },
+  {
+    "objectID": "lectures/lecture-05.html#next-time",
+    "href": "lectures/lecture-05.html#next-time",
+    "title": "Lecture 5: Resonance, Beats, and Doppler",
+    "section": "Next time",
+    "text": "Next time\nChapter 7: Diffraction and Interference"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#announcements",
+    "href": "lectures/lecture-10.html#announcements",
+    "title": "Lecture 10: Strings",
+    "section": "Announcements",
+    "text": "Announcements\n\nHomework 3 is due tonight.\n\nPlease submit only one PDF file for your whole assignment."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#daily-quiz",
+    "href": "lectures/lecture-10.html#daily-quiz",
+    "title": "Lecture 10: Strings",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#group-project",
+    "href": "lectures/lecture-10.html#group-project",
+    "title": "Lecture 10: Strings",
+    "section": "Group project",
+    "text": "Group project\n\n\nGroups of 3 or 4.\n\nSend me an email today with a list of people you want to work with.\nI will assign the groups, using your suggestions as best as I can.\n\nGoal: Your group will build a musical instrument\n\nMust be able to play a simple melody\nMust explain how it produces sound and how you control it\nCharacterization of the sound will be part of the final report\nWritten and oral presentations due at the end of the semester"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#project-steps",
+    "href": "lectures/lecture-10.html#project-steps",
+    "title": "Lecture 10: Strings",
+    "section": "Project steps",
+    "text": "Project steps\nDetails will follow in the coming weeks, but here is the tentative plan with tentative deadlines.\n\nPresent a plan (2/21)\nBuild a prototype\nCharacterize the prototype and write a progress report (3/21)\nRefine the prototype\nWrite a final report (4/20)\nPresent your instrument and results to the class (4/28, Final Exam Day)"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#parts-of-a-transverse-wave",
+    "href": "lectures/lecture-10.html#parts-of-a-transverse-wave",
+    "title": "Lecture 10: Strings",
+    "section": "Parts of a transverse wave",
+    "text": "Parts of a transverse wave\n\n\n\n\nTransverse wave\n\n\n\n\nWavelength (λ) is the distance (measured in meters) between repetitions of the wave.\nAmplitude (a) is the distance from the top of the wave (“crest”) to the middle. (Not crest to trough.)"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#wavelength-speed-and-frequency",
+    "href": "lectures/lecture-10.html#wavelength-speed-and-frequency",
+    "title": "Lecture 10: Strings",
+    "section": "Wavelength, speed, and frequency",
+    "text": "Wavelength, speed, and frequency\nIf we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (v), frequency (f), and wavelength (λ):\n\\[ v = f\\lambda \\]\nThis equation is true for all types of waves (sound, light, water, etc.)"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#standing-wave",
+    "href": "lectures/lecture-10.html#standing-wave",
+    "title": "Lecture 10: Strings",
+    "section": "Standing wave",
+    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#resonant-wavelengths",
+    "href": "lectures/lecture-10.html#resonant-wavelengths",
+    "title": "Lecture 10: Strings",
+    "section": "Resonant wavelengths",
+    "text": "Resonant wavelengths\n\n\nFor a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (L) must be a whole number of half-wavelengths (“loops”).\n\\[ L = n \\frac{\\lambda}{2}, \\] where n is a whole number. Solving for wavelength we have \\[ \\lambda_n = \\frac{2L}{n}. \\]\nTogether these are called the resonant wavelengths (λn) of the string.\n\n\n\n\nW&W Figure 11-2"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#resonant-frequencies",
+    "href": "lectures/lecture-10.html#resonant-frequencies",
+    "title": "Lecture 10: Strings",
+    "section": "Resonant frequencies",
+    "text": "Resonant frequencies\n\n\nIf we combine the relationships between wavelength and frequency of a wave with the resonant wavelengths (λn), we get\n\\[\nf_n = \\frac{v}{\\lambda_n} = n \\frac{v}{2L} = nf_1.\n\\]\nThese are the resonant frequencies of the string. (Remember, n is a whole number: 1, 2, 3, etc.)\nNotice that the fundamental frequency \\(f_1=v/(2L)\\) depends on two things:\n\nthe length of the string L\nthe speed on the string v.\n\nWe’ll come back to this.\n\n\n\n\nW&W Figure 11-2"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#normal-modes-demo",
+    "href": "lectures/lecture-10.html#normal-modes-demo",
+    "title": "Lecture 10: Strings",
+    "section": "Normal modes demo",
+    "text": "Normal modes demo\n\nhttps://phet.colorado.edu/en/simulations/normal-modes"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#perfectly-plucked-string",
+    "href": "lectures/lecture-10.html#perfectly-plucked-string",
+    "title": "Lecture 10: Strings",
+    "section": "Perfectly plucked string",
+    "text": "Perfectly plucked string\nWhich modes are excited when you bow, pluck, or hammer a string depend on where and how you move the string.\nEach mode fn will have its own amplitude, just like in the simulation.\nIn the approximation that you pluck a string a small amount at a precise position x on the string (measured in meters), the amplitude of the nth mode, an is given by\n\\[\na_n = \\sin\\left(\\frac{n\\pi x}{L} \\right),\n\\] where the sine function is evaluated in radians mode."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#example-calculation",
+    "href": "lectures/lecture-10.html#example-calculation",
+    "title": "Lecture 10: Strings",
+    "section": "Example calculation",
+    "text": "Example calculation\n\nDownload the Excel file"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#choosing-the-harmonics",
+    "href": "lectures/lecture-10.html#choosing-the-harmonics",
+    "title": "Lecture 10: Strings",
+    "section": "Choosing the harmonics",
+    "text": "Choosing the harmonics\n\n\nBecause of the earlier equation, if you pluck a string at the antinodes and stop it at the nodes of a particular mode, you can select which harmonics get activated.\nThe mode drawing gives you a map about where to do this.\nFor example, if you stop a string exactly in the center and pluck it 1/4 of the way from the end, then gently release the stop, you’ll excite the 2nd harmonic (which is the octave).\nTry this with a real instrument and see if you can do it.\n(Bonus: on a fretted instrument, which frets line up with the nodes of certain modes?)\n\n\n\n\nW&W Figure 11-2"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#changing-the-speed",
+    "href": "lectures/lecture-10.html#changing-the-speed",
+    "title": "Lecture 10: Strings",
+    "section": "Changing the speed",
+    "text": "Changing the speed\nThe two ways we can adjust the fundamental mode of a string are by changing the length of the string or the speed of waves on the string.\nThe speed depends on two factors:\n\nHow much tension force F is on the string\nHow “heavy” the string is, where “heavy” is the mass density of the string m (e.g. kilograms per meter)\n\n\\[\nv = \\sqrt{\\frac{F}{m}}\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#mersennes-rules",
+    "href": "lectures/lecture-10.html#mersennes-rules",
+    "title": "Lecture 10: Strings",
+    "section": "Mersenne’s Rules",
+    "text": "Mersenne’s Rules\nCombining the speed equation with the mode equation gives Mersenne’s Rules\nThe fundamental frequency of a string is\n\nInverse to its length (L)\nProportional to the square root of the tension (F)\nInverse to its diameter (thickness)\nInverse to the square-root of its density\n\nThese are summarized by the equation\n\\[\nf_1 = \\frac{v}{2L} = \\frac{1}{2L}\\,\\sqrt{\\frac{F}{m}},\n\\] where rule 3 and 4 are combined as the mass per length m."
+  },
+  {
+    "objectID": "lectures/lecture-10.html#example",
+    "href": "lectures/lecture-10.html#example",
+    "title": "Lecture 10: Strings",
+    "section": "Example",
+    "text": "Example\nA guitar string has length L=62.8 cm. One string has a mass per length of m=5.3 g/m and a tension of F=230 N. What is its frequency?"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#weekly-reflection",
+    "href": "lectures/lecture-10.html#weekly-reflection",
+    "title": "Lecture 10: Strings",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nWhat is your favorite sound? Why?"
+  },
+  {
+    "objectID": "lectures/lecture-10.html#next-time",
+    "href": "lectures/lecture-10.html#next-time",
+    "title": "Lecture 10: Strings",
+    "section": "Next time",
+    "text": "Next time\nChapter 12: Tubes!"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#announcements",
+    "href": "lectures/lecture-13.html#announcements",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Announcements",
+    "text": "Announcements\n\nHomework 4 is due tonight at 10pm\nYour Initial Project Plans are due Friday night at 10pm (one per group)"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#daily-quiz",
+    "href": "lectures/lecture-13.html#daily-quiz",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#pitch",
+    "href": "lectures/lecture-13.html#pitch",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Pitch",
+    "text": "Pitch\nPitch is the musical term for the identity of a musical tone in terms of its fundamental partial. The identification of pitch is a rich topic itself with lots of ties to history and culture.\nWe’re going to keep a very basic definition of pitch and define it as the way we distinguish keys on a piano.\n\nOne octave of a piano keyboard looks like the picture here. The white keys are given names in a repeating pattern using letters A through G, and the black keys are named equally as the neighboring white key to the left plus “sharp” (♯) or the white key to the right plus “flat” (♭). The fact that, for example, B♭ and A♯ are the same key is called enharmonicity, but as we’ll see later, this is because of our choice of the way the piano is tuned."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#octaves-on-the-piano-keys",
+    "href": "lectures/lecture-13.html#octaves-on-the-piano-keys",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Octaves on the piano keys",
+    "text": "Octaves on the piano keys\nThe pattern of 7 white keys and 5 black keys repeats in sets called “octaves.” Each octave has 12 keys. We’ll label the octaves with a number. By tradition, the C closest to the middle of the piano keyboard is called “middle C” and we’ll give it the name C4. The next C to the left on the keyboard (“lower”) we call C3, and the C to the right of middle C (“higher”) is called C5.\nEach new octave number begins at C. The key to the left of C4 is called B3."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#absolute-pitch",
+    "href": "lectures/lecture-13.html#absolute-pitch",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Absolute pitch",
+    "text": "Absolute pitch\n\n\nBy international treaty(!!) the key A4 on the piano (above middle C) is tuned such that its fundamental partial has a frequency of 440 Hz. This is called the “standard concert pitch”. There is a rich history of the various disputes around this value (mostly political soap operas between various nations, orchestras, and composers, see Wikipedia), even making an appearance in the Treaty of Versailles that ended World War I.\nThe modern value is attributed to German physicist Johann Scheibler who presented the first reliable measurements of musical frequencies at a conference in Stuttgart in 1834, with the value A4 = 440 Hz first being recognized as an international standard in 1939 and then reaffirmed in 1975."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#octaves",
+    "href": "lectures/lecture-13.html#octaves",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Octaves",
+    "text": "Octaves\n\n\nGoing back to our discussion of vibrating strings, we saw that the fundamental frequency of the string was given by \\[\nf_1 = \\frac{1}{2L}\\,\\sqrt{\\frac{F}{m}},\n\\] and that the first overtone is at exactly 2 times this frequency: \\(f_2 = 2f_1\\).\nWe say that two frequencies with this relationship are an octave apart. Or, in terms of their ratios: \\[\n\\text{octave} = 2:1\n\\]\nWhen played together, human hearing will interpret these as the same pitch."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#octaves-of-as",
+    "href": "lectures/lecture-13.html#octaves-of-as",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Octaves of A’s",
+    "text": "Octaves of A’s\n\n\nIf we take as a starting point A4 = 440 Hz, we can use our definition of octave to calculate the frequencies of all of the other A’s on the piano keyboard by successively multiplying or dividing by two.\nThis is called a geometric sequence in math. Rather than adding or subtracting to go from one pitch to the next, we multiply or divide.\nTo find the frequencies of the other pitches, we need a mathematical rule. Historically, many different rules, called temperments or tunings were used. We’ll start with the most common modern rule: equal temperment.\n\n\n\n\nPitch\nFrequency (Hz)\n\n\n\n\nA0\n27.5\n\n\nA1\n55\n\n\nA2\n110\n\n\nA3\n220\n\n\nA4\n440\n\n\nA5\n880\n\n\nA6\n1760\n\n\nA7\n3520"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#equal-temperament",
+    "href": "lectures/lecture-13.html#equal-temperament",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Equal temperament",
+    "text": "Equal temperament\nThe rule for the 12-tone equal tempered scale (12-TET) simply says that the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.\nLet’s do a little algebra. If the ratio between adjacent keys is called x, then after 12 keys we should have an octave, or two times the starting frequency: \\[\nf_1 \\times x^{12} = 2f_1\n\\] Solving for x gives the ratio between adjacent keys: \\[\nx = \\sqrt[12]{2} \\approx 1.059463\\ldots\n\\] In words, the ratio is the twelfth root of 2. We can also write this as \\(2^{1/12}\\),2 to the 1/12th power, which is easier to do algebra with.\nThis interval is called a semitone of the equal-tempered scale."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#examples",
+    "href": "lectures/lecture-13.html#examples",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Examples",
+    "text": "Examples\n\n\nThe frequency of A♯4 is \\[\nA^\\sharp_4 = A_4\\times 2^{1/12} = 440\\,\\mathrm{Hz}\\times 2^{1/12} = 466.2\\,\\mathrm{Hz}.\n\\]\n\n\nTo get A♭4 we divide by \\(\\sqrt[12]{2}\\): \\[\nA^\\flat_4 = \\frac{A_4}{2^{1/12}} = 415.3\\,\\mathrm{Hz}\n\\]\n\n\nTo get C5, we step up by 3 keys on the keyboard: \\[\nC_5 = A_4 \\times (2^{1/12})^3  = A_4\\times 2^{1/4} = 440\\,\\mathrm{Hz}\\times1.189=523\\,\\mathrm{Hz}\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#full-equal-tempered-chromatic-scale",
+    "href": "lectures/lecture-13.html#full-equal-tempered-chromatic-scale",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Full equal tempered chromatic scale",
+    "text": "Full equal tempered chromatic scale\n\nStepping one note at a time across the keyboard (including the black keys), we get the full 12-tone chromatic scale.\nAgain, the defining characteristic of the equal tempered scale is that the frequency ratios of adjacent notes is the same: \\(2^{1/2} \\approx 1.059463\\)."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#cents",
+    "href": "lectures/lecture-13.html#cents",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Cents",
+    "text": "Cents\nBecause multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called cents that we can add or subtract. Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency. Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.\nIf we have two frequencies, their difference in cents from f1 to f2 is given by \\[\n\\mathrm{cents} = 1200 \\log_2 (f_2/f_1).\n\\] Where “log2” means the base-2 logarithm. Most calculators can’t do this directly, so using some math rules for logs we get the equation \\[\n\\mathrm{cents} = \\frac{1200}{\\log 2} \\log (f_2/f_1)\n\\approx 3986 \\log(f_1/f_2).\n\\]\n(This should remind you of decibels. The math is very similar.)"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#cents-to-frequency",
+    "href": "lectures/lecture-13.html#cents-to-frequency",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Cents to frequency",
+    "text": "Cents to frequency\nGoing the other way, if we know f1 and want to change by a number of cents, the new frequency f2 is \\[\nf_2 = f_1 \\times 2^{\\mathrm{cents}/1200},\n\\] where “cents” is positive to go higher in pitch or negative to go lower in pitch.\nFor example, if we’re trying to play A4 and our electronic tuner says we’re flat by 30 cents, our actual frequency is \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{-30/1200} = (440\\,\\mathrm{Hz})\\times(0.983) = 432\\,\\mathrm{Hz}\n\\]\nAnother example, say we’re trying to play C4 (262 Hz) and our measured frequency is 256 Hz. How far off are we in cents? \\[\n\\frac{1200}{\\log 2}\\,\\log\\left(\\frac{256\\,\\mathrm{Hz}}{262\\,\\mathrm{Hz}}\\right) = -30\\,\\mathrm{cents}\\text{ (flat)}\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#midi-pitch-values",
+    "href": "lectures/lecture-13.html#midi-pitch-values",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "MIDI pitch values",
+    "text": "MIDI pitch values\nMIDI is a computer language for describing music. Pitch values for MIDI start with A4 = 69, and go up or down by one step for each key on the piano. In other words, 1 MIDI pitch unit = 100 cents.\nTo go from MIDI pitch p to frequency f do \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{(p-69)/12} = (8.175\\,\\mathrm{Hz})\\times 2^{p/12}\n\\]\nTo go from frequency to MIDI pitch \\[\np = \\frac{12}{\\log 2}\\log\\left(\\frac{f}{8.175\\,\\mathrm{Hz}}\\right)\n= 39.86 \\log\\left(\\frac{f}{8.175\\,\\mathrm{Hz}}\\right)\n\\]"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#just-intervals",
+    "href": "lectures/lecture-13.html#just-intervals",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Just intervals",
+    "text": "Just intervals\n\n\nThe equal tempered scale is used for modern instruments because of its versatility, but it sacrifices perfect harmony. From our discussion of harmonic and inharmonic partials, we know that the best-sounding frequency combinations come as simple fractions.\nThese are called just intervals. Notice in the table that (1) these are not powers of \\(2^{1/12}\\) in frequency or (2) an even number of 100 cents.\nThis means that the equal-tempered scale of the piano is off by a tiny bit. This is the cost paid for being able to play music written in any key equally well.\n\n\n\n\n\nInterval\nf2/f1\ncents\n\n\n\n\noctave\n2/1\n1200\n\n\nperfect fifth\n3/2\n702\n\n\nperfect fourth\n4/3\n498\n\n\nmajor third\n5/4\n386\n\n\nminor third\n6/5\n316"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#comparison-of-just-intervals-and-equal-tempered-intervals",
+    "href": "lectures/lecture-13.html#comparison-of-just-intervals-and-equal-tempered-intervals",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Comparison of just intervals and equal-tempered intervals",
+    "text": "Comparison of just intervals and equal-tempered intervals"
+  },
+  {
+    "objectID": "lectures/lecture-13.html#pythagorean-scales",
+    "href": "lectures/lecture-13.html#pythagorean-scales",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Pythagorean scales",
+    "text": "Pythagorean scales\n\n\nIf we try to build scales using just intonation, we have to make comprising about which intervals to preserve.\nOne of the earliest methods was the Pythagorean scale. This is made by choosing a starting pitch (e.g. A4 = 440 Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A4 major scale. This automatically includes the perfect fourths as well.\nExtending this idea to all 12 tones is called “five-limit tuning”.\n\n\n\n\nThe root cause is that no number of perfect fifths add up to a whole number of octaves. Algebraically, there is no solution to the equation \\[\n(3/2)^x = 2^y,\n\\] where both x and y are whole numbers."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#just-diatonic-scale",
+    "href": "lectures/lecture-13.html#just-diatonic-scale",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Just diatonic scale",
+    "text": "Just diatonic scale\nIf we use the same method as the Pythagorean scale but allow major and minor thirds, we get the just diatonic scale, which is the most harmonious 12-tone scale, in the sense of being closest to just for each note.\n \nThis works great for instruments with adjustable pitch (especially human voice or strings in most keys), but doesn’t work for things like pianos because it depends on picking one specific key in which the music is played (e.g. A-major starting from A4)."
+  },
+  {
+    "objectID": "lectures/lecture-13.html#next-time",
+    "href": "lectures/lecture-13.html#next-time",
+    "title": "Lecture 13: Musical Intervals and Scales",
+    "section": "Next time",
+    "text": "Next time\nConsonance and dissonance"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#announcements",
+    "href": "lectures/lecture-14.html#announcements",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nExam 2 will be Thursday, March 9.\n\nChapters 6-13 (Lectures 5-12)\nSimilar format to last time\n\nThe lecture on Tuesday, March 7 will not be in this room\n\n1st floor recital hall in Pappert\nDavid Barr will be our guest lecturer, talking about pianos\n\nThis week’s Weekly Reflection is on Canvas, due tomorrow 10pm."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#daily-quiz",
+    "href": "lectures/lecture-14.html#daily-quiz",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#psychoacoustics-1",
+    "href": "lectures/lecture-14.html#psychoacoustics-1",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Psychoacoustics",
+    "text": "Psychoacoustics\n\n\n\nPsychoacoustics is the scientific study of how humans perceive sound.\nOnce sound enters our ears at least two steps happen that can affect what we hear\n\nThe sound gets transmitted from the air to the cochlea, and then converted to nerve impulses\nThose nerve impulses are interpreted by our brain\n\nThe first one we can do objective experiments to understand.\nThe second requires asking test subjects to tell us what they hear, so is necessarily a subjective experiment.\nModern technology like Functional Magnetic Resonance Imaging (fMRI) is moving the boundary between the objective and subjective by allowing us to see into the brain itself."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#application-cochlear-implants",
+    "href": "lectures/lecture-14.html#application-cochlear-implants",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Application: Cochlear Implants",
+    "text": "Application: Cochlear Implants\n\n\nPsychoacoustic experiments were key in the development of cochlear implants to aid individuals with hearing loss.\nThe CI uses a microphone to detect sound and then processes the sound and turns it into electrical impulses that are sent directly to the user’s cochlear nerve, bypassing most of the ear."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#effects-with-clear-physics-explanations",
+    "href": "lectures/lecture-14.html#effects-with-clear-physics-explanations",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Effects with clear physics explanations",
+    "text": "Effects with clear physics explanations\nSome of the effects in this chapter than we can possibly attribute to physics are the combination tones and periodicity tones.\n\nCombination tones are perceived tones at the sums and differences of two or more frequencies.\nPeriodicity tones are perceived tones that are simple ratios of frequencies.\n\nThere are plausible mechanisms for combining two or more pure tones"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#beat-notes-are-combination-tones",
+    "href": "lectures/lecture-14.html#beat-notes-are-combination-tones",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Beat notes are combination tones",
+    "text": "Beat notes are combination tones\nCombination tones occur at sums or differences of two pure tones.\nBeat notes are an example of this. If I have two pure tones f1 and f2 of almost the same frequency, we hear a beat note at their difference:\n\\[\nf_\\text{beat} = |f_1 - f_2|\n\\]\nIf we increase the frequency separation, eventually this becomes an additionally perceived pure tone.\nWe heard this in the chirp demo from Lecture 5."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#nonlinear-effects",
+    "href": "lectures/lecture-14.html#nonlinear-effects",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Nonlinear effects",
+    "text": "Nonlinear effects\nCombination tones can be generated from pure tones if there are nonlinear effects in the ear.\nA linear system is allowed to do only two things to a waveform:\n\nMultiply the waveform amplitude by a number (amplification, gain)\nAdd or subtract two waveforms (superposition)\n\nIf we only do these things, the frequencies that come out will be the same as the ones we put in: nothing is added or taken away.\nAny thing else we do to a waveform is nonlinear: squaring, exponentiation, log, clipping, multiplying waveforms together, etc. In these cases the frequencies will change, which we call harmonic distortion."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#example-squaring-a-waveform",
+    "href": "lectures/lecture-14.html#example-squaring-a-waveform",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Example: squaring a waveform",
+    "text": "Example: squaring a waveform\nTake two waveforms with different frequencies f1 and f2:\n\\[\ny_1 (t) = A_1 \\sin (2\\pi f_1 t);\\qquad\ny_2 (t) = A_2 \\sin (2\\pi f_2 t).\n\\]\nAdd them together (a linear operation), then square the waveform. After some algebra we get:\n\\[\n\\begin{aligned}\n\\left(y_1(t)+y_2(t)\\right)^2 &= \\left(A_1 \\sin (2\\pi f_1 t) + A_2 \\sin (2\\pi f_2 t) \\right)^2\\\\\n&= A_1^2 \\sin^2(2\\pi f_1 t) + A_2^2 \\sin^2(2\\pi f_2 t) + 2 A_1 A_2 \\sin(2\\pi f_1 t)\\sin(2\\pi f_2 t)\\\\\n&= \\frac12 A_1^2 -\\frac12 A_1^2 \\cos(4\\pi f_1 t)+\\frac12 A_2^2 -\\frac12 A_2^2 \\cos(4\\pi f_2 t)\\\\\n&\\quad + \\frac12 A_1A_2 \\cos\\left(2\\pi (f_1-f_2)t\\right)-\\frac12 A_1A_2 \\cos\\left(2\\pi (f_1+f_2)t\\right)\n\\end{aligned}\n\\]\nThe math details aren’t important. The important thing is that the list of frequencies has changed:\n\\[\nf_1,\\, f_2 \\quad \\rightarrow 2f_1,\\, 2f_2,\\, (f_1-f_2),\\, (f_1+f_2).\n\\]\nThe point is any nonlinearity will cause new frequencies to appear. In electronic recording gear, we call this effect distortion. In the human ear, this is the cause of combination tones."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#combination-tones",
+    "href": "lectures/lecture-14.html#combination-tones",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Combination tones",
+    "text": "Combination tones\n\n\nRegardless of the physiological reason, humans perceive combination tones when two or more pure tones are played together, particularly if those tones are loud.\nThe new frequencies follow a pattern: \\[\nf_\\text{combo} = nf_1 + mf_2,\n\\] where n and m are integers (positive or negative).\nThe bigger n and m are, the weaker the perceived tone is."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#periodicity-tones",
+    "href": "lectures/lecture-14.html#periodicity-tones",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Periodicity tones",
+    "text": "Periodicity tones\nPeriodicity tones are perceived subharmonics at the common denominator for simple frequency ratios.\n\nFor example, when playing a perfect fifth (3:2) or perfect fourth (4:3) and sometimes a major third (5:4), one can hear the missing fundamental of that harmonic series. At higher intervals this effect diminishes.\n\n\nIn the Beat-notes demo from Lecture 5, try these frequency combinations:\n\nPerfect 5th: 200 Hz and 300 Hz\nPerfect 4th: 300 Hz and 400 Hz\nMajor 3rd: 400 Hz and 500 Hz\n\nDo you hear the 100 Hz fundamental in each case?"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#the-missing-fundamental-and-pipe-organs",
+    "href": "lectures/lecture-14.html#the-missing-fundamental-and-pipe-organs",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "The missing fundamental and pipe organs",
+    "text": "The missing fundamental and pipe organs\n\n\nBuilders of pipe organs going back at least to the Renaissance knew about the missing fundamental effect, called mutations in this context.\nA “Bourdon” (French for bumblebee) or “Untersatz” (German, literally “sits under”) organ stop on many organs actually plays 2nd and 3rd harmonics of the desired bass note to avoid the need for really tall pipes. (It is also a half-closed pipe, dropping the pitch by an additional octave.)\n\n\n\n\nSaint Germain l’Auxerrois, Paris\n\n\n\nRef. Wikipedia"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#rhythm-analogy",
+    "href": "lectures/lecture-14.html#rhythm-analogy",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Rhythm analogy",
+    "text": "Rhythm analogy\nThe perception of a periodicity tone may work similarly to how we perceive the beats in complex rhythms.\n\n\n\nConsider these two rhythms superimposed:\nWhere is the beat? Our brain tells us it is where the combined pattern of doublets and triplets repeat.\n\n\nThis is analogous to the waveform for a perfect fifth (frequency ratio 3:2)"
+  },
+  {
+    "objectID": "lectures/lecture-14.html#weekly-reflection",
+    "href": "lectures/lecture-14.html#weekly-reflection",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nThis week’s reflection is a mid-term survey about how the course is going. This is worth double points (12). Please fill this out on Canvas.\n\nYour responses are anonymous\nFull credit given to all who participate\nDeadline is 10pm tomorrow.\n\nLate work will be half credit, no more than 3 days past the deadline."
+  },
+  {
+    "objectID": "lectures/lecture-14.html#next-time",
+    "href": "lectures/lecture-14.html#next-time",
+    "title": "Lecture 14: Perceptions of frequency",
+    "section": "Next time",
+    "text": "Next time\nGuest lecture by David Barr in Pappert, 1st floor recital hall."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#announcements",
+    "href": "lectures/lecture-06.html#announcements",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nHomework 2 will be posted later today. It will be due next Tuesday.\nMidterm Exam 1 is next Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#daily-quiz",
+    "href": "lectures/lecture-06.html#daily-quiz",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#definition-of-interference",
+    "href": "lectures/lecture-06.html#definition-of-interference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Definition of Interference",
+    "text": "Definition of Interference\nUnlike the book, I’m going to discuss interference first because we can then use these ideas to talk about diffraction.\nInterference is the adding of waves with the same frequency/wavelength."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#principle-of-superposition",
+    "href": "lectures/lecture-06.html#principle-of-superposition",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Principle of Superposition",
+    "text": "Principle of Superposition\nWhen two or more waves overlap at the same place, we add their amplitudes at that point.\n\nFlipping Physics demo: https://youtu.be/JUCLoczzwPo\nSlinky demo: https://youtu.be/X2pt9WCu8mk \nCCC demo: https://youtu.be/hnZ1FKVWN4k"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#constructive-and-destructive-interference",
+    "href": "lectures/lecture-06.html#constructive-and-destructive-interference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Constructive and Destructive Interference",
+    "text": "Constructive and Destructive Interference"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phase-difference",
+    "href": "lectures/lecture-06.html#phase-difference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Phase difference",
+    "text": "Phase difference\nPhase is a measure of time difference between two waves. We measure it in “waves” or as an angle, with 1 wave = 360°.\n\n\n\nCompletely constructive interference happens at a phase difference of 0 waves or 0°.\nCompletely destructive interference happens at a phase difference of 1/2 wave or 180°.\nIn between we have partial interference.\nThe pattern repeats after each whole wave or each 360°."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#calculating-phase-difference",
+    "href": "lectures/lecture-06.html#calculating-phase-difference",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Calculating phase difference",
+    "text": "Calculating phase difference\n\n\nTo calculate the phase difference between two sources we do:\n\nMeasure the distance from each source to the listener (call these d1 and d2).\nDivide the difference in distances by the wavelength (λ), then multiply by 360°: \\(\\phi = \\frac{d_1 - d_2}{\\lambda}\\times 360^\\circ\\)\nIn these drawings, the wavelength is λ = 1 m.\n\n\n\n\n\nConstructive\n\n\n\n\n\nDestructive"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phet-demo",
+    "href": "lectures/lecture-06.html#phet-demo",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "PhET demo",
+    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#interference-in-other-waves",
+    "href": "lectures/lecture-06.html#interference-in-other-waves",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Interference in other waves",
+    "text": "Interference in other waves"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#noise-cancellation",
+    "href": "lectures/lecture-06.html#noise-cancellation",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Noise cancellation",
+    "text": "Noise cancellation"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#definition-of-diffraction",
+    "href": "lectures/lecture-06.html#definition-of-diffraction",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Definition of Diffraction",
+    "text": "Definition of Diffraction\nI’m going to give a different definition of diffraction than the book, but one that I think makes more sense.\nDiffraction is the interference of a wave with itself.\nAll of the math we used for interference applies here, too, if we look at the wave in the right way."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#hugyens-principle",
+    "href": "lectures/lecture-06.html#hugyens-principle",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Hugyen’s Principle",
+    "text": "Hugyen’s Principle\n\n\nHuygens’s Principle is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let’s use determine the shape of the wave as it propagates."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
+    "href": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction compared to wavelength",
+    "text": "Diffraction compared to wavelength\nDiffraction happens when waves pass through a hole that is similar in size to the wavelength."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-from-a-slit",
+    "href": "lectures/lecture-06.html#diffraction-from-a-slit",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction from a slit",
+    "text": "Diffraction from a slit\n\n\nFor a slit or rectangular hole, the sound is concentrated in a cone with angular width θ given by\n\\[\\sin\\theta = \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the size of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left( \\frac{\\lambda}{D}\\right)\\]"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phet-demo-1",
+    "href": "lectures/lecture-06.html#phet-demo-1",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "PhET demo",
+    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
+    "href": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffraction from a circular hole",
+    "text": "Diffraction from a circular hole\n\n\nFor a circular hole, the result is similar but the formula has an extra factor of 1.22:\n\\[\\sin\\theta = 1.22 \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the diameter of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left(1.22 \\frac{\\lambda}{D}\\right)\\]"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#phased-array",
+    "href": "lectures/lecture-06.html#phased-array",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Phased array",
+    "text": "Phased array\n\n\nWe can find the diffraction patterns of other shapes by going back to Huygen’s Principle of treating each point as a new source. With proper engineering we can control both the amplitude and phase of each point of the new wave.\nFor example, if we set up a line of speakers and control the phase of each, we have a phased array. This can be used to control the direction of sound emitted by the speakers (“beam steering”).\nNear the source, the wave is mixed up, but after a few wavelengths, the shape becomes apparent."
+  },
+  {
+    "objectID": "lectures/lecture-06.html#diffusors",
+    "href": "lectures/lecture-06.html#diffusors",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Diffusors",
+    "text": "Diffusors\nFor example, some acoustic diffusors are actually diffraction devices.\n\nThe complex patterns here cause the sound to scatter in quasi-random directions because of diffraction. Each hard surface acts like an individual source of sound. The complex pattern mixes up the sound so that it doesn’t reflect directly.\nVideo: https://youtu.be/1MtJOGXVZ1w"
+  },
+  {
+    "objectID": "lectures/lecture-06.html#next-time",
+    "href": "lectures/lecture-06.html#next-time",
+    "title": "Lecture 6: Diffraction and Interference",
+    "section": "Next time",
+    "text": "Next time\nChapter 9: Harmonics"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#announcements",
+    "href": "lectures/lecture-03.html#announcements",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Announcements",
+    "text": "Announcements\n\nSorry, the first homework isn’t up yet. I’ll do it today. Watch Canvas for an update."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#daily-quiz",
+    "href": "lectures/lecture-03.html#daily-quiz",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Daily quiz",
+    "text": "Daily quiz"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#definition-of-transverse-wave",
+    "href": "lectures/lecture-03.html#definition-of-transverse-wave",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Definition of Transverse Wave",
+    "text": "Definition of Transverse Wave\nA transverse wave has the motion of the medium moving perpendicular to the direction that the wave itself is traveling.\n\n \n\n\nThe archetypal transverse wave is a vibrating string."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#bowed-violin-string",
+    "href": "lectures/lecture-03.html#bowed-violin-string",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Bowed violin string",
+    "text": "Bowed violin string\n\n\n\n\nThis is a high-speed video of a violin string. How would you describe the motion?\n\n\nhttps://youtu.be/6JeyiM0YNo4"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#transverse-wave-demo",
+    "href": "lectures/lecture-03.html#transverse-wave-demo",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Transverse wave demo",
+    "text": "Transverse wave demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#things-to-try-on-your-own",
+    "href": "lectures/lecture-03.html#things-to-try-on-your-own",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Things to try on your own…",
+    "text": "Things to try on your own…\n\nPut the demo in “Oscillate” mode. Choose a frequency. Turn on the rulers. Pause the animation and measure the wavelength.\nWhat happens to the wavelength if you increase the frequency?\nUse this number and the frequency to estimate the wave speed of the string.\nWhat happens when you change the tension?\nWhat happens when you change the far end of the string (box in top right)?"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#parts-of-a-transverse-wave",
+    "href": "lectures/lecture-03.html#parts-of-a-transverse-wave",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Parts of a transverse wave",
+    "text": "Parts of a transverse wave\n\n\n\n\nTransverse wave\n\n\n\n\nWavelength (λ) is the distance (measured in meters) between repetitions of the wave.\nAmplitude (a) is the distance from the top of the wave (“crest”) to the middle. (Not crest to trough.)"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#wavelength-speed-and-frequency",
+    "href": "lectures/lecture-03.html#wavelength-speed-and-frequency",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Wavelength, speed, and frequency",
+    "text": "Wavelength, speed, and frequency\nIf we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (v), frequency (f), and wavelength (λ):\n\\[ v = f\\lambda \\]\nThis equation is true for all types of waves (sound, light, water, etc.)\n\nExample: A vibrating guitar string has a speed of v = 500 m/s and a wavelength of λ = 1.2 m.\nWhat is the vibration frequency (f) of the string?\n\n\n\\[ v = f\\lambda \\quad\\rightarrow\\quad f = \\frac{v}{\\lambda} = \\frac{500\\,\\mathrm{m/s}}{1.2\\,\\mathrm{m}} = 417\\,\\mathrm{Hz} \\]"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#standing-wave",
+    "href": "lectures/lecture-03.html#standing-wave",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Standing wave",
+    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses traveling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#resonant-wavelengths",
+    "href": "lectures/lecture-03.html#resonant-wavelengths",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Resonant wavelengths",
+    "text": "Resonant wavelengths\nThe condition to have a standing wave depends on the details at the end of the wave. For the case of a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (L) must be a whole number of half-wavelengths.\n\\[ L = n \\frac{\\lambda}{2}, \\] where n is a whole number. Solving for wavelength we have \\[ \\lambda_n = \\frac{2L}{n}. \\]\n\nWhen n = 1, we call this the fundamental wavelength of the string.\nHigher n values give the harmonics or partials of the string.\n\nTogether these are called the resonant wavelengths (λn) of the string."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#resonant-frequencies",
+    "href": "lectures/lecture-03.html#resonant-frequencies",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Resonant frequencies",
+    "text": "Resonant frequencies\nIf we combine the relationships between wavelength and frequency of a wave with the resonant wavelengths (λn), we get\n\\[\nf_n = \\frac{v}{\\lambda_n} = n \\frac{v}{2L}.\n\\]\nThese are the resonant frequencies of the string. (Remember, n is a whole number: 1, 2, 3, etc.)\n\nWhen n = 1, we call this the fundamental frequency of the string.\nHigher n values give the harmonics or partials of the string.\n\nFor example, if the fundamental frequency of a string is f1 = 440 Hz, then the first few harmonics are\n\nf2 = 2 f1 = 880 Hz,   f3 = 3 f1 = 1320 Hz,   f4 = 4 f1 = 1760 Hz, etc."
+  },
+  {
+    "objectID": "lectures/lecture-03.html#modes-of-a-vibrating-string",
+    "href": "lectures/lecture-03.html#modes-of-a-vibrating-string",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Modes of a vibrating string",
+    "text": "Modes of a vibrating string\n\n\n\n\nhttps://youtu.be/cnH2ltfW48U"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#standing-wave-demo",
+    "href": "lectures/lecture-03.html#standing-wave-demo",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Standing wave demo",
+    "text": "Standing wave demo\n\n\n\n\nhttps://youtu.be/XpNbyfxxkWE"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#activity-wave-machine",
+    "href": "lectures/lecture-03.html#activity-wave-machine",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Activity: Wave machine",
+    "text": "Activity: Wave machine\n\n\nWe’re going to build a simple “Shive wave machine” like shown in the book using some popsicle sticks and tape.\n\nPut 3 or 4 desks together to make a table\nPull off a long piece of tape that stretches across the desks, sticky side up\nPut popsicle sticks evenly placed crosswise along the length of the tape, about a finger-width apart\nOnce it’s made, pick it up and suspend it between a pair of desks\nPush down on one of the sticks at the end. What happens to the other sticks?\nEstimate the speed of the waves?\nCan you vibrate one end and create standing waves?\n\n\n\n\n\nWave Machine"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#weekly-reflection",
+    "href": "lectures/lecture-03.html#weekly-reflection",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Weekly reflection",
+    "text": "Weekly reflection\n\nWhat are your learning goals for the course?"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#for-next-time",
+    "href": "lectures/lecture-03.html#for-next-time",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "For next time…",
+    "text": "For next time…\nChapter 4 (Longitudinal Waves) and Chapter 5 (Sound Transmission)"
+  },
+  {
+    "objectID": "lectures/lecture-03.html#rubens-tube",
+    "href": "lectures/lecture-03.html#rubens-tube",
+    "title": "Lecture 3: Transverse Waves",
+    "section": "Rubens tube",
+    "text": "Rubens tube\n\n\n\n\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#announcements",
+    "href": "lectures/lecture-04.html#announcements",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nThe first homework has been posted on Canvas on the “Assignments” page. It is due next Tuesday.\n\nMostly these are problems from the textbook.\n6 questions for 2 points each.\nSubmit your work as a PDF file to the Canvas page with the assignment. (Ask if you need help.)\n\nToday’s lecture has a lot of data thrown at you. Focus on the concepts. The details are here to show you where to find stuff if you need it."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#structure-of-longitudinal-waves",
+    "href": "lectures/lecture-04.html#structure-of-longitudinal-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Structure of longitudinal waves",
+    "text": "Structure of longitudinal waves\nIn longitudinal waves the particles move in the same direction as the wave itself.\n\n\n\nHere the loops of the spring are compressed together.\n\n\nHere the beads are pushed together."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
+    "href": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Comparison of transverse and longitudinal waves",
+    "text": "Comparison of transverse and longitudinal waves\nMost of our ideas from last time carry over to longitudinal waves\n\nwavelength, period, frequency, and speed are all defined the same way\nstanding waves, resonances, and harmonics also happen (although the math depends on the details at the ends)"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
+    "href": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Most longitudinal waves are pressure waves",
+    "text": "Most longitudinal waves are pressure waves\n\n\nSound waves in air are fluctuations in pressure.\nThese pressure fluctuations are tiny (a billionth to a thousandth of atmospheric pressure)!\nWe typically don’t measure the pressure directly, although speakers and microphones work on this principle."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#rubens-tube",
+    "href": "lectures/lecture-04.html#rubens-tube",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Rubens tube",
+    "text": "Rubens tube\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#section",
+    "href": "lectures/lecture-04.html#section",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "",
+    "text": "In space no one can hear you scream.\n\n\nIs this a true statement? Why?\n\n\nYes, because sound needs matter to travel through.\nSpace has no air, so sound can’t travel."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#medium-of-transmission",
+    "href": "lectures/lecture-04.html#medium-of-transmission",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Medium of transmission",
+    "text": "Medium of transmission\nSound waves must travel through some kind of matter, which we call the medium of transmission.\nFor music, the medium is usually air, but sound also travels through\n\nthe solid body of musical instruments\nthe floors and walls\nthe structures of the human body (e.g. the parts of the ear)\n\nToday we want to define a couple of terms describing how sound moves through matter: speed and impedance."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#speed-of-sound",
+    "href": "lectures/lecture-04.html#speed-of-sound",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Speed of sound",
+    "text": "Speed of sound\n\n\nThe speed of sound in an object depends on many factors\n\n\nthe material\nthe environment (temperature, ambient pressure, humidity)\nthe shape of the object\nthe frequency of the sound (“dispersion”)\n\n\n\nThe table on the right assumes a bulk material (much bigger than the wavelength of the sound) and a sound frequency of 1000 Hz.\n\n\n\n\n\n\n\n\n\n\n\nGases\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nHelium (0°C)\n\n\n\n972\n\n\n\n\n\nAir (20°C)\n\n\n\n343\n\n\n\n\n\nAir (0°C)\n\n\n\n331\n\n\n\n\n\n\nLiquids at 25°C\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlycerol\n\n\n\n1904\n\n\n\n\n\nSea water\n\n\n\n1533\n\n\n\n\n\nWater\n\n\n\n1493\n\n\n\n\n\nMercury\n\n\n\n1450\n\n\n\n\n\n\nSolids\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlass\n\n\n\n5640\n\n\n\n\n\nAluminum\n\n\n\n5100\n\n\n\n\n\nBrass\n\n\n\n4700\n\n\n\n\n\nSteel\n\n\n\n5130\n\n\n\n\n\nWood\n\n\n\n3000-4000\n\n\n\n\n\nConcrete\n\n\n\n3000\n\n\n\n\n\n\n\n\n\n\n\nNote that the book often uses the approximation of 350 m/s for the speed of sound in air.\nRefs: W&W, Engineering toolbox"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#waves-carry-information",
+    "href": "lectures/lecture-04.html#waves-carry-information",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Waves carry information",
+    "text": "Waves carry information\nWe think of the speed of sound as telling us how quickly energy moves through a medium, but it also tells us how fast information travels.\nWe can demonstrate this will a high-speed camera…"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#slinky-drop-experiment",
+    "href": "lectures/lecture-04.html#slinky-drop-experiment",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Slinky drop experiment",
+    "text": "Slinky drop experiment\n\n\n\n\nhttps://www.youtube.com/watch?v=eCMmmEEyOO0"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance",
+    "href": "lectures/lecture-04.html#impedance",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance",
+    "text": "Impedance\nA second property of the medium or object that sound travels through is impedance.\nImpedance (symbol: z, units: Pa m/s = Rayls) is a measure of how difficult it is for sound to move through a medium or object.\nFor bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:\n\\[ z = \\rho v, \\]\n\nz is the impedance (units of Pa s/m, also called “Rayls”)\nρ is the mass density of the medium (units of kg/m3)\nv is the speed of sound in the medium (units of m/s)"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#example-impedance-of-air",
+    "href": "lectures/lecture-04.html#example-impedance-of-air",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Example: impedance of air",
+    "text": "Example: impedance of air\nFor example, air at room temperature (20°C) has a speed of v = 343 m/s and a density of ρ = 1.20 kg/m3. Therefore, the impedance of air at room temperature is z = ρv = 413 Pa m/s.\n\n\nEffect of temperature on properties of air (Wikipedia)\n\n\nTemperature T (°C)\nSpeed of sound v (m/s)\nDensity of air ρ (kg/m3)\nImpedance z (Pa·s/m)\n\n\n\n\n30\n349.02\n1.1644\n406.5\n\n\n20\n343.21\n1.2041\n413.3\n\n\n10\n337.31\n1.2466\n420.5\n\n\n0\n331.30\n1.2922\n428.0\n\n\n−10\n325.18\n1.3413\n436.1\n\n\n−20\n318.94\n1.3943\n444.6"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#table-of-common-building-materials",
+    "href": "lectures/lecture-04.html#table-of-common-building-materials",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Table of common building materials",
+    "text": "Table of common building materials\n\n\n\nRef. Sun, Ruting (2017): “Characterization of the acoustic properties of cementitious materials.” Loughborough University. Ph.D. Dissertation. https://hdl.handle.net/2134/27308"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#sound-at-boundaries",
+    "href": "lectures/lecture-04.html#sound-at-boundaries",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Sound at boundaries",
+    "text": "Sound at boundaries\n\n\nWhen a sound wave strikes a boundary between different materials, the energy divides three ways:\n\nsome is transmitted through the boundary\nsome is reflected by the boundary\nsome may be absorbed, depending on the material\n\nImpedance is the property that tells us about transmission and reflection."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance-matching",
+    "href": "lectures/lecture-04.html#impedance-matching",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance matching",
+    "text": "Impedance matching\n\n\nFor sound to go efficiently from one object/medium to another, their impedances must be equal.\n\nThe bones of the human inner ear match the impedance of air to the impedance of the fluid inside the cochlea.\nA car muffler works by intentionally mismatching the impedance of the exhaust pipe and the outside air.\nIn general, if sound is moving from impedance z1 to impedance z2, the fraction of transmitted sound energy will be \\[ T = 1-\\left(\\frac{z_1-z_2}{z_1+z_2} \\right)^2 \\]\n\n\n\n\n\nHuman Ear\n\n\n\n\n\nMuffler"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#impedance-matching-video",
+    "href": "lectures/lecture-04.html#impedance-matching-video",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Impedance matching video",
+    "text": "Impedance matching video\n\n\n\n\nhttps://youtu.be/AzZ7DjS4ti4. Part 2 (Human ear): https://youtu.be/geSDcollRos"
+  },
+  {
+    "objectID": "lectures/lecture-04.html#musical-instruments",
+    "href": "lectures/lecture-04.html#musical-instruments",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Musical instruments",
+    "text": "Musical instruments\n\n\nOne of the main functions of a musical instrument is to match the impedance of the sound source (e.g. violin string, oboe reed, human vocal folds) to the outside air.\nConsider the difference between an acoustic guitar and an electric guitar. Which one is impedance matched to the air?\nA trumpet mute also works by changing the impedance of the trumpet, not by absorbing the sound."
+  },
+  {
+    "objectID": "lectures/lecture-04.html#next-time",
+    "href": "lectures/lecture-04.html#next-time",
+    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
+    "section": "Next time",
+    "text": "Next time\nChapter 6 (Resonance)"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#announcements",
+    "href": "lectures/lecture-08.html#announcements",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nExam grades have been posted.\nHomework 3 has been posted to Canvas.\n\nDue next Thursday evening\nPlease submit only one PDF file for your whole assignment."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#daily-quiz",
+    "href": "lectures/lecture-08.html#daily-quiz",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#human-ear",
+    "href": "lectures/lecture-08.html#human-ear",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Human ear",
+    "text": "Human ear\n\n\n\nOuter ear - collects the sound as a propagates through the air\n\nPinna - the part of the ear on the outside (sound bucket) the funnels sound into the ear canal\nEar canal - impedance matches between the outside air and the ear drum\n\nMiddle ear - a set of 3 small bones act as levers to match the impedance between the ear drum and the oval window on the cochlea.\nInner ear - converts sound waves into nerve impulses (see next page)\n\n\n\n\nSource: NIH"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#inner-ear",
+    "href": "lectures/lecture-08.html#inner-ear",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Inner ear",
+    "text": "Inner ear\n\n\nThe cochlea is the sound processing organ in the ear.\n\nshaped like a long spiral containing a pair of fluid-filled tubes\nbetween the tubes is the basilar membrane that sorts the sound waves by frequency\non the basilar membrane is the Organ of Corti that contains hair cells\nthe hair cells vibrate as the sound waves pass, stimulating the nerve cells to send signals to the brain\n\n\n\n\nLong wavelength (low frequency) sound waves penetrate deeper into the cochlea than short wavelength (high frequency) waves. This is how the ear distiguishes pitch."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#nih-video",
+    "href": "lectures/lecture-08.html#nih-video",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "NIH video",
+    "text": "NIH video\nhttps://en.wikipedia.org/wiki/File:Journey_of_Sound_to_the_Brain.ogv"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#definitions-of-intensity-and-loudness",
+    "href": "lectures/lecture-08.html#definitions-of-intensity-and-loudness",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Definitions of Intensity and Loudness",
+    "text": "Definitions of Intensity and Loudness\n\nIntensity is a measure of how much sound energy passes through a surface in a certain amount of time (power per area).\n\nThis is an objective description of sound that we can measure with a machine (e.g. with a sound meter).\n\nLoudness (or “volume”) is the human perception of sound intensity.\n\nIt is a subjective description of sound as heard by each listener.\nDynamics markings in a musical score (forte, piano, etc.) indicate loudness.\nBecause each listener may hear something different (e.g. because of age or medical condition), loudness is harder to describe precisely.\nWe’ll come back to loudness in the next chapter to talk about how an average adult human perceives intensity and the different factors that affect loudness."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#energy-power-and-intensity",
+    "href": "lectures/lecture-08.html#energy-power-and-intensity",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Energy, Power, and Intensity",
+    "text": "Energy, Power, and Intensity\n\n\n\nEnergy (E) is the capacity to do work. It is measured as joules (J), which the book also calls newton-meters (N m).\nPower (P) is the rate at which energy is emitted or absorbed. Power is measured in watts (W), which is also joules per seconds.\nIntensity (I) is the amount of power divided by the area it passes through, measured in watts per square-meter (W/m2).\n\n\\[P = IA\\]\n\n\n\nThe power is represented by total number of arrows through each green area.\nThe intensity is the power divided by the area in each case."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#example-problem-on-intensity",
+    "href": "lectures/lecture-08.html#example-problem-on-intensity",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Example problem on intensity",
+    "text": "Example problem on intensity\n\n\nA studio monitor outputs 2 W of sound power. The diameter of the speaker is 20 cm (about 8 inches). What is the sound intensity just next to the front of the speaker?\n(Reminder: area of a circle is \\(A=\\pi d^2/4\\) .)"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#we-sense-ratios-not-differences",
+    "href": "lectures/lecture-08.html#we-sense-ratios-not-differences",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "We sense ratios, not differences",
+    "text": "We sense ratios, not differences\nThe sound intensities that humans can here vary from about 10-12 W/m2 to 1 W/m2, a factor of a trillion apart. The way our brain deals with great spreads like this is to measure ratios (fractions) rather than differences. (Also, this happens because of the way nerves activate.)\nFor example, we can sense when intensity doubles, but we can’t hear a whisper added to a jet engine.\nOur brain divides and multiplies; it does not add or subtract.\nMany of our senses use this type of compression:\n\nSound intensity, sound frequency (musical pitch)\nLight intensity (but not color)\nTouch (pressure)\nHeat flow"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#decibels",
+    "href": "lectures/lecture-08.html#decibels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Decibels",
+    "text": "Decibels\nTo avoid writing very small and very large numbers (lots of zeros or decimals points) to represent quantities with a lot of dynamics range, engineers often use a logarithmic scale called decibels (dB) to express ratios.\nThe mathematical definition of decibels is\n\\[\\text{decibels} = 10 \\log\\left(\\frac{\\text{measurement value}}{\\text{reference value}}\\right),\\]\nwhere “log” is the common (base-10) logarithm function found on a calculator.\nIf we’re given the decibel level and we need the measurement value, we solve the equation above to get\n\\[\\text{measurement} = \\text{reference value} \\times 10^{\\text{decibels}/10} \\]"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#sound-intensity-levels-sil",
+    "href": "lectures/lecture-08.html#sound-intensity-levels-sil",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Sound intensity levels (SIL)",
+    "text": "Sound intensity levels (SIL)\nThe reference value for a decibel conversion is usually something agreed upon by the community. For example, when measuring sound intensity, the reference value is taken as the threshold of hearing for a typical adult human: I0 = 10-12 W/m2, giving us the following definition for Sound Intensity Level (SIL), measured in decibels:\n\\[S_{IL} = 10 \\log(I/I_0)\\]\nor, flipping this around to solve for intensity:\n\\[I = I_0 \\times 10^{S_{IL}/10},\\]\nwhere for sound, I0 = 10-12 W/m2 by definition."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#sound-intensity-table",
+    "href": "lectures/lecture-08.html#sound-intensity-table",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Sound intensity table",
+    "text": "Sound intensity table\n\n\n\n\n\n\n\n\n\n\n\nDynamic\nSound intensity\nI (W/m2)\nRelative intensity\nI/I0\nIntensity level\nSIL (dB)\nExample\n\n\n\n\nPain\n1\n1012\n120\nPain\n\n\nfffff\n0.1\n1011\n110\nJet engine\n\n\nffff\n0.01\n1010\n100\n\n\n\nfff\n0.001\n109\n90\nMotorcyle\n\n\nff\n10-4\n108\n80\n\n\n\nf\n10-5\n107\n70\nTalking\n\n\nmf\n10-6\n106\n60\n\n\n\np\n10-7\n105\n50\nOffice\n\n\npp\n10-8\n104\n40\n\n\n\nppp\n10-9\n1000\n30\nLibrary\n\n\npppp\n10-10\n100\n20\nWhisper\n\n\nppppp\n10-11\n10\n10\n\n\n\nThreshold of hearing (I0)\n10-12\n1\n0\n\n\n\n\n\n\nSource: White & White Tables 9-1, 9-2, and Figure 9-7"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#rules-of-thumb-for-decibels",
+    "href": "lectures/lecture-08.html#rules-of-thumb-for-decibels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Rules of thumb for decibels",
+    "text": "Rules of thumb for decibels\nIf you don’t have a calculator handy…\n\n0 dB means the same\n+3 dB is about twice as big\n+5 dB is about three times as big\n+10 dB means ten times bigger\n+20 dB means 100 times bigger\nThe pattern +#0 dB is 1 with # zeros times bigger.\nnegative dBs means that factor smaller: -10 dB = ten times smaller.\nadding two dB values is the same as multiplying their intensities.\n\nExample: +13 dB = 10 dB + 3 dB = 10 × 2 = 20 times bigger.\n\nsubtracting two dB values is the same as dividing their intensities."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#example-problems-decibels",
+    "href": "lectures/lecture-08.html#example-problems-decibels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Example problems: decibels",
+    "text": "Example problems: decibels\n\nA typical speaking voice at a comfortable distance has an intensity level of 70 dB.\n\nWhat is the intensity value (in W/m2)?\nIf two people talk at the same time, what is the combined intensity? combined SIL?"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#limits-of-human-hearing",
+    "href": "lectures/lecture-08.html#limits-of-human-hearing",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Limits of human hearing",
+    "text": "Limits of human hearing\n\n\nWe’ll discuss the idea of loudness in detail next time, but one simple difference is that our experience of loudness depends on the frequency of the sound. Human ears work best around 1000 Hz. Our ears are less sensitive at higher and lower frequencies.\nThe red curve shows the minimum sound intensity that we can detect as a function of frequency. The blue curves are loudness values relative to the threshold.\n\n\n\n\nPerceived intensity vs. frequency (Fletcher–Munson loudness curves)"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#dynamic-range",
+    "href": "lectures/lecture-08.html#dynamic-range",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Dynamic Range",
+    "text": "Dynamic Range\nAn important concept related to this that doesn’t show up in the textbook until the chapters on recording is dynamic range.\nDynamic Range is the ratio between the largest possible measurement and the smallest possible measurement.\nSo, the dynamic range of intensity for human hearing is about 1012 or 120 dB. By comparison, a 16-bit ADC on a digital recording deck has a dynamic range of 216 ≈ 65,000 or 48 dB.\nThe dynamic range of frequency for human hearing is about 20,000 Hz/20 Hz = 1,000 or 30 dB."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#line-levels",
+    "href": "lectures/lecture-08.html#line-levels",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Line levels",
+    "text": "Line levels\n\n\nAudio recording equipment usually specifies intensity relative to the line level. Line level is the maximum signal that can pass through an electronic audio system without saturating (analog) or clipping (digital) the signal.\nIn this case the reference level is always higher than the sound level. When we convert this to decibels, we get a negative number. Roughly, the numbers come out to\n\n0 dB = Maximum signal without distortion\n-10 dB = an typical signal value\n-45 dB = the lowest signal detectable\n\nWe’ll come back to the details later in the semester.\n\n\n\n\nAmplifier gains and attenuation are usually specified in decibels."
+  },
+  {
+    "objectID": "lectures/lecture-08.html#intensity-and-distance",
+    "href": "lectures/lecture-08.html#intensity-and-distance",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Intensity and distance",
+    "text": "Intensity and distance\n\n\nIntensity decreases as you move away from a source. If you were in completely empty space (no walls, floors, or ceiling), sound waves would come out in the shape of spheres.\nImagine blowing up a balloon with a sound source in the center of the balloon. The same amount of sound power (P) passes through the surface of the balloon regardless of how big it is, but the intensity will go down as the radius (r) of the balloon gets bigger.\n\n\n\n\nThe relationship between sound intensity and distance is called the inverse square law. Many laws of physics have this pattern: gravity, electricity, and light intensity, for example.\n\n\n\n\n\\[P = IA = I (4\\pi r^2)\\quad\\rightarrow\\quad I = \\frac{P}{4\\pi r^2}\\]"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#example-intensity",
+    "href": "lectures/lecture-08.html#example-intensity",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Example: Intensity",
+    "text": "Example: Intensity\n\n\nThe Sumbergh Head foghorn in Shetland, UK, emits a tone of 120 Hz that can be heard 30 kilometers away. If the threshold of hearing at this frequency is SIL = 30 dB, what is the power of the foghorn? (Assume the sound waves come out as perfect spheres.)\n\n\n\n\nSumbergh Head foghorn"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#weekly-reflection",
+    "href": "lectures/lecture-08.html#weekly-reflection",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nThink about your exam score and your daily quiz grades so far in the course. Are you happy with how you’re doing? What’s working for you? What could be improved?"
+  },
+  {
+    "objectID": "lectures/lecture-08.html#next-time",
+    "href": "lectures/lecture-08.html#next-time",
+    "title": "Lecture 8: Sound Intensity and Hearing",
+    "section": "Next time",
+    "text": "Next time\nLoudness (Chapter 10)"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#announcements",
+    "href": "lectures/lecture-07.html#announcements",
+    "title": "Lecture 7: Harmonics",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nChange of plans: We will do “Homework 2” in class today.\nMidterm Exam 1 is Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#daily-quiz",
+    "href": "lectures/lecture-07.html#daily-quiz",
+    "title": "Lecture 7: Harmonics",
+    "section": "Daily Quiz",
+    "text": "Daily Quiz"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#harmonic-frequencies",
+    "href": "lectures/lecture-07.html#harmonic-frequencies",
+    "title": "Lecture 7: Harmonics",
+    "section": "Harmonic frequencies",
+    "text": "Harmonic frequencies\n\n\nWe saw earlier that a vibrating string can resonate at the following set of frequencies:\n\\[f_1 = \\frac{v}{2L},  f_n = n f_1 = n \\frac{v}{2L},\\]\nwhere fn is the frequency of the nth harmonic (whole numbers: 1, 2, 3…), v is the speed of waves on the string, and L is the length of the string."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#frequency-spectrum",
+    "href": "lectures/lecture-07.html#frequency-spectrum",
+    "title": "Lecture 7: Harmonics",
+    "section": "Frequency spectrum",
+    "text": "Frequency spectrum\n\n\nIn general, when you play an instrument, more than one harmonic is generated at a time. We can see this by measuring the frequency spectrum of the sound.\nWe do this by measuring the waveform using a microphone, then applying a math tool called the Fourier Transform which extracts frequency, amplitude, and phase information.\n\n\nClarinet \n\n\n\n\n\nFigure from UCSD School of Music"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#timbre",
+    "href": "lectures/lecture-07.html#timbre",
+    "title": "Lecture 7: Harmonics",
+    "section": "Timbre",
+    "text": "Timbre\nEach instrument has a characteristic spectrum, or set of frequencies and amplitudes. Our brains interpret this as the timbre or tone quality of the instrument."
+  },
+  {
+    "objectID": "lectures/lecture-07.html#weekly-reflection",
+    "href": "lectures/lecture-07.html#weekly-reflection",
+    "title": "Lecture 7: Harmonics",
+    "section": "Weekly Reflection",
+    "text": "Weekly Reflection\nWhat will you do to study for the exam?"
+  },
+  {
+    "objectID": "lectures/lecture-07.html#next-time",
+    "href": "lectures/lecture-07.html#next-time",
+    "title": "Lecture 7: Harmonics",
+    "section": "Next time",
+    "text": "Next time\nExam 1!"
+  },
+  {
     "objectID": "lectures/lecture-12.html#announcements",
     "href": "lectures/lecture-12.html#announcements",
     "title": "Lecture 12: Solid Bodies",
@@ -285,1195 +1475,5 @@
     "title": "Lecture 9: Loudness",
     "section": "Next time",
     "text": "Next time\nChapter 11: Harmonic structure of strings"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#announcements",
-    "href": "lectures/lecture-06.html#announcements",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nHomework 2 will be posted later today. It will be due next Tuesday.\nMidterm Exam 1 is next Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#daily-quiz",
-    "href": "lectures/lecture-06.html#daily-quiz",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#definition-of-interference",
-    "href": "lectures/lecture-06.html#definition-of-interference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Definition of Interference",
-    "text": "Definition of Interference\nUnlike the book, I’m going to discuss interference first because we can then use these ideas to talk about diffraction.\nInterference is the adding of waves with the same frequency/wavelength."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#principle-of-superposition",
-    "href": "lectures/lecture-06.html#principle-of-superposition",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Principle of Superposition",
-    "text": "Principle of Superposition\nWhen two or more waves overlap at the same place, we add their amplitudes at that point.\n\nFlipping Physics demo: https://youtu.be/JUCLoczzwPo\nSlinky demo: https://youtu.be/X2pt9WCu8mk \nCCC demo: https://youtu.be/hnZ1FKVWN4k"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#constructive-and-destructive-interference",
-    "href": "lectures/lecture-06.html#constructive-and-destructive-interference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Constructive and Destructive Interference",
-    "text": "Constructive and Destructive Interference"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phase-difference",
-    "href": "lectures/lecture-06.html#phase-difference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Phase difference",
-    "text": "Phase difference\nPhase is a measure of time difference between two waves. We measure it in “waves” or as an angle, with 1 wave = 360°.\n\n\n\nCompletely constructive interference happens at a phase difference of 0 waves or 0°.\nCompletely destructive interference happens at a phase difference of 1/2 wave or 180°.\nIn between we have partial interference.\nThe pattern repeats after each whole wave or each 360°."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#calculating-phase-difference",
-    "href": "lectures/lecture-06.html#calculating-phase-difference",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Calculating phase difference",
-    "text": "Calculating phase difference\n\n\nTo calculate the phase difference between two sources we do:\n\nMeasure the distance from each source to the listener (call these d1 and d2).\nDivide the difference in distances by the wavelength (λ), then multiply by 360°: \\(\\phi = \\frac{d_1 - d_2}{\\lambda}\\times 360^\\circ\\)\nIn these drawings, the wavelength is λ = 1 m.\n\n\n\n\n\nConstructive\n\n\n\n\n\nDestructive"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phet-demo",
-    "href": "lectures/lecture-06.html#phet-demo",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "PhET demo",
-    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#interference-in-other-waves",
-    "href": "lectures/lecture-06.html#interference-in-other-waves",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Interference in other waves",
-    "text": "Interference in other waves"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#noise-cancellation",
-    "href": "lectures/lecture-06.html#noise-cancellation",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Noise cancellation",
-    "text": "Noise cancellation"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#definition-of-diffraction",
-    "href": "lectures/lecture-06.html#definition-of-diffraction",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Definition of Diffraction",
-    "text": "Definition of Diffraction\nI’m going to give a different definition of diffraction than the book, but one that I think makes more sense.\nDiffraction is the interference of a wave with itself.\nAll of the math we used for interference applies here, too, if we look at the wave in the right way."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#hugyens-principle",
-    "href": "lectures/lecture-06.html#hugyens-principle",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Hugyen’s Principle",
-    "text": "Hugyen’s Principle\n\n\nHuygens’s Principle is the idea that we can treat each point along a wavefront as its own point source. Looks for the constructive interference of these imaginary point sources let’s use determine the shape of the wave as it propagates."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
-    "href": "lectures/lecture-06.html#diffraction-compared-to-wavelength",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffraction compared to wavelength",
-    "text": "Diffraction compared to wavelength\nDiffraction happens when waves pass through a hole that is similar in size to the wavelength."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffraction-from-a-slit",
-    "href": "lectures/lecture-06.html#diffraction-from-a-slit",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffraction from a slit",
-    "text": "Diffraction from a slit\n\n\nFor a slit or rectangular hole, the sound is concentrated in a cone with angular width θ given by\n\\[\\sin\\theta = \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the size of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left( \\frac{\\lambda}{D}\\right)\\]"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phet-demo-1",
-    "href": "lectures/lecture-06.html#phet-demo-1",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "PhET demo",
-    "text": "PhET demo\nDemo on wave interference and diffraction: https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_en.html"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
-    "href": "lectures/lecture-06.html#diffraction-from-a-circular-hole",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffraction from a circular hole",
-    "text": "Diffraction from a circular hole\n\n\nFor a circular hole, the result is similar but the formula has an extra factor of 1.22:\n\\[\\sin\\theta = 1.22 \\frac{\\lambda}{D}\\]\nwhere λ is the wavelength and D is the diameter of the hole. Solving for the angle we have\n\\[\\theta = \\sin^{-1}\\left(1.22 \\frac{\\lambda}{D}\\right)\\]"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#phased-array",
-    "href": "lectures/lecture-06.html#phased-array",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Phased array",
-    "text": "Phased array\n\n\nWe can find the diffraction patterns of other shapes by going back to Huygen’s Principle of treating each point as a new source. With proper engineering we can control both the amplitude and phase of each point of the new wave.\nFor example, if we set up a line of speakers and control the phase of each, we have a phased array. This can be used to control the direction of sound emitted by the speakers (“beam steering”).\nNear the source, the wave is mixed up, but after a few wavelengths, the shape becomes apparent."
-  },
-  {
-    "objectID": "lectures/lecture-06.html#diffusors",
-    "href": "lectures/lecture-06.html#diffusors",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Diffusors",
-    "text": "Diffusors\nFor example, some acoustic diffusors are actually diffraction devices.\n\nThe complex patterns here cause the sound to scatter in quasi-random directions because of diffraction. Each hard surface acts like an individual source of sound. The complex pattern mixes up the sound so that it doesn’t reflect directly.\nVideo: https://youtu.be/1MtJOGXVZ1w"
-  },
-  {
-    "objectID": "lectures/lecture-06.html#next-time",
-    "href": "lectures/lecture-06.html#next-time",
-    "title": "Lecture 6: Diffraction and Interference",
-    "section": "Next time",
-    "text": "Next time\nChapter 9: Harmonics"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#announcements",
-    "href": "lectures/lecture-13.html#announcements",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Announcements",
-    "text": "Announcements\n\nHomework 4 is due tonight at 10pm\nYour Initial Project Plans are due Friday night at 10pm (one per group)"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#daily-quiz",
-    "href": "lectures/lecture-13.html#daily-quiz",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#pitch",
-    "href": "lectures/lecture-13.html#pitch",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Pitch",
-    "text": "Pitch\nPitch is the musical term for the identity of a musical tone in terms of its fundamental partial. The identification of pitch is a rich topic itself with lots of ties to history and culture.\nWe’re going to keep a very basic definition of pitch and define it as the way we distinguish keys on a piano.\n\nOne octave of a piano keyboard looks like the picture here. The white keys are given names in a repeating pattern using letters A through G, and the black keys are named equally as the neighboring white key to the left plus “sharp” (♯) or the white key to the right plus “flat” (♭). The fact that, for example, B♭ and A♯ are the same key is called enharmonicity, but as we’ll see later, this is because of our choice of the way the piano is tuned."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#octaves-on-the-piano-keys",
-    "href": "lectures/lecture-13.html#octaves-on-the-piano-keys",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Octaves on the piano keys",
-    "text": "Octaves on the piano keys\nThe pattern of 7 white keys and 5 black keys repeats in sets called “octaves.” Each octave has 12 keys. We’ll label the octaves with a number. By tradition, the C closest to the middle of the piano keyboard is called “middle C” and we’ll give it the name C4. The next C to the left on the keyboard (“lower”) we call C3, and the C to the right of middle C (“higher”) is called C5.\nEach new octave number begins at C. The key to the left of C4 is called B3."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#absolute-pitch",
-    "href": "lectures/lecture-13.html#absolute-pitch",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Absolute pitch",
-    "text": "Absolute pitch\n\n\nBy international treaty(!!) the key A4 on the piano (above middle C) is tuned such that its fundamental partial has a frequency of 440 Hz. This is called the “standard concert pitch”. There is a rich history of the various disputes around this value (mostly political soap operas between various nations, orchestras, and composers, see Wikipedia), even making an appearance in the Treaty of Versailles that ended World War I.\nThe modern value is attributed to German physicist Johann Scheibler who presented the first reliable measurements of musical frequencies at a conference in Stuttgart in 1834, with the value A4 = 440 Hz first being recognized as an international standard in 1939 and then reaffirmed in 1975."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#octaves",
-    "href": "lectures/lecture-13.html#octaves",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Octaves",
-    "text": "Octaves\n\n\nGoing back to our discussion of vibrating strings, we saw that the fundamental frequency of the string was given by \\[\nf_1 = \\frac{1}{2L}\\,\\sqrt{\\frac{F}{m}},\n\\] and that the first overtone is at exactly 2 times this frequency: \\(f_2 = 2f_1\\).\nWe say that two frequencies with this relationship are an octave apart. Or, in terms of their ratios: \\[\n\\text{octave} = 2:1\n\\]\nWhen played together, human hearing will interpret these as the same pitch."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#octaves-of-as",
-    "href": "lectures/lecture-13.html#octaves-of-as",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Octaves of A’s",
-    "text": "Octaves of A’s\n\n\nIf we take as a starting point A4 = 440 Hz, we can use our definition of octave to calculate the frequencies of all of the other A’s on the piano keyboard by successively multiplying or dividing by two.\nThis is called a geometric sequence in math. Rather than adding or subtracting to go from one pitch to the next, we multiply or divide.\nTo find the frequencies of the other pitches, we need a mathematical rule. Historically, many different rules, called temperments or tunings were used. We’ll start with the most common modern rule: equal temperment.\n\n\n\n\nPitch\nFrequency (Hz)\n\n\n\n\nA0\n27.5\n\n\nA1\n55\n\n\nA2\n110\n\n\nA3\n220\n\n\nA4\n440\n\n\nA5\n880\n\n\nA6\n1760\n\n\nA7\n3520"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#equal-temperament",
-    "href": "lectures/lecture-13.html#equal-temperament",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Equal temperament",
-    "text": "Equal temperament\nThe rule for the 12-tone equal tempered scale (12-TET) simply says that the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.\nLet’s do a little algebra. If the ratio between adjacent keys is called x, then after 12 keys we should have an octave, or two times the starting frequency: \\[\nf_1 \\times x^{12} = 2f_1\n\\] Solving for x gives the ratio between adjacent keys: \\[\nx = \\sqrt[12]{2} \\approx 1.059463\\ldots\n\\] In words, the ratio is the twelfth root of 2. We can also write this as \\(2^{1/12}\\),2 to the 1/12th power, which is easier to do algebra with.\nThis interval is called a semitone of the equal-tempered scale."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#examples",
-    "href": "lectures/lecture-13.html#examples",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Examples",
-    "text": "Examples\n\n\nThe frequency of A♯4 is \\[\nA^\\sharp_4 = A_4\\times 2^{1/12} = 440\\,\\mathrm{Hz}\\times 2^{1/12} = 466.2\\,\\mathrm{Hz}.\n\\]\n\n\nTo get A♭4 we divide by \\(\\sqrt[12]{2}\\): \\[\nA^\\flat_4 = \\frac{A_4}{2^{1/12}} = 415.3\\,\\mathrm{Hz}\n\\]\n\n\nTo get C5, we step up by 3 keys on the keyboard: \\[\nC_5 = A_4 \\times (2^{1/12})^3  = A_4\\times 2^{1/4} = 440\\,\\mathrm{Hz}\\times1.189=523\\,\\mathrm{Hz}\n\\]"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#full-equal-tempered-chromatic-scale",
-    "href": "lectures/lecture-13.html#full-equal-tempered-chromatic-scale",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Full equal tempered chromatic scale",
-    "text": "Full equal tempered chromatic scale\n\nStepping one note at a time across the keyboard (including the black keys), we get the full 12-tone chromatic scale.\nAgain, the defining characteristic of the equal tempered scale is that the frequency ratios of adjacent notes is the same: \\(2^{1/2} \\approx 1.059463\\)."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#cents",
-    "href": "lectures/lecture-13.html#cents",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Cents",
-    "text": "Cents\nBecause multiplying and dividing frequency numbers is inconvenient, we often characterize pitch in terms of a measure called cents that we can add or subtract. Cents live on a logarithmic scale, such that adding 1200 cents doubles the frequency. Adding or subtracting 100 cents moves us by one semitone (one piano key) up or down on the equal tempered scale.\nIf we have two frequencies, their difference in cents from f1 to f2 is given by \\[\n\\mathrm{cents} = 1200 \\log_2 (f_2/f_1).\n\\] Where “log2” means the base-2 logarithm. Most calculators can’t do this directly, so using some math rules for logs we get the equation \\[\n\\mathrm{cents} = \\frac{1200}{\\log 2} \\log (f_2/f_1)\n\\approx 3986 \\log(f_1/f_2).\n\\]\n(This should remind you of decibels. The math is very similar.)"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#cents-to-frequency",
-    "href": "lectures/lecture-13.html#cents-to-frequency",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Cents to frequency",
-    "text": "Cents to frequency\nGoing the other way, if we know f1 and want to change by a number of cents, the new frequency f2 is \\[\nf_2 = f_1 \\times 2^{\\mathrm{cents}/1200},\n\\] where “cents” is positive to go higher in pitch or negative to go lower in pitch.\nFor example, if we’re trying to play A4 and our electronic tuner says we’re flat by 30 cents, our actual frequency is \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{-30/1200} = (440\\,\\mathrm{Hz})\\times(0.983) = 432\\,\\mathrm{Hz}\n\\]\nAnother example, say we’re trying to play C4 (262 Hz) and our measured frequency is 256 Hz. How far off are we in cents? \\[\n\\frac{1200}{\\log 2}\\,\\log\\left(\\frac{256\\,\\mathrm{Hz}}{262\\,\\mathrm{Hz}}\\right) = -30\\,\\mathrm{cents}\\text{ (flat)}\n\\]"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#midi-pitch-values",
-    "href": "lectures/lecture-13.html#midi-pitch-values",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "MIDI pitch values",
-    "text": "MIDI pitch values\nMIDI is a computer language for describing music. Pitch values for MIDI start with A4 = 69, and go up or down by one step for each key on the piano. In other words, 1 MIDI pitch unit = 100 cents.\nTo go from MIDI pitch p to frequency f do \\[\nf = (440\\,\\mathrm{Hz})\\times 2^{(p-69)/12} = (8.175\\,\\mathrm{Hz})\\times 2^{p/12}\n\\]\nTo go from frequency to MIDI pitch \\[\np = \\frac{12}{\\log 2}\\log\\left(\\frac{f}{8.175\\,\\mathrm{Hz}}\\right)\n= 39.86 \\log\\left(\\frac{f}{8.175\\,\\mathrm{Hz}}\\right)\n\\]"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#just-intervals",
-    "href": "lectures/lecture-13.html#just-intervals",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Just intervals",
-    "text": "Just intervals\n\n\nThe equal tempered scale is used for modern instruments because of its versatility, but it sacrifices perfect harmony. From our discussion of harmonic and inharmonic partials, we know that the best-sounding frequency combinations come as simple fractions.\nThese are called just intervals. Notice in the table that (1) these are not powers of \\(2^{1/12}\\) in frequency or (2) an even number of 100 cents.\nThis means that the equal-tempered scale of the piano is off by a tiny bit. This is the cost paid for being able to play music written in any key equally well.\n\n\n\n\n\nInterval\nf2/f1\ncents\n\n\n\n\noctave\n2/1\n1200\n\n\nperfect fifth\n3/2\n702\n\n\nperfect fourth\n4/3\n498\n\n\nmajor third\n5/4\n386\n\n\nminor third\n6/5\n316"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#comparison-of-just-intervals-and-equal-tempered-intervals",
-    "href": "lectures/lecture-13.html#comparison-of-just-intervals-and-equal-tempered-intervals",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Comparison of just intervals and equal-tempered intervals",
-    "text": "Comparison of just intervals and equal-tempered intervals"
-  },
-  {
-    "objectID": "lectures/lecture-13.html#pythagorean-scales",
-    "href": "lectures/lecture-13.html#pythagorean-scales",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Pythagorean scales",
-    "text": "Pythagorean scales\n\n\nIf we try to build scales using just intonation, we have to make comprising about which intervals to preserve.\nOne of the earliest methods was the Pythagorean scale. This is made by choosing a starting pitch (e.g. A4 = 440 Hz) and going up or down in perfect fifths (3/2 ratio = 702 cents), then dropping or raising by octaves as needed to build the A4 major scale. This automatically includes the perfect fourths as well.\nExtending this idea to all 12 tones is called “five-limit tuning”.\n\n\n\n\nThe root cause is that no number of perfect fifths add up to a whole number of octaves. Algebraically, there is no solution to the equation \\[\n(3/2)^x = 2^y,\n\\] where both x and y are whole numbers."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#just-diatonic-scale",
-    "href": "lectures/lecture-13.html#just-diatonic-scale",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Just diatonic scale",
-    "text": "Just diatonic scale\nIf we use the same method as the Pythagorean scale but allow major and minor thirds, we get the just diatonic scale, which is the most harmonious 12-tone scale, in the sense of being closest to just for each note.\n \nThis works great for instruments with adjustable pitch (especially human voice or strings in most keys), but doesn’t work for things like pianos because it depends on picking one specific key in which the music is played (e.g. A-major starting from A4)."
-  },
-  {
-    "objectID": "lectures/lecture-13.html#next-time",
-    "href": "lectures/lecture-13.html#next-time",
-    "title": "Lecture 13: Musical Intervals and Scales",
-    "section": "Next time",
-    "text": "Next time\nConsonance and dissonance"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#announcements",
-    "href": "lectures/lecture-10.html#announcements",
-    "title": "Lecture 10: Strings",
-    "section": "Announcements",
-    "text": "Announcements\n\nHomework 3 is due tonight.\n\nPlease submit only one PDF file for your whole assignment."
-  },
-  {
-    "objectID": "lectures/lecture-10.html#daily-quiz",
-    "href": "lectures/lecture-10.html#daily-quiz",
-    "title": "Lecture 10: Strings",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#group-project",
-    "href": "lectures/lecture-10.html#group-project",
-    "title": "Lecture 10: Strings",
-    "section": "Group project",
-    "text": "Group project\n\n\nGroups of 3 or 4.\n\nSend me an email today with a list of people you want to work with.\nI will assign the groups, using your suggestions as best as I can.\n\nGoal: Your group will build a musical instrument\n\nMust be able to play a simple melody\nMust explain how it produces sound and how you control it\nCharacterization of the sound will be part of the final report\nWritten and oral presentations due at the end of the semester"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#project-steps",
-    "href": "lectures/lecture-10.html#project-steps",
-    "title": "Lecture 10: Strings",
-    "section": "Project steps",
-    "text": "Project steps\nDetails will follow in the coming weeks, but here is the tentative plan with tentative deadlines.\n\nPresent a plan (2/21)\nBuild a prototype\nCharacterize the prototype and write a progress report (3/21)\nRefine the prototype\nWrite a final report (4/20)\nPresent your instrument and results to the class (4/28, Final Exam Day)"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#parts-of-a-transverse-wave",
-    "href": "lectures/lecture-10.html#parts-of-a-transverse-wave",
-    "title": "Lecture 10: Strings",
-    "section": "Parts of a transverse wave",
-    "text": "Parts of a transverse wave\n\n\n\n\nTransverse wave\n\n\n\n\nWavelength (λ) is the distance (measured in meters) between repetitions of the wave.\nAmplitude (a) is the distance from the top of the wave (“crest”) to the middle. (Not crest to trough.)"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#wavelength-speed-and-frequency",
-    "href": "lectures/lecture-10.html#wavelength-speed-and-frequency",
-    "title": "Lecture 10: Strings",
-    "section": "Wavelength, speed, and frequency",
-    "text": "Wavelength, speed, and frequency\nIf we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (v), frequency (f), and wavelength (λ):\n\\[ v = f\\lambda \\]\nThis equation is true for all types of waves (sound, light, water, etc.)"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#standing-wave",
-    "href": "lectures/lecture-10.html#standing-wave",
-    "title": "Lecture 10: Strings",
-    "section": "Standing wave",
-    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses travelling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
-  },
-  {
-    "objectID": "lectures/lecture-10.html#resonant-wavelengths",
-    "href": "lectures/lecture-10.html#resonant-wavelengths",
-    "title": "Lecture 10: Strings",
-    "section": "Resonant wavelengths",
-    "text": "Resonant wavelengths\n\n\nFor a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (L) must be a whole number of half-wavelengths (“loops”).\n\\[ L = n \\frac{\\lambda}{2}, \\] where n is a whole number. Solving for wavelength we have \\[ \\lambda_n = \\frac{2L}{n}. \\]\nTogether these are called the resonant wavelengths (λn) of the string.\n\n\n\n\nW&W Figure 11-2"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#resonant-frequencies",
-    "href": "lectures/lecture-10.html#resonant-frequencies",
-    "title": "Lecture 10: Strings",
-    "section": "Resonant frequencies",
-    "text": "Resonant frequencies\n\n\nIf we combine the relationships between wavelength and frequency of a wave with the resonant wavelengths (λn), we get\n\\[\nf_n = \\frac{v}{\\lambda_n} = n \\frac{v}{2L} = nf_1.\n\\]\nThese are the resonant frequencies of the string. (Remember, n is a whole number: 1, 2, 3, etc.)\nNotice that the fundamental frequency \\(f_1=v/(2L)\\) depends on two things:\n\nthe length of the string L\nthe speed on the string v.\n\nWe’ll come back to this.\n\n\n\n\nW&W Figure 11-2"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#normal-modes-demo",
-    "href": "lectures/lecture-10.html#normal-modes-demo",
-    "title": "Lecture 10: Strings",
-    "section": "Normal modes demo",
-    "text": "Normal modes demo\n\nhttps://phet.colorado.edu/en/simulations/normal-modes"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#perfectly-plucked-string",
-    "href": "lectures/lecture-10.html#perfectly-plucked-string",
-    "title": "Lecture 10: Strings",
-    "section": "Perfectly plucked string",
-    "text": "Perfectly plucked string\nWhich modes are excited when you bow, pluck, or hammer a string depend on where and how you move the string.\nEach mode fn will have its own amplitude, just like in the simulation.\nIn the approximation that you pluck a string a small amount at a precise position x on the string (measured in meters), the amplitude of the nth mode, an is given by\n\\[\na_n = \\sin\\left(\\frac{n\\pi x}{L} \\right),\n\\] where the sine function is evaluated in radians mode."
-  },
-  {
-    "objectID": "lectures/lecture-10.html#example-calculation",
-    "href": "lectures/lecture-10.html#example-calculation",
-    "title": "Lecture 10: Strings",
-    "section": "Example calculation",
-    "text": "Example calculation\n\nDownload the Excel file"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#choosing-the-harmonics",
-    "href": "lectures/lecture-10.html#choosing-the-harmonics",
-    "title": "Lecture 10: Strings",
-    "section": "Choosing the harmonics",
-    "text": "Choosing the harmonics\n\n\nBecause of the earlier equation, if you pluck a string at the antinodes and stop it at the nodes of a particular mode, you can select which harmonics get activated.\nThe mode drawing gives you a map about where to do this.\nFor example, if you stop a string exactly in the center and pluck it 1/4 of the way from the end, then gently release the stop, you’ll excite the 2nd harmonic (which is the octave).\nTry this with a real instrument and see if you can do it.\n(Bonus: on a fretted instrument, which frets line up with the nodes of certain modes?)\n\n\n\n\nW&W Figure 11-2"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#changing-the-speed",
-    "href": "lectures/lecture-10.html#changing-the-speed",
-    "title": "Lecture 10: Strings",
-    "section": "Changing the speed",
-    "text": "Changing the speed\nThe two ways we can adjust the fundamental mode of a string are by changing the length of the string or the speed of waves on the string.\nThe speed depends on two factors:\n\nHow much tension force F is on the string\nHow “heavy” the string is, where “heavy” is the mass density of the string m (e.g. kilograms per meter)\n\n\\[\nv = \\sqrt{\\frac{F}{m}}\n\\]"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#mersennes-rules",
-    "href": "lectures/lecture-10.html#mersennes-rules",
-    "title": "Lecture 10: Strings",
-    "section": "Mersenne’s Rules",
-    "text": "Mersenne’s Rules\nCombining the speed equation with the mode equation gives Mersenne’s Rules\nThe fundamental frequency of a string is\n\nInverse to its length (L)\nProportional to the square root of the tension (F)\nInverse to its diameter (thickness)\nInverse to the square-root of its density\n\nThese are summarized by the equation\n\\[\nf_1 = \\frac{v}{2L} = \\frac{1}{2L}\\,\\sqrt{\\frac{F}{m}},\n\\] where rule 3 and 4 are combined as the mass per length m."
-  },
-  {
-    "objectID": "lectures/lecture-10.html#example",
-    "href": "lectures/lecture-10.html#example",
-    "title": "Lecture 10: Strings",
-    "section": "Example",
-    "text": "Example\nA guitar string has length L=62.8 cm. One string has a mass per length of m=5.3 g/m and a tension of F=230 N. What is its frequency?"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#weekly-reflection",
-    "href": "lectures/lecture-10.html#weekly-reflection",
-    "title": "Lecture 10: Strings",
-    "section": "Weekly Reflection",
-    "text": "Weekly Reflection\nWhat is your favorite sound? Why?"
-  },
-  {
-    "objectID": "lectures/lecture-10.html#next-time",
-    "href": "lectures/lecture-10.html#next-time",
-    "title": "Lecture 10: Strings",
-    "section": "Next time",
-    "text": "Next time\nChapter 12: Tubes!"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#announcements",
-    "href": "lectures/lecture-07.html#announcements",
-    "title": "Lecture 7: Harmonics",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nHomework 1 is due tonight at 10pm. See Canvas for details and the upload page.\nChange of plans: We will do “Homework 2” in class today.\nMidterm Exam 1 is Tuesday!\n\nCovers Chapters 1-5\nMultiple choice and short answer questions"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#daily-quiz",
-    "href": "lectures/lecture-07.html#daily-quiz",
-    "title": "Lecture 7: Harmonics",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#harmonic-frequencies",
-    "href": "lectures/lecture-07.html#harmonic-frequencies",
-    "title": "Lecture 7: Harmonics",
-    "section": "Harmonic frequencies",
-    "text": "Harmonic frequencies\n\n\nWe saw earlier that a vibrating string can resonate at the following set of frequencies:\n\\[f_1 = \\frac{v}{2L},  f_n = n f_1 = n \\frac{v}{2L},\\]\nwhere fn is the frequency of the nth harmonic (whole numbers: 1, 2, 3…), v is the speed of waves on the string, and L is the length of the string."
-  },
-  {
-    "objectID": "lectures/lecture-07.html#frequency-spectrum",
-    "href": "lectures/lecture-07.html#frequency-spectrum",
-    "title": "Lecture 7: Harmonics",
-    "section": "Frequency spectrum",
-    "text": "Frequency spectrum\n\n\nIn general, when you play an instrument, more than one harmonic is generated at a time. We can see this by measuring the frequency spectrum of the sound.\nWe do this by measuring the waveform using a microphone, then applying a math tool called the Fourier Transform which extracts frequency, amplitude, and phase information.\n\n\nClarinet \n\n\n\n\n\nFigure from UCSD School of Music"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#timbre",
-    "href": "lectures/lecture-07.html#timbre",
-    "title": "Lecture 7: Harmonics",
-    "section": "Timbre",
-    "text": "Timbre\nEach instrument has a characteristic spectrum, or set of frequencies and amplitudes. Our brains interpret this as the timbre or tone quality of the instrument."
-  },
-  {
-    "objectID": "lectures/lecture-07.html#weekly-reflection",
-    "href": "lectures/lecture-07.html#weekly-reflection",
-    "title": "Lecture 7: Harmonics",
-    "section": "Weekly Reflection",
-    "text": "Weekly Reflection\nWhat will you do to study for the exam?"
-  },
-  {
-    "objectID": "lectures/lecture-07.html#next-time",
-    "href": "lectures/lecture-07.html#next-time",
-    "title": "Lecture 7: Harmonics",
-    "section": "Next time",
-    "text": "Next time\nExam 1!"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#announcements",
-    "href": "lectures/lecture-08.html#announcements",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nExam grades have been posted.\nHomework 3 has been posted to Canvas.\n\nDue next Thursday evening\nPlease submit only one PDF file for your whole assignment."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#daily-quiz",
-    "href": "lectures/lecture-08.html#daily-quiz",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#human-ear",
-    "href": "lectures/lecture-08.html#human-ear",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Human ear",
-    "text": "Human ear\n\n\n\nOuter ear - collects the sound as a propagates through the air\n\nPinna - the part of the ear on the outside (sound bucket) the funnels sound into the ear canal\nEar canal - impedance matches between the outside air and the ear drum\n\nMiddle ear - a set of 3 small bones act as levers to match the impedance between the ear drum and the oval window on the cochlea.\nInner ear - converts sound waves into nerve impulses (see next page)\n\n\n\n\nSource: NIH"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#inner-ear",
-    "href": "lectures/lecture-08.html#inner-ear",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Inner ear",
-    "text": "Inner ear\n\n\nThe cochlea is the sound processing organ in the ear.\n\nshaped like a long spiral containing a pair of fluid-filled tubes\nbetween the tubes is the basilar membrane that sorts the sound waves by frequency\non the basilar membrane is the Organ of Corti that contains hair cells\nthe hair cells vibrate as the sound waves pass, stimulating the nerve cells to send signals to the brain\n\n\n\n\nLong wavelength (low frequency) sound waves penetrate deeper into the cochlea than short wavelength (high frequency) waves. This is how the ear distiguishes pitch."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#nih-video",
-    "href": "lectures/lecture-08.html#nih-video",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "NIH video",
-    "text": "NIH video\nhttps://en.wikipedia.org/wiki/File:Journey_of_Sound_to_the_Brain.ogv"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#definitions-of-intensity-and-loudness",
-    "href": "lectures/lecture-08.html#definitions-of-intensity-and-loudness",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Definitions of Intensity and Loudness",
-    "text": "Definitions of Intensity and Loudness\n\nIntensity is a measure of how much sound energy passes through a surface in a certain amount of time (power per area).\n\nThis is an objective description of sound that we can measure with a machine (e.g. with a sound meter).\n\nLoudness (or “volume”) is the human perception of sound intensity.\n\nIt is a subjective description of sound as heard by each listener.\nDynamics markings in a musical score (forte, piano, etc.) indicate loudness.\nBecause each listener may hear something different (e.g. because of age or medical condition), loudness is harder to describe precisely.\nWe’ll come back to loudness in the next chapter to talk about how an average adult human perceives intensity and the different factors that affect loudness."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#energy-power-and-intensity",
-    "href": "lectures/lecture-08.html#energy-power-and-intensity",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Energy, Power, and Intensity",
-    "text": "Energy, Power, and Intensity\n\n\n\nEnergy (E) is the capacity to do work. It is measured as joules (J), which the book also calls newton-meters (N m).\nPower (P) is the rate at which energy is emitted or absorbed. Power is measured in watts (W), which is also joules per seconds.\nIntensity (I) is the amount of power divided by the area it passes through, measured in watts per square-meter (W/m2).\n\n\\[P = IA\\]\n\n\n\nThe power is represented by total number of arrows through each green area.\nThe intensity is the power divided by the area in each case."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#example-problem-on-intensity",
-    "href": "lectures/lecture-08.html#example-problem-on-intensity",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Example problem on intensity",
-    "text": "Example problem on intensity\n\n\nA studio monitor outputs 2 W of sound power. The diameter of the speaker is 20 cm (about 8 inches). What is the sound intensity just next to the front of the speaker?\n(Reminder: area of a circle is \\(A=\\pi d^2/4\\) .)"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#we-sense-ratios-not-differences",
-    "href": "lectures/lecture-08.html#we-sense-ratios-not-differences",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "We sense ratios, not differences",
-    "text": "We sense ratios, not differences\nThe sound intensities that humans can here vary from about 10-12 W/m2 to 1 W/m2, a factor of a trillion apart. The way our brain deals with great spreads like this is to measure ratios (fractions) rather than differences. (Also, this happens because of the way nerves activate.)\nFor example, we can sense when intensity doubles, but we can’t hear a whisper added to a jet engine.\nOur brain divides and multiplies; it does not add or subtract.\nMany of our senses use this type of compression:\n\nSound intensity, sound frequency (musical pitch)\nLight intensity (but not color)\nTouch (pressure)\nHeat flow"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#decibels",
-    "href": "lectures/lecture-08.html#decibels",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Decibels",
-    "text": "Decibels\nTo avoid writing very small and very large numbers (lots of zeros or decimals points) to represent quantities with a lot of dynamics range, engineers often use a logarithmic scale called decibels (dB) to express ratios.\nThe mathematical definition of decibels is\n\\[\\text{decibels} = 10 \\log\\left(\\frac{\\text{measurement value}}{\\text{reference value}}\\right),\\]\nwhere “log” is the common (base-10) logarithm function found on a calculator.\nIf we’re given the decibel level and we need the measurement value, we solve the equation above to get\n\\[\\text{measurement} = \\text{reference value} \\times 10^{\\text{decibels}/10} \\]"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#sound-intensity-levels-sil",
-    "href": "lectures/lecture-08.html#sound-intensity-levels-sil",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Sound intensity levels (SIL)",
-    "text": "Sound intensity levels (SIL)\nThe reference value for a decibel conversion is usually something agreed upon by the community. For example, when measuring sound intensity, the reference value is taken as the threshold of hearing for a typical adult human: I0 = 10-12 W/m2, giving us the following definition for Sound Intensity Level (SIL), measured in decibels:\n\\[S_{IL} = 10 \\log(I/I_0)\\]\nor, flipping this around to solve for intensity:\n\\[I = I_0 \\times 10^{S_{IL}/10},\\]\nwhere for sound, I0 = 10-12 W/m2 by definition."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#sound-intensity-table",
-    "href": "lectures/lecture-08.html#sound-intensity-table",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Sound intensity table",
-    "text": "Sound intensity table\n\n\n\n\n\n\n\n\n\n\n\nDynamic\nSound intensity\nI (W/m2)\nRelative intensity\nI/I0\nIntensity level\nSIL (dB)\nExample\n\n\n\n\nPain\n1\n1012\n120\nPain\n\n\nfffff\n0.1\n1011\n110\nJet engine\n\n\nffff\n0.01\n1010\n100\n\n\n\nfff\n0.001\n109\n90\nMotorcyle\n\n\nff\n10-4\n108\n80\n\n\n\nf\n10-5\n107\n70\nTalking\n\n\nmf\n10-6\n106\n60\n\n\n\np\n10-7\n105\n50\nOffice\n\n\npp\n10-8\n104\n40\n\n\n\nppp\n10-9\n1000\n30\nLibrary\n\n\npppp\n10-10\n100\n20\nWhisper\n\n\nppppp\n10-11\n10\n10\n\n\n\nThreshold of hearing (I0)\n10-12\n1\n0\n\n\n\n\n\n\nSource: White & White Tables 9-1, 9-2, and Figure 9-7"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#rules-of-thumb-for-decibels",
-    "href": "lectures/lecture-08.html#rules-of-thumb-for-decibels",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Rules of thumb for decibels",
-    "text": "Rules of thumb for decibels\nIf you don’t have a calculator handy…\n\n0 dB means the same\n+3 dB is about twice as big\n+5 dB is about three times as big\n+10 dB means ten times bigger\n+20 dB means 100 times bigger\nThe pattern +#0 dB is 1 with # zeros times bigger.\nnegative dBs means that factor smaller: -10 dB = ten times smaller.\nadding two dB values is the same as multiplying their intensities.\n\nExample: +13 dB = 10 dB + 3 dB = 10 × 2 = 20 times bigger.\n\nsubtracting two dB values is the same as dividing their intensities."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#example-problems-decibels",
-    "href": "lectures/lecture-08.html#example-problems-decibels",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Example problems: decibels",
-    "text": "Example problems: decibels\n\nA typical speaking voice at a comfortable distance has an intensity level of 70 dB.\n\nWhat is the intensity value (in W/m2)?\nIf two people talk at the same time, what is the combined intensity? combined SIL?"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#limits-of-human-hearing",
-    "href": "lectures/lecture-08.html#limits-of-human-hearing",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Limits of human hearing",
-    "text": "Limits of human hearing\n\n\nWe’ll discuss the idea of loudness in detail next time, but one simple difference is that our experience of loudness depends on the frequency of the sound. Human ears work best around 1000 Hz. Our ears are less sensitive at higher and lower frequencies.\nThe red curve shows the minimum sound intensity that we can detect as a function of frequency. The blue curves are loudness values relative to the threshold.\n\n\n\n\nPerceived intensity vs. frequency (Fletcher–Munson loudness curves)"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#dynamic-range",
-    "href": "lectures/lecture-08.html#dynamic-range",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Dynamic Range",
-    "text": "Dynamic Range\nAn important concept related to this that doesn’t show up in the textbook until the chapters on recording is dynamic range.\nDynamic Range is the ratio between the largest possible measurement and the smallest possible measurement.\nSo, the dynamic range of intensity for human hearing is about 1012 or 120 dB. By comparison, a 16-bit ADC on a digital recording deck has a dynamic range of 216 ≈ 65,000 or 48 dB.\nThe dynamic range of frequency for human hearing is about 20,000 Hz/20 Hz = 1,000 or 30 dB."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#line-levels",
-    "href": "lectures/lecture-08.html#line-levels",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Line levels",
-    "text": "Line levels\n\n\nAudio recording equipment usually specifies intensity relative to the line level. Line level is the maximum signal that can pass through an electronic audio system without saturating (analog) or clipping (digital) the signal.\nIn this case the reference level is always higher than the sound level. When we convert this to decibels, we get a negative number. Roughly, the numbers come out to\n\n0 dB = Maximum signal without distortion\n-10 dB = an typical signal value\n-45 dB = the lowest signal detectable\n\nWe’ll come back to the details later in the semester.\n\n\n\n\nAmplifier gains and attenuation are usually specified in decibels."
-  },
-  {
-    "objectID": "lectures/lecture-08.html#intensity-and-distance",
-    "href": "lectures/lecture-08.html#intensity-and-distance",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Intensity and distance",
-    "text": "Intensity and distance\n\n\nIntensity decreases as you move away from a source. If you were in completely empty space (no walls, floors, or ceiling), sound waves would come out in the shape of spheres.\nImagine blowing up a balloon with a sound source in the center of the balloon. The same amount of sound power (P) passes through the surface of the balloon regardless of how big it is, but the intensity will go down as the radius (r) of the balloon gets bigger.\n\n\n\n\nThe relationship between sound intensity and distance is called the inverse square law. Many laws of physics have this pattern: gravity, electricity, and light intensity, for example.\n\n\n\n\n\\[P = IA = I (4\\pi r^2)\\quad\\rightarrow\\quad I = \\frac{P}{4\\pi r^2}\\]"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#example-intensity",
-    "href": "lectures/lecture-08.html#example-intensity",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Example: Intensity",
-    "text": "Example: Intensity\n\n\nThe Sumbergh Head foghorn in Shetland, UK, emits a tone of 120 Hz that can be heard 30 kilometers away. If the threshold of hearing at this frequency is SIL = 30 dB, what is the power of the foghorn? (Assume the sound waves come out as perfect spheres.)\n\n\n\n\nSumbergh Head foghorn"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#weekly-reflection",
-    "href": "lectures/lecture-08.html#weekly-reflection",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Weekly Reflection",
-    "text": "Weekly Reflection\nThink about your exam score and your daily quiz grades so far in the course. Are you happy with how you’re doing? What’s working for you? What could be improved?"
-  },
-  {
-    "objectID": "lectures/lecture-08.html#next-time",
-    "href": "lectures/lecture-08.html#next-time",
-    "title": "Lecture 8: Sound Intensity and Hearing",
-    "section": "Next time",
-    "text": "Next time\nLoudness (Chapter 10)"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#announcements",
-    "href": "lectures/lecture-04.html#announcements",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nThe first homework has been posted on Canvas on the “Assignments” page. It is due next Tuesday.\n\nMostly these are problems from the textbook.\n6 questions for 2 points each.\nSubmit your work as a PDF file to the Canvas page with the assignment. (Ask if you need help.)\n\nToday’s lecture has a lot of data thrown at you. Focus on the concepts. The details are here to show you where to find stuff if you need it."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#structure-of-longitudinal-waves",
-    "href": "lectures/lecture-04.html#structure-of-longitudinal-waves",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Structure of longitudinal waves",
-    "text": "Structure of longitudinal waves\nIn longitudinal waves the particles move in the same direction as the wave itself.\n\n\n\nHere the loops of the spring are compressed together.\n\n\nHere the beads are pushed together."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
-    "href": "lectures/lecture-04.html#comparison-of-transverse-and-longitudinal-waves",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Comparison of transverse and longitudinal waves",
-    "text": "Comparison of transverse and longitudinal waves\nMost of our ideas from last time carry over to longitudinal waves\n\nwavelength, period, frequency, and speed are all defined the same way\nstanding waves, resonances, and harmonics also happen (although the math depends on the details at the ends)"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
-    "href": "lectures/lecture-04.html#most-longitudinal-waves-are-pressure-waves",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Most longitudinal waves are pressure waves",
-    "text": "Most longitudinal waves are pressure waves\n\n\nSound waves in air are fluctuations in pressure.\nThese pressure fluctuations are tiny (a billionth to a thousandth of atmospheric pressure)!\nWe typically don’t measure the pressure directly, although speakers and microphones work on this principle."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#rubens-tube",
-    "href": "lectures/lecture-04.html#rubens-tube",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Rubens tube",
-    "text": "Rubens tube\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#section",
-    "href": "lectures/lecture-04.html#section",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "",
-    "text": "In space no one can hear you scream.\n\n\nIs this a true statement? Why?\n\n\nYes, because sound needs matter to travel through.\nSpace has no air, so sound can’t travel."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#medium-of-transmission",
-    "href": "lectures/lecture-04.html#medium-of-transmission",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Medium of transmission",
-    "text": "Medium of transmission\nSound waves must travel through some kind of matter, which we call the medium of transmission.\nFor music, the medium is usually air, but sound also travels through\n\nthe solid body of musical instruments\nthe floors and walls\nthe structures of the human body (e.g. the parts of the ear)\n\nToday we want to define a couple of terms describing how sound moves through matter: speed and impedance."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#speed-of-sound",
-    "href": "lectures/lecture-04.html#speed-of-sound",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Speed of sound",
-    "text": "Speed of sound\n\n\nThe speed of sound in an object depends on many factors\n\n\nthe material\nthe environment (temperature, ambient pressure, humidity)\nthe shape of the object\nthe frequency of the sound (“dispersion”)\n\n\n\nThe table on the right assumes a bulk material (much bigger than the wavelength of the sound) and a sound frequency of 1000 Hz.\n\n\n\n\n\n\n\n\n\n\n\nGases\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nHelium (0°C)\n\n\n\n972\n\n\n\n\n\nAir (20°C)\n\n\n\n343\n\n\n\n\n\nAir (0°C)\n\n\n\n331\n\n\n\n\n\n\nLiquids at 25°C\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlycerol\n\n\n\n1904\n\n\n\n\n\nSea water\n\n\n\n1533\n\n\n\n\n\nWater\n\n\n\n1493\n\n\n\n\n\nMercury\n\n\n\n1450\n\n\n\n\n\n\nSolids\n\n\n\n\n\n\nMaterial\n\n\n\nv (m/s)\n\n\n\n\nGlass\n\n\n\n5640\n\n\n\n\n\nAluminum\n\n\n\n5100\n\n\n\n\n\nBrass\n\n\n\n4700\n\n\n\n\n\nSteel\n\n\n\n5130\n\n\n\n\n\nWood\n\n\n\n3000-4000\n\n\n\n\n\nConcrete\n\n\n\n3000\n\n\n\n\n\n\n\n\n\n\n\nNote that the book often uses the approximation of 350 m/s for the speed of sound in air.\nRefs: W&W, Engineering toolbox"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#waves-carry-information",
-    "href": "lectures/lecture-04.html#waves-carry-information",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Waves carry information",
-    "text": "Waves carry information\nWe think of the speed of sound as telling us how quickly energy moves through a medium, but it also tells us how fast information travels.\nWe can demonstrate this will a high-speed camera…"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#slinky-drop-experiment",
-    "href": "lectures/lecture-04.html#slinky-drop-experiment",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Slinky drop experiment",
-    "text": "Slinky drop experiment\n\n\n\n\nhttps://www.youtube.com/watch?v=eCMmmEEyOO0"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#impedance",
-    "href": "lectures/lecture-04.html#impedance",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Impedance",
-    "text": "Impedance\nA second property of the medium or object that sound travels through is impedance.\nImpedance (symbol: z, units: Pa m/s = Rayls) is a measure of how difficult it is for sound to move through a medium or object.\nFor bulk media (as opposed to a specific object), the impedance is related to the speed of sound and the density of the medium:\n\\[ z = \\rho v, \\]\n\nz is the impedance (units of Pa s/m, also called “Rayls”)\nρ is the mass density of the medium (units of kg/m3)\nv is the speed of sound in the medium (units of m/s)"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#example-impedance-of-air",
-    "href": "lectures/lecture-04.html#example-impedance-of-air",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Example: impedance of air",
-    "text": "Example: impedance of air\nFor example, air at room temperature (20°C) has a speed of v = 343 m/s and a density of ρ = 1.20 kg/m3. Therefore, the impedance of air at room temperature is z = ρv = 413 Pa m/s.\n\n\nEffect of temperature on properties of air (Wikipedia)\n\n\nTemperature T (°C)\nSpeed of sound v (m/s)\nDensity of air ρ (kg/m3)\nImpedance z (Pa·s/m)\n\n\n\n\n30\n349.02\n1.1644\n406.5\n\n\n20\n343.21\n1.2041\n413.3\n\n\n10\n337.31\n1.2466\n420.5\n\n\n0\n331.30\n1.2922\n428.0\n\n\n−10\n325.18\n1.3413\n436.1\n\n\n−20\n318.94\n1.3943\n444.6"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#table-of-common-building-materials",
-    "href": "lectures/lecture-04.html#table-of-common-building-materials",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Table of common building materials",
-    "text": "Table of common building materials\n\n\n\nRef. Sun, Ruting (2017): “Characterization of the acoustic properties of cementitious materials.” Loughborough University. Ph.D. Dissertation. https://hdl.handle.net/2134/27308"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#sound-at-boundaries",
-    "href": "lectures/lecture-04.html#sound-at-boundaries",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Sound at boundaries",
-    "text": "Sound at boundaries\n\n\nWhen a sound wave strikes a boundary between different materials, the energy divides three ways:\n\nsome is transmitted through the boundary\nsome is reflected by the boundary\nsome may be absorbed, depending on the material\n\nImpedance is the property that tells us about transmission and reflection."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#impedance-matching",
-    "href": "lectures/lecture-04.html#impedance-matching",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Impedance matching",
-    "text": "Impedance matching\n\n\nFor sound to go efficiently from one object/medium to another, their impedances must be equal.\n\nThe bones of the human inner ear match the impedance of air to the impedance of the fluid inside the cochlea.\nA car muffler works by intentionally mismatching the impedance of the exhaust pipe and the outside air.\nIn general, if sound is moving from impedance z1 to impedance z2, the fraction of transmitted sound energy will be \\[ T = 1-\\left(\\frac{z_1-z_2}{z_1+z_2} \\right)^2 \\]\n\n\n\n\n\nHuman Ear\n\n\n\n\n\nMuffler"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#impedance-matching-video",
-    "href": "lectures/lecture-04.html#impedance-matching-video",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Impedance matching video",
-    "text": "Impedance matching video\n\n\n\n\nhttps://youtu.be/AzZ7DjS4ti4. Part 2 (Human ear): https://youtu.be/geSDcollRos"
-  },
-  {
-    "objectID": "lectures/lecture-04.html#musical-instruments",
-    "href": "lectures/lecture-04.html#musical-instruments",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Musical instruments",
-    "text": "Musical instruments\n\n\nOne of the main functions of a musical instrument is to match the impedance of the sound source (e.g. violin string, oboe reed, human vocal folds) to the outside air.\nConsider the difference between an acoustic guitar and an electric guitar. Which one is impedance matched to the air?\nA trumpet mute also works by changing the impedance of the trumpet, not by absorbing the sound."
-  },
-  {
-    "objectID": "lectures/lecture-04.html#next-time",
-    "href": "lectures/lecture-04.html#next-time",
-    "title": "Lecture 4: Longitudinal Waves and Sound Transmission",
-    "section": "Next time",
-    "text": "Next time\nChapter 6 (Resonance)"
-  },
-  {
-    "objectID": "lectures/lecture-02.html#announcements",
-    "href": "lectures/lecture-02.html#announcements",
-    "title": "Lecture 2: Sound",
-    "section": "Announcements",
-    "text": "Announcements\n\nHomework 1 will be posted soon. It will be due Friday, Jan. 20, uploaded to Canvas."
-  },
-  {
-    "objectID": "lectures/lecture-02.html#daily-quiz",
-    "href": "lectures/lecture-02.html#daily-quiz",
-    "title": "Lecture 2: Sound",
-    "section": "Daily quiz",
-    "text": "Daily quiz"
-  },
-  {
-    "objectID": "lectures/lecture-02.html#outline",
-    "href": "lectures/lecture-02.html#outline",
-    "title": "Lecture 2: Sound",
-    "section": "Outline",
-    "text": "Outline\n\nSound and music\nVibrations\nSimple harmonic motion\n\nFrequency\nPeriod"
-  },
-  {
-    "objectID": "lectures/lecture-02.html#sound",
-    "href": "lectures/lecture-02.html#sound",
-    "title": "Lecture 2: Sound",
-    "section": "Sound",
-    "text": "Sound\nWe’re going to define sound from a scientific perspective as “mechanical vibrations transmitted through an elastic medium.”\n\n\n\n“mechanical” meaning that objects are moving (gas molecules or wood molecules or etc.)\n“vibrations” we’ll define later\n“transmitted” meaning that something is traveling from one place to another\nthe “medium” is the substance the sound travels through\n“elastic” means that the changes to the medium are temporary"
-  },
-  {
-    "objectID": "lectures/lecture-02.html#propagation-of-sound",
-    "href": "lectures/lecture-02.html#propagation-of-sound",
-    "title": "Lecture 2: Sound",
-    "section": "Propagation of Sound",
-    "text": "Propagation of Sound\n\n\nFor music, sound mostly propagates through the air.\n\nThere are regions of compressed air that travel from the source to the listener.\n\n\nLooking more closely, we see something like\n\n\n\nAnimated sound wave\n\n\n\n\n\n\n\nSound through air"
-  },
-  {
-    "objectID": "lectures/lecture-02.html#periodic-motion",
-    "href": "lectures/lecture-02.html#periodic-motion",
-    "title": "Lecture 2: Sound",
-    "section": "Periodic motion",
-    "text": "Periodic motion\n\n“Periodic” means repeating exactly over time.\n\n\n\n\nThe motion can be simple…\n\n\n\nSimple periodic motion\n\n\n\n\n\n… or complex\n\n\n\nComplex periodic motion\n\n\n\n\n\n\nas long as it repeats. Musical sound is mostly periodic.\n\n\nThe time between repetitions is the period, usually represented by T and measured in seconds."
-  },
-  {
-    "objectID": "lectures/lecture-02.html#springs-demo",
-    "href": "lectures/lecture-02.html#springs-demo",
-    "title": "Lecture 2: Sound",
-    "section": "Springs demo",
-    "text": "Springs demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html"
-  },
-  {
-    "objectID": "lectures/lecture-02.html#simple-harmonic-motion",
-    "href": "lectures/lecture-02.html#simple-harmonic-motion",
-    "title": "Lecture 2: Sound",
-    "section": "Simple harmonic motion",
-    "text": "Simple harmonic motion\nThe simplest type of periodic motion is called “simple harmonic motion”.\nPhysics has a lot of examples, some shown here:\n\n\n\nPendulum, Spring, Reed, Tuning Fork\n\n\n\nTo a good approximation, these all obey the same math."
-  },
-  {
-    "objectID": "lectures/lecture-02.html#definitions",
-    "href": "lectures/lecture-02.html#definitions",
-    "title": "Lecture 2: Sound",
-    "section": "Definitions",
-    "text": "Definitions\n\n\nPeriod is the time between repetitions (T), measured in seconds (s)\nWavelength is the distance between repetitions (λ, Greek letter lambda), measured in meters (m)\nFrequency is the number of waves per second (f), measured in “cycles per second” or Hertz (Hz)\nPhase is how far along the repeating cycle is at one instant of time. We’ll come back to this later."
-  },
-  {
-    "objectID": "lectures/lecture-02.html#sound-wave-demo",
-    "href": "lectures/lecture-02.html#sound-wave-demo",
-    "title": "Lecture 2: Sound",
-    "section": "Sound wave demo",
-    "text": "Sound wave demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html"
-  },
-  {
-    "objectID": "lectures/lecture-02.html#frequency-and-period",
-    "href": "lectures/lecture-02.html#frequency-and-period",
-    "title": "Lecture 2: Sound",
-    "section": "Frequency and period",
-    "text": "Frequency and period\nFrequency (f) and period (T) have a simple relationship:\n\\[ f = \\frac{1}{T} \\qquad\\mathrm{or}\\qquad T = \\frac{1}{f}. \\]\nUsually in music and acoustics we’re more interested in the frequency."
-  },
-  {
-    "objectID": "lectures/lecture-02.html#example-problem",
-    "href": "lectures/lecture-02.html#example-problem",
-    "title": "Lecture 2: Sound",
-    "section": "Example problem",
-    "text": "Example problem\nThe concert A used as the tuning note for most modern orchestras has a frequency of f = 440 Hz. What is the period of this sound?\n\nThe equation we need is\n\\[ T = \\frac{1}{f} = \\frac{1}{440\\,\\mathrm{Hz}} = 0.0023\\,\\mathrm{s} = 2.3\\,\\mathrm{ms}. \\]\n\n\nThe period of a concert A is 2.3 milliseconds."
-  },
-  {
-    "objectID": "lectures/lecture-11.html#announcements",
-    "href": "lectures/lecture-11.html#announcements",
-    "title": "Lecture 11: Tubes",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nHomework 4 is up on Canvas\n\nDue next Tuesday (2/21)\n\nGroups for the final project\n\nEmail me by the end of the day today"
-  },
-  {
-    "objectID": "lectures/lecture-11.html#daily-quiz",
-    "href": "lectures/lecture-11.html#daily-quiz",
-    "title": "Lecture 11: Tubes",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-11.html#review-resonances-in-strings",
-    "href": "lectures/lecture-11.html#review-resonances-in-strings",
-    "title": "Lecture 11: Tubes",
-    "section": "Review: Resonances in strings",
-    "text": "Review: Resonances in strings\n\n\nA string of length L that is clamped on both ends will resonate at the wavelengths\n\\[\n\\lambda_n = \\frac{2L}{n}\n\\] with frequencies \\[\nf_n = \\frac{v}{\\lambda_n}=n\\frac{v}{2L}= n\\,\\frac{1}{2L}\\sqrt{\\frac{F}{m}},\n\\] where v is the wave speed on the string,F is the tension force on the string,and m is the mass per length of the string."
-  },
-  {
-    "objectID": "lectures/lecture-11.html#open-pipes",
-    "href": "lectures/lecture-11.html#open-pipes",
-    "title": "Lecture 11: Tubes",
-    "section": "Open pipes",
-    "text": "Open pipes\n\n\nA pipe that is open on both ends has the same resonance structure as a clamped string: \\[\n\\lambda_n = \\frac{2L}{n}\n\\] with frequencies \\[\nf_n = \\frac{v}{\\lambda_n}=n\\frac{v}{2L},\n\\] where v is now the speed of sound in air (about 350 m/s).\nNote that the width of the pipe has very little effect on the frequency.\n\n\n\n\nPipe open on both ends\n\n\n\nThese curves show the air speed. Nodes are where the air does not move, and antinodes are where the air vibrates the most."
-  },
-  {
-    "objectID": "lectures/lecture-11.html#half-closed-pipes",
-    "href": "lectures/lecture-11.html#half-closed-pipes",
-    "title": "Lecture 11: Tubes",
-    "section": "Half-closed pipes",
-    "text": "Half-closed pipes\n\n\nA pipe that is closed on one end will have a node at the closed end. For the fundamental mode, only a quarter of a wave fits inside the tube. \\[\n\\lambda_1 = 4L \\quad \\rightarrow \\quad f_1 = \\frac{v}{4L}\n\\]\nThis means the fundamental frequency of a tube is halved when you close one end. Or in musical terms, a closed tube is one octave lower than an open tube of the same length.\nAlso, only odd harmonics give us the right combinations of nodes and antinodes: \\[\nf_n = n\\,\\frac{v}{4L}\\quad\\text{($n$ is odd)}\n\\]\n\n\n\n\nPipe open on both ends\n\n\n\nThese curves show the air speed. Nodes are where the air does not move, and antinodes are where the air vibrates the most."
-  },
-  {
-    "objectID": "lectures/lecture-11.html#selecting-pitch",
-    "href": "lectures/lecture-11.html#selecting-pitch",
-    "title": "Lecture 11: Tubes",
-    "section": "Selecting pitch",
-    "text": "Selecting pitch\n\n\nBecause open ends of a tube give the location of anti-nodes in the vibration, wind instruments can change their pitch by opening holes in the side of the tube wherever antinodes are desired. This is also why the fingering for woodwinds can seem random: it’s not just changing the length, but adding interior antinodes as well.\n\n\n\n\nFinger holes on a flute"
-  },
-  {
-    "objectID": "lectures/lecture-11.html#speed-of-sound-factors",
-    "href": "lectures/lecture-11.html#speed-of-sound-factors",
-    "title": "Lecture 11: Tubes",
-    "section": "Speed of sound: factors",
-    "text": "Speed of sound: factors\nWe’ve been casually passing around numbers for the speed of sound in air between 340 and 350 m/s.\nThe actual value of speed of sound in a gas depends on many factors:\n\nthe mass of the gas molecules\nthe molecular structure\nthe pressure of the gas\nthe temperature\nif the gas is a mixture or not"
-  },
-  {
-    "objectID": "lectures/lecture-11.html#speed-of-sound-important-trends",
-    "href": "lectures/lecture-11.html#speed-of-sound-important-trends",
-    "title": "Lecture 11: Tubes",
-    "section": "Speed of sound: important trends",
-    "text": "Speed of sound: important trends\nThe table in the book is basically useless because you need much more information to calculate the speed, but the basic trends are that speed increases when\n\nambient pressure increases\nthe temperature increases\nthe average molecular mass decreases\n\ne.g. humidity of air increases (water weighs less than nitrogen or oxygen)\n\n\nFor dry air, the most relevant thing is the temperature dependence. A good approximation is\n\\[\nv_\\text{dry air} \\approx (331.3 + 0.606\\,T)\\,\\mathrm{\\tfrac{m}{s}}\n\\] where the temperature T is in Celsius (e.g. T=20°C is room temperature)."
-  },
-  {
-    "objectID": "lectures/lecture-11.html#speed-of-sound-in-other-gases-details",
-    "href": "lectures/lecture-11.html#speed-of-sound-in-other-gases-details",
-    "title": "Lecture 11: Tubes",
-    "section": "Speed of Sound in other gases: Details",
-    "text": "Speed of Sound in other gases: Details\n\n\nThis page is bonus material.\nA more detailed formula for the speed of sound in gas is given by\n\\[\nv = \\sqrt{\\frac{K p}{d}} \\approx \\sqrt{\\frac{KRT}{M}}\n\\]\n\nK is adiabatic compressibility (about 1.4 for air)\np is gas pressure (101325 Pa)\nd is gas density (in kg/m3)\nT is temperature (in Kelvin, 293 K for room temp.)\nR is molar gas constant (8.314 J/mol K)\nM is molecular mass of the gas (in kg/mol)\n\n\n\n\n\nGas properties for common gases"
-  },
-  {
-    "objectID": "lectures/lecture-11.html#turbulence-creates-vibrations",
-    "href": "lectures/lecture-11.html#turbulence-creates-vibrations",
-    "title": "Lecture 11: Tubes",
-    "section": "Turbulence creates vibrations",
-    "text": "Turbulence creates vibrations\nIn flutes, recorders, whistles, and organ flue pipes, the air inside the tube starts vibrating because of turbulence, which is chaotic motion of the air. The frequencies in the turbulence that fail to match the resonances of the tube get suppressed.\n\n\n\n\n\nFlue pipe (W&W Fig. 12-8)\n\n\n\n\n\n\nFlute\n\n\n\nImage Source: https://www.yorkshirecorpsofdrums.com/playflute3.html"
-  },
-  {
-    "objectID": "lectures/lecture-11.html#reeded-and-brass-instruments",
-    "href": "lectures/lecture-11.html#reeded-and-brass-instruments",
-    "title": "Lecture 11: Tubes",
-    "section": "Reeded and brass instruments",
-    "text": "Reeded and brass instruments\n\n\nThe vibrations of the reeds in woodwinds and organ reed pipes adjust to match the partials of the pipes because of positive feedback. As the air in the pipe starts vibrating, the pulses come back to the mouthpiece at just the right time to push back on the reed, forcing it to only vibrate at the resonant frequencies.\nThe vibrations of a brass player’s lips work the same way: positive feedback from the air impulses forces the lips to vibrate resonantly with one of the partials of the instrument.\n\n\n\n\nClarinet mouthpiece\n\n\n\n\n\nFeedback in a trumpet"
-  },
-  {
-    "objectID": "lectures/lecture-11.html#next-time",
-    "href": "lectures/lecture-11.html#next-time",
-    "title": "Lecture 11: Tubes",
-    "section": "Next time",
-    "text": "Next time\nMusical Scales"
-  },
-  {
-    "objectID": "lectures/lecture-14.html#announcements",
-    "href": "lectures/lecture-14.html#announcements",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nExam 2 will be Thursday, March 9.\n\nChapters 6-13 (Lectures 5-12)\nSimilar format to last time\n\nThe lecture on Tuesday, March 7 will not be in this room\n\n1st floor recital hall in Pappert\nDavid Barr will be our guest lecturer, talking about pianos\n\nThis week’s Weekly Reflection is on Canvas, due tomorrow 10pm."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#daily-quiz",
-    "href": "lectures/lecture-14.html#daily-quiz",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-14.html#psychoacoustics-1",
-    "href": "lectures/lecture-14.html#psychoacoustics-1",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Psychoacoustics",
-    "text": "Psychoacoustics\n\n\n\nPsychoacoustics is the scientific study of how humans perceive sound.\nOnce sound enters our ears at least two steps happen that can affect what we hear\n\nThe sound gets transmitted from the air to the cochlea, and then converted to nerve impulses\nThose nerve impulses are interpreted by our brain\n\nThe first one we can do objective experiments to understand.\nThe second requires asking test subjects to tell us what they hear, so is necessarily a subjective experiment.\nModern technology like Functional Magnetic Resonance Imaging (fMRI) is moving the boundary between the objective and subjective by allowing us to see into the brain itself."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#application-cochlear-implants",
-    "href": "lectures/lecture-14.html#application-cochlear-implants",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Application: Cochlear Implants",
-    "text": "Application: Cochlear Implants\n\n\nPsychoacoustic experiments were key in the development of cochlear implants to aid individuals with hearing loss.\nThe CI uses a microphone to detect sound and then processes the sound and turns it into electrical impulses that are sent directly to the user’s cochlear nerve, bypassing most of the ear."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#effects-with-clear-physics-explanations",
-    "href": "lectures/lecture-14.html#effects-with-clear-physics-explanations",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Effects with clear physics explanations",
-    "text": "Effects with clear physics explanations\nSome of the effects in this chapter than we can possibly attribute to physics are the combination tones and periodicity tones.\n\nCombination tones are perceived tones at the sums and differences of two or more frequencies.\nPeriodicity tones are perceived tones that are simple ratios of frequencies.\n\nThere are plausible mechanisms for combining two or more pure tones"
-  },
-  {
-    "objectID": "lectures/lecture-14.html#beat-notes-are-combination-tones",
-    "href": "lectures/lecture-14.html#beat-notes-are-combination-tones",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Beat notes are combination tones",
-    "text": "Beat notes are combination tones\nCombination tones occur at sums or differences of two pure tones.\nBeat notes are an example of this. If I have two pure tones f1 and f2 of almost the same frequency, we hear a beat note at their difference:\n\\[\nf_\\text{beat} = |f_1 - f_2|\n\\]\nIf we increase the frequency separation, eventually this becomes an additionally perceived pure tone.\nWe heard this in the chirp demo from Lecture 5."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#nonlinear-effects",
-    "href": "lectures/lecture-14.html#nonlinear-effects",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Nonlinear effects",
-    "text": "Nonlinear effects\nCombination tones can be generated from pure tones if there are nonlinear effects in the ear.\nA linear system is allowed to do only two things to a waveform:\n\nMultiply the waveform amplitude by a number (amplification, gain)\nAdd or subtract two waveforms (superposition)\n\nIf we only do these things, the frequencies that come out will be the same as the ones we put in: nothing is added or taken away.\nAny thing else we do to a waveform is nonlinear: squaring, exponentiation, log, clipping, multiplying waveforms together, etc. In these cases the frequencies will change, which we call harmonic distortion."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#example-squaring-a-waveform",
-    "href": "lectures/lecture-14.html#example-squaring-a-waveform",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Example: squaring a waveform",
-    "text": "Example: squaring a waveform\nTake two waveforms with different frequencies f1 and f2:\n\\[\ny_1 (t) = A_1 \\sin (2\\pi f_1 t);\\qquad\ny_2 (t) = A_2 \\sin (2\\pi f_2 t).\n\\]\nAdd them together (a linear operation), then square the waveform. After some algebra we get:\n\\[\n\\begin{aligned}\n\\left(y_1(t)+y_2(t)\\right)^2 &= \\left(A_1 \\sin (2\\pi f_1 t) + A_2 \\sin (2\\pi f_2 t) \\right)^2\\\\\n&= A_1^2 \\sin^2(2\\pi f_1 t) + A_2^2 \\sin^2(2\\pi f_2 t) + 2 A_1 A_2 \\sin(2\\pi f_1 t)\\sin(2\\pi f_2 t)\\\\\n&= \\frac12 A_1^2 -\\frac12 A_1^2 \\cos(4\\pi f_1 t)+\\frac12 A_2^2 -\\frac12 A_2^2 \\cos(4\\pi f_2 t)\\\\\n&\\quad + \\frac12 A_1A_2 \\cos\\left(2\\pi (f_1-f_2)t\\right)-\\frac12 A_1A_2 \\cos\\left(2\\pi (f_1+f_2)t\\right)\n\\end{aligned}\n\\]\nThe math details aren’t important. The important thing is that the list of frequencies has changed:\n\\[\nf_1,\\, f_2 \\quad \\rightarrow 2f_1,\\, 2f_2,\\, (f_1-f_2),\\, (f_1+f_2).\n\\]\nThe point is any nonlinearity will cause new frequencies to appear. In electronic recording gear, we call this effect distortion. In the human ear, this is the cause of combination tones."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#combination-tones",
-    "href": "lectures/lecture-14.html#combination-tones",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Combination tones",
-    "text": "Combination tones\n\n\nRegardless of the physiological reason, humans perceive combination tones when two or more pure tones are played together, particularly if those tones are loud.\nThe new frequencies follow a pattern: \\[\nf_\\text{combo} = nf_1 + mf_2,\n\\] where n and m are integers (positive or negative).\nThe bigger n and m are, the weaker the perceived tone is."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#periodicity-tones",
-    "href": "lectures/lecture-14.html#periodicity-tones",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Periodicity tones",
-    "text": "Periodicity tones\nPeriodicity tones are perceived subharmonics at the common denominator for simple frequency ratios.\n\nFor example, when playing a perfect fifth (3:2) or perfect fourth (4:3) and sometimes a major third (5:4), one can hear the missing fundamental of that harmonic series. At higher intervals this effect diminishes.\n\n\nIn the Beat-notes demo from Lecture 5, try these frequency combinations:\n\nPerfect 5th: 200 Hz and 300 Hz\nPerfect 4th: 300 Hz and 400 Hz\nMajor 3rd: 400 Hz and 500 Hz\n\nDo you hear the 100 Hz fundamental in each case?"
-  },
-  {
-    "objectID": "lectures/lecture-14.html#the-missing-fundamental-and-pipe-organs",
-    "href": "lectures/lecture-14.html#the-missing-fundamental-and-pipe-organs",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "The missing fundamental and pipe organs",
-    "text": "The missing fundamental and pipe organs\n\n\nBuilders of pipe organs going back at least to the Renaissance knew about the missing fundamental effect, called mutations in this context.\nA “Bourdon” (French for bumblebee) or “Untersatz” (German, literally “sits under”) organ stop on many organs actually plays 2nd and 3rd harmonics of the desired bass note to avoid the need for really tall pipes. (It is also a half-closed pipe, dropping the pitch by an additional octave.)\n\n\n\n\nSaint Germain l’Auxerrois, Paris\n\n\n\nRef. Wikipedia"
-  },
-  {
-    "objectID": "lectures/lecture-14.html#rhythm-analogy",
-    "href": "lectures/lecture-14.html#rhythm-analogy",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Rhythm analogy",
-    "text": "Rhythm analogy\nThe perception of a periodicity tone may work similarly to how we perceive the beats in complex rhythms.\n\n\n\nConsider these two rhythms superimposed:\nWhere is the beat? Our brain tells us it is where the combined pattern of doublets and triplets repeat.\n\n\nThis is analogous to the waveform for a perfect fifth (frequency ratio 3:2)"
-  },
-  {
-    "objectID": "lectures/lecture-14.html#weekly-reflection",
-    "href": "lectures/lecture-14.html#weekly-reflection",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Weekly Reflection",
-    "text": "Weekly Reflection\nThis week’s reflection is a mid-term survey about how the course is going. This is worth double points (12). Please fill this out on Canvas.\n\nYour responses are anonymous\nFull credit given to all who participate\nDeadline is 10pm tomorrow.\n\nLate work will be half credit, no more than 3 days past the deadline."
-  },
-  {
-    "objectID": "lectures/lecture-14.html#next-time",
-    "href": "lectures/lecture-14.html#next-time",
-    "title": "Lecture 14: Perceptions of frequency",
-    "section": "Next time",
-    "text": "Next time\nGuest lecture by David Barr in Pappert, 1st floor recital hall."
-  },
-  {
-    "objectID": "lectures/lecture-05.html#announcements",
-    "href": "lectures/lecture-05.html#announcements",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nHomework 1 is due Tuesday at 10pm. See Canvas for details and the upload page."
-  },
-  {
-    "objectID": "lectures/lecture-05.html#daily-quiz",
-    "href": "lectures/lecture-05.html#daily-quiz",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Daily Quiz",
-    "text": "Daily Quiz"
-  },
-  {
-    "objectID": "lectures/lecture-05.html#prelude-conservation-of-energy",
-    "href": "lectures/lecture-05.html#prelude-conservation-of-energy",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Prelude: Conservation of Energy",
-    "text": "Prelude: Conservation of Energy\nEnergy can not be created or destroyed. It can only change forms.\nFor sound the two most relevant types of energy are\n\nEnergy of motion (e.g. vibrations, striking a bell, bowing a string)\nHeat\n\nAn instrument can not put out more sound energy than the energy put into it.\nThe energy we use to sound an instrument (e.g. by plucking a string or buzzing a mouthpiece) goes somewhere.\n\nSome goes into making the instrument vibrate.\nSome goes into making the air vibrate.\nAnd some is lost to heat.\n\nHow that energy is distributed depends on the resonances of the instrument."
-  },
-  {
-    "objectID": "lectures/lecture-05.html#definition-of-resonance",
-    "href": "lectures/lecture-05.html#definition-of-resonance",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Definition of resonance",
-    "text": "Definition of resonance\nI like a slightly different definition of resonance than the textbook. The key is energy.\nResonance frequency is a frequency at which an object likes to intake, store, and emit energy.\n\nThe couplings describe how easy it is to add or subtract energy from the system. These depend on things like impedance matching."
-  },
-  {
-    "objectID": "lectures/lecture-05.html#demo-videos",
-    "href": "lectures/lecture-05.html#demo-videos",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Demo videos",
-    "text": "Demo videos\n\nMould resonance video: https://youtu.be/dihQuwrf9yQ\nMould Chladni video: https://youtu.be/CR_XL192wXw\nNigel Stanford Chladni: https://www.youtube.com/watch?v=tFAcYruShow\nSante Fe Symphony Chladni: https://www.youtube.com/watch?v=9uEeADQN8Jo"
-  },
-  {
-    "objectID": "lectures/lecture-05.html#waveform",
-    "href": "lectures/lecture-05.html#waveform",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Waveform",
-    "text": "Waveform\nA graph of sound pressure over time is called a waveform. Here is a waveform of a bell being struck:\n\nThe horizontal scale is time and the vertical scale is pressure.\nIf we zoom in we can see the individual oscillations\n\n\n\nRef: http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/"
-  },
-  {
-    "objectID": "lectures/lecture-05.html#frequency-spectrum",
-    "href": "lectures/lecture-05.html#frequency-spectrum",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Frequency spectrum",
-    "text": "Frequency spectrum\n\n\nWe can take the numerical data of the waveform and turn it into a frequency spectrum using a math technique called a Fourier transform.\nThe horizontal scale is frequency (plotted with logarithmic spacing) and the vertical scale is the sound intensity in decibels.\nYou can see two peaks. These are the resonant frequencies of this bell: 600 Hz and 1500 Hz.\n\n\n\n\nThe heights of these peaks tell us how much energy is being emitted at each frequency.\nThe widths of the peaks are inverse to the decay time of each resonance, which we can use to measure the coupling strengths and how much energy is lost to heat.\n\n\nRef: http://www.tonmeister.ca/wordpress/2019/08/19/dfts-part-3-the-math/"
-  },
-  {
-    "objectID": "lectures/lecture-05.html#timbre",
-    "href": "lectures/lecture-05.html#timbre",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Timbre",
-    "text": "Timbre\nThe combinations of resonant frequencies for an instrument determine its timbre.\n https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html#Partials"
-  },
-  {
-    "objectID": "lectures/lecture-05.html#energy-in-and-out",
-    "href": "lectures/lecture-05.html#energy-in-and-out",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Energy in and out",
-    "text": "Energy in and out\nBecause resonance affect both energy in and energy out, we can also use resonance to capture sound.\nBass traps used in recording studios take advantage of this to ruin unwanted resonances of the room. The trap absorbs energy at the resonance frequency, turning it into heat.\nParasitic resonances are unwanted resonances that absorb sound you want and turn it into heat or into “bad” sound. (E.g. a rattling speaker cone in a cheap stereo.)\nMicrophones and speakers are designed to avoid resonances or to have very broad, flat resonance peaks, to avoid parasitic resonances."
-  },
-  {
-    "objectID": "lectures/lecture-05.html#waves-add",
-    "href": "lectures/lecture-05.html#waves-add",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Waves add",
-    "text": "Waves add\nWhen we have multiple sound sources, their waveforms add:\n\nThe fast oscillations are at the average frequency of the top two signals. The slow ripples are the “beat notes”. They occur at the difference of the two frequencies. This is an easy way to tell if two instruments are in tune with each other.\nWe’ll talk more about adding together waves in the next chapter."
-  },
-  {
-    "objectID": "lectures/lecture-05.html#beat-demos",
-    "href": "lectures/lecture-05.html#beat-demos",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Beat demos",
-    "text": "Beat demos\nhttps://academo.org/demos/wave-interference-beat-frequency https://www.audiolabs-erlangen.de/resources/MIR/FMP/C2/C2S3_InterferenceBeating.html#Chirp-Experiment"
-  },
-  {
-    "objectID": "lectures/lecture-05.html#doppler-effect-1",
-    "href": "lectures/lecture-05.html#doppler-effect-1",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Doppler effect",
-    "text": "Doppler effect\nMotion of a sound source or of the observer changes the observed frequency of sound. This is called the Doppler Effect.\n    \nIf the source and observer are moving towards each other, the frequency that the observer hears goes up.\nIf the source and observer are moving away from each other, the frequency that the observer hears goes down.\n\n\nRef: https://www.flippingphysics.com/doppler-effect.html"
-  },
-  {
-    "objectID": "lectures/lecture-05.html#weekly-reflection",
-    "href": "lectures/lecture-05.html#weekly-reflection",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Weekly reflection",
-    "text": "Weekly reflection\nDescribe an instance from this week (outside of class) in which you have observed waves."
-  },
-  {
-    "objectID": "lectures/lecture-05.html#next-time",
-    "href": "lectures/lecture-05.html#next-time",
-    "title": "Lecture 5: Resonance, Beats, and Doppler",
-    "section": "Next time",
-    "text": "Next time\nChapter 7: Diffraction and Interference"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#announcements",
-    "href": "lectures/lecture-03.html#announcements",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Announcements",
-    "text": "Announcements\n\nSorry, the first homework isn’t up yet. I’ll do it today. Watch Canvas for an update."
-  },
-  {
-    "objectID": "lectures/lecture-03.html#daily-quiz",
-    "href": "lectures/lecture-03.html#daily-quiz",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Daily quiz",
-    "text": "Daily quiz"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#definition-of-transverse-wave",
-    "href": "lectures/lecture-03.html#definition-of-transverse-wave",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Definition of Transverse Wave",
-    "text": "Definition of Transverse Wave\nA transverse wave has the motion of the medium moving perpendicular to the direction that the wave itself is traveling.\n\n \n\n\nThe archetypal transverse wave is a vibrating string."
-  },
-  {
-    "objectID": "lectures/lecture-03.html#bowed-violin-string",
-    "href": "lectures/lecture-03.html#bowed-violin-string",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Bowed violin string",
-    "text": "Bowed violin string\n\n\n\n\nThis is a high-speed video of a violin string. How would you describe the motion?\n\n\nhttps://youtu.be/6JeyiM0YNo4"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#transverse-wave-demo",
-    "href": "lectures/lecture-03.html#transverse-wave-demo",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Transverse wave demo",
-    "text": "Transverse wave demo\n\n\n\n\nhttps://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_en.html"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#things-to-try-on-your-own",
-    "href": "lectures/lecture-03.html#things-to-try-on-your-own",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Things to try on your own…",
-    "text": "Things to try on your own…\n\nPut the demo in “Oscillate” mode. Choose a frequency. Turn on the rulers. Pause the animation and measure the wavelength.\nWhat happens to the wavelength if you increase the frequency?\nUse this number and the frequency to estimate the wave speed of the string.\nWhat happens when you change the tension?\nWhat happens when you change the far end of the string (box in top right)?"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#parts-of-a-transverse-wave",
-    "href": "lectures/lecture-03.html#parts-of-a-transverse-wave",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Parts of a transverse wave",
-    "text": "Parts of a transverse wave\n\n\n\n\nTransverse wave\n\n\n\n\nWavelength (λ) is the distance (measured in meters) between repetitions of the wave.\nAmplitude (a) is the distance from the top of the wave (“crest”) to the middle. (Not crest to trough.)"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#wavelength-speed-and-frequency",
-    "href": "lectures/lecture-03.html#wavelength-speed-and-frequency",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Wavelength, speed, and frequency",
-    "text": "Wavelength, speed, and frequency\nIf we measure the speed of waves (e.g. using a high-speed camera), we can see a relationship between the speed (v), frequency (f), and wavelength (λ):\n\\[ v = f\\lambda \\]\nThis equation is true for all types of waves (sound, light, water, etc.)\n\nExample: A vibrating guitar string has a speed of v = 500 m/s and a wavelength of λ = 1.2 m.\nWhat is the vibration frequency (f) of the string?\n\n\n\\[ v = f\\lambda \\quad\\rightarrow\\quad f = \\frac{v}{\\lambda} = \\frac{500\\,\\mathrm{m/s}}{1.2\\,\\mathrm{m}} = 417\\,\\mathrm{Hz} \\]"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#standing-wave",
-    "href": "lectures/lecture-03.html#standing-wave",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Standing wave",
-    "text": "Standing wave\nIf we vibrate a string with certain special frequencies, the impulses traveling in each direction will overlap exactly and create a standing wave.\n\n\n\n\n\nThere will be points on the wave that do not move at all. These are called nodes (labeled by N on the drawing.)\nThere are also points where the amplitude is maximal. These are the anti-nodes (labeled A).\nEach pair of adjacent nodes (or anti-nodes) is separated by half of a wavelength: λ/2."
-  },
-  {
-    "objectID": "lectures/lecture-03.html#resonant-wavelengths",
-    "href": "lectures/lecture-03.html#resonant-wavelengths",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Resonant wavelengths",
-    "text": "Resonant wavelengths\nThe condition to have a standing wave depends on the details at the end of the wave. For the case of a string clamped at both ends (like most stringed instruments), the rule is that the length of the string (L) must be a whole number of half-wavelengths.\n\\[ L = n \\frac{\\lambda}{2}, \\] where n is a whole number. Solving for wavelength we have \\[ \\lambda_n = \\frac{2L}{n}. \\]\n\nWhen n = 1, we call this the fundamental wavelength of the string.\nHigher n values give the harmonics or partials of the string.\n\nTogether these are called the resonant wavelengths (λn) of the string."
-  },
-  {
-    "objectID": "lectures/lecture-03.html#resonant-frequencies",
-    "href": "lectures/lecture-03.html#resonant-frequencies",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Resonant frequencies",
-    "text": "Resonant frequencies\nIf we combine the relationships between wavelength and frequency of a wave with the resonant wavelengths (λn), we get\n\\[\nf_n = \\frac{v}{\\lambda_n} = n \\frac{v}{2L}.\n\\]\nThese are the resonant frequencies of the string. (Remember, n is a whole number: 1, 2, 3, etc.)\n\nWhen n = 1, we call this the fundamental frequency of the string.\nHigher n values give the harmonics or partials of the string.\n\nFor example, if the fundamental frequency of a string is f1 = 440 Hz, then the first few harmonics are\n\nf2 = 2 f1 = 880 Hz,   f3 = 3 f1 = 1320 Hz,   f4 = 4 f1 = 1760 Hz, etc."
-  },
-  {
-    "objectID": "lectures/lecture-03.html#modes-of-a-vibrating-string",
-    "href": "lectures/lecture-03.html#modes-of-a-vibrating-string",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Modes of a vibrating string",
-    "text": "Modes of a vibrating string\n\n\n\n\nhttps://youtu.be/cnH2ltfW48U"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#standing-wave-demo",
-    "href": "lectures/lecture-03.html#standing-wave-demo",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Standing wave demo",
-    "text": "Standing wave demo\n\n\n\n\nhttps://youtu.be/XpNbyfxxkWE"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#activity-wave-machine",
-    "href": "lectures/lecture-03.html#activity-wave-machine",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Activity: Wave machine",
-    "text": "Activity: Wave machine\n\n\nWe’re going to build a simple “Shive wave machine” like shown in the book using some popsicle sticks and tape.\n\nPut 3 or 4 desks together to make a table\nPull off a long piece of tape that stretches across the desks, sticky side up\nPut popsicle sticks evenly placed crosswise along the length of the tape, about a finger-width apart\nOnce it’s made, pick it up and suspend it between a pair of desks\nPush down on one of the sticks at the end. What happens to the other sticks?\nEstimate the speed of the waves?\nCan you vibrate one end and create standing waves?\n\n\n\n\n\nWave Machine"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#weekly-reflection",
-    "href": "lectures/lecture-03.html#weekly-reflection",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Weekly reflection",
-    "text": "Weekly reflection\n\nWhat are your learning goals for the course?"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#for-next-time",
-    "href": "lectures/lecture-03.html#for-next-time",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "For next time…",
-    "text": "For next time…\nChapter 4 (Longitudinal Waves) and Chapter 5 (Sound Transmission)"
-  },
-  {
-    "objectID": "lectures/lecture-03.html#rubens-tube",
-    "href": "lectures/lecture-03.html#rubens-tube",
-    "title": "Lecture 3: Transverse Waves",
-    "section": "Rubens tube",
-    "text": "Rubens tube\n\n\n\n\n\n\n\n\nhttps://youtu.be/sIopZnMLeQo"
   }
 ]
