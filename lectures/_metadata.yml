@@ -8,4 +8,6 @@ format:
       theme: whiteboard
     preview-links: true
     controls: true
-    fig-align: "center"
+    fig-align: center
+    width: 1920
+    height: 1080
