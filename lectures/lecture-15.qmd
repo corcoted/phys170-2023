@@ -1,0 +1,38 @@
+---
+title: "Lecture 15: Stringed Instruments"
+subtitle: "Chapters 16 and 17"
+date: "3/14/2023"
+order: 15
+format: revealjs
+---
+
+## Announcements
+
+::: {.incremental}
+- The mid-term progress report for your group project is due Friday.  Details next slide.
+- blah
+:::
+
+## Group project mid-term report 
+- Due Friday, 10pm
+- Each group should upload one file to Canvas
+- Required items in your report
+  - aljdsf
+  - asdlkfafsd
+  - akladf
+<!-- TODO obviously -->
+
+## Daily Quiz
+blah
+
+# Vibrating strings
+blah
+
+# Violin Family
+
+# Fretted Strings
+
+# Keyboard Strings
+
+## Next time
+Wind Instruments (Chapters 18 and 19)

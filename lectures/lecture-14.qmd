@@ -1,6 +1,6 @@
 ---
 title: "Lecture 14: Perceptions of frequency"
-subtitle: "Chapter 13"
+subtitle: "Chapter 15"
 date: "2/23/2023"
 order: 14
 format: revealjs
