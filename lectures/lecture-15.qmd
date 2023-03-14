@@ -6,33 +6,178 @@ order: 15
 format: revealjs
 ---
 
+
+## Happy Birthday!
+<center>
+![](figs/lecture-15/Albert-Einstein-Violin.png)
+
+I live my daydreams in music. -- *Albert Einstein*
+</center>
+
 ## Announcements
 
 ::: {.incremental}
 - The mid-term progress report for your group project is due Friday.  Details next slide.
-- blah
+- Exam 2 is graded.  We'll discuss this shortly.
 :::
 
-## Group project mid-term report 
+## Daily Quiz
+
+## Group project mid-way progress report 
 - Due Friday, 10pm
 - Each group should upload one file to Canvas
-- Required items in your report
-  - aljdsf
-  - asdlkfafsd
-  - akladf
-<!-- TODO obviously -->
+- Required items in your report: initial progress on
+  - Description of the instrument and how you built it (photos are encouraged!)
+  - Description of how the instrument produces sound (e.g. what is vibrating?)
+  - What determines the fundamental frequency?
+  - Description of how one plays the instrument:
+    -  How do you change the pitch?  The intensity?  Can you sustain notes?
+  - Frequency analysis (spectrum)
+  - Include a bibliography with any references you used while designing, building, or analyzing your instrument.
 
-## Daily Quiz
-blah
+Treat this as a proper term paper.  The document should be in proper academic form, using proper structure.
 
-# Vibrating strings
-blah
+# Exam 2 results
+
+# Review: Vibrating strings
+
+## Partials of a *perfect* clamped string
+
+The fundamental wavelength of a clamped string is twice the length of the string:
+
+$$ \lambda_1 = 2L $$
+
+Higher harmonics fit a whole number of half-wavelengths into *L*:
+
+$$ \lambda_n = \frac{\lambda_1}{n} = \frac{2L}{n},\qquad n=1,2,3,\ldots $$
+
+To convert wavelength to frequency, we first need the speed of waves on the string:
+$$ v = \sqrt{F/m}, $$
+where *F* is the tension on the string and *m* is the mass per length of the string.
+
+This gives us the sequence of frequencies
+$$
+f_n = \frac{v}{\lambda_n} = n\,\frac{1}{2L}\sqrt{\frac{F}{m}}.
+$$
+
+These are the *partials* of the vibrating string.
+
+## Anharmonicity
+
+:::: {.columns}
+::: {.column width="60%"}
+The partials of a perfect string are equal to the harmonics of the fundamental frequency of the string.  (The same is true of a perfect open tube.)
+
+A real string doesn't exactly match this because real strings aren't perfectly elastic.
+
+- The string stretches a bit as you play it
+- The string is not perfectly uniform (mass density, thickness, stiffness)
+
+These imperfections cause a few effects:
+
+- The frequencies depend on *amplitude* (see figure)
+- The overtones are not exactly harmonic
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-15/Marcello-fig6.jpeg)
+
+::: .smaller
+Frequency spectrum near the fundamental of a steel guitar string for various amplitudes.  Notice that when the amplitude goes up, the resonance frequency increase slightly.
+
+Marcello and Straulino. *Am. J. Phys.* 85(8), 2017:587–95, https://doi.org/10.1119/1.4991374.
+:::
+:::
+::::
 
 # Violin Family
 
+## Meet the family
+
+## String layout
+
+## Plucked or bowed
+
+:::: {.columns}
+::: {.column width="60%"}
+The most obvious difference between the sound of plucked and bowed strings is the attack and decay of the sound.  But how you play the string also affects the frequency of the partials.
+
+When you bow the string, the stick-slip motion of the bow on the string *couples* the partials and forces them to stay harmonic.  The physics term for this effect is "mode locking".
+
+Here is some experimental data from the link below^[N. Han, 2017. https://www.violinist.com/discussion/thread.cfm?page=242]:
+
+::: {.smaller}
+
+| Partial | Bowed (cents off) | Plucked (cents off) |
+|---------|-------------------|---------------------|
+| 1 | 440.189  | 437.865  |
+| 2 | 880.436 (0.11) | 882.369 (13.07) |
+| 3 | 1320.52 (-0.07) | 1320.42 (8.97) |
+| 4 | 1760.82 (0.06) | 1761.32 (9.71) |
+| 5 | 2201.07 (0.10) | 2215.22 (20.35) |
+
+:::
+
+<!--
+Bowed: 440.189 (0.00), 880.436 (0.11), 1320.52 (-0.07), 1760.82 (0.06), 2201.07 (0.10), 2641.09 (-0.03), 3081.52 (0.11).
+
+Plucked: 437.865 (0.00), 882.369 (13.07), 1320.42 (8.97), 1761.32 (9.71), 2215.22 (20.35), 2644.87 (11.61), 3172.93 (59.88)
+-->
+:::
+
+::: {.column width="40%"}
+<iframe src="https://www.youtube.com/embed/6JeyiM0YNo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=0; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen width="560" height="315"></iframe>
+:::
+::::
+
+## Energy transfer
+
+:::: {.columns}
+::: {.column width="60%"}
+Although the sound starts with the strings, the sound energy passes through several parts of the instrument before reaching air:
+
+- String
+- Bridge
+- Sound post(s)
+- Back and front plates
+- Air in the sound box
+- Resonance hole (*f* holes on a violin)
+- Outside air
+
+Each transition causes a loss of energy because of impedance mis-matching (which depends on frequency as well).  Also, each item above has a different set of resonances and partials, which may be coupled to each other.  All of these effects together determine the timbre of the instrument.
+
+For the violin family, the "best" sounding instruments are the ones that transfer the higher partials the most efficiently.
+:::
+
+::: {.column width="40%"}
+Insert W&W Figs. 16-10 and 16-11
+:::
+
+::::
+
 # Fretted Strings
 
+## Meet the family
+
+## Fret placement
+
+On a typical guitar, the frets are placed to give a twelve-tone equal temperament.  If we label the position on the neck as "one" at the nut and "zero" at the saddle (bridge) then the position of each fret is given by the formula:
+
+$$
+x_n = \frac{1}{2^{n/12}},\qquad n=0,1,2,\ldots,
+$$
+where *n* is the fret number (*n*&nbsp;=&nbsp;0 meaning the open string).
+
+## The Black Dog of the fret family: the electric guitar
+The electric guitar has a completely different way of turning the string vibrations into sound.
+
 # Keyboard Strings
+
+## Meet the family
+
+## Plucked or hammered
+
+# Harps and lyres
 
 ## Next time
 Wind Instruments (Chapters 18 and 19)
