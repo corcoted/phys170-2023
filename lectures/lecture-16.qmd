@@ -91,7 +91,7 @@ These are the *partials* of the tube.
 :::
 ::::
 
-## Anharmonicity - end effects
+## Anharmonicity - End effects
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -99,11 +99,11 @@ The partials of a perfect tube are equal to the harmonics of the fundamental fre
 
 This is really a mathematical ideal that omits one very important detail: what happens at the [ends of the tube](https://en.wikipedia.org/wiki/End_correction).
 
-For a perfectly cylindrical tube, the end correction adds a small effective length to the tube of 0.6*r*, where *r* is the radius of the tube.  But for other shapes (e.g. a trumpet bell) the end correction depends on frequency.
+For a perfectly cylindrical tube, the end correction adds a small effective length to the tube of 0.6*r*, where *r* is the radius of the tube.  But for other shapes (e.g. a trumpet bell) the end correction depends on frequency.  This shifts the higher partials.
 
 :::
 ::: {.column width="40%"}
-::: {.smaller}
+::: {style="font-size:80%"}
 | *L*~0~ (m) | *f* (Hz) | *DL* (cm) |
 |--------|--------|---------|
 | 1.012  | 164.3  | 3.61    |
@@ -118,36 +118,145 @@ Measurement of the end effects of cylindrical tubes of various lengths, from [M.
 
 :::
 
-:::
+
 :::
 ::::
 
 ## Anharmonicity - Bore shape
 
+:::: {.columns}
+::: {.column width="60%"}
+Broadly speaking, the shape of wind instruments falls into two categories related to the shape of the tube.
+
+- **Cylindrical bore** instruments are shaped like a pipe (if you stretch them out).
+  - Flute, recorder, organ pipe, trumpet, trombone
+- **Conical bore** instruments are shaped like a cone.
+  - Oboe, bassoon, saxophones, French horn
+
+The equations for partials we had before assumed a cylindrical bore.  For the half-closed tubes (all the brass and reeds) with cylindrical bores, this means that the even partials are missing.
+
+Conical bores are missing the destructive interference that kills the even harmonics, so all partials are present.
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-16/img_399.jpg){ width="100%" }
+:::
+::::
+
+## Example spectra
+
+:::: {.columns}
+::: {.column width="50%"}
+![Clarinet (cylindrical bore)](figs/lecture-16/clarf.gif){ height="600px" }
+
+Only the odd harmonics are present.
+:::
+
+::: {.column width="50%"}
+![Alto Sax (conical bore)](figs/lecture-16/AS.gif){ height="600px" }
+
+All harmonics are present
+:::
+
+::::
+
+::: aside
+Ref. <https://pages.mtu.edu/~suits/Physicsofmusic.html>
+:::
+
+## Bore shape demo
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/cEr1OH6-77M?start=221&end=506" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Generating sound: mouthpiece physics
 
-## Flutes: tone hole
+## Flutes: Embouchure hole
+A flute is open at both ends.  The vibrations in the tube are initiated by turbulence as the air passes the embouchure hole.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_8JGCKSnD8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Reeded instruments: Bernoulli effect
 
+:::: {.columns}
+::: {.column width="60%"}
+The reeds in clarinets and such vibrate because of the Bernoulli Effect.
+The Bernoulli Effect says that fast moving air has a lower pressure than air at rest.
+
+As you blow into the mouthpiece, the fast moving air blowing in creates a low pressure area, sucking the reed against the mouth piece.  Once the gap is closed, the air stops, the pressure is released, and the reed relaxes, opening the path again.
+
+Each pulse of air goes down the instrument and is partially reflected by the impedance mismatch at the bell.  This pulse comes back and pushes against the reed, "mode-locking" the vibrations at the resonance frequency of the tube, much like the [Helmholtz wave](https://ccrma.stanford.edu/realsimple/travelingwaves/Helmholtz_Motion.html) of a bowed violin string.
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-16/reed-simulation.gif)
+
+Figure source: [Syos](https://syos.co/)
+:::
+::::
+
 ## Demo exercise
+
+Pencil, sticky note, blow
 
 ## Brass instruments: Buzzing lips
 
-# Energy transfer
-
-## Wave cycling and mode locking
+:::: {.columns}
+::: {.column width="60%"}
+The lips of a brass player work similarly to reeds, but the player can also control the tension of the lips.  The buzzing sound made by the lips is essentially filtered by the instrument to pick out the partials.  Just like with the reed, the air pressure pulse gets recycled through the instrument locking the lips to the right frequency.
+:::
+::: {.column width="40%"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rkud0WhnMGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+::::
 
 # Pitch selection
 
 ## Harmonics
+The sound source in wind instruments is a noisy buzz covering a broad spectrum of frequencies.  However, the player can adjust where the lowest frequency in the noise occurs.
+
+The method varies by instrument type.  For woodwinds this can be done by overblowing.  For brass instruments, tightening the lips does the same job.
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/cEr1OH6-77M?start=72" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Woodwinds: breaking the column
 
+The finger holes and/or keys on woodwind instruments select the pitch by
+
+- Changing the effective length of the tube and
+- Selecting the locations of nodes and antinodes
+
+![](figs/lecture-16/fife.jpeg){ width="50%"} ![](figs/lecture-16/Yamaha-Fife-YRF-21.webp){ width="20%"}
+
+::: aside
+[Figure source](https://hsm.fhnw.ch/archiv/scb/static/content/projets-de-recherche/la-grande-ecurie-du-roi-fr/fifres/reconstructing-the-fifres-of-the-grande-ecurie-boaz-berney-montreal-2009/view%3Fset_language=fr.html)
+:::
+
 ## Brasses: changing the tube length
+
+For brass instruments the method is more direct: we change the length of the tube.  This is obvious in a trombone:
+
+![](figs/lecture-16/img_407.jpg)
+
+For valved instruments, traditionally the three valves add a whole tone, semi tone, and 1.5 tone of length to the tube.  This is enough to reach all of the notes starting from the 3rd partial and up.
+
+![](figs/lecture-16/img_410.jpg)
 
 ## Is it an elephant?
 
-https://youtu.be/p-b6I1ihh2s
+The classification of instruments is pretty arbitrary.  Basically we can take any combination of
+
+- Sound generator
+- Tube
+- Pitch adjusting mechanism
+
+and get an instrument.  This allows instrument makers to get more creative...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p-b6I1ihh2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Weekly reflection
+
+Thinking about the last video, it begs the question "why do some instrument designs survive and become popular and other fail?"
+
+Why do you think this happens?
