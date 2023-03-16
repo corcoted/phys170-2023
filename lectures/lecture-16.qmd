@@ -1,0 +1,149 @@
+---
+title: "Lecture 16: Wind Instruments"
+subtitle: "Chapters 18 and 19"
+date: "3/16/2023"
+order: 16
+format: revealjs
+---
+
+## Daily Quiz
+
+## Announcements
+
+::: {.incremental}
+- The mid-term progress report for your group project is due Friday.
+- The next homework assignment will be posted tomorrow and will be due next Thursday (3/23).
+  - Change of instructions: Homework will be due *on paper* in class on Thursday.
+:::
+
+
+## Group project mid-way progress report 
+- Due Friday, 10pm
+- Each group should upload one file to Canvas
+- Required items in your report: initial progress on
+  - Description of the instrument and how you built it (photos are encouraged!)
+  - Description of how the instrument produces sound (e.g. what is vibrating?)
+  - What determines the fundamental frequency?
+  - Description of how one plays the instrument:
+    -  How do you change the pitch?  The intensity?  Can you sustain notes?
+  - Frequency analysis (spectrum)
+  - Include a bibliography with any references you used while designing, building, or analyzing your instrument.
+
+Treat this as a proper term paper.  The document should be in proper academic form, using proper structure.
+
+# Vibrating air columns
+
+## Review: Partials of a *perfect* open tube
+
+:::: {.columns}
+:::{.column width="60%"}
+The fundamental wavelength of an open tube is twice the length of the tube:
+
+$$ \lambda_1 = 2L $$
+
+Higher harmonics fit a whole number of half-wavelengths into *L*:
+
+$$ \lambda_n = \frac{\lambda_1}{n} = \frac{2L}{n},\qquad n=1,2,3,\ldots $$
+
+To convert wavelength to frequency, we first need the speed of sound waves in air:
+$$ v = 343\,\mathrm{m/s} \qquad\text{at room temperature }(20^\circ{}\mathrm{C})$$
+
+This gives us the sequence of frequencies
+$$
+f_n = \frac{v}{\lambda_n} = n \frac{v}{2L}.
+$$
+
+These are the *partials* of the tube.
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-11/img_232a.jpg)
+:::
+::::
+
+## Review: Partials of a *perfect* half-closed tube
+
+:::: {.columns}
+:::{.column width="60%"}
+The fundamental wavelength of an half-closed tube is *four times* the length of the tube:
+
+$$ \lambda_1 = 4L $$
+
+Higher harmonics fit a *odd* number of quarter-wavelengths into *L*:
+
+$$ \lambda_n = \frac{\lambda_1}{n} = \frac{4L}{n},\qquad n=1, 3, 5\ldots $$
+
+To convert wavelength to frequency, we first need the speed of sound waves in air:
+$$ v = 343\,\mathrm{m/s} \qquad\text{at room temperature }(20^\circ{}\mathrm{C})$$
+
+This gives us the sequence of frequencies
+$$
+f_n = \frac{v}{\lambda_n} = n \frac{v}{4L},\qquad n=1, 3, 5\ldots
+$$
+
+These are the *partials* of the tube.
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-11/img_232b.jpg)
+:::
+::::
+
+## Anharmonicity - end effects
+
+:::: {.columns}
+::: {.column width="60%"}
+The partials of a perfect tube are equal to the harmonics of the fundamental frequency of the tube (although the half-closed tube is missing all of the even harmonics.)
+
+This is really a mathematical ideal that omits one very important detail: what happens at the [ends of the tube](https://en.wikipedia.org/wiki/End_correction).
+
+For a perfectly cylindrical tube, the end correction adds a small effective length to the tube of 0.6*r*, where *r* is the radius of the tube.  But for other shapes (e.g. a trumpet bell) the end correction depends on frequency.
+
+:::
+::: {.column width="40%"}
+::: {.smaller}
+| *L*~0~ (m) | *f* (Hz) | *DL* (cm) |
+|--------|--------|---------|
+| 1.012  | 164.3  | 3.61    |
+|  0.89  | 185.8  | 3.68    |
+|  0.796 | 207.3  | 3.47    |
+|  0.747 | 220.5  | 3.40    |
+|  0.661 | 246.8  | 3.67    |
+|  0.587 | 276.6  | 3.56    |
+|  0.521 | 310.3  | 3.39    |
+
+Measurement of the end effects of cylindrical tubes of various lengths, from [M. E. Bacon and S. Torok, *Phys. Teach.* 49, 152 (2011)](https://aapt.scitation.org/doi/10.1119/1.3555499). *DL* is the additional effective length added to the tubes to match the resonance frequency formula.
+
+:::
+
+:::
+:::
+::::
+
+## Anharmonicity - Bore shape
+
+# Generating sound: mouthpiece physics
+
+## Flutes: tone hole
+
+## Reeded instruments: Bernoulli effect
+
+## Demo exercise
+
+## Brass instruments: Buzzing lips
+
+# Energy transfer
+
+## Wave cycling and mode locking
+
+# Pitch selection
+
+## Harmonics
+
+## Woodwinds: breaking the column
+
+## Brasses: changing the tube length
+
+## Weekly reflection
