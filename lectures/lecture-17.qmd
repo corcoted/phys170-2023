@@ -78,6 +78,63 @@ These are the *partials* of the tube.
 
 # Human voice
 
+## Anatomy
+
+:::: {.columns}
+::: {.column width="60%"}
+The human vocal track is like a half-closed pipe with the vocal folds at the closed end and the mouth at the other end.
+Key items include
+
+- Diaphragm
+- Lungs
+- The vocal folds
+- Tongue
+- Lips
+- Teeth
+:::
+
+::: {.column width="40%"}
+<!-- TODO insert W&W fig 19-16 -->
+:::
+::::
+
+## NIH video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JF8rlKuSoFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Voice registers
+
+Vocalists and speech pathologists have identified various modes of vibration for the vocal tract, called "registers".
+
+From lowest frequency to highest these are (using the musical terms)
+
+- Vocal fry or subharmonic voice
+- Chest voice
+- Head voice
+- Falsetto
+- Whistle voice
+
+The difference these is in the specific way that the vocal folds are configured and which parts of them are vibrating.
+
+Whether "head voice" and "chest voice" are distinct is a topic of controversy. Speech pathologists usually combine these and call it "modal voice", but musicians use the terms above.
+
+## Voice registers videos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JhjuuQVYnPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+See also: https://youtu.be/zM2GDKDLr8s
+
+## Voice registers (female)
+
+Here is a supercut of Ariana Grande demonstrating her range, going up in sequence.  Try to identify at which notes she changes registers.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9924mAF8_r8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Voice registers (male bass)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AaPtiFO-NLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 
+
 # Speech
 
 ## Next time
