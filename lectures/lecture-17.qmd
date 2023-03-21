@@ -114,7 +114,7 @@ From lowest frequency to highest these are (using the musical terms)
 - Falsetto
 - Whistle voice
 
-The difference these is in the specific way that the vocal folds are configured and which parts of them are vibrating.
+The difference these is in the specific way that the vocal folds are configured and which parts of them are vibrating.  The transition points in the context of singing are called [*passaggio*](https://en.wikipedia.org/wiki/Passaggio).
 
 Whether "head voice" and "chest voice" are distinct is a topic of controversy. Speech pathologists usually combine these and call it "modal voice", but musicians use the terms above.
 
@@ -133,7 +133,8 @@ Here is a supercut of Ariana Grande demonstrating her range, going up in sequenc
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AaPtiFO-NLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## 
+## Musical voice type
+
 
 # Speech
 
