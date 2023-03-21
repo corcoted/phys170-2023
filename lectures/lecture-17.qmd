@@ -114,7 +114,7 @@ From lowest frequency to highest these are (using the musical terms)
 - Falsetto
 - Whistle voice
 
-The difference these is in the specific way that the vocal folds are configured and which parts of them are vibrating.  The transition points in the context of singing are called [*passaggio*](https://en.wikipedia.org/wiki/Passaggio).
+The difference these is in the specific way that the vocal folds are configured and which parts of them are vibrating.  The transition points in the context of singing are called [*passaggi*](https://en.wikipedia.org/wiki/Passaggio).
 
 Whether "head voice" and "chest voice" are distinct is a topic of controversy. Speech pathologists usually combine these and call it "modal voice", but musicians use the terms above.
 
@@ -125,7 +125,7 @@ See also: https://youtu.be/zM2GDKDLr8s
 
 ## Voice registers (female)
 
-Here is a supercut of Ariana Grande demonstrating her range, going up in sequence.  Try to identify at which notes she changes registers.
+Here is a supercut of Ariana Grande demonstrating her range, going up in chromatic sequence.  Try to identify at which notes she changes registers (passggi).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9924mAF8_r8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -135,6 +135,28 @@ Here is a supercut of Ariana Grande demonstrating her range, going up in sequenc
 
 ## Musical voice type
 
+:::: {.columns}
+::: {.column width="60%"}
+In classical music voice is traditionally broken into four "[voice types](https://en.wikipedia.org/wiki/Voice_type)" based on range:
+
+- Soprano
+- Alto
+- Tenor
+- Bass
+
+There are numerous subcategories based on range, timbre, speed, etc., but these are harder to define objectively.
+:::
+
+::: {.column width="40%"}
+![Soprano](figs/lecture-17/Soprano_voice_range_on_keyboard.svg)
+
+![Alto](figs/lecture-17/Contralto_voice_range_on_keyboard.svg)
+
+![Tenor](figs/lecture-17/Tenor_voice_range_on_keyboard.svg)
+
+![Bass](figs/lecture-17/Bass_voice_range_on_keyboard.svg)
+:::
+::::
 
 # Speech
 
