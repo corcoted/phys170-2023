@@ -102,9 +102,30 @@ Key items include
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JF8rlKuSoFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Formants
+
+:::: {.columns}
+::: {.column width="50%"}
+The partials in human voice are called "[formants](https://en.wikipedia.org/wiki/Formant)".
+
+Because the human vocal tract has a complex shape and is "squishy", the resonances are not sharp like we get for strings or pipes.  Instead they are broad and moveable.
+
+The formants are labeled from low to high frequency starting at F1.  There is no set mathematical relationship between the frequency values of the formants.
+
+The relative frequency relationships between formants is how we distinguish the vowel sounds of human speech.
+
+:::
+
+::: {.column width="50%"}
+
+![](figs/lecture-17/Spectrogram_-iua-.png)
+
+:::
+::::
+
 ## Voice registers
 
-Vocalists and speech pathologists have identified various modes of vibration for the vocal tract, called "registers".
+Vocalists and speech pathologists have identified various modes of vibration for the vocal tract, called "registers".  Scientifically, the difference in the registers is the relative strength of the various formants.
 
 From lowest frequency to highest these are (using the musical terms)
 
@@ -133,6 +154,7 @@ Here is a supercut of Ariana Grande demonstrating her range, going up in chromat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AaPtiFO-NLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
 ## Musical voice type
 
 :::: {.columns}
@@ -159,6 +181,8 @@ There are numerous subcategories based on range, timbre, speed, etc., but these 
 ::::
 
 # Speech
+
+
 
 ## Next time
 
