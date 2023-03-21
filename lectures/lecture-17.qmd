@@ -16,36 +16,31 @@ format: revealjs
 - Exam 3 will be next Thursday (3/30)
 :::
 
-# Vibrating air columns
+# Human voice
 
-## Review: Partials of a *perfect* open tube
+## Anatomy
 
 :::: {.columns}
-:::{.column width="60%"}
-The fundamental wavelength of an open tube is twice the length of the tube:
+::: {.column width="60%"}
+The human vocal track is like a half-closed pipe with the vocal folds at the closed end and the mouth at the other end.
+Key items include
 
-$$ \lambda_1 = 2L $$
-
-Higher harmonics fit a whole number of half-wavelengths into *L*:
-
-$$ \lambda_n = \frac{\lambda_1}{n} = \frac{2L}{n},\qquad n=1,2,3,\ldots $$
-
-To convert wavelength to frequency, we first need the speed of sound waves in air:
-$$ v = 343\,\mathrm{m/s} \qquad\text{at room temperature }(20^\circ{}\mathrm{C})$$
-
-This gives us the sequence of frequencies
-$$
-f_n = \frac{v}{\lambda_n} = n \frac{v}{2L}.
-$$
-
-These are the *partials* of the tube.
-
+- Diaphragm
+- Lungs
+- The vocal folds
+- Tongue
+- Lips
+- Teeth
 :::
 
 ::: {.column width="40%"}
-![](figs/lecture-11/img_232a.jpg)
+![](figs/lecture-17/Sagittalmouth.png)
 :::
 ::::
+
+## NIH video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JF8rlKuSoFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Review: Partials of a *perfect* half-closed tube
 
@@ -76,31 +71,6 @@ These are the *partials* of the tube.
 :::
 ::::
 
-# Human voice
-
-## Anatomy
-
-:::: {.columns}
-::: {.column width="60%"}
-The human vocal track is like a half-closed pipe with the vocal folds at the closed end and the mouth at the other end.
-Key items include
-
-- Diaphragm
-- Lungs
-- The vocal folds
-- Tongue
-- Lips
-- Teeth
-:::
-
-::: {.column width="40%"}
-<!-- TODO insert W&W fig 19-16 -->
-:::
-::::
-
-## NIH video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JF8rlKuSoFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Formants
 
@@ -121,6 +91,35 @@ The relative frequency relationships between formants is how we distinguish the 
 ![](figs/lecture-17/Spectrogram_-iua-.png)
 
 :::
+::::
+
+## It is our voice that makes us human
+
+:::: {.columns}
+::: {.column width="60%"}
+Our voice is one of the key differences between humans and other species.  Our ability to generate a large range of tones, timbres, and sounds is what made the development of language possible.
+
+Recently, researchers from Kyoto University identified the specific evolutionary change that enabled us to speak.
+The key was the loss of air sacs around the vocal folds that other primate species use to amplify their voices.
+
+By sacrificing loudness for flexibility, early hominids we able make more complex sounds and adjust both the pitch and timbre of their voices, ultimately leading to speech.
+
+The need to produce and understand speech is in turn thought to be the evolutionary pressure that made our brains larger.
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-17/science.abm1574-f3ef.jpg)
+
+::: { style="font-size:60%"}
+Spectrogram of chimpanzee (top) and human (bottom) as the vocal folds loosen.
+:::
+:::
+
+::: aside
+Ref: [T. Nishimura et al. **Science** 377(6607): 760 (2022)](https://www.science.org/doi/10.1126/science.abm1574)
+:::
+
 ::::
 
 ## Voice registers
@@ -180,8 +179,50 @@ There are numerous subcategories based on range, timbre, speed, etc., but these 
 :::
 ::::
 
-# Speech
+## Speech
 
+:::: {.columns}
+::: {.column width="60%"}
+Speech and the way we produce the sounds of speech is a very complex topic.
+All parts of the vocal tract contribute in the sounds we make when we speak.
+
+The vowels sounds are perhaps the simplest to describe.
+We distinguish the various vowel sounds mostly by the frequencies of the first two formants.
+
+The top graph shows the formants for an average adult male speaker for the complete set of vowel sounds in the [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
+
+The bottom graphs shows the spectrogram for the English vowels i, u, and a.
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-17/Average_vowel_formants_F1_F2.png){ width="80%"} 
+
+![](figs/lecture-17/Spectrogram_-iua-.png){ width="80%"}
+:::
+::::
+
+## Group Activity
+
+:::: {.columns}
+::: {.column width="60%"}
+Voice isn't the only sound our vocal tract can make.
+
+Take a few minutes in groups to answer the following question:
+
+*How does whistling work?*
+
+Consider the following:
+
+- What produces the initial sound?
+- What determines the pitch?
+- What experiments could we do to check if your answers are correct?
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-17/Sagittalmouth.png)
+:::
+::::
 
 
 ## Next time
