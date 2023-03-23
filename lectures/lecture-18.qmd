@@ -20,9 +20,83 @@ format: revealjs
 
 ## Homework 5 discussion
 
-## Example
+# Percussion Instruments
 
-[Building a xylophone](https://medium.com/@kas493/building-a-xylophone-part-1-xylo-troduction-a9e914ddaa13)
+## Definition
+
+It's hard to define percussion. Depending on the context it might mean:
+
+::: {.incremental}
+- Instruments that are struck or banged or otherwise are activated in an impulsive way.
+- Instruments whose primary mode of sound generation is a vibrating solid body (as opposed to a string or an air column).
+- Anything played by the percussionists in the orchestra.
+:::
+
+::: {.fragment}
+Most people would agree that a snare drum or a crash cymbal are percussion instruments, but what about
+:::
+::: {.incremental}
+- piano or harpsichord?
+- a plucked guitar or a *pizzicato* violin?
+- whistles?
+:::
+
+## Is this a percussion instrument?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LZQdWd_vdoM?start=97" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Further distinctions
+
+We can broadly classify percussion instruments by the type of sound they produce:
+
+::: {.columns}
+
+::: {.column width="50%"}
+::: {.fragment}
+**Pitched or tonal**
+
+- Xylophone, marimba, vibrophone
+- Chimes, bells
+- Tympani
+- Toms, temple blocks
+
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment}
+**Unpitched or atonal**
+
+- Snare and bass drums
+- Gongs and tamtams
+- Triangle
+- Cymbals, high hat
+
+:::
+:::
+
+:::
+
+## Building a xylophone
+
+Building a xylophone blog series by Kate Salesin (Nov. 2020)
+
+- <https://medium.com/@kas493/building-a-xylophone-part-1-xylo-troduction-a9e914ddaa13>{ data-preview-link="false" }
+
+Read through this and answer the following questions:
+
+- Why is the author building a xylophone?
+- What is her plan for designing and building the instrument?
+- What factors determine the size and shape of the bars?  Why is she doing the simulations?
+- What does she mean by "tuning the partials"?  Why does she want to do this?
+- How is the tuning of the partials accomplished?
+- How does she mount the bars?  Why did she place the string where she did?
+
+## My favorite use of percussion
+
+Tchaikovsky, *1812 Overture*, performed by the Japan Ground Self-Defense Force Eastern Army Band, MAJ Shiga Tōru conducting, Oct. 2010, Asaka, Japan.
+
+<https://youtu.be/0F5k70xwGSk?t=527>
 
 ## Weekly Reflection
 
