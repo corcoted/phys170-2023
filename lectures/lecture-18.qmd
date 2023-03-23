@@ -1,0 +1,26 @@
+---
+title: "Lecture 18: Percussion"
+subtitle: "Chapter 20"
+date: "3/23/2023"
+order: 18
+format: revealjs
+---
+
+## Daily Quiz
+
+## Announcements
+
+::: {.incremental}
+- HW5 is due now!  We'll discuss solutions.
+- Exam 3 will be next Thursday (3/30)
+  - Chapters XXX
+  - Lectures XXX
+:::
+
+## Example
+
+[Building a xylophone](https://medium.com/@kas493/building-a-xylophone-part-1-xylo-troduction-a9e914ddaa13)
+
+## Weekly Reflection
+
+What is your plan for studying for the exam?
