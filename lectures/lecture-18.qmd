@@ -13,9 +13,12 @@ format: revealjs
 ::: {.incremental}
 - HW5 is due now!  We'll discuss solutions.
 - Exam 3 will be next Thursday (3/30)
-  - Chapters XXX
-  - Lectures XXX
+  - Chapters 14 - 20
+  - Lectures 13 - 18
+  - Topics: Scales, harmony, instrument families 
 :::
+
+## Homework 5 discussion
 
 ## Example
 

@@ -1,0 +1,80 @@
+---
+title: "Homework 5 solutions"
+subtitle: "PHYS170"
+date: "3/23/2023"
+format:
+  pdf:
+    papersize: letter
+    classoption: 11pt
+    geometry: margin=0.75in
+    colorlinks: true
+    fig-align: center
+---
+
+12 points total, 2 points each
+
+## Problem 1
+
+(6 points) Calculate the frequencies for the 8 pitches in one octave of a major scale starting from a bottom note with a frequency of 120.0 Hz (a very sharp B^♭^~2~) using the following temperaments:
+
+-   Just temperament
+-   12-tone equal temperament
+
+The table below has a couple of values to get you started. Complete the rest. Give your answers to the first decimal place.
+
+|                | B^♭^     | C       | D       | E^♭^    | F     | G       | A       | B^♭^  |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Just tempered  | 120.0 Hz | *135.0* | *150.0* | *160.0* | 180.0 | *200.0* | *225.0* | 240.0 |
+| Equal tempered | 120.0 Hz | *134.7* | *151.2* | *160.2* | 179.8 | *201.8* | *226.5* | 240.0 |
+
+### Solution
+
+The final values are given in italics above.
+
+#### Just temperament scale
+The just-tempered scale uses various frequency ratios using small numbers. These can be found in the textbook in Table 14-4:
+
+![W&W Table 14-4: Just diatonic scale](figs/hw-05/just-scale.jpg)
+
+Here, *f* is the frequency of the starting note. For us, $f=120.0\,\mathrm{Hz}$. Multiplying *f* by the fractions in the second row of the table gives the correct frequencies (shown above).
+
+#### Equal temperament scale
+Twelve-tone equal temperament means that each semi-tone has the frequency of the one below it, times $2^{1/12} \approx 1.05946$.  Each whole-tone step is the square of this number: $2^{2/12}=2^{1/6} \approx 1.2246$.  Starting from the bottom and going up in a major scale (whole, whole, half, whole, whole, whole, half), gives us the numbers above.
+
+For example, C is a whole step above B^♭^, so we get its frequency by
+
+$$ 120.0 \times 2^{2/12} \approx 120.0\times 1.2246 \approx 134.7. $$
+
+The other values can be calculated the same way.
+
+## Problem 2
+(2 points) The previous problem started with a "B^♭^~2~" (scare quotes) with a frequency of 120 Hz. The correct frequency of a B^♭^~2~ on the usual equal-tempered scale is 116.6 Hz. What is the difference in these two pitches, measured in cents?
+
+### Solution
+The formula for comparing frequency $f_2$ to a reference $f_1$ in centss
+
+$$ \textrm{cents} = \frac{1200}{\log 2}\,\log\left(\frac{f_2}{f_1} \right) $$
+
+Putting our numbers ($f_1 = 120\,\mathrm{Hz}$ and $f_2 = 116.6\,\mathrm{Hz}$) we get
+
+$$ \frac{1200}{\log 2}\,\log\left(\frac{116.6}{120.0} \right) = -49.8\,\textrm{cents},$$
+
+So, our note is about 50 cents flat.
+
+## Problem 3
+(2 points) The stops on a pipe organ are traditionally labeled by the length of the C pipe in that register, measured in feet (1 foot = 0.3048 meters).  What is the frequency of the fundamental for an open pipe that is 8 feet long?  (Assume the speed of sound in air is 343 m/s).
+
+### Solution
+The equation for the fundamental of an open pipe is
+
+$$ f = \frac{v}{2L}. $$
+
+For this problem, $v=343\,\mathrm{m/s}$ is the speed of sound in air at room temperature.  The length of the pipe is 8 feet, but we need to convert this to meters before inserting it into the frequency equation:
+
+$$ L = (8\,\mathrm{ft})(0.3048\,\mathrm{m/ft}) = 2.44\,\mathrm{m}. $$
+
+Inserting this length into the equation above gives
+
+$$ f = \frac{v}{2L}=\frac{343\,\mathrm{m/s}}{2(2.44\,\mathrm{m})} = 70.3\,\mathrm{Hz}, $$
+
+which is approximately a C_2_ pitch.
