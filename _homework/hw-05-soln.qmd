@@ -34,7 +34,7 @@ The final values are given in italics above.
 #### Just temperament scale
 The just-tempered scale uses various frequency ratios using small numbers. These can be found in the textbook in Table 14-4:
 
-![W&W Table 14-4: Just diatonic scale](figs/hw-05/just-scale.jpg)
+![W&W Table 14-4: Just diatonic scale](figs/hw-05/just-scale.jpg){ width="50%"}
 
 Here, *f* is the frequency of the starting note. For us, $f=120.0\,\mathrm{Hz}$. Multiplying *f* by the fractions in the second row of the table gives the correct frequencies (shown above).
 
@@ -77,4 +77,33 @@ Inserting this length into the equation above gives
 
 $$ f = \frac{v}{2L}=\frac{343\,\mathrm{m/s}}{2(2.44\,\mathrm{m})} = 70.3\,\mathrm{Hz}, $$
 
-which is approximately a C_2_ pitch.
+which is roughly a C~2~ pitch.
+
+## Problem 4
+(2 point) Suppose we are making a set of glockenspiel bars.  The lowest-pitched bar has a length of 20 cm.  How long is a bar of the same thickness that plays an octave higher?
+
+### Solution
+The equation for the fundamental frequency of a thin bar is given by Eq. 13a of White:
+
+$$ f = k\frac{t}{\ell^2}, $$
+
+where $k$ depends on the material properties, $t$ is the thickness of the bar, and $\ell$ is the length of the bar.
+
+In our case, we don't know the numbers for $k$ and $t$, but we know that they are the same for both bars.
+
+Let's call the frequency of the first bar $f_1$ and the frequency of the second bar $f_2$.  The length of the first bar is $\ell_1 = 20\,\mathrm{cm} = 0.20\,\mathrm{m}$ and the length of the second bar $\ell_2$ is unknown.  This gives us two equations:
+$$
+f_1 = k\frac{t}{\ell_1^2},\qquad\text{and}\qquad f_2 = k\frac{t}{\ell_2^2}
+$$
+
+The other piece of information is that bar 2 is an octave higher than bar 1.  In terms of frequency this means that $f_2 = 2f_1$.  We can use the frequency equation above and substitute the expressions for $f_1$ and $f_2$ into the octave equation:
+$$
+ f_2 = 2f_1\qquad\rightarrow\qquad k\frac{t}{\ell_2^2}=2\left(k\frac{t}{\ell_1^2}\right) .
+$$
+Rearranging to solve for the unknown length $\ell_2$, we get (skipping a few algebra steps)
+$$
+\begin{aligned}
+\ell_2^2 &= \frac{kt}{2 \left(k\frac{t}{\ell_1^2}\right)} = \frac{\ell^2_1}{2}, \\
+\ell_2 &= \frac{\ell_1}{\sqrt{2}} = \frac{0.20\,\mathrm{m}}{\sqrt{2}} \approx 0.14\,\mathrm{m}.
+\end{aligned}
+$$
