@@ -1,0 +1,18 @@
+---
+title: "Lecture 19: Review"
+subtitle: "Chapters 14-20"
+date: "3/28/2023"
+order: 19
+format: revealjs
+---
+
+## Daily Quiz
+
+## Announcements
+
+::: 
+- Exam 3 will be Thursday (3/30)
+  - Chapters 14 - 20
+  - Lectures 13 - 18
+  - Topics: Scales, harmony, instrument families 
+:::
