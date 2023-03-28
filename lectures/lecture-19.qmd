@@ -5,14 +5,263 @@ date: "3/28/2023"
 order: 19
 format: revealjs
 ---
-
+ 
 ## Daily Quiz
+
+List three topics that will be on Thursday's exam.
 
 ## Announcements
 
-::: 
 - Exam 3 will be Thursday (3/30)
   - Chapters 14 - 20
   - Lectures 13 - 18
   - Topics: Scales, harmony, instrument families 
+
+# Exam Review
+
+## List of topics
+
+- Chapter 14: Intervals and Scales
+- Chapter 15: Perceptions of Frequency
+- Chapter 16 and 17: String Family
+- Chapters 18 and 19: Wind Families
+- Chapter 20: Percussion Family
+
+## Study list
+Take a few minutes in groups to come up with a list of things to study for the exam.
+
+# Intervals and Scales
+
+## Summary
+
+- Know how to construct major scales from a specific starting frequency
+  - Just temperament
+  - Equal temperament
+  - You don't need to know Pythagorean temperament
+
+- Identify musical intervals from
+  - Frequencies
+  - Pitch difference in cents
+
+## Just intervals
+
+What are the frequency ratios for these just intervals:
+ 
+ - Octave
+ - Perfect fifth
+ - Perfect fourth
+ - Major third
+ - Minor third
+ - Major whole tone
+ - Minor whole tone
+ - Semitone
+
+## Equal temperament
+
+The rule for the 12-tone equal tempered scale (12-TET) simply says that *the ratio of frequencies of adjacent keys on the piano must be the same for every pair of keys.*
+
+This interval is a semitone of the equal-tempered scale.
+The frequency ratio for this interval is
+$$
+\text{12-TET semitone ratio:} \qquad\sqrt[12]{2} = 2^{1/12} \approx 1.059463\ldots
+$$
+
+A whole tone in equal temperament has a frequency ratio that is the square of the number above
+
+$$
+\text{12-TET whole tone ratio:} \qquad\sqrt[6]{2} = 2^{1/6} \approx 1.122462\ldots
+$$
+
+Other intervals are defined by the number of semitones:
+
+- Octave = 12 semitones $= 2^{12/12} = 2$
+- Fifth = 7 semitones $= 2^{7/12} \approx 1.498$
+- Fourth = 5 semitones $= 2^{5/12} \approx 1.335$
+- etc.
+
+## Extended example
+
+- Construct two just-tempered scales by giving the frequencies:
+  - C major, starting from C~4~ = 264 Hz
+    - C D E F G A B C
+  - D major, starting from D~4~ = 297 Hz
+    - D E F^&sharp;^ G A B C^&sharp;^ D
+
+- Both scales above contain the note E~4~.
+  - What is the difference in frequency between the E~4~ in the two scales, measured in cents?
+
+- If instead we had used equal temperament (referenced to A~4~ = 440 Hz), what are the frequencies of the two E's?
+
+- What does this tell us about why equal temperament is preferred for instruments like pianos that don't have easy pitch adjustments?
+
+## Discussion Questions
+
+::: {.incremental}
+- Beginner orchestras usually play in key signatures with several sharps (e.g. A, E, D major), but beginner bands usually play in keys with several flats (F, B^&flat;^, E^&flat;^ major).  Why?
+- Another interesting temperament is an equal-tempered scale with 19 tones per octave (19-TET), first invented in 1558 by composer Guillaume Costeley.  Shown in the table below.  What might be the advantage of using such a system?
 :::
+
+::: {.fragment style="font-size:75%"}
+<table class="wikitable" style="text-align:center;">
+<tbody><tr>
+<td bgcolor="#ffeeee"><b>Step (cents)</b>
+</td>
+<td>
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td colspan="2" bgcolor="#ffeeee">63
+</td>
+<td>
+</td></tr>
+<tr>
+<td bgcolor="#fffbee"><b>Note name</b>
+</td>
+<td colspan="2" bgcolor="#fffbee">A
+</td>
+<td colspan="2" bgcolor="#fffbee">A<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-sharp">♯</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">B<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-flat">♭</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">B
+</td>
+<td colspan="2" bgcolor="#fffbee">B<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-sharp">♯</span></span><br>C<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-flat">♭</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">C
+</td>
+<td colspan="2" bgcolor="#fffbee">C<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-sharp">♯</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">D<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-flat">♭</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">D
+</td>
+<td colspan="2" bgcolor="#fffbee">D<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-sharp">♯</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">E<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-flat">♭</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">E
+</td>
+<td colspan="2" bgcolor="#fffbee">E<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-sharp">♯</span></span><br>F<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-flat">♭</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">F
+</td>
+<td colspan="2" bgcolor="#fffbee">F<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-sharp">♯</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">G<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-flat">♭</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">G
+</td>
+<td colspan="2" bgcolor="#fffbee">G<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-sharp">♯</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">A<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;"><span class="music-flat">♭</span></span>
+</td>
+<td colspan="2" bgcolor="#fffbee">A
+</td></tr>
+<tr>
+<td bgcolor="#eeeeff"><b>Interval (cents)</b>
+</td>
+<td colspan="2" bgcolor="#eeeeff">0
+</td>
+<td colspan="2" bgcolor="#eeeeff">63
+</td>
+<td colspan="2" bgcolor="#eeeeff">126
+</td>
+<td colspan="2" bgcolor="#eeeeff">189
+</td>
+<td colspan="2" bgcolor="#eeeeff">253
+</td>
+<td colspan="2" bgcolor="#eeeeff">316
+</td>
+<td colspan="2" bgcolor="#eeeeff">379
+</td>
+<td colspan="2" bgcolor="#eeeeff">442
+</td>
+<td colspan="2" bgcolor="#eeeeff">505
+</td>
+<td colspan="2" bgcolor="#eeeeff">568
+</td>
+<td colspan="2" bgcolor="#eeeeff">632
+</td>
+<td colspan="2" bgcolor="#eeeeff">695
+</td>
+<td colspan="2" bgcolor="#eeeeff">758
+</td>
+<td colspan="2" bgcolor="#eeeeff">821
+</td>
+<td colspan="2" bgcolor="#eeeeff">884
+</td>
+<td colspan="2" bgcolor="#eeeeff">947
+</td>
+<td colspan="2" bgcolor="#eeeeff">1011
+</td>
+<td colspan="2" bgcolor="#eeeeff">1074
+</td>
+<td colspan="2" bgcolor="#eeeeff">1137
+</td>
+<td colspan="2" bgcolor="#eeeeff">1200
+</td></tr></tbody></table>
+:::
+
+# Perceptions of frequency
+
+## Summary
+
+Our ears and brains don't give faithful reproductions of the sounds we hear.  Here are some of these effects:
+
+- Loud sounds make us hear harmonic overtones that aren't really there, called *aural harmonics*.
+- When two pure tones *f*~1~ and *f*~2~ are heard together, we can also hear
+  - Beats at the difference frequency if the difference is less than the critical band width
+  - Difference tones for larger differences
+  - Combination tones: $nf_1 + mf_2$ where *n* and *m* are integers (positive or negative).
+
+For harmonic intervals, the difference frequency and combination tones also line up with other just intervals, which we perceive as *periodicity tones*.
+
+## Example
+
+Two tones at 400 Hz and 600 Hz are heard with equal loudness and generate difference and combination tones.  What are some other frequencies that might be perceived by the listener?
+
+# Instrument families
+
+## Summary
+
+For each of the major instrument families, be able to answer
+
+- How is sound produced?
+- What overtones or harmonics are generally present?
+- How does the player change the pitch of the instrument? And, how does this relate to the math of the sound waves produced?
+- What aspects of the instrument's design contribute to the timbre of the instrument?
+- How does the instrument project sound?
