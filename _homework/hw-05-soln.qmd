@@ -9,6 +9,7 @@ format:
     geometry: margin=0.75in
     colorlinks: true
     fig-align: center
+    fontfamily: libertinus
 ---
 
 12 points total, 2 points each
