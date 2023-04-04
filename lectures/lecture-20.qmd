@@ -12,6 +12,8 @@ What makes a room sound "good"?
 
 ## Announcements
 
+:::: {.columns}
+::: {.column width="50%"}
 ::: {.incremental}
 - Our next class will be **Thursday, April 13**.
 - Group project schedule
@@ -20,6 +22,14 @@ What makes a room sound "good"?
     - This includes an individual personal reflection that I will provide later.
   - Final presentations will be **Friday, April 28 at 1:30pm**
 :::
+:::
+
+::: {.column width="50%"}
+::: fragment
+<iframe width="840" height="473" src="https://www.youtube.com/embed/r4KTGj-2trQ?start=52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+:::
+:::
+::::
 
 ## Exam Discussion
 
@@ -40,15 +50,26 @@ Many aspects of the environment can affect the sound we receive.
 
 ## Time delay
 
+:::: {.columns}
+::: {.column width=60%}
+
 This one is straight-forward.  Sound travels at a certain speed.  For our standard of dry, room-temperature air, the speed of sound is v = 343 m/s.
 
 There are a few consequences of this
 
 - Listeners farther away will hear the sound slightly later
 - If the sound source is spread over a larger area, "phasing" will occur that depends on the location of the listener.
-  - E.g. Marching band on a football field or even a large orchestra on stage
 
 ### Example
-The band director is standing on the 50-yard line on the sideline.  What is the time delay that she hears between the snare drum right in front of her, 5 meters away, and a piccolo player near the end zone, 50 meters away?
 
-![](figs/lecture-20/American_football_field.svg){ rotate=90 }
+The band director is standing on the 50-yard line on the sideline.  What is the time delay that she hears between the snare drum right in front of her, 5 meters away, and a piccolo player near the end zone, 50 meters away?
+:::
+
+::: {.column width=40%}
+![](figs/lecture-20/American_football_field.svg){width=50%}
+::: 
+::::
+
+## Attenuation
+
+A sound travels, some of the sound energy will be transformed into heat because of friction between molecules.
