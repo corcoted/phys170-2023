@@ -1,0 +1,54 @@
+---
+title: "Lecture 20: Architectural Acoustics"
+subtitle: "Chapters 26-28"
+date: "4/4/2023"
+order: 20
+format: revealjs
+---
+ 
+## Daily Quiz
+
+What makes a room sound "good"?
+
+## Announcements
+
+::: {.incremental}
+- Our next class will be **Thursday, April 13**.
+- Group project schedule
+  - Rough draft of your final report will be due Friday, April 14
+  - Final draft will be due Friday, April 21
+    - This includes an individual personal reflection that I will provide later.
+  - Final presentations will be **Friday, April 28 at 1:30pm**
+:::
+
+## Exam Discussion
+
+# Architectural Acoustics
+
+## Sound environment
+
+Sound has to travel from the source to our ears (or a microphone) before we hear it.
+Many aspects of the environment can affect the sound we receive.
+
+- Time delay
+- Attenuation
+- Multi-path effects
+  - Echos
+  - Reflections
+  - Reverberation
+- External noise
+
+## Time delay
+
+This one is straight-forward.  Sound travels at a certain speed.  For our standard of dry, room-temperature air, the speed of sound is v = 343 m/s.
+
+There are a few consequences of this
+
+- Listeners farther away will hear the sound slightly later
+- If the sound source is spread over a larger area, "phasing" will occur that depends on the location of the listener.
+  - E.g. Marching band on a football field or even a large orchestra on stage
+
+### Example
+The band director is standing on the 50-yard line on the sideline.  What is the time delay that she hears between the snare drum right in front of her, 5 meters away, and a piccolo player near the end zone, 50 meters away?
+
+![](figs/lecture-20/American_football_field.svg){ rotate=90 }
