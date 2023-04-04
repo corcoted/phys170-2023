@@ -192,6 +192,24 @@ Sound will leave a source going in all directions, bouncing off of any hard surf
 If the absorption of the walls, ceiling, and floor is low, the sound can bounce back and forth in the room many times before fading away.
 This is called *reverberation*.
 
+Too little reverb can make a room sound brittle or cold, but too much can ruin sound clarity.
+
+Of course, for studio recordings you often want the reverb to be as little as possible.
+
+:::
+::: {.column width=40%}
+![](figs/lecture-20/img_538.jpg)
+
+::: {style="font-size:80%"}
+"Ideal" reverb times for speech and music.
+:::
+:::
+::::
+
+
+## Measuring reverb
+:::: {.columns}
+::: {.column width=60%}
 Reverb is measured by the amount of time that it takes the intensity level to reduce by 60 dB, called the "RT60" time.  Because a 60 dB change can be hard to measure (you need a loud sound and no background noise), other measures like RT20 or RT30 are used in practice.  These are then rescaled to match RT60.
 
 :::
