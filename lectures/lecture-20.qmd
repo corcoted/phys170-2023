@@ -62,7 +62,7 @@ There are a few consequences of this
 
 ### Example
 
-The band director is standing on the 50-yard line on the sideline.  What is the time delay that she hears between the snare drum right in front of her, 5 meters away, and a piccolo player near the end zone, 50 meters away?
+A band director is standing on the 50-yard line on the sideline.  What is the time delay that she hears between the snare drum right in front of her, 5 meters away, and a piccolo player near the end zone, 50 meters away?
 :::
 
 ::: {.column width=40%}
@@ -70,6 +70,161 @@ The band director is standing on the 50-yard line on the sideline.  What is the 
 ::: 
 ::::
 
+## Review: Sound Energy, Power, and Intensity
+
+::: columns
+::: {.column width="60%"}
+- **Energy (*E*)** is the capacity to do work. It is measured as *joules* (J), which the book also calls newton-meters (N m).
+- **Power (*P*)** is the rate at which energy is emitted or absorbed. Power is measured in *watts* (W), which is also joules per seconds.
+- **Intensity (*I*)** is the amount of power divided by the area it passes through, measured in *watts per square-meter* (W/m^2^).
+
+$$P = IA$$
+:::
+
+::: {.column width=40%}
+![](figs/lecture-08/flux.jpg)
+
+::: {style="font-size:80%"}
+The power is represented by total number of arrows through each green area.
+
+The intensity is the power divided by the area in each case.
+:::
+:::
+:::
+::: aside
+For more detail, see [Lecture 8](lecture-08.html)
+:::
+
 ## Attenuation
 
-A sound travels, some of the sound energy will be transformed into heat because of friction between molecules.
+:::: {.columns}
+::: {.column width=60%}
+A sound travels, some of the sound intensity will be lost to heat because of friction between molecules.  We call this property the *attenuation* of the material.
+
+Attenuation is in addition to the loss of intensity as the sound waves spread out.
+
+Attenuation for bulk materials is usually specified in units of dB per length (thickness), and it also depends on frequency.
+Some values for *f*&nbsp;=&nbsp;1000&nbsp;Hz are
+
+- Damp air is about 5 dB per km (see figure)
+- Seawater is much weaker: 0.05 dB per km ([source](http://resource.npl.co.uk/acoustics/techguides/seaabsorption/))
+- Plywood is about 17 dB per cm
+
+:::
+::: {.column width=40%}
+![](figs/lecture-20/Attenuation-DampAir.png)
+:::
+::::
+
+## Surfaces
+:::: {.columns}
+::: {.column width=60%}
+When sound hits a surface, the sound energy does three things:
+
+- Some is reflected
+- Some is transmitted (passes through)
+- Some is absorbed (converted to heat)
+
+The amounts that fall into each category depend on the material and shape of the surface.
+:::
+::: {.column width=40%}
+![](figs/lecture-20/img_521.jpg)
+
+::: {style="font-size:80%"}
+A sound wave comes in from the left.  Some is reflected, some is absorbed (center), and some is transmitted (right).
+:::
+
+:::
+::::
+
+## Absorption
+
+For building materials, the attenuation is inconvenient for doing calculations, so we usually speak of the *absorption coefficient* of the material.  The absorption coefficient tells us the fraction of sound intensity that is absorbed when sound strikes the surface.
+
+The two are mathematically related:
+
+$$
+\text{absorption} =  10^{(-\text{attenuation}\times\text{thickness}/10)}
+$$
+
+So, for a piece of plywood 6 mm thick (1/4 inch), the absorption coefficient is about
+$$
+10^{(-17\,\mathrm{dB/cm}\times(0.6\,\mathrm{cm})/10)} = 0.095
+$$
+
+This means that 10% of the intensity is lost and converted to heat.
+
+## Absorption of common building materials
+
+![W&W Appendix III](figs/lecture-20/img_661.jpg)
+
+# Sound as rays
+
+## Ray picture of sound
+:::: {.columns}
+::: {.column width=50%}
+When the size of a room is bigger than the wavelengths of the sound waves (a few meters), we can imagine that the sound travels in straight lines without diffracting or interfering (see [Lecture 6](lecture-06.html)).
+
+The reflected sound rays can be treated as multiple sources from the point of view of the listener.
+
+:::
+::: {.column width=50%}
+![](figs/lecture-20/img_529.jpg){ width="90%"}
+:::
+::::
+
+## Reflection and time delay
+:::: {.columns}
+::: {.column width=50%}
+Sound will leave a source going in all directions, bouncing off of any hard surfaces.  Because the paths that the sound rays travel have different lengths, they will arrive at the listener at different times. For small rooms, the delay is perceived as a muddling of the sound.  For larger rooms, an echo is heard.
+
+:::
+::: {.column width=50%}
+![](figs/lecture-20/img_532.jpg){ width="90%"}
+
+![](figs/lecture-20/img_533a.jpg){ width="90%"}
+:::
+::::
+
+## Reverberation and decay
+:::: {.columns}
+::: {.column width=60%}
+If the absorption of the walls, ceiling, and floor is low, the sound can bounce back and forth in the room many times before fading away.
+This is called *reverberation*.
+
+Reverb is measured by the amount of time that it takes the intensity level to reduce by 60 dB, called the "RT60" time.  Because a 60 dB change can be hard to measure (you need a loud sound and no background noise), other measures like RT20 or RT30 are used in practice.  These are then rescaled to match RT60.
+
+:::
+::: {.column width=40%}
+![](figs/lecture-20/RT60_measurement.jpg)
+
+::: {style="font-size:80%"}
+Example measurement of reverb.  Here the RT20 time is measured (drop by 20 dB).  Multiply by 3 to get the RT60 time.
+:::
+:::
+::::
+
+::: aside
+Example: <https://www.acs.psu.edu/drussell/Demos/RT60/RT60.html>
+:::
+
+## Sabine Equation for estimating RT60
+An approximate value for reverb can be calculated using the *Sabine Equation*:
+
+$$
+\mathrm{RT60} \approx \frac{55.25 V}{v S \alpha},
+$$
+
+where *V* is the volume of the room, *v* is the speed of sound, *S* is the surface area of the room, and *&alpha;* is the average attenuation coefficient of the surfaces in the room.
+
+## Resonance
+Sometimes the term "resonance" is mistakenly used for reverb.  Resonance is when specific frequencies generate *standing waves* in a room.
+
+## Example Hagia Sophia
+
+<iframe width="1020" height="630" src="https://www.youtube.com/embed/aELeEpgiQos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+See also:
+
+- Article on this: <https://stanfordmag.org/contents/excavating-an-echo>
+- Similar work at Notre Dame Cathedral in Paris: <https://doi.org/10.3390/acoustics2040044>
