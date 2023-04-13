@@ -1,0 +1,23 @@
+---
+title: "Lecture 20: Architectural Acoustics"
+subtitle: "Chapters 26-28"
+date: "4/4/2023"
+order: 20
+format: revealjs
+---
+ 
+## Daily Quiz
+
+What is sound fidelity?
+
+## Announcements
+
+::: {.incremental}
+- Group project schedule
+  - Rough draft of your final report will be due Friday, April 14
+  - Final draft will be due Friday, April 21
+    - This includes an individual personal reflection that I will provide later.
+  - Final presentations will be **Friday, April 28 at 1:30pm**
+:::
+
+# Analog sound reproduction
