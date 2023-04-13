@@ -20,4 +20,38 @@ What is sound fidelity?
   - Final presentations will be **Friday, April 28 at 1:30pm**
 :::
 
-# Analog sound reproduction
+# Analog sound transmission and reproduction
+
+## Analog sound chain
+
+## Fidelity
+
+*Fidelity* is a measure of how accurately the output sound matches the input sound.
+This is an objective measurement: we can define it using math.
+
+Often the word "fidelity" is used colloquially to mean "subjectively sounds good."
+Much of the debate about the quality of recordings or amplifiers is really about personal preference, not mathematical accuracy.
+
+Key aspects of fidelity are
+
+- minimal noise
+- minimal distortion (we'll define this later)
+- flat frequency response
+
+## Waveforms
+
+:::: {.columns}
+::: {.column width="60%"}
+The *waveform* of a sound is a plot of pressure changes over time.
+
+In practice we use a microphone to convert the pressure into an electric signal (current or voltage), and that is what we display.
+:::
+::: {.column width="40%"}
+![](figs/lecture-21/M-1-23.png)
+
+![](figs/lecture-21/M-1-25.png)
+:::
+::::
+::: aside
+Figures: [M. Müller, *Fundamentals of Music Processing*, 2nd ed. (Springer, 2021).](https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP)
+:::
