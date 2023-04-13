@@ -1,8 +1,8 @@
 ---
-title: "Lecture 20: Architectural Acoustics"
-subtitle: "Chapters 26-28"
-date: "4/4/2023"
-order: 20
+title: "Lecture 21: Analog Sound"
+subtitle: "Chapters 21-23"
+date: "4/13/2023"
+order: 21
 format: revealjs
 ---
  
@@ -42,7 +42,7 @@ Key aspects of fidelity are
 
 :::: {.columns}
 ::: {.column width="60%"}
-The *waveform* of a sound is a plot of pressure changes over time.
+The *waveform* of a sound is a plot of pressure changes over time.  I'll represent it mathematically as $y(t)$.
 
 In practice we use a microphone to convert the pressure into an electric signal (current or voltage), and that is what we display.
 :::
@@ -55,3 +55,25 @@ In practice we use a microphone to convert the pressure into an electric signal 
 ::: aside
 Figures: [M. Müller, *Fundamentals of Music Processing*, 2nd ed. (Springer, 2021).](https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP)
 :::
+
+## Frequency Power Spectrum
+
+:::: {.columns}
+::: {.column width="60%"}
+
+The waveform tells us about the sound signal at any instant in time, but here we need to understand the broad characteristics of a sound and how they are affected by the transmission and reproduction process.
+
+The most common mathematical tool is the Frequency Power Spectrum, which is defined as
+
+$$
+P(f) = \left| \int\limits_{-\infty}^\infty y(t) e^{2\pi i ft} \,dt\right|^2
+$$
+
+This is the magnitude-squared of the Fourier Transform of the waveform.
+
+In practice the power spectrum is estimated using digital techniques, which we'll talk about in the next lecture.
+
+:::
+::: {.column width="40%"}
+:::
+::::
