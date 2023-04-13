@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="76.80294mm"
+   height="15.394577mm"
+   viewBox="0 0 76.80294 15.394577"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="301.08154"
+       y="478.18832"
+       width="123.3188"
+       height="53.787987"
+       id="rect1128" />
+    <rect
+       x="195.47342"
+       y="429.64795"
+       width="74.122467"
+       height="36.733261"
+       id="rect290" />
+    <rect
+       x="195.47342"
+       y="429.64795"
+       width="74.122467"
+       height="36.733261"
+       id="rect290-1" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-54.577594,-122.84298)">
+    <path
+       style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:round"
+       id="path234"
+       d="m 66.480709,132.42149 -9.386352,5.41922 v -10.83843 z" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0.21668073,8.677686)"
+       id="text288"
+       style="font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect290);display:inline"
+       x="27.250088"
+       y="0"><tspan
+         x="204.6669"
+         y="439.25652"
+         id="tspan1170">Microphone</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,64.561427,8.677686)"
+       id="text288-9"
+       style="font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect290-1);display:inline"
+       x="27.250088"
+       y="0"><tspan
+         x="212.66953"
+         y="439.25652"
+         id="tspan1172">Speaker</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 67.077318,132.42149 H 120.87897"
+       id="path515" />
+    <path
+       style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:round"
+       id="path234-2"
+       d="m 66.480709,132.42149 -9.386352,5.41922 v -10.83843 z"
+       transform="matrix(-1,0,0,1,187.95629,0)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.9716398,1.3884297)"
+       id="text1126"
+       style="font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1128);display:inline"
+       x="42.731907"
+       y="0"><tspan
+         x="319.66295"
+         y="487.79558"
+         id="tspan1174">Transmission Line</tspan></text>
+  </g>
+</svg>

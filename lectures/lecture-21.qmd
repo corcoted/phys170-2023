@@ -22,8 +22,6 @@ What is sound fidelity?
 
 # Analog sound transmission and reproduction
 
-## Analog sound chain
-
 ## Fidelity
 
 *Fidelity* is a measure of how accurately the output sound matches the input sound.
@@ -37,6 +35,21 @@ Key aspects of fidelity are
 - minimal noise
 - minimal distortion (we'll define this later)
 - flat frequency response
+
+## Analog sound chain
+
+The sequence of events from the production of a sound to its reception by the listener is the *sound chain*.
+
+![](figs/lecture-21/SoundChain.svg){ style="scale:0.6;" }
+
+Each step of the chain and each transition can introduce
+
+- Gain or attenuation
+- Frequency Filtering
+- Distortion
+- Noise
+
+Describing these effects is the main topic today.
 
 ## Waveforms
 
@@ -75,5 +88,129 @@ In practice the power spectrum is estimated using digital techniques, which we'l
 
 :::
 ::: {.column width="40%"}
+![Alto Sax waveform](figs/lecture-21/alto-sax-waveform.png)
+
+![Power Spectrum of this waveform](figs/lecture-21/alto-sax-PS.png)
+
+::: { style="font-size:60%" }
+Data courtesy of Dannon Johnson (engineer), Jared Wolf (musician), and Paul Doerksen
+:::
 :::
 ::::
+
+## Gain and attenuation
+
+Gain is the overall increase in sound power (*P*) caused by an element in the sound chain.
+
+These are usually specified in [decibels](lecture-08.html#decibels):
+
+$$
+\text{Gain} = (10\,\mathrm{dB}) \log \left(\frac{P_{out}}{P_{in}} \right),
+$$
+
+- A positive gain means that power increases (e.g. by an amplifier).
+- A negative gain (also called *attenuation*) means that power decreases.
+
+## Frequency response
+
+:::: {.columns}
+::: {.column width="60%"}
+Each element of the sound chain has a particular *frequency response* in addition to any overall gain or attenuation.
+
+The frequency response is defined as the gain at each frequency (rather than overall gain).
+
+To get high fidelity, we want a *flat* frequency response.
+
+The graph here shows several possible frequency response curves.  A non-flat response on an element might be desirable either to compensate for the frequency response of another element.  An overall non-flat response might be desirable to block noise or simply for the listener's preference.
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-21/img_456.jpg){ width="100%"} 
+:::
+::::
+
+## Frequency filters
+
+:::: {.columns}
+::: {.column width="60%"}
+
+Audio elements that intentionally have a nonlinear frequency response are called filters.
+
+Here are some common terms:
+
+- *High pass* - passes high frequencies and blocks low frequencies
+- *Low pass* - passes low frequencies and blocks high frequencies
+- *Band pass* - blocks frequencies outside of a certain range
+- *Band block* - blocks frequencies inside of a certain range
+- *Notch filter* - blocks a very narrow frequency range (e.g. to block 60 Hz pick-up)
+- *Line filter* - passes a very narrow frequency range (e.g. to remove noise on a power line)
+- *DC block* - blocks extremely low frequencies
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-21/img_456.jpg){ width="100%"} 
+:::
+::::
+
+## Noise
+
+Every audio element and every transition generates noise.  *Noise* is undesired, often random, electrical energy that corrupts the signal.
+
+Environmental noise:
+
+- Outside sound sources: Crowd noise, HVAC, traffic, etc.
+- Outside electrical sources: 60Hz AC power buzz, RF pickup, microphonics (unwanted sound creating electrical signals)
+
+Technical noise:
+
+- [Thermal (Johnson-Nyquist) noise](https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise) - any electrical component that generates heat, also generates electrical noise. ([Fluctuation-Dissipation Theorem](https://en.wikipedia.org/wiki/Fluctuation-dissipation_theorem))
+- [Shot noise or popcorn noise](https://en.wikipedia.org/wiki/Shot_noise) - small currents come in chunks as each electron goes through the circuit.
+- [Flicker noise](https://en.wikipedia.org/wiki/Flicker_noise) - electrons bouncing across semiconductor junctions
+
+Technical noise can be minimized with good electronic design, but not eliminated
+
+## Noise colors
+
+Informal names for the frequency spectra of noise are based on color.
+
+See: <https://en.wikipedia.org/wiki/Colors_of_noise>
+
+- Johnson noise is white
+- Flicker noise is pink
+
+## Signal to noise ratio
+
+The signal to noise ratio (SNR) is the ratio between power of the average signal and power of the strongest noise source.
+It is often specified in decibels.
+
+$$
+\mathrm{SNR}_\mathrm{dB} = (10\,\mathrm{dB}) \log\left(\frac{P_{signal}}{P_{noise}} \right)
+$$
+
+The rule-of-thumb for Hi-Fi is a SNR of at least 60 dB.
+
+## Distortion
+
+Distortion is any effect that changes the frequencies of pure tones.
+
+- *Harmonic distortion* adds new signals at multiples of the input frequencies
+- *Intermodulation distortion* adds new signals at the combination tones of the input frequencies
+
+Distortion always causes a loss of fidelity.
+
+## Amplifiers
+
+*Amplifiers* are devices that increase the sound power.  Some amplifiers (esp. pre-amps) are used to match the electrical impedance between two devices (e.g. a microphone and a transmission line).
+
+A perfect amplifier would have
+
+- the same amount of gain at every frequency
+- no maximum power output (no saturation)
+- no distortion
+- no noise
+
+## Comparing amps
+
+Most of the debate about amplifiers is about which flaws give subjectively better sound.  E.g. tube amps are often described as "warm" and "lively" because they have soft saturation, predominantly white noise spectra, and low harmonic distortion.
+
+Much of the bad-reputation for solid-state (e.g. transistor) amps is based on the initial impressions when transistors were first invented.  Modern semiconductor technology creates objectively higher fidelity than tube amps, but many people still prefer the sound of tube amps.
