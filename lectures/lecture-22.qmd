@@ -43,44 +43,28 @@ Key aspects of fidelity are
 
 The sequence of events from the production of a sound to its reception by the listener is the *sound chain*.
 
-![](figs/lecture-22/SoundChain-AnalogPlus.svg.svg){ style="scale:0.6;" }
+![](figs/lecture-22/SoundChain-AnalogPlus.svg){ style="scale:0.6;" }
 
 Each step of the chain and each transition can reduce fidelity.  Importantly, analog noise sources are *random* and *unpredictable*, and analog storage media *degrade over time*.
 
-## Waveforms
+## Digitizing Waveforms
 
 :::: {.columns}
 ::: {.column width="60%"}
-The *waveform* of a sound is a plot of pressure changes over time.  I'll represent it mathematically as $y(t)$.
 
-In practice we use a microphone to convert the pressure into an electric signal (current or voltage), and that is what we display.
-:::
-::: {.column width="40%"}
-![](figs/lecture-21/M-1-23.png)
-
-![](figs/lecture-21/M-1-25.png)
-:::
-::::
 ::: aside
 Figures: [M. Müller, *Fundamentals of Music Processing*, 2nd ed. (Springer, 2021).](https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP)
 :::
 
-## Frequency Power Spectrum
+## Digitization errors
 
-:::: {.columns}
-::: {.column width="60%"}
+## Sampling Rates
 
-The waveform tells us about the sound signal at any instant in time, but here we need to understand the broad characteristics of a sound and how they are affected by the transmission and reproduction process.
+## Compression
 
-The most common mathematical tool is the Frequency Power Spectrum, which is defined as
+# Digital signal processing
 
-$$
-P(f) = \left| \int\limits_{-\infty}^\infty y(t) e^{2\pi i ft} \,dt\right|^2
-$$
-
-This is the magnitude-squared of the Fourier Transform of the waveform.
-
-In practice the power spectrum is estimated using digital techniques, which we'll talk about in the next lecture.
+## Digital Fourier Transform
 
 :::
 ::: {.column width="40%"}
@@ -106,24 +90,6 @@ $$
 
 - A positive gain means that power increases (e.g. by an amplifier).
 - A negative gain (also called *attenuation*) means that power decreases.
-
-## Frequency response
-
-:::: {.columns}
-::: {.column width="60%"}
-Each element of the sound chain has a particular *frequency response* in addition to any overall gain or attenuation.
-
-The frequency response is defined as the gain at each frequency (rather than overall gain).
-
-To get high fidelity, we want a *flat* frequency response.
-
-The graph here shows several possible frequency response curves.  A non-flat response on an element might be desirable either to compensate for the frequency response of another element.  An overall non-flat response might be desirable to block noise or simply for the listener's preference.
-
-:::
-::: {.column width="40%"}
-![](figs/lecture-21/img_456.jpg){ width="100%"} 
-:::
-::::
 
 ## Frequency filters
 
@@ -165,48 +131,4 @@ Technical noise:
 
 Technical noise can be minimized with good electronic design, but not eliminated
 
-## Noise colors
-
-Informal names for the frequency spectra of noise are based on color.
-
-See: <https://en.wikipedia.org/wiki/Colors_of_noise>
-
-- Johnson noise is white
-- Flicker noise is pink
-
-## Signal to noise ratio
-
-The signal to noise ratio (SNR) is the ratio between power of the average signal and power of the strongest noise source.
-It is often specified in decibels.
-
-$$
-\mathrm{SNR}_\mathrm{dB} = (10\,\mathrm{dB}) \log\left(\frac{P_{signal}}{P_{noise}} \right)
-$$
-
-The rule-of-thumb for Hi-Fi is a SNR of at least 60 dB.
-
-## Distortion
-
-Distortion is any effect that changes the frequencies of pure tones.
-
-- *Harmonic distortion* adds new signals at multiples of the input frequencies
-- *Intermodulation distortion* adds new signals at the combination tones of the input frequencies
-
-Distortion always causes a loss of fidelity.
-
-## Amplifiers
-
-*Amplifiers* are devices that increase the sound power.  Some amplifiers (esp. pre-amps) are used to match the electrical impedance between two devices (e.g. a microphone and a transmission line).
-
-A perfect amplifier would have
-
-- the same amount of gain at every frequency
-- no maximum power output (no saturation)
-- no distortion
-- no noise
-
-## Comparing amps
-
-Most of the debate about amplifiers is about which flaws give subjectively better sound.  E.g. tube amps are often described as "warm" and "lively" because they have soft saturation, predominantly white noise spectra, and low harmonic distortion.
-
-Much of the bad-reputation for solid-state (e.g. transistor) amps is based on the initial impressions when transistors were first invented.  Modern semiconductor technology creates objectively higher fidelity than tube amps, but many people still prefer the sound of tube amps.
+## Digital to analog conversion
