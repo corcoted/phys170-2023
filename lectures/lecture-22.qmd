@@ -111,10 +111,10 @@ If the bit depth is *b*, then we can represent all numbers between zero and $2^b
 There is a direct connection between bit depth and dynamic range (the ratio between the largest and smallest signal allowed):
 
 $$
-\mathrm{DR_{dB}} = (10\,\mathrm{dB}) \log (2^b) = b (10 \log 2) \approx b \times (3\,\mathrm{dB})
+\mathrm{DR_{dB}} = (20 \mathrm{dB}) \log (2^b) = b (20 \mathrm{dB} \log 2) \approx b \times (6\,\mathrm{dB})
 $$
 
-
+For example, the dynamic range of human hearing is about 140 dB (from threshold of hearing to pain).  To cover this whole range requires a bit depth of about $b = \frac{140 \mathrm{dB}}{6 \mathrm{dB}} = 23\,\text{bits}$.  Studio audio is often at 24 bits for this reason.
 
 :::
 ::: {.column width=40%}
