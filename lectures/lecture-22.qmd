@@ -5,60 +5,57 @@ date: "4/18/2023"
 order: 22
 format: revealjs
 ---
- 
+
 ## Daily Quiz
 
 ## Announcements
 
-::: {.incremental}
-- Group project
-  - Rough draft of your final report has been returned
-    - I uploaded commented versions of your files.  You must make the changes that I noted in your final version.
-  - Final draft will be due Friday, April 21
-    - This includes an individual personal reflection that will be posted to Canvas.
-  - Final presentations will be **Friday, April 28 at 1:30pm**
-- Last Exam
-  - The last "midterm" exam will be **Tuesday, April 25**
-  - Same format as previous exams
-  - Topics: Architectural acoustics, analog and digital audio
+::: incremental
+-   Group project
+    -   Rough draft of your final report has been returned
+        -   I uploaded commented versions of your files. You must make the changes that I noted in your final version.
+    -   Final draft will be due Friday, April 21
+        -   This includes an individual personal reflection that will be posted to Canvas.
+    -   Final presentations will be **Friday, April 28 at 1:30pm**
+-   Last Exam
+    -   The last "midterm" exam will be **Tuesday, April 25**
+    -   Same format as previous exams
+    -   Topics: Architectural acoustics, analog and digital audio
 :::
 
 # Review: Analog sound transmission and reproduction
 
 ## Fidelity
 
-*Fidelity* is a measure of how accurately the output sound matches the input sound.
-This is an objective measurement: we can define it using math.
+*Fidelity* is a measure of how accurately the output sound matches the input sound. This is an objective measurement: we can define it using math.
 
-Often the word "fidelity" is used colloquially to mean "subjectively sounds good."
-Much of the debate about the quality of recordings or amplifiers is really about personal preference, not mathematical accuracy.
+Often the word "fidelity" is used colloquially to mean "subjectively sounds good." Much of the debate about the quality of recordings or amplifiers is really about personal preference, not mathematical accuracy.
 
 Key aspects of fidelity are
 
-- minimal noise
-- flat frequency response
-- minimal distortion
+-   minimal noise
+-   flat frequency response
+-   minimal distortion
 
 ## Analog sound chain
 
 The sequence of events from the production of a sound to its reception by the listener is the *sound chain*.
 
-![](figs/lecture-22/SoundChain-AnalogPlus.svg){ style="scale:0.6;" }
+![](figs/lecture-22/SoundChain-AnalogPlus.svg){style="scale:0.6;"}
 
-Each step of the chain and each transition can reduce fidelity.  Importantly, analog noise sources are *random* and *unpredictable*, and analog storage media *degrade over time*.
+Each step of the chain and each transition can reduce fidelity. Importantly, analog noise sources are *random* and *unpredictable*, and analog storage media *degrade over time*.
 
 # Analog to digital conversion
 
 ## Analog and Digital
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
-_ An *analog* signal is something that changes smoothly over time and space.  Mathematically, analog signals are represented by *functions* of *real numbers*.
-- A *digital* signal comes in countable pieces.  Mathematically, digital signals are represented by *sequences* of *integers*.
+\_ An *analog* signal is something that changes smoothly over time and space. Mathematically, analog signals are represented by *functions* of *real numbers*. - A *digital* signal comes in countable pieces. Mathematically, digital signals are represented by *sequences* of *integers*.
 
 Digital representations of analog signals are inherently approximations.
-
 :::
+
 ::: {.column width="40%"}
 ![](figs/lecture-22/Digital.signal.discret.svg)
 
@@ -66,31 +63,125 @@ Digital representations of analog signals are inherently approximations.
 An analog signal (gray) and its approximation as a digital sequence (red).
 :::
 :::
-::::
+:::
+
+## Binary numbers
+
+::: columns
+::: {.column width="70%"}
+*Binary* is a way of representing numbers based on powers of 2.
+Each digit can be zero or one, and each place represents a power of 2.
+
+For example, the number 42 is represented in binary by 101010
+
+::: {style="text-align:center"}
+| 32 | 16 | 8 | 4 | 2 | 1 |
+|----|----|---|---|---|---|
+| 1 | 0 | 1 | 0 | 1 | 0 |
+
+
+32+8+2 = 42
+:::
+:::
+
+::: {.column width="30%"}
+::: {style="font-size:80%"}
+| Decimal | Binary |
+|---------|--------|
+| 0       | 0      |
+| 1       | 1      |
+| 2       | 10     |
+| 3       | 11     |
+| 4       | 100    |
+| 5       | 101    |
+| 6       | 110    |
+| 7       | 111    |
+| 8       | 1000   |
+:::
+:::
+:::
+
+## Bit depth
+
+::: {.columns}
+::: {.column width=60%}
+The *bit depth* is the maximum number of binary digits (bits) that can be used to represent a number.
+If the bit depth is *b*, then we can represent all numbers between zero and $2^b-1$.
+
+There is a direct connection between bit depth and dynamic range (the ratio between the largest and smallest signal allowed):
+
+$$
+\mathrm{DR_{dB}} = (10\,\mathrm{dB}) \log (2^b) = b (10 \log 2) \approx b \times (3\,\mathrm{dB})
+$$
+
+
+
+:::
+::: {.column width=40%}
+::: {style="font-size:80%"}
+|Bit depth | Maximum value |
+|----------|---------------|
+| 1 | 1 |
+| 2 | 3 |
+| 3 | 7 |
+| 4 | 15 | 
+| 5 | 31 | 
+| ... | ... |
+| 8 | 255 |
+| 12 | 4096 |
+| 16 | 65535 |
+| 24 | 16,777,215 |
+:::
+:::
+:::
 
 ## Digitizing Waveforms
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
-Converting an analog signal (e.g. voltage varying over time) to digital requires chopping the signal up in both time and amplitude.  Usually the spacing on both time and amplitude is even.
+Converting an analog signal (e.g. voltage varying over time) to digital requires chopping the signal up in both time and amplitude. Usually the spacing on both time and amplitude is even.
 
-- The *sampling rate* is the number of time steps in one second (e.g. 40000 samples per second)
-- The *bit depth* gives the number of steps in amplitude
+This conversion process is called *sampling*.
 
-<!-- TODO give math~ -->
+-   The *time step* (*T*) is the time between samples.
+-   The *sampling rate* (*f~s~*) is the number of time steps in one second (e.g. 40000 samples per second). $f_s=1/T$
+-   The *bit depth* (*b*) gives the number of steps in amplitude
 
 :::
+
 ::: {.column width="40%"}
 ![](figs/lecture-22/Conversion_AD_DA.png)
 :::
-::::
+:::
+
 ::: aside
 Figures: [M. Müller, *Fundamentals of Music Processing*, 2nd ed. (Springer, 2021).](https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP)
 :::
 
 ## Digitization errors
 
-## Sampling Rates
+Digitization error is a loss in fidelity caused by the digitization process.
+
+- *Sampling errors* are errors in time. For example: uneven time steps or too-low sampling rate
+- *Quantization errors* are errors in amplitude. For example: low bit-depth or uneven amplitude steps
+
+The bad reputation of digital audio among audiophiles is likely because early equipment (up through the 1970s) was susceptible to these types of errors.  Modern digital hardware (even cheap hardware) has much greater fidelity than the comparable analog gear.
+
+Also, because digital signals can be easily processed in *software*, many types of digitization errors can be cleaned up in post-processing.
+
+
+## Sampling Rates and the Nyquist frequency
+To faithfully represent an analog signal containing frequencies up to some *f*~max~, the data must be sample rate must be at least twice *f*~max~.  This is the "[Nyquist-Shannon Sampling Theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)".  The *Nyquist frequency* *f~N~* is simply
+
+$$
+f_N = 2f_\text{max}.
+$$
+
+Sampling at a rate less than *f~N~* is called *undersampling* and causes a type of distortion called *aliasing*, introducing false frequencies into the signal.
+
+Sampling at a rate greater than *f~N~* is called *oversampling*.  This doesn't give any additional fidelity, but is often done to provide "head room" for later digital processing.
+
+For example, the sampling rate of CD-quality audio is [44,100 Hz](https://en.wikipedia.org/wiki/44,100_Hz), roughly twice the maximum frequency that humans can hear.  The exact number was chosen by Sony because it is easily subdivided: 44,100 = (2&times;3&times;5&times;7)^2^.
 
 ## Compression
 
@@ -98,17 +189,15 @@ Figures: [M. Müller, *Fundamentals of Music Processing*, 2nd ed. (Springer, 202
 
 ## Digital Fourier Transform
 
-:::
-::: {.column width="40%"}
-![Alto Sax waveform](figs/lecture-21/alto-sax-waveform.png)
+::: ::: {.column width="40%"} ![Alto Sax waveform](figs/lecture-21/alto-sax-waveform.png)
 
 ![Power Spectrum of this waveform](figs/lecture-21/alto-sax-PS.png)
 
-::: { style="font-size:60%" }
+::: {style="font-size:60%"}
 Data courtesy of Dannon Johnson (engineer), Jared Wolf (musician), and Paul Doerksen
 :::
-:::
-::::
+
+::: ::::
 
 ## Gain and attenuation
 
@@ -120,46 +209,45 @@ $$
 \text{Gain} = (10\,\mathrm{dB}) \log \left(\frac{P_{out}}{P_{in}} \right),
 $$
 
-- A positive gain means that power increases (e.g. by an amplifier).
-- A negative gain (also called *attenuation*) means that power decreases.
+-   A positive gain means that power increases (e.g. by an amplifier).
+-   A negative gain (also called *attenuation*) means that power decreases.
 
 ## Frequency filters
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
-
 Audio elements that intentionally have a nonlinear frequency response are called filters.
 
 Here are some common terms:
 
-- *High pass* - passes high frequencies and blocks low frequencies
-- *Low pass* - passes low frequencies and blocks high frequencies
-- *Band pass* - blocks frequencies outside of a certain range
-- *Band block* - blocks frequencies inside of a certain range
-- *Notch filter* - blocks a very narrow frequency range (e.g. to block 60 Hz pick-up)
-- *Line filter* - passes a very narrow frequency range (e.g. to remove noise on a power line)
-- *DC block* - blocks extremely low frequencies
+-   *High pass* - passes high frequencies and blocks low frequencies
+-   *Low pass* - passes low frequencies and blocks high frequencies
+-   *Band pass* - blocks frequencies outside of a certain range
+-   *Band block* - blocks frequencies inside of a certain range
+-   *Notch filter* - blocks a very narrow frequency range (e.g. to block 60 Hz pick-up)
+-   *Line filter* - passes a very narrow frequency range (e.g. to remove noise on a power line)
+-   *DC block* - blocks extremely low frequencies
+:::
 
-:::
 ::: {.column width="40%"}
-![](figs/lecture-21/img_456.jpg){ width="100%"} 
+![](figs/lecture-21/img_456.jpg){width="100%"}
 :::
-::::
+:::
 
 ## Noise
 
-Every audio element and every transition generates noise.  *Noise* is undesired, often random, electrical energy that corrupts the signal.
+Every audio element and every transition generates noise. *Noise* is undesired, often random, electrical energy that corrupts the signal.
 
 Environmental noise:
 
-- Outside sound sources: Crowd noise, HVAC, traffic, etc.
-- Outside electrical sources: 60Hz AC power buzz, RF pickup, microphonics (unwanted sound creating electrical signals)
+-   Outside sound sources: Crowd noise, HVAC, traffic, etc.
+-   Outside electrical sources: 60Hz AC power buzz, RF pickup, microphonics (unwanted sound creating electrical signals)
 
 Technical noise:
 
-- [Thermal (Johnson-Nyquist) noise](https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise) - any electrical component that generates heat, also generates electrical noise. ([Fluctuation-Dissipation Theorem](https://en.wikipedia.org/wiki/Fluctuation-dissipation_theorem))
-- [Shot noise or popcorn noise](https://en.wikipedia.org/wiki/Shot_noise) - small currents come in chunks as each electron goes through the circuit.
-- [Flicker noise](https://en.wikipedia.org/wiki/Flicker_noise) - electrons bouncing across semiconductor junctions
+-   [Thermal (Johnson-Nyquist) noise](https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise) - any electrical component that generates heat, also generates electrical noise. ([Fluctuation-Dissipation Theorem](https://en.wikipedia.org/wiki/Fluctuation-dissipation_theorem))
+-   [Shot noise or popcorn noise](https://en.wikipedia.org/wiki/Shot_noise) - small currents come in chunks as each electron goes through the circuit.
+-   [Flicker noise](https://en.wikipedia.org/wiki/Flicker_noise) - electrons bouncing across semiconductor junctions
 
 Technical noise can be minimized with good electronic design, but not eliminated
 
