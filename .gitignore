@@ -4,3 +4,4 @@
 /.luarc.json
 /env/
 *checkpoint.qmd
+/site_libs/
