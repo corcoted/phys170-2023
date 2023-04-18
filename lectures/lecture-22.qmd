@@ -60,7 +60,7 @@ Digital representations of analog signals are inherently approximations.
 ![](figs/lecture-22/Digital.signal.discret.svg)
 
 ::: {style="font-size:80%"}
-An analog signal (gray) and its approximation as a digital sequence (red).
+An analog signal (gray) and its approximation as a digital sequence (red).  The red dots can only be placed where the dashed lines cross.  This causes *digitization errors*.
 :::
 :::
 :::
@@ -72,6 +72,7 @@ An analog signal (gray) and its approximation as a digital sequence (red).
 *Binary* is a way of representing numbers based on powers of 2.
 Each digit can be zero or one, and each place represents a power of 2.
 
+::: fragment
 For example, the number 42 is represented in binary by 101010
 
 ::: {style="text-align:center"}
@@ -81,6 +82,7 @@ For example, the number 42 is represented in binary by 101010
 
 
 32+8+2 = 42
+:::
 :::
 :::
 
@@ -108,9 +110,13 @@ For example, the number 42 is represented in binary by 101010
 The *bit depth* is the maximum number of binary digits (bits) that can be used to represent a number.
 If the bit depth is *b*, then we can represent all numbers between zero and $2^b-1$.
 
+::: fragment
 If the incoming signal is bigger than the maximum value of the sampling bit depth, *clipping* occurs.  This is similar to saturation in analog amplifiers and causes harmonic distortion.
+:::
 
+::: fragment
 To avoid clipping and saturation, audio engineers purposefully reduce the gain to allow *headroom* between the peak intensity of the signal and the maximum value at which clipping or saturation occurs.
+:::
 
 :::
 ::: {.column width=40%}
@@ -137,17 +143,26 @@ To avoid clipping and saturation, audio engineers purposefully reduce the gain t
 ::: {.column width=60%}
 There is a direct connection between bit depth and dynamic range.
 *Dynamic range* is the ratio between the largest and smallest signal allowed.
+
+::: fragment
 The two are related by
 
 $$
-\mathrm{DR_{dB}} = (20 \mathrm{dB}) \log (2^b) = b (20 \mathrm{dB} \log 2) \approx b \times (6\,\mathrm{dB})
+\mathrm{DNR} = (20 \mathrm{dB}) \log (2^b) \approx b \times (6\,\mathrm{dB})
 $$
 
+:::
+::: fragment
 For example, the dynamic range of human hearing is about 140 dB (from threshold of hearing to pain).  To cover this whole range requires a bit depth of about $b = \frac{140 \mathrm{dB}}{6 \mathrm{dB}} = 23\,\text{bits}$.  Studio audio is often at 24 bits for this reason.
-
+:::
 :::
 ::: {.column width=40%}
 ::: {style="font-size:80%"}
+![](figs/lecture-22/2-Dynamic-Range.jpg)
+
+::: { style="font-size:60%"}
+Figure: <http://urm.academy>
+:::
 
 :::
 :::
@@ -179,12 +194,19 @@ Digitization error is a loss in fidelity caused by the digitization process.
 - *Sampling errors* are errors in time. For example: uneven time steps or too-low sampling rate
 - *Quantization errors* are errors in amplitude. For example: low bit-depth or uneven amplitude steps
 
+::: fragment
 The bad reputation of digital audio among audiophiles is likely because early equipment (up through the 1970s) was susceptible to these types of errors.  Modern digital hardware (even cheap hardware) has much greater fidelity than the comparable analog gear.
+:::
 
+::: fragment
 Also, because digital signals can be easily processed in *software*, many types of digitization errors can be cleaned up in post-processing if higher bit-depth and sampling rates are used.
-
+The computer power to do this wasn't available in the early days of digital audio.
+:::
 
 ## Sampling Rates and the Nyquist frequency
+
+::: {.columns}
+::: {.column width=60% }
 To faithfully represent an analog signal containing frequencies up to some *f*~max~, the data must be sample rate must be at least twice *f*~max~.  This is the "[Nyquist-Shannon Sampling Theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)".  The *Nyquist frequency* *f~N~* is simply
 
 $$
@@ -194,12 +216,22 @@ $$
 Sampling at a rate less than *f~N~* is called *undersampling* and causes a type of distortion called *aliasing*, introducing false frequencies into the signal.
 
 Sampling at a rate greater than *f~N~* is called *oversampling*.  This doesn't give any additional fidelity, but is often done to provide a buffer for later digital processing.
+:::
+::: {.column width=40%}
+![Two signals sampled at 8 kHz. [Source](https://xiengineering.com/sampling-frequency-audio-aliasing/)](figs/lecture-22/1khz-and-7khz.png){ width=100%} 
+:::
+:::
+## Sampling rate examples
 
 For example, the sampling rate of CD-quality audio is [44,100 Hz](https://en.wikipedia.org/wiki/44,100_Hz), roughly twice the maximum frequency that humans can hear.  The exact number was chosen by Sony because it is easily subdivided: 44,100 = (2&times;3&times;5&times;7)^2^.
 
 Large sampling rates and bit depths provide the best fidelity but at the cost of large file sizes or large streaming bandwidth requirements.  This is good in the studio, but for distribution the final product needs to be smaller.
 
-## Compression
+## Video: Bit depth and sample rate
+
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/O3xD_5bwzaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Data Compression
 ::: {.columns}
 ::: {.column width=60%}
 
@@ -209,6 +241,9 @@ To further reduce the file size *compression* is used.  This is a mathematical p
 
 - *Lossless* compression uses math theorems to reduce the file size while being able to restore the original data exactly
 - *Lossy* compression uses math plus a model of human hearing to discard additional information while minimally affecting the perception of the sound.
+
+(This is different from *dynamic compression*, which adjusts amplitudes to even out volume.)
+
 :::
 ::: {.column width=40%}
 ::: {style="font-size:80%"}
@@ -223,40 +258,11 @@ Lossless file types:
 Lossy file types:
 
 - MP3, OGG, AAC
+
 :::
 :::
 ::::
 
+## Lossy vs. Lossless
 
-# Digital signal processing
-
-## Digital Fourier Transform
-
-::: ::: {.column width="40%"} ![Alto Sax waveform](figs/lecture-21/alto-sax-waveform.png)
-
-![Power Spectrum of this waveform](figs/lecture-21/alto-sax-PS.png)
-
-::: {style="font-size:60%"}
-Data courtesy of Dannon Johnson (engineer), Jared Wolf (musician), and Paul Doerksen
-:::
-
-::: ::::
-
-## Gain and attenuation
-
-Gain is the overall increase in sound power (*P*) caused by an element in the sound chain.
-
-These are usually specified in [decibels](lecture-08.html#decibels):
-
-$$
-\text{Gain} = (10\,\mathrm{dB}) \log \left(\frac{P_{out}}{P_{in}} \right),
-$$
-
--   A positive gain means that power increases (e.g. by an amplifier).
--   A negative gain (also called *attenuation*) means that power decreases.
-
-## Convolution filters
-
-## Noise
-
-## Digital to analog conversion
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/eN49E0cRGME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
