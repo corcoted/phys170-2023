@@ -47,11 +47,43 @@ The sequence of events from the production of a sound to its reception by the li
 
 Each step of the chain and each transition can reduce fidelity.  Importantly, analog noise sources are *random* and *unpredictable*, and analog storage media *degrade over time*.
 
+# Analog to digital conversion
+
+## Analog and Digital
+
+:::: {.columns}
+::: {.column width="60%"}
+_ An *analog* signal is something that changes smoothly over time and space.  Mathematically, analog signals are represented by *functions* of *real numbers*.
+- A *digital* signal comes in countable pieces.  Mathematically, digital signals are represented by *sequences* of *integers*.
+
+Digital representations of analog signals are inherently approximations.
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-22/Digital.signal.discret.svg)
+
+::: {style="font-size:80%"}
+An analog signal (gray) and its approximation as a digital sequence (red).
+:::
+:::
+::::
+
 ## Digitizing Waveforms
 
 :::: {.columns}
 ::: {.column width="60%"}
+Converting an analog signal (e.g. voltage varying over time) to digital requires chopping the signal up in both time and amplitude.  Usually the spacing on both time and amplitude is even.
 
+- The *sampling rate* is the number of time steps in one second (e.g. 40000 samples per second)
+- The *bit depth* gives the number of steps in amplitude
+
+<!-- TODO give math~ -->
+
+:::
+::: {.column width="40%"}
+![](figs/lecture-22/Conversion_AD_DA.png)
+:::
+::::
 ::: aside
 Figures: [M. Müller, *Fundamentals of Music Processing*, 2nd ed. (Springer, 2021).](https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP)
 :::
