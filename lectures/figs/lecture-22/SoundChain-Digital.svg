@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.316093mm"
+   height="31.133221mm"
+   viewBox="0 0 75.316093 31.133221"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="SoundChain-Digital.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview169"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.8013507"
+     inkscape:cx="158.138"
+     inkscape:cy="48.191038"
+     inkscape:window-width="1600"
+     inkscape:window-height="827"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <rect
+       x="129.3791"
+       y="16.207516"
+       width="23.016371"
+       height="9.1534834"
+       id="rect873" />
+    <rect
+       x="97.030144"
+       y="14.847248"
+       width="23.517406"
+       height="10.03952"
+       id="rect816" />
+    <rect
+       x="57.376011"
+       y="15.635172"
+       width="33.465584"
+       height="11.115294"
+       id="rect698" />
+    <rect
+       x="301.08154"
+       y="478.18832"
+       width="123.3188"
+       height="53.787987"
+       id="rect1128" />
+    <rect
+       x="195.47342"
+       y="429.64795"
+       width="74.122467"
+       height="36.733261"
+       id="rect290" />
+    <rect
+       x="195.47342"
+       y="429.64795"
+       width="74.122467"
+       height="36.733261"
+       id="rect290-1" />
+    <rect
+       x="57.376011"
+       y="15.635172"
+       width="33.442722"
+       height="20.037067"
+       id="rect698-3" />
+    <rect
+       x="97.030144"
+       y="14.847248"
+       width="23.517406"
+       height="10.03952"
+       id="rect816-6" />
+    <rect
+       x="195.47342"
+       y="429.64795"
+       width="74.122467"
+       height="36.733261"
+       id="rect290-1-1" />
+    <rect
+       x="195.47342"
+       y="429.64795"
+       width="74.122467"
+       height="36.733261"
+       id="rect290-7" />
+    <rect
+       x="195.47342"
+       y="429.64795"
+       width="74.122467"
+       height="36.733261"
+       id="rect290-1-1-8" />
+    <rect
+       x="57.376011"
+       y="15.635172"
+       width="33.465584"
+       height="11.115294"
+       id="rect698-4" />
+    <rect
+       x="57.376011"
+       y="15.635172"
+       width="33.442722"
+       height="20.037067"
+       id="rect698-3-5" />
+    <rect
+       x="97.030144"
+       y="14.847248"
+       width="23.517406"
+       height="10.03952"
+       id="rect816-0" />
+    <rect
+       x="97.030144"
+       y="14.847248"
+       width="23.517406"
+       height="10.03952"
+       id="rect816-6-3" />
+    <rect
+       x="129.3791"
+       y="16.207516"
+       width="23.016371"
+       height="9.1534834"
+       id="rect873-6" />
+    <rect
+       x="57.376011"
+       y="15.635172"
+       width="33.465584"
+       height="11.115294"
+       id="rect698-6" />
+  </defs>
+  <path
+     style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:round"
+     id="path234"
+     d="M 12.9394,8.9728636 3.5530472,14.392084 V 3.5536537 Z" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-54.382962,-114.17494)"
+     id="text288"
+     style="font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect290);display:inline"
+     x="27.250088"
+     y="0"><tspan
+       x="204.6669"
+       y="439.25652"
+       id="tspan918">Microphone</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,8.9744761,-114.17494)"
+     id="text288-9-2"
+     style="font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect290-1-1);display:inline"
+     x="27.250088"
+     y="0"><tspan
+       x="213.85443"
+       y="439.25652"
+       id="tspan920">Storage</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="m 12.935519,8.9728636 h 8.451714"
+     id="path515" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="m 37.14258,-5.3835634 h 8.451714"
+     id="path515-5" />
+  <path
+     style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.297382;stroke-linecap:square;stroke-linejoin:round"
+     id="path234-3"
+     d="M 18.000752,8.9728616 14.548069,11.040804 V 6.9049237 Z" />
+  <path
+     style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.510787;stroke-linecap:square;stroke-linejoin:round"
+     id="path234-3-3"
+     d="m 21.390601,10.601977 3.322293,1.585069 V 5.8467759 l -3.322293,1.5850657 z"
+     sodipodi:nodetypes="ccccc" />
+  <rect
+     style="font-variation-settings:normal;vector-effect:none;fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.297382;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+     id="rect511-5"
+     width="8.1126976"
+     height="4.1475673"
+     x="46.238049"
+     y="6.8990803" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-4.1747903,0.20968989)"
+     id="text696"
+     style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';white-space:pre;shape-inside:url(#rect698);display:inline"
+     x="15.371974"
+     y="0"><tspan
+       x="58.129402"
+       y="22.913767"
+       id="tspan924"><tspan
+         style="text-align:center;text-anchor:middle"
+         id="tspan922">Pre-amp</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,21.263311,0.47799405)"
+     id="text814-2"
+     style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-align:center;white-space:pre;shape-inside:url(#rect816-6);display:inline"
+     x="9.0439816"
+     y="0"><tspan
+       x="99.296112"
+       y="22.126658"
+       id="tspan926">Filter</tspan></text>
+  <circle
+     style="font-variation-settings:normal;vector-effect:none;fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+     id="path1004"
+     cx="70.835434"
+     cy="8.7718105"
+     r="4.0630684" />
+  <g
+     id="g1480"
+     transform="translate(-2.4264553,-5.1100987)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,10.934723,-92.28433)"
+       id="text288-9"
+       style="font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect290-1);display:inline"
+       x="27.250088"
+       y="0"><tspan
+         x="212.66953"
+         y="439.25652"
+         id="tspan928">Speaker</tspan></text>
+    <path
+       style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:round"
+       id="path234-2"
+       d="m 67.852805,30.427254 9.386352,5.41922 v -10.83843 z" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-54.209866,-92.28433)"
+       id="text288-9-2-6"
+       style="font-size:10.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect290-1-1-8);display:inline"
+       x="27.250088"
+       y="0"><tspan
+         x="213.85443"
+         y="439.25652"
+         id="tspan930">Storage</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.08153;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.029342,30.59402 h 56.18589"
+       id="path515-3" />
+    <path
+       style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.297382;stroke-linecap:square;stroke-linejoin:round"
+       id="path234-3-2"
+       d="M 19.478813,30.594018 16.02613,32.66196 v -4.13588 z" />
+    <path
+       style="fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.297382;stroke-linecap:square;stroke-linejoin:round"
+       id="path234-3-6-0"
+       d="M 63.956861,30.594018 60.504178,32.66196 V 28.52608 Z" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.297382;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect511-6"
+       width="8.1126976"
+       height="4.1475673"
+       x="23.095835"
+       y="28.520237" />
+    <rect
+       style="font-variation-settings:normal;vector-effect:none;fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.297382;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect511-5-1"
+       width="8.1126976"
+       height="4.1475673"
+       x="47.71611"
+       y="28.520237" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.696729,21.830846)"
+       id="text696-55"
+       style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';white-space:pre;shape-inside:url(#rect698-4);display:inline"
+       x="15.371974"
+       y="0"><tspan
+         x="58.129402"
+         y="22.913767"
+         id="tspan934"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan932">Pre-amp</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,42.376089,19.21826)"
+       id="text696-5-4"
+       style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';white-space:pre;shape-inside:url(#rect698-3-5);display:inline"
+       x="15.371974"
+       y="0"><tspan
+         x="62.285675"
+         y="22.913767"
+         id="tspan938"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan936">Power </tspan></tspan><tspan
+         x="65.34166"
+         y="32.913767"
+         id="tspan942"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan940">Amp</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.7836525,22.036827)"
+       id="text814-7"
+       style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-align:center;white-space:pre;shape-inside:url(#rect816-0);display:inline"
+       x="9.0439816"
+       y="0"><tspan
+         x="99.296112"
+         y="22.126658"
+         id="tspan944">Filter</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,22.741372,22.09915)"
+       id="text814-2-6"
+       style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-align:center;white-space:pre;shape-inside:url(#rect816-6-3);display:inline"
+       x="9.0439816"
+       y="0"><tspan
+         x="99.296112"
+         y="22.126658"
+         id="tspan946">Filter</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,1.8765296,23.200276)"
+       id="text871-5"
+       style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';white-space:pre;shape-inside:url(#rect873-6);display:inline"
+       x="7.2639832"
+       y="0"><tspan
+         x="133.03074"
+         y="23.486033"
+         id="tspan950"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan948">Line</tspan></tspan></text>
+    <circle
+       style="font-variation-settings:normal;vector-effect:none;fill:#a8adad;fill-opacity:0.668394;stroke:#000000;stroke-width:0.79375;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       id="path1004-6"
+       cx="7.6510887"
+       cy="30.133242"
+       r="4.0630684" />
+  </g>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,5.6422869,-0.98102938)"
+     id="text696-7"
+     style="font-size:8px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';white-space:pre;shape-inside:url(#rect698-6);display:inline"
+     x="15.371974"
+     y="0"><tspan
+       x="57.376953"
+       y="22.913767"
+       id="tspan952">ADC</tspan></text>
+</svg>

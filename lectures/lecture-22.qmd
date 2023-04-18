@@ -36,23 +36,16 @@ Much of the debate about the quality of recordings or amplifiers is really about
 Key aspects of fidelity are
 
 - minimal noise
-- minimal distortion (we'll define this later)
 - flat frequency response
+- minimal distortion
 
 ## Analog sound chain
 
 The sequence of events from the production of a sound to its reception by the listener is the *sound chain*.
 
-![](figs/lecture-21/SoundChain.svg){ style="scale:0.6;" }
+![](figs/lecture-22/SoundChain-AnalogPlus.svg.svg){ style="scale:0.6;" }
 
-Each step of the chain and each transition can introduce
-
-- Gain or attenuation
-- Frequency Filtering
-- Distortion
-- Noise
-
-Describing these effects is the main topic today.
+Each step of the chain and each transition can reduce fidelity.  Importantly, analog noise sources are *random* and *unpredictable*, and analog storage media *degrade over time*.
 
 ## Waveforms
 
