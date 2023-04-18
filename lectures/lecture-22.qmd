@@ -108,13 +108,9 @@ For example, the number 42 is represented in binary by 101010
 The *bit depth* is the maximum number of binary digits (bits) that can be used to represent a number.
 If the bit depth is *b*, then we can represent all numbers between zero and $2^b-1$.
 
-There is a direct connection between bit depth and dynamic range (the ratio between the largest and smallest signal allowed):
+If the incoming signal is bigger than the maximum value of the sampling bit depth, *clipping* occurs.  This is similar to saturation in analog amplifiers and causes harmonic distortion.
 
-$$
-\mathrm{DR_{dB}} = (20 \mathrm{dB}) \log (2^b) = b (20 \mathrm{dB} \log 2) \approx b \times (6\,\mathrm{dB})
-$$
-
-For example, the dynamic range of human hearing is about 140 dB (from threshold of hearing to pain).  To cover this whole range requires a bit depth of about $b = \frac{140 \mathrm{dB}}{6 \mathrm{dB}} = 23\,\text{bits}$.  Studio audio is often at 24 bits for this reason.
+To avoid clipping and saturation, audio engineers purposefully reduce the gain to allow *headroom* between the peak intensity of the signal and the maximum value at which clipping or saturation occurs.
 
 :::
 ::: {.column width=40%}
@@ -131,6 +127,28 @@ For example, the dynamic range of human hearing is about 140 dB (from threshold 
 | 12 | 4096 |
 | 16 | 65535 |
 | 24 | 16,777,215 |
+:::
+:::
+:::
+
+## Dynamic Range
+
+::: {.columns}
+::: {.column width=60%}
+There is a direct connection between bit depth and dynamic range.
+*Dynamic range* is the ratio between the largest and smallest signal allowed.
+The two are related by
+
+$$
+\mathrm{DR_{dB}} = (20 \mathrm{dB}) \log (2^b) = b (20 \mathrm{dB} \log 2) \approx b \times (6\,\mathrm{dB})
+$$
+
+For example, the dynamic range of human hearing is about 140 dB (from threshold of hearing to pain).  To cover this whole range requires a bit depth of about $b = \frac{140 \mathrm{dB}}{6 \mathrm{dB}} = 23\,\text{bits}$.  Studio audio is often at 24 bits for this reason.
+
+:::
+::: {.column width=40%}
+::: {style="font-size:80%"}
+
 :::
 :::
 :::
@@ -154,10 +172,6 @@ This conversion process is called *sampling*.
 :::
 :::
 
-::: aside
-Figures: [M. Müller, *Fundamentals of Music Processing*, 2nd ed. (Springer, 2021).](https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP)
-:::
-
 ## Digitization errors
 
 Digitization error is a loss in fidelity caused by the digitization process.
@@ -167,7 +181,7 @@ Digitization error is a loss in fidelity caused by the digitization process.
 
 The bad reputation of digital audio among audiophiles is likely because early equipment (up through the 1970s) was susceptible to these types of errors.  Modern digital hardware (even cheap hardware) has much greater fidelity than the comparable analog gear.
 
-Also, because digital signals can be easily processed in *software*, many types of digitization errors can be cleaned up in post-processing.
+Also, because digital signals can be easily processed in *software*, many types of digitization errors can be cleaned up in post-processing if higher bit-depth and sampling rates are used.
 
 
 ## Sampling Rates and the Nyquist frequency
@@ -179,11 +193,40 @@ $$
 
 Sampling at a rate less than *f~N~* is called *undersampling* and causes a type of distortion called *aliasing*, introducing false frequencies into the signal.
 
-Sampling at a rate greater than *f~N~* is called *oversampling*.  This doesn't give any additional fidelity, but is often done to provide "head room" for later digital processing.
+Sampling at a rate greater than *f~N~* is called *oversampling*.  This doesn't give any additional fidelity, but is often done to provide a buffer for later digital processing.
 
 For example, the sampling rate of CD-quality audio is [44,100 Hz](https://en.wikipedia.org/wiki/44,100_Hz), roughly twice the maximum frequency that humans can hear.  The exact number was chosen by Sony because it is easily subdivided: 44,100 = (2&times;3&times;5&times;7)^2^.
 
+Large sampling rates and bit depths provide the best fidelity but at the cost of large file sizes or large streaming bandwidth requirements.  This is good in the studio, but for distribution the final product needs to be smaller.
+
 ## Compression
+::: {.columns}
+::: {.column width=60%}
+
+The first step is to reduce the bit depth and sampling rate to something commensurate with consumer audio equipment.  For example, the CD standard is 44,100 Hz and 16 bits.
+
+To further reduce the file size *compression* is used.  This is a mathematical process to eliminate redundant information from the file.  There are two types:
+
+- *Lossless* compression uses math theorems to reduce the file size while being able to restore the original data exactly
+- *Lossy* compression uses math plus a model of human hearing to discard additional information while minimally affecting the perception of the sound.
+:::
+::: {.column width=40%}
+::: {style="font-size:80%"}
+Uncompressed file types:
+
+- WAV, PCM
+
+Lossless file types:
+
+- FLAC, ATRAC, ALAC
+
+Lossy file types:
+
+- MP3, OGG, AAC
+:::
+:::
+::::
+
 
 # Digital signal processing
 
@@ -212,43 +255,8 @@ $$
 -   A positive gain means that power increases (e.g. by an amplifier).
 -   A negative gain (also called *attenuation*) means that power decreases.
 
-## Frequency filters
-
-::: columns
-::: {.column width="60%"}
-Audio elements that intentionally have a nonlinear frequency response are called filters.
-
-Here are some common terms:
-
--   *High pass* - passes high frequencies and blocks low frequencies
--   *Low pass* - passes low frequencies and blocks high frequencies
--   *Band pass* - blocks frequencies outside of a certain range
--   *Band block* - blocks frequencies inside of a certain range
--   *Notch filter* - blocks a very narrow frequency range (e.g. to block 60 Hz pick-up)
--   *Line filter* - passes a very narrow frequency range (e.g. to remove noise on a power line)
--   *DC block* - blocks extremely low frequencies
-:::
-
-::: {.column width="40%"}
-![](figs/lecture-21/img_456.jpg){width="100%"}
-:::
-:::
+## Convolution filters
 
 ## Noise
-
-Every audio element and every transition generates noise. *Noise* is undesired, often random, electrical energy that corrupts the signal.
-
-Environmental noise:
-
--   Outside sound sources: Crowd noise, HVAC, traffic, etc.
--   Outside electrical sources: 60Hz AC power buzz, RF pickup, microphonics (unwanted sound creating electrical signals)
-
-Technical noise:
-
--   [Thermal (Johnson-Nyquist) noise](https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise) - any electrical component that generates heat, also generates electrical noise. ([Fluctuation-Dissipation Theorem](https://en.wikipedia.org/wiki/Fluctuation-dissipation_theorem))
--   [Shot noise or popcorn noise](https://en.wikipedia.org/wiki/Shot_noise) - small currents come in chunks as each electron goes through the circuit.
--   [Flicker noise](https://en.wikipedia.org/wiki/Flicker_noise) - electrons bouncing across semiconductor junctions
-
-Technical noise can be minimized with good electronic design, but not eliminated
 
 ## Digital to analog conversion
