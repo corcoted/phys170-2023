@@ -1,0 +1,107 @@
+---
+title: "Lecture 23: Digital Audio"
+subtitle: "Part 2"
+date: "4/20/2023"
+order: 23
+format: revealjs
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.14.5
+  kernelspec:
+    display_name: Python 3
+    language: python
+    name: python3
+---
+
+## Daily Quiz
+
+Give three potential uses of digital audio processing.
+
+## Announcements
+
+- Final draft of the papers is due tomorrow evening. (One submission per group.)
+- Each student must also submit an individual reflection describing your contribution to the project.
+- Midterm Exam 4 is Tuesday in class
+  - Topics: Architectural Acoustics, Analog and Digital Recording
+
+## Analog and Digital
+
+::: columns
+::: {.column width="60%"}
+An *analog* signal is something that changes smoothly over time and space. Mathematically, analog signals are represented by *functions* of *real numbers*. - A *digital* signal comes in countable pieces. Mathematically, digital signals are represented by *sequences* of *integers*.
+
+Digital representations of analog signals are inherently approximations.
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-22/Digital.signal.discret.svg)
+
+::: {style="font-size:80%"}
+An analog signal (gray) and its approximation as a digital sequence (red).  The red dots can only be placed where the dashed lines cross.  This causes *digitization errors*.
+:::
+:::
+:::
+
+## Digitizing Waveforms
+
+::: columns
+::: {.column width="60%"}
+Converting an analog signal (e.g. voltage varying over time) to digital requires chopping the signal up in both time and amplitude. Usually the spacing on both time and amplitude is even.
+
+This conversion process is called *sampling*.
+
+-   The *time step* (*T*) is the time between samples.
+-   The *sampling rate* (*f~s~*) is the number of time steps in one second (e.g. 40000 samples per second). $f_s=1/T$
+-   The *bit depth* (*b*) gives the number of steps in amplitude
+
+:::
+
+::: {.column width="40%"}
+![](figs/lecture-22/Conversion_AD_DA.png)
+:::
+:::
+
+## Digitization errors
+
+Digitization error is a loss in fidelity caused by the digitization process.
+
+- *Sampling errors* are errors in time. For example: uneven time steps or too-low sampling rate
+- *Quantization errors* are errors in amplitude. For example: low bit-depth or uneven amplitude steps
+
+::: fragment
+The bad reputation of digital audio among audiophiles is likely because early equipment (up through the 1970s) was susceptible to these types of errors.  Modern digital hardware (even cheap hardware) has much greater fidelity than the comparable analog gear.
+:::
+
+::: fragment
+Also, because digital signals can be easily processed in *software*, many types of digitization errors can be cleaned up in post-processing if higher bit-depth and sampling rates are used.
+The computer power to do this wasn't available in the early days of digital audio.
+:::
+
+## Sampling Rates and the Nyquist frequency
+
+::: {.columns}
+::: {.column width=60% }
+To faithfully represent an analog signal containing frequencies up to some *f*~max~, the data must be sample rate must be at least twice *f*~max~.  This is the "[Nyquist-Shannon Sampling Theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem)".  The *Nyquist frequency* *f~N~* is simply
+
+$$
+f_N = 2f_\text{max}.
+$$
+
+Sampling at a rate less than *f~N~* is called *undersampling* and causes a type of distortion called *aliasing*, introducing false frequencies into the signal.
+
+Sampling at a rate greater than *f~N~* is called *oversampling*.  This doesn't give any additional fidelity, but is often done to provide a buffer for later digital processing.
+:::
+::: {.column width=40%}
+![Two signals sampled at 8 kHz. [Source](https://xiengineering.com/sampling-frequency-audio-aliasing/)](figs/lecture-22/1khz-and-7khz.png){ width=100%} 
+:::
+:::
+
+## Review Summary
+
+- Sampling processes
+  - Nyquist frequency/rate
+  - Bit depth

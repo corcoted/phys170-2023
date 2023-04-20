@@ -51,7 +51,7 @@ Each step of the chain and each transition can reduce fidelity. Importantly, ana
 
 ::: columns
 ::: {.column width="60%"}
-\_ An *analog* signal is something that changes smoothly over time and space. Mathematically, analog signals are represented by *functions* of *real numbers*. - A *digital* signal comes in countable pieces. Mathematically, digital signals are represented by *sequences* of *integers*.
+An *analog* signal is something that changes smoothly over time and space. Mathematically, analog signals are represented by *functions* of *real numbers*. - A *digital* signal comes in countable pieces. Mathematically, digital signals are represented by *sequences* of *integers*.
 
 Digital representations of analog signals are inherently approximations.
 :::
@@ -221,6 +221,7 @@ Sampling at a rate greater than *f~N~* is called *oversampling*.  This doesn't g
 ![Two signals sampled at 8 kHz. [Source](https://xiengineering.com/sampling-frequency-audio-aliasing/)](figs/lecture-22/1khz-and-7khz.png){ width=100%} 
 :::
 :::
+
 ## Sampling rate examples
 
 For example, the sampling rate of CD-quality audio is [44,100 Hz](https://en.wikipedia.org/wiki/44,100_Hz), roughly twice the maximum frequency that humans can hear.  The exact number was chosen by Sony because it is easily subdivided: 44,100 = (2&times;3&times;5&times;7)^2^.
