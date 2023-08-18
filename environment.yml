@@ -7,13 +7,11 @@ channels:
 dependencies:
   - python=3.10 # pinned by libfmp-1.2.3
   - ipykernel
-  - nb_conda_kernels
   - shiny
   - matplotlib
   - numpy
   - scipy
-  - nbformat
-  - nbclient
+  - jupyter
   - pip
   - pip:
     - shinylive
