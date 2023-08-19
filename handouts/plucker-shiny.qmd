@@ -5,6 +5,8 @@ filters:
   - shinylive
 ---
 
+<!-- With quarto v.1.4.333 this fails to compile because of upstream library issues -->
+
 This is a simplified calculation showing which harmonics are excited when a string is plucked at various locations along its length.  Use the slider to choose where along the string it is plucked, then the calculation will show the first few harmonics and their superposition.
 
 *Please be patient, as this takes a while to load.  Also, every time you change the location you may need to wait for the calculation to finish.*

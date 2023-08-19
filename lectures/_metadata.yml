@@ -13,3 +13,4 @@ format:
     height: 1080
     logo: "figs/template/DU_LOGO_redblue.svg"
     footer: "[PHYS170-2023](/index.html)"
+    multiplex: false
