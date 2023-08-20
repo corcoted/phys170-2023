@@ -4,8 +4,7 @@ format:
   revealjs:
     theme: [simple, mytheme.scss]
     slide-number: true
-    chalkboard:
-      theme: whiteboard
+    chalkboard: false
     preview-links: true
     controls: true
     fig-align: center
